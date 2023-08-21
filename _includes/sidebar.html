@@ -65,7 +65,7 @@
 		<li>
 			<a class="nav-item" href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}">
 				<span class="name">{{ tag[0] }}</span>
-				<span class="badge">{{ tag[1].size }}</span>
+				<span class="badge">{{ tag[1] | size }}</span>
 			</a>
 		</li>
 		{% endfor %}
