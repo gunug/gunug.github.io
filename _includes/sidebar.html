@@ -11,11 +11,17 @@
 	{%- endif -%}
 </div>
 
-<form action="/search.html" method="get">
-	<label for="search_box">Search</label>
-	<input type="text" id="search_box" name="query">
-	<input type="submit" value="search">
-</form>
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+		<li class="nav-title">Search</li>
+		<li>
+			<form action="/search.html" method="get">
+				<input type="text" id="search_box" name="query">
+				<input type="submit" value="search">
+			</form>		
+		</li>
+	</ul>
+</div>
 
 <div class="sidebar-item sidebar-nav">
 	<ul class="nav">
@@ -38,10 +44,9 @@
 	</ul>
 </div>
 
-<div>
-	<div class="sidebar-nav-item">Tags</div>
-	<div class="tags-cloud">
-	  <div>
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+		<li class="nav-title">Tags</li>
 		{% assign first = site.tags.first %}
 		{% assign max = first[1].size %}
 		{% assign min = max %}
@@ -75,15 +80,16 @@
 		{% else %}
 		{% assign color = 8 | minus: base %}
 		{% endif %}
-		<a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}">{{ tag[0] }}</a>
+		<li>
+			<a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}">{{ tag[0] }}</a>
+		</li>
 		{% endfor %}
-	  </div>
-	</div>
+	</ul>
 </div>
 
 <div class="sidebar-item sidebar-nav">
   	<ul class="nav">
-			<li class="nav-title">Categories</li>
+		<li class="nav-title">Categories</li>
 	    {% for category in site.categories %}
 	    <li>
 	    	<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
@@ -100,5 +106,5 @@
 	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
 	<p>Themed by <a href="https://https://github.com/ejjoo/jekyll-theme-monos">ejjoo</a></p>
 	<p>Customized by <a href="#">gunug</a></p>
+	<p>last update <a href="#">2023.08.21 22:36</a></p>
 </div>
-last update : 2023.08.21 22:30
