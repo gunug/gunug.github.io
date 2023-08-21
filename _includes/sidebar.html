@@ -11,6 +11,12 @@
 	{%- endif -%}
 </div>
 
+<form action="/search.html" method="get">
+	<label for="search_box">Search</label>
+	<input type="text" id="search_box" name="query">
+	<input type="submit" value="search">
+</form>
+
 <div class="sidebar-item sidebar-nav">
 	<ul class="nav">
       <li class="nav-title">Pages</li>
@@ -32,7 +38,6 @@
 	</ul>
 </div>
 
-<!-- --- -->
 <div>
 	<div class="sidebar-nav-item">Tags</div>
 	<div class="tags-cloud">
@@ -74,8 +79,7 @@
 		{% endfor %}
 	  </div>
 	</div>
-  </div>
-  <!-- --- -->
+</div>
 
 <div class="sidebar-item sidebar-nav">
   	<ul class="nav">
@@ -92,13 +96,9 @@
 	</ul>
 </div>
 
-<form action="/search.html" method="get">
-	<label for="search_box">Search</label>
-	<input type="text" id="search_box" name="query">
-	<input type="submit" value="search">
-</form>
-
 <div class="sidebar-item sidebar-footer">
 	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
+	<p>Themed by <a href="https://https://github.com/ejjoo/jekyll-theme-monos">ejjoo</a></p>
+	<p>Customized by <a href="#">gunug</a></p>
 </div>
-last update : 2023.08.21 18:59
+last update : 2023.08.21 22:30
