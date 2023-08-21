@@ -82,8 +82,8 @@
 		{% endif %}
 		<li>
 			<a class="nav-item" href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}">
-				<span class="name">{{ tag[0] | first }}</span>
-				<span class="badge">{{ tag[0] | last | size }}</span>
+				<span class="name">{{ tag[0] }}</span>
+				<span class="badge">{{ tag[0] | size }}</span>
 			</a>
 		</li>
 		{% endfor %}
