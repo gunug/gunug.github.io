@@ -81,7 +81,10 @@
 		{% assign color = 8 | minus: base %}
 		{% endif %}
 		<li>
-			<a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}">{{ tag[0] }}</a>
+			<a class="nav-item" href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}">
+				<span class="name">{{ tag[0] | first }}</span>
+				<span class="badge">{{ tag[0] | last | size }}</span>
+			</a>
 		</li>
 		{% endfor %}
 	</ul>
