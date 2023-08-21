@@ -70,7 +70,7 @@
 		{% else %}
 		{% assign color = 8 | minus: base %}
 		{% endif %}
-		<a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}" style="font-size: {{ size }}pt; color: #{{ 9 | minus: color }}{{ 9 | minus: color }}{{ 9 | minus: color }};">{{ tag[0] }}</a>
+		<a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}">{{ tag[0] }}</a>
 		{% endfor %}
 	  </div>
 	</div>
@@ -101,4 +101,4 @@
 <div class="sidebar-item sidebar-footer">
 	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
 </div>
-last update : 2023.08.21 18:47
+last update : 2023.08.21 18:50
