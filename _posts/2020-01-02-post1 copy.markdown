@@ -3,7 +3,7 @@ layout: post
 title: post-sample
 date: 2020-01-02 19:20:23 +0900
 category: 한글 카테고리
-tags: [태그1, 태그2]
+tags: [태그1, 태그2, tag3]
 ---
 # post-sample
 > Hello!
