@@ -19,6 +19,7 @@ tags: unity3d
 ---
 ## 2주차
 [a relative link](2023-08-21-korean.md)
+[Some Link]({% post_url 2023-08-21-korean %})
 
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/d72894ee-b37d-497f-8223-c08bb38dad74)
 
