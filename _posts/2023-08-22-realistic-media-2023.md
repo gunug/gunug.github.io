@@ -18,3 +18,5 @@ tags: unity3d
 * 1주차 과제
 ---
 ## 2주차
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/d72894ee-b37d-497f-8223-c08bb38dad74)
