@@ -315,7 +315,7 @@ footer {
 	.sidebar {
 		font-size: 0.8em;
 		flex: 0 0 auto;
-		flex-flow: row nowrap;
+		/* flex-flow: row nowrap; */
 		height: auto;
 	}
 
