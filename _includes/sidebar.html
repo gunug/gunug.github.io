@@ -25,22 +25,22 @@
 
 <div class="sidebar-item sidebar-nav">
 	<ul class="nav">
-      <li class="nav-title">Pages</li>
-	  <li>
-	  	<a class="nav-item" href="/">Articles</a>
-	  </li>
-	  {% assign pages_list = site.pages %}
-	  {% for node in pages_list %}
-	    {% if node.title != null %}
-	      {% if node.layout == "page" %}
-	        <li>
-	        	<a class="nav-item" href="{{ node.url }}">
-	            	{{ node.title }}
-	            </a>
-	        </li>
-	      {% endif %}
-	    {% endif %}
-	  {% endfor %}
+		<li class="nav-title">Pages</li>
+		{% assign pages_list = site.pages %}
+		{% for node in pages_list %}
+			{% if node.title != null %}
+			{% if node.layout == "page" %}
+				<li>
+					<a class="nav-item" href="{{ node.url }}">
+						{{ node.title }}
+					</a>
+				</li>
+			{% endif %}
+			{% endif %}
+		{% endfor %}
+	  	<li>
+			<a class="nav-item" href="/">Articles</a>
+		</li>
 	</ul>
 </div>
 
@@ -77,5 +77,5 @@
 	<p>Powered by <a target="_blank" href="https://github.com/jekyll/jekyll">Jekyll</a></p>
 	<p>Themed by <a target="_blank" href="https://github.com/ejjoo/jekyll-theme-monos">ejjoo</a></p>
 	<p>Customized by <a href="#">gunug</a></p>
-	<p>last update <a href="#">2023.08.21 23:23</a></p>
+	<p>last update <a href="#">2023.08.22 13:23</a></p>
 </div>
