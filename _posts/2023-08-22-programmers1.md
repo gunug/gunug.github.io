@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 프로그래머스 25일차
+title: 프로그래머스 입문 25일차
 category: coding
 tags: javascript coding
 ---
