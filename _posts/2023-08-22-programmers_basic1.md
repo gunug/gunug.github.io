@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 프로그래머스 입문 25일차
+title: 프로그래머스 코딩기초 트레이닝 1일차
 category: coding
 tags: javascript coding
 ---
