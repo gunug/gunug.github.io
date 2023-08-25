@@ -2,7 +2,7 @@
 layout: post
 title: 유니티 메테리얼
 category: unity3d
-tags: unity3d material c#
+tags: unity3d c#
 ---
 
 # 유니티 메테리얼
