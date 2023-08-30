@@ -2,7 +2,7 @@
 layout: post
 title: 유니티 이벤트
 category: unity3d
-tags: unity3d c#
+tags: unity3d c# simple_code
 ---
 
 # 유니티 이벤트
@@ -121,7 +121,7 @@ public class TestEvent : MonoBehaviour
 
 ---
 
-# 이벤트 송수신기 완성
+# 이벤트 송수신기 Simple code
 ```c#
 using System.Collections;
 using System.Collections.Generic;
