@@ -2,7 +2,7 @@
 layout: post
 title: 2023년 1학기 실감미디어 기초
 category: education
-tags: unity3d
+tags: unity3d kaywon
 ---
 
 # 2023 1학기 실감미디어 기초

@@ -37,6 +37,15 @@
 	box-sizing: border-box;
 }
 
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+td,th{
+	border: solid #2c3e50 1px;
+	padding: 10px;
+}
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
