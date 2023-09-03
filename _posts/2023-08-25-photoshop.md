@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 포토샵 관련
+title: Photoshop 포토샵 관련
 category: design
 tags: design photoshop
 ---
@@ -13,3 +13,8 @@ tags: design photoshop
 
 ## Mac
 * export as로 이미지를 다른 확장자로 저장하기
+
+---
+
+# 레이어 병합
+* 정보 : https://m.blog.naver.com/bbundoli/40022961929

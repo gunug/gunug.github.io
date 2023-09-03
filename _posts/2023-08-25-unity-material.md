@@ -52,5 +52,7 @@ int _h = 0;
 GetImageSize(_texture,out _w, out _h);
 Debug.Log(_w);
 Debug.Log(_h);
+
 ```
 * 실제 이미지 사이즈를 얻을 수 있음
+* AssetDatabase 관련 build에러가 있음 (Editor모드일때만 사용 가능 하다고 함)
