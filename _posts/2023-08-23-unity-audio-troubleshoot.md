@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 유니티 오디오 관련문제 해결방법
+title: audio troubleshoot 오디오 관련문제 해결방법
 category: unity3d
 tags: unity3d audio c#
 ---

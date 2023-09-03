@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 유니티 메테리얼
+title: Material 메테리얼
 category: unity3d
 tags: unity3d c#
 ---

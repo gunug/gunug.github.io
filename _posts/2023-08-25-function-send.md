@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 함수를 인자값으로 전달
+title: Function Send 함수를 인자값으로 전달
 category: unity3d
 tags: unity3d c#
 ---
