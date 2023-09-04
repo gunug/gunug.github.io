@@ -9,6 +9,19 @@ tags: unity3d
 
 ---
 
+# 텍스트 변경
+```c#
+using TMPro;
+public TMP_Text tmp;
+Public TextMethProUGUI tmp2;
+public TextMeshPro tmp3;
+tmp.text = "text";
+tmp2.text = "text";
+tmp3.text = "text";
+```
+
+---
+
 # 한글 아틀라스 만들기
 * Window > TextMeshPro > Font Asset Creator
 * atlas resolution 변경 (기본 사이즈는 전체 한글을 채우기에 너무 작음)

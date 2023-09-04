@@ -56,3 +56,9 @@ Debug.Log(_h);
 ```
 * 실제 이미지 사이즈를 얻을 수 있음
 * AssetDatabase 관련 build에러가 있음 (Editor모드일때만 사용 가능 하다고 함)
+
+---
+
+# 텍스쳐 사이즈 2승수 관련
+* 참고 : https://www.devkorea.co.kr/qna/9466?sst=wr_hit&sod=desc&sop=and&page=14
+* 텍스쳐 선택 > inspector창 > advanced > Non Power of 2 > ToNearest를 None으로 변경
