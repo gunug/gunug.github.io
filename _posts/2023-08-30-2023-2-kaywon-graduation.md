@@ -21,3 +21,7 @@ tags: kaywon education
 
 ### 1주차 과제
 * [1주차 과제]({% post_url 2023-09-05-graduation-week1-2 %}){:target="_blank"}
+
+---
+# 추후 진행 사항
+* 캡스톤 디자인 과제 보고서 작성
