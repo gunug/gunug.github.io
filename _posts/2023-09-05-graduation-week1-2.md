@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2주차 과제
+title: 1주차 과제
 category: subpage
 tags: subpage
 ---
@@ -32,7 +32,8 @@ tags: subpage
 * 서비스 참고자료, 디자인 컨셉자료, 기술문서 또는 기술자료
 * 다양하게 무작위로 수집하는 것이 아닌 어느정도 방향성을 정하고 관련자료를 수집하여 팀 방향성을 보여줄 수 있도록 합니다.
 * 졸업심사를 기준으로 역산한 일정계획표
-9924DC335BFE9C2C34.png
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/18972e03-3737-482d-813f-a8351c767867)
+
 
 ---
 
