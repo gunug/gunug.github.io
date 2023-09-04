@@ -15,3 +15,13 @@ IEnumerator coroutineFunction(){
     Debug.Log("coroutine");
 }
 ```
+
+```c#
+void Start(){
+    StartCoroutine(coroutineFunction("send massage"));
+}
+IEnumerator coroutineFunction(string msg){
+    yield return new WaitForSeconds(0.5f);
+    Debug.Log(msg);
+}
+```
