@@ -58,3 +58,5 @@ page_dir: page/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+futrue: true
