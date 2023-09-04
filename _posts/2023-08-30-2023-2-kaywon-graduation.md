@@ -20,12 +20,8 @@ tags: kaywon education
 * 말과 PPT로 설명할 수 있을 정도로 구체적이여야 다음 단계로 넘어갈 수 있습니다.
 
 ### 1주차 과제
-<<<<<<< HEAD
 * [1주차 과제]({% post_url 2023-09-05-graduation-week1-2 %}){:target="_blank"}
 
 ---
 # 추후 진행 사항
 * 캡스톤 디자인 과제 보고서 작성
-=======
-* [1주차 과제]({% post_url 2023-09-05-graduation-week1-2 %})
->>>>>>> 5a7c9d062e22141be3c313156b69f509949d53f8
