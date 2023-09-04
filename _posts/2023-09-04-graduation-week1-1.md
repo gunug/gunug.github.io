@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 전체 프로세스 및 당부사항
+publishd: true
 category: subpage
 tags: subpage
 ---
