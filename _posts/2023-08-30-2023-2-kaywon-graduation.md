@@ -27,13 +27,19 @@ tags: kaywon education
 ---
 
 # 자료링크
+## Shader, VFX
 * 쉐이더 제작 관련 : [https://mingyu0403.tistory.com/161](https://mingyu0403.tistory.com/161){:target="_blank"}
 * 무리비행 boids : [https://www.youtube.com/watch?v=MisUIbvHobk](https://www.youtube.com/watch?v=MisUIbvHobk)
 * 스플레툰 : [http://vfxmike.blogspot.com/2017/04/splatoon-in-unity.html](http://vfxmike.blogspot.com/2017/04/splatoon-in-unity.html)
 * Unity VFX 소개 : [https://www.youtube.com/watch?v=i7yT3n84wEc](https://www.youtube.com/watch?v=i7yT3n84wEc)
 * 쉐이더 : [https://www.youtube.com/watch?v=KnueAgpUL3Y](https://www.youtube.com/watch?v=KnueAgpUL3Y)
 * 유니티 쉐이더 스타트업, 유니티 물리기반 셰이더 개발, 게임 비주얼 이펙트 테크니컬 입문
-* 쉐이더 그래프 재생목록 : [https://youtube.com/playlist?list=PLpPd_BKEUoYjcFaqriaMchx5gOqBs2tDh&si=XS-uEl80-osR9H8A](https://youtube.com/playlist?list=PLpPd_BKEUoYjcFaqriaMchx5gOqBs2tDh&si=XS-uEl80-osR9H8A)
+* shader graph 재생목록 : [https://youtube.com/playlist?list=PLpPd_BKEUoYjcFaqriaMchx5gOqBs2tDh&si=XS-uEl80-osR9H8A](https://youtube.com/playlist?list=PLpPd_BKEUoYjcFaqriaMchx5gOqBs2tDh&si=XS-uEl80-osR9H8A)
+* vfx graph 재생목록 : [https://youtube.com/playlist?list=PLjLqixML5B8MlwxMsTRVhjlxkMIdAuYgg&si=7eA_qBh558PmmwUu](https://youtube.com/playlist?list=PLjLqixML5B8MlwxMsTRVhjlxkMIdAuYgg&si=7eA_qBh558PmmwUu)
+## Three.js
+* 강좌 재생목록 : [https://youtube.com/playlist?list=PLkbzizJk4Ae9hHI_YUD3fRv8xLfS3jGEW&si=py9cbtN3yNWeDsYO](https://youtube.com/playlist?list=PLkbzizJk4Ae9hHI_YUD3fRv8xLfS3jGEW&si=py9cbtN3yNWeDsYO)
+* 물체 불러오기 : [https://www.youtube.com/watch?v=CojyGfCMvuU](https://www.youtube.com/watch?v=CojyGfCMvuU)
+* 배경 불러오기 : [https://www.youtube.com/watch?v=Gew0bBaaJ38](https://www.youtube.com/watch?v=Gew0bBaaJ38)
 
 ---
 
