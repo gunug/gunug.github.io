@@ -30,5 +30,14 @@ tags: web github
 * Git:Clone 메뉴 선택
 
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/3ef0e157-a6bf-466a-ae09-e6d2f47d9805)
+* Clone Repository 선택
 
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/c85ee0ee-1b7e-442e-bc8d-1edc09d89b45)
+* github.com에서 repository 상세, code에서 복사 버튼 클릭하여 주소를 복사
+* vscode의 입력창에 붙여넣기 한 후 엔터
+
+* 클론 시킬 폴더(위치 설정)
+
+---
+
+## 작성한 문서를 github에 업로드 하기
