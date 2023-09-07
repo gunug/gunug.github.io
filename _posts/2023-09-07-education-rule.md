@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 2023년 학과 수칙 및 수업 진행 방식
-category: education
-tags: kaywon education
+category: subpage
+tags: subpage
 ---
 
 # 2023년 학과 수칙 및 수업 진행 방식
