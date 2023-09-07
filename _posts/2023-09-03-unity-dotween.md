@@ -9,6 +9,7 @@ tags: unity3d c#
 * 두트윈 설명 : https://velog.io/@livelyjuseok/Unity-DOTween-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
 * 두트윈 사용법 : https://postpiglet.netlify.app/posts/unity-dotween/
 * 시퀀스 관련내용 : https://blog.naver.com/PostView.naver?blogId=dooya-log&logNo=221332052854&categoryNo=9&parentCategoryNo=6
+* 두트윈 공식문서 : http://dotween.demigiant.com/documentation.php
 
 ---
 
@@ -51,3 +52,17 @@ private void change_time(){
 ```
 
 * 시퀀스 생성과 동시에 시퀀스 내용을 명시해야함
+
+---
+
+```c#
+DOTween.To(() => my_post.weight, x => my_post.weight = x, 1, TWEEN_TIME);
+```
+
+```c#
+transform.DOMove(default_location, TWEEN_TIME).SetEase(Ease.OutCubic); 
+transform.DOScale(new Vector3(1, 1, 1), TWEEN_TIME).SetEase(Ease.OutCubic); 
+Color new_color = new Color(1, 1, 1, 1); 
+self.material.DOColor(new_color, TWEEN_TIME).SetEase(Ease.OutCubic); 
+DOVirtual.DelayedCall(1.0f, () =>{setContent(0);});
+```
