@@ -55,4 +55,4 @@ tags: subpage
 ---
 
 ### github 가입 vscode연결
-
+* [Github 가입하고 visual studio code와 연결하기](/web/2023/09/07/github-vscode.html){:target="_blank"}
