@@ -19,3 +19,12 @@ tags: web github
 * Repository Name은 "아이디.github.io" 입력 "Create repository" 선택
 
 
+---
+
+## visual studio code와 연동
+* [https://git-scm.com/](https://git-scm.com/){:target="_blank"}
+* Latest source Release 다운로드하여 설치
+* vscode 실행
+* F1키 누르기
+* git clone 입력
+* Git:Clone 메뉴 선택
