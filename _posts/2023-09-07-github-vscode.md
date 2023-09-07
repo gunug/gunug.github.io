@@ -28,3 +28,5 @@ tags: web github
 * F1키 누르기
 * git clone 입력
 * Git:Clone 메뉴 선택
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/3ef0e157-a6bf-466a-ae09-e6d2f47d9805)
