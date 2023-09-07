@@ -34,6 +34,13 @@ tags: subpage
 * 맥의 경우는 download for mac 클릭하여 다운로드 합니다.
 * 다운로드가 완료되면 세부내용은 변경없이 계속 다음 버튼을 눌러 설치하면 됩니다.
 
+---
+
+### github 가입 vscode연결
+* [Github 가입하고 visual studio code와 연결하기](/web/2023/09/07/github-vscode.html){:target="_blank"}
+
+---
+
 ### 첫 HTML 페이지 만들기
 * visual studio code를 실행합니다.
 * 새 폴더를 만듭니다. (되도록이면 '년도_과목이름' 처럼 한눈에 알 수 있는 폴더명이 좋겠지요)
@@ -51,8 +58,3 @@ tags: subpage
     </body>
 </html>
 ```
-
----
-
-### github 가입 vscode연결
-* [Github 가입하고 visual studio code와 연결하기](/web/2023/09/07/github-vscode.html){:target="_blank"}
