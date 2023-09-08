@@ -16,7 +16,9 @@ tags: web github
 
 ## 로그인 후 저장소(repository) 생성
 * New를 눌러서 새 저장소 생성
-* Repository Name은 "아이디.github.io" 입력 "Create repository" 선택
+* Repository Name은 "아이디.github.io" 입력
+* "Add a README file" 체크
+* "Create repository" 선택하여 새 저장소 만들기
 
 
 ---
