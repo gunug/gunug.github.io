@@ -1,24 +1,22 @@
 ---
 layout: post
-title: NAS
+title: Synology NAS 시놀로지 나스
 category: etc
 tags: etc
 ---
 
-# nas
+## nas
 * 참고영상 : https://www.youtube.com/watch?v=h_qVvpHE2qE
 * DS420+ 70만원
-* 
 
-
----
-
+## 라우터
 * 참고영상 : https://www.youtube.com/watch?v=pHQaOqkAo48
 * RT6600 50만원
 
----
-
-# 시놀로지 포토
+## 시놀로지 포토
 * 참고영상 : https://www.youtube.com/watch?v=pHQaOqkAo48
 
 ---
+
+# 설치
+* [https://finds.synology.com/](https://finds.synology.com/)
