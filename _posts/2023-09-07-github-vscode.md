@@ -48,3 +48,11 @@ tags: web github
 ## 작성한 문서를 github에 업로드 하기
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/ded6bade-39e9-47fe-b693-e762e45c67a6)
 * git>source control에 사유 입력하기>commit옆 화살표>commit & sync 선택 하여 git에 업로드
+
+---
+
+## user.name, user.email
+```markdown
+git config --global user.name '유저네임'
+git config --global user.email '이메일주소'
+```
