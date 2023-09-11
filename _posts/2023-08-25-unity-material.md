@@ -6,6 +6,16 @@ tags: unity3d c#
 ---
 
 # 유니티 메테리얼
+
+* Diffuse = albedo : 이미지의 모습으로 오브젝트 표면의 모습과 색상을 결정한다.
+* Specular =Metalic: 이미지에 저장된 정보에 따라 빛을 반사하는 수준을 결정한다.
+* Normal : 이미지에 저장된 정보에 따라 표면이 입체적으로 보아게 한다.
+* Height :이미지에 저장된 정보에 따라 표면의 고도를 결정한다.
+* Occlusion : 이미지에 저장된 정보에 따라 빛을 난반사하는 수준을 결정한다.
+
+---
+
+## 메테리얼 스크립트 접근
 ```c#
 Randerer _renderer = GetComponent<Renderer>();
 Texture _texture;
