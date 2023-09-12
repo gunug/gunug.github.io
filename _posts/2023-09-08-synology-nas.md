@@ -25,6 +25,7 @@ tags: etc
 
 # 미디어서버
 * [https://kb.synology.com/ko-kr/DSM/help/DSM/Tutorial/home_theater_media_server?version=6](https://kb.synology.com/ko-kr/DSM/help/DSM/Tutorial/home_theater_media_server?version=6)
+* DLNA 서비스
 
 ---
 
