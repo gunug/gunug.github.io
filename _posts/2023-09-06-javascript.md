@@ -12,6 +12,16 @@ parseInt("100"); //String to int
 
 ---
 
+## javascript event
+* [참고](https://www.w3schools.com/js/js_events.asp)
+```javascript
+ function function_name() {내용;}
+ window.onload = function_name();
+//onLoad,onUnload,onResize
+```
+
+---
+
 ## javascript object
 * [참고](https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/Basics)
 
