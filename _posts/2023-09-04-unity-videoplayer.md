@@ -29,3 +29,8 @@ TimeSpan seconds = TimeSpan.FromSeconds(value);
 string time = seconds.ToString(@"hh\:mm\:ss");
 Debug.Log(time);
 ```
+
+# 0~1 프로그래스로 time 제어
+```c#
+_video.time = Progress * _video.clip.length;
+```
