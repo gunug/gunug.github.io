@@ -9,7 +9,9 @@ tags: web
 * <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage의 약자로 웹 문서의 구조를 정의할때 사용
 
 # Hyper Text
-[[파일:Hypertext .png]]
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/229aa3b8-2caa-431e-b823-0c0813dd3ece)
+
 * 순차적이였던 문서의 구조를 비 순차적으로 표현
 * Hyper link를 이용하여 불필요한 정보를 건너뛰거나 더 필요한 정보의 연관 정보를 찾아볼 수 있게됨.
 
@@ -19,13 +21,14 @@ tags: web
 * 텍스트나 워드프로세싱 파일의 특정위치에 삽입되는 일련의 문자들이나 기호들을 말한다. 마크업에 사용되는 표시를 흔히 ‘태그’라고 부른다.
 
 * 현실에서의 Markup : 노트필기
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/6b408f04-ed7c-4fab-8929-61f2c5ed8653)
+
+
 * HTML에서의 Markup : html tag
-{| class="wikitable"
-|-
-! 마크업의 예 : 노트필기 !! HTML에서의 Markup
-|-
-| [[파일:Markup .jpg|450픽셀]] || [[파일:Markup html.jpg|450픽셀]]
-|}
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/973d38b5-cb4a-41a7-ac54-5b3176272e2b)
+
 
 # 순차적 마크업(procedural markup)
 * 한 문서에 기본 데이터, 구조, 표현 정보가 저장
