@@ -51,8 +51,48 @@ tags: web github
 
 ---
 
-## user.name, user.email
+## user.name, user.email 에러 해결
+* 시작메뉴 cmd 입력하여 터미널 실행
+
 ```markdown
 git config --global user.name '유저네임'
 git config --global user.email '이메일주소'
+```
+
+---
+
+# mac에서 git연동하기
+* [https://git-scm.com/](https://git-scm.com/) 접속
+* honebrew 링크 클릭
+* [https://brew.sh/](https://brew.sh/) 사이트로 이동됨
+
+* install homebrew 하단의 터미널 명령 복사
+
+```markdown
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+* 패스워드를 입력 후 계속진행
+* 다음의 설명
+
+```markdown 
+Next steps: Run these two commands in your terminal to add Homebrew
+to your PATH: (echo: echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /
+Users/vechanshon/.zprofile eval "$(/opt/homebrew/bin/brew shellenv)”
+```
+
+* 홈브류 버전확인
+
+```markdown
+$ brew --version
+```
+
+* 다음과 같은 에러가 나온다면 경로 추가
+
+```markdown
+zsh: command not found: brew
+```
+
+```markdown
+$ echo 'export PATH=/opt/homebrew/bin:$PATH' >> ~/.zshrc
+$ source ~/.zshrc
 ```
