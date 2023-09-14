@@ -27,6 +27,8 @@ tags: web github
 ---
 
 ## visual studio code와 연동
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/9148cb29-58f0-4b12-bb59-4ddfc38d2f9a)
+
 * [https://git-scm.com/](https://git-scm.com/){:target="_blank"}
 * Latest source Release 다운로드하여 설치
 * vscode 실행
