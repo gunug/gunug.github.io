@@ -2,7 +2,7 @@
 layout: post
 title: asset load
 category: unity3d
-tags: unity3d c#
+tags: c#
 ---
 
 * StreamingAssets

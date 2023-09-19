@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A* Pathfinding Project Pro
-category: Unity_asset
+category: unity-asset
 tags: asset
 ---
 

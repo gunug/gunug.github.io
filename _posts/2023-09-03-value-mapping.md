@@ -1,7 +1,7 @@
 ---
 layout: post
 title: value mapping 값 매핑
-category: c#
+category: unity-asset
 tags: c# simple_code
 ---
 

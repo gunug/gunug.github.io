@@ -2,7 +2,7 @@
 layout: post
 title: inspector ui
 category: unity3d
-tags: unity3d c#
+tags: ui c#
 ---
 
 # inspector ui

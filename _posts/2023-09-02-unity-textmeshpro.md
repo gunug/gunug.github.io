@@ -2,7 +2,7 @@
 layout: post
 title: TextMeshPro 텍스트매시프로
 category: unity3d
-tags: unity3d
+tags: ui
 ---
 
 # TextMeshPro 텍스트매시프로

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: dotween 두트윈
-category: unity3d
-tags: unity3d c#
+category: unity-asset
+tags: c#
 ---
 # dotween 두트윈
 * 설명 블로그 : https://loadofprogrammer.tistory.com/tag/DOTween

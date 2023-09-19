@@ -2,7 +2,7 @@
 layout: post
 title: Function Send 함수를 인자값으로 전달
 category: unity3d
-tags: unity3d c#
+tags: c# delegate
 ---
 
 # 함수를 인자값으로 전달

@@ -2,7 +2,7 @@
 layout: post
 title: Event 이벤트
 category: unity3d
-tags: unity3d c# simple_code
+tags: c# simple_code delegate
 ---
 
 # 유니티 이벤트

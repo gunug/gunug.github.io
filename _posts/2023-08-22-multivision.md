@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Multivision
-category: Idea
-tags: Idea
+category: todo
+tags: todo
 ---
 
 * 엔비디아 써라운드
