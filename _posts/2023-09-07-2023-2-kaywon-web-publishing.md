@@ -23,7 +23,7 @@ tags: kaywon education
 
 ### 실습
 
-* [HTML](http://localhost:4000/web/2023/08/22/html.html)
+* [HTML](/web/2023/08/22/html.html)
 * [HTML tag](/web/2023/09/14/html-tag.html)
 
 ---
