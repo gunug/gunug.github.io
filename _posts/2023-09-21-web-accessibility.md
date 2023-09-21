@@ -24,7 +24,8 @@ tags: kaywon
 
 ## 웹 접근성의 예
 * 계단, 경사로, 에스컬레이터, 엘레베이터
-	
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/f6aae762-bde6-432a-863e-a0a5a94d4a43)![image](https://github.com/gunug/gunug.github.io/assets/52345276/2123612f-21d1-4566-ba87-ef5f4c0228f1)![image](https://github.com/gunug/gunug.github.io/assets/52345276/056727d4-f566-4248-952f-943ed0e15740)![image](https://github.com/gunug/gunug.github.io/assets/52345276/8daa4173-54ff-4d78-994e-f64d57d4f09b)
+
 * 동일한 목적(다른 층으로 이동한다)을 수행하기 위한 다양한 방법을 두어 모든사람이 목적을 이룰수 있도록 도움
 * 마우스 오른쪽 클릭 : 복사하기, 대상 폴더에서 오른쪽 클릭 : 붙여넣기
 * 마우스를 이용하여 ctrl을 누른 채 대상 폴더로 드래그
