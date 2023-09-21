@@ -14,3 +14,21 @@ Win/Linux player: <path to executablename_Data folder> (note that most Linux ins
 * WebGL: The absolute url to the player data file folder (without the actual data file name)
 * Android: Normally it points directly to the APK. If you are running a split binary build, it points to the OBB instead.
 * Windows Store Apps: The absolute path to the player data folder (this folder is read only, use Application.persistentDataPath to save data)
+
+---
+* [자료 출처](https://geukggom.tistory.com/9)
+
+1. Application.dataPath
+ : 제가 원래 사용하고 있었던 데이터 저장 경로입니다. 읽기 전용이며, 런타임 중에 파일 수정, 작성을 할 수 없습니다. 
+- 저장 경로 : 프로젝트 폴더 내부(Asset)
+
+1. Application.streamingAssetsPath (Application.dataPath + "/StreamingAssets")
+ : dataPath와 마찬가지로 읽기 전용이며, 런타임 시점에 여기서 파일을 수정하거나 작성할 수 없다고 합니다.
+서버에서 다운받는 데이터를 아직 서버가 마련되지 않아 파일 형식으로 유니티에 포함시킬 때 사용합니다. 
+- 저장 경로 : 프로젝트 폴더내부(StreamingAsset)
+*  Application.streamingAssetsPath
+
+1. Application.persistentDataPath   
+ : 제가 원하던 쓰기 가능한 폴더의 위치입니다. 특정 운영체제에서 앱이 사용할 수 있도록 허용한 경로입니다.
+- 저장 경로 : C:\Users\[user name]\AppData\LocalLow\[company name]\[product name]
+(저장 경로 파일명([company name], [product name])의 이름을 바꾸는 방법은 아래 링크 걸어뒀습니다!)

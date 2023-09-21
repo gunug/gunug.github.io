@@ -37,7 +37,7 @@ _video.time = Progress * _video.clip.length;
 
 ---
 
-## 동적 출력
+## 동적 출력 Resources로 부터
 
 ```c#
 public VideoPlayer _videoPlayer;
@@ -45,12 +45,34 @@ public VideoPlayer _videoPlayer;
 void Awake()
 {
     _videoPlayer.prepareCompleted += OnVideoPrepared;
-    _videoPlayer.clip = Resources.Load<VideoClip>("ExamClip");
+    _videoPlayer.clip = Resources.Load<VideoClip>("ExamClip"); 
+    // "Resources/ExamClip.mp4"
     _videoPlayer.Prepare();
 }
 
 void OnVideoPrepared(VideoPlayer source_)
 {
     _videoPlayer.Play();
+}
+```
+
+---
+
+## 동적 출력 StreamingAssets로 부터
+* [참고자료](https://blog.logrocket.com/how-to-use-streaming-assets-unity/)
+
+```c#
+using UnityEngine;
+using UnityEngine.Video;
+
+public class LoadVideo : MonoBehaviour
+{
+   public VideoPlayer myVideoPlayer;
+   void Start()
+   {
+       string videoUrl= Application.streamingAssetsPath +"/"+ "ExamClip" + ".mp4";
+       // "StreamingAssets/ExamClip.mp4
+       myVideoPlayer.url = videoUrl;
+   }
 }
 ```
