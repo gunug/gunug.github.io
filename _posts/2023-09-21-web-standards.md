@@ -1,11 +1,11 @@
 ---
 layout: post
-title: web 웹표준
+title: web standards 웹 표준
 category: web
 tags: kaywon
 ---
 
-# web 웹표준
+# web standards 웹 표준
 ## 표준의 개요
 
 * cm, inch
