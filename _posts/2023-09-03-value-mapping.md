@@ -2,7 +2,7 @@
 layout: post
 title: value mapping 값 매핑
 category: unity-asset
-tags: c# simple_code
+tags: c# simple-code
 ---
 
 ```c#

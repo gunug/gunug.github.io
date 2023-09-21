@@ -2,7 +2,7 @@
 layout: post
 title: json dictionary serialization 제이슨 딕셔너리 직렬화
 category: unity3d
-tags: data simple_code
+tags: data simple-code
 ---
 
 * [출처](https://drehzr.tistory.com/931)

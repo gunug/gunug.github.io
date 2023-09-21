@@ -34,3 +34,23 @@ Debug.Log(time);
 ```c#
 _video.time = Progress * _video.clip.length;
 ```
+
+---
+
+## 동적 출력
+
+```c#
+public VideoPlayer _videoPlayer;
+
+void Awake()
+{
+    _videoPlayer.prepareCompleted += OnVideoPrepared;
+    _videoPlayer.clip = Resources.Load<VideoClip>("ExamClip");
+    _videoPlayer.Prepare();
+}
+
+void OnVideoPrepared(VideoPlayer source_)
+{
+    _videoPlayer.Play();
+}
+```
