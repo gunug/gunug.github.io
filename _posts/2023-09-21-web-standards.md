@@ -8,6 +8,8 @@ tags: kaywon
 # web standards 웹 표준
 ## 표준의 개요
 
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/dc08d1b9-3470-4a79-8773-133736742960)
+
 * cm, inch
 * kg, pound
 * km, mile
@@ -34,6 +36,8 @@ tags: kaywon
 * 호환성 확보
 
 ## 표준의 예시
+|![image](https://github.com/gunug/gunug.github.io/assets/52345276/2d099a72-d2a1-448f-a96b-173ee5b34180)|![image](https://github.com/gunug/gunug.github.io/assets/52345276/aa300d80-9fb2-4406-b23c-0cf8bcb860ce)|![image](https://github.com/gunug/gunug.github.io/assets/52345276/e7e7c5de-2238-4b14-bf72-7d0db160013c)|![image](https://github.com/gunug/gunug.github.io/assets/52345276/c5ea2d19-4866-400a-9cbd-8fbe925f1535)|
+
 
 * 이전에는 컴퓨터 주변기기들이 각가의 포트에 사용되었다. (표준화 되지 못함)
 * 장치별로 다른 port를 사용하기 때문에. 컴퓨터에 해당 port가 없을 경우 사용이 불가능 하였다. - 호환성 문제 = 접근성 문제
@@ -46,6 +50,9 @@ tags: kaywon
 * 결과적으로 성능이 떨어지거나 오래된 버전의 브라우저 사용자는 어떤 기능이 생략 되었는지 조차 모른다
 * 웹사이트가 모든 브라우저에서 똑같이 보여야 한다는 믿음이 단계적 향상의 걸림돌
 * 웹사이트는 브라우저에 따라 다르게 보일 수도 있다 라고 인정하는것이 단계적 향상
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/b728ebad-d457-4cb7-b1dd-3ca89ffa2896)
+
 * 각 플랫폼(PC, 타블렛, 스마트폰)이 가지고 있는 한계를 인지하고 장점을 살려서 정보전달을 더 극대화 할 수도 있다.
 
 
