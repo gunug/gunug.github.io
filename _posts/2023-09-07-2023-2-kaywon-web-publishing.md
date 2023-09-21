@@ -32,7 +32,8 @@ tags: kaywon education
 * 사전진단평가
 
 ### 이론
-
+* [웹 표준](/web/2023/09/21/web-standards.html)
+* [웹 접근성](/web/2023/09/21/web-accessibility.html)
 
 ### 실습
 * [HTML tag](/web/2023/09/14/html-tag.html)
