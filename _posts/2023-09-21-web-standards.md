@@ -35,6 +35,8 @@ tags: kaywon
 * 손쉬운 유지 보수 및 비용 절감 효과
 * 호환성 확보
 
+---
+
 ## 표준의 예시
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/2d099a72-d2a1-448f-a96b-173ee5b34180)![image](https://github.com/gunug/gunug.github.io/assets/52345276/aa300d80-9fb2-4406-b23c-0cf8bcb860ce)![image](https://github.com/gunug/gunug.github.io/assets/52345276/e7e7c5de-2238-4b14-bf72-7d0db160013c)![image](https://github.com/gunug/gunug.github.io/assets/52345276/c5ea2d19-4866-400a-9cbd-8fbe925f1535)
 
@@ -43,6 +45,8 @@ tags: kaywon
 * 장치별로 다른 port를 사용하기 때문에. 컴퓨터에 해당 port가 없을 경우 사용이 불가능 하였다. - 호환성 문제 = 접근성 문제
 * USB가 보급되면서 거의 모든 컴퓨터 주변장치들이 USB를 사용한다
 * 표준화가 잘되어 있기 때문에(USB 규격을 모두 잘 지키기 때문에) 우리는 USB장치를 구입할때 호환 문제를 신경쓰지 않고서도 이용할 수 있다.
+
+---
 
 ## 단계적 향상(progressive enhancement)
 * 모든 사용자에게 반드시 제공해야 할 <b>정보와 기능은 기본으로 제공</b>한다.
@@ -55,6 +59,7 @@ tags: kaywon
 
 * 각 플랫폼(PC, 타블렛, 스마트폰)이 가지고 있는 한계를 인지하고 장점을 살려서 정보전달을 더 극대화 할 수도 있다.
 
+---
 
 ## 내용(content), 형태(design), 동작(function)의 분리
 * 웹 사이트의 내용은 HTML로 작성
