@@ -36,7 +36,7 @@ tags: kaywon
 * 호환성 확보
 
 ## 표준의 예시
-|![image](https://github.com/gunug/gunug.github.io/assets/52345276/2d099a72-d2a1-448f-a96b-173ee5b34180)|![image](https://github.com/gunug/gunug.github.io/assets/52345276/aa300d80-9fb2-4406-b23c-0cf8bcb860ce)|![image](https://github.com/gunug/gunug.github.io/assets/52345276/e7e7c5de-2238-4b14-bf72-7d0db160013c)|![image](https://github.com/gunug/gunug.github.io/assets/52345276/c5ea2d19-4866-400a-9cbd-8fbe925f1535)|
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/2d099a72-d2a1-448f-a96b-173ee5b34180)![image](https://github.com/gunug/gunug.github.io/assets/52345276/aa300d80-9fb2-4406-b23c-0cf8bcb860ce)![image](https://github.com/gunug/gunug.github.io/assets/52345276/e7e7c5de-2238-4b14-bf72-7d0db160013c)![image](https://github.com/gunug/gunug.github.io/assets/52345276/c5ea2d19-4866-400a-9cbd-8fbe925f1535)
 
 
 * 이전에는 컴퓨터 주변기기들이 각가의 포트에 사용되었다. (표준화 되지 못함)
