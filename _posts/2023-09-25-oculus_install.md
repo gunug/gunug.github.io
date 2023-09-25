@@ -28,7 +28,7 @@ tags: vr
 
 # 베타 기능 활성화
 1. oculus PC용 프로그램 실행
-2. 
+
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/b7a92dd1-b7a1-44ae-b869-32b66f4785e3)
 
 1. 설정 > 베타 > 개발자 런타임 기능 활성화
