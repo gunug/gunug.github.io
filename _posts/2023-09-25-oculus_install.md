@@ -11,6 +11,7 @@ tags: vr
 
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/1e80b1bb-83d4-410f-a86e-d76a955443b8)
 
+* 소프트웨어 다운로드 선택하여 설치과정 진행
 
 ---
 
