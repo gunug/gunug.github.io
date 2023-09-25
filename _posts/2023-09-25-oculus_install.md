@@ -41,3 +41,11 @@ tags: vr
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/f95f900a-8cc5-4311-851e-4754fa111a74)
 
 * Quest Link 초기화면이 나오면 VR해드셋 준비 완료
+
+---
+
+# 소프트웨어 실행
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/21447573-5eb5-4da5-bd7f-f2bd122d5a28)
+
+* Project_MITech_VR 실행
