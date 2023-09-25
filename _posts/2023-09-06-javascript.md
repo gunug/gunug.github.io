@@ -14,6 +14,7 @@ parseInt("100"); //String to int
 
 ## javascript event
 * [참고](https://www.w3schools.com/js/js_events.asp)
+
 ```javascript
  function function_name() {내용;}
  window.onload = function_name();
@@ -70,4 +71,22 @@ parseInt("100"); //String to int
    <body>
    </body>
 </html>
+```
+
+---
+
+## get 변수 받아오기
+
+* [https://css-tricks.com/snippets/javascript/get-url-variables/](https://css-tricks.com/snippets/javascript/get-url-variables/)
+
+```javascript
+function getQueryVariable(variable) {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+      for (var i=0;i<vars.length;i++) {
+              var pair = vars[i].split("=");
+              if(pair[0] == variable){return pair[1];}
+      }
+      return(false);
+}
 ```
