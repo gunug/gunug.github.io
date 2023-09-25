@@ -6,6 +6,11 @@ tags: vr
 ---
 
 # 오큘러스 앱 설치
+* [오큘러스 퀘스트2 사이트](https://www.meta.com/kr/ko/quest/setup/?utm_source=www.tomsguide.com&utm_medium=oculusredirect)
+* 오큘러스 퀘스트2와 프로는 같은 소프트웨어를 사용합니다.
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/1e80b1bb-83d4-410f-a86e-d76a955443b8)
+
 
 ---
 
