@@ -132,15 +132,15 @@ using UnityEditor;
 
 public class MecanimScript : MonoBehaviour
 {
-    private HumanPoseHandler humanPoseHandler;
-   public HumanPoseHandler VFXHuman;
+    public HumanPoseHandler humanPoseHandler;
+   public MecanimScript VFXHuman;
     private HumanPose humanPose;
 
     private void Update()
     {
          humanPoseHandler.GetHumanPose(ref humanPose);
          if(VFXHuman != null){
-            VFXHuman.SetHumanPose(ref humanPose);
+            VFXHuman.humanPoseHandler.SetHumanPose(ref humanPose);
          }
     }
     void Start()
