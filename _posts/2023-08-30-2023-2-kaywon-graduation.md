@@ -73,8 +73,10 @@ tags: kaywon education
 ## 4주차 학습활동
 * 페르소나, 사용자 시나리오, 사용자 여정지도 보완
 * (보완된 내용은 다음 과제에 첨부하지 말고 보유하고 있다가 1차심사 문서에 포함 합니다)
-* <a href="/file/hwp/[서식]_캡스톤디자인_과제신청서.hwp">스톤디자인 과제 신청서</a>
+* [캡스톤디자인 과제 신청서](/file/hwp/form_capstone.hwp)
 * 제출마감 10월 6일(금) 오후 6시 이지만 수업시간내에 작성하여 제출합니다. (1순위 해결 과제)
+* 파일명 : 캡스톤디자인_과제신청서_팀명.hwp
+* [구글드라이브](https://drive.google.com/drive/folders/1MbIeR6jLWPhxX4QFaBoCKb_qSeW010qU?usp=sharing) 제출
 
 ## 4주차 과제
 * 디자인 목표, 컨셉, 키워드 확정
@@ -124,5 +126,9 @@ tags: kaywon education
 
 ---
 
-# 추후 진행 사항
-* 캡스톤 디자인 과제 보고서 작성
+# 졸업작품심사
+* [https://www.youtube.com/playlist?list=PLO3JsaGipXoJUTAzdZRdKP1xEjYL-CDcq](https://www.youtube.com/playlist?list=PLO3JsaGipXoJUTAzdZRdKP1xEjYL-CDcq)
+
+# 기타 자료
+* 목업자료 : [https://www.mockupworld.co/all-mockups/](https://www.mockupworld.co/all-mockups/)
+* 웹, 앱 목업: [https://www.sketchappsources.com/all-free-sources.html](https://www.sketchappsources.com/all-free-sources.html)
