@@ -126,6 +126,27 @@ tags: kaywon education
 
 ---
 
+```c#
+using UnityEngine;
+using UnityEditor;
+
+public class MecanimScript : MonoBehaviour
+{
+    private HumanPoseHandler humanPoseHandler;
+    private HumanPose humanPose;
+    public float[] muscles_;
+
+    private void Update()
+    {
+        for(int i=0; i<muscles_.Length; i++)
+        {
+            humanPose.muscles[i] = muscles_[i];
+        }
+        humanPoseHandler.SetHumanPose(ref humanPose);
+    }
+}
+```
+
 # 졸업작품심사
 * [https://www.youtube.com/playlist?list=PLO3JsaGipXoJUTAzdZRdKP1xEjYL-CDcq](https://www.youtube.com/playlist?list=PLO3JsaGipXoJUTAzdZRdKP1xEjYL-CDcq)
 
