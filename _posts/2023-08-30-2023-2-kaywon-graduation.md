@@ -133,7 +133,7 @@ using UnityEditor;
 public class MecanimScript : MonoBehaviour
 {
     private HumanPoseHandler humanPoseHandler;
-   private HumanPoseHander VFXHuman;
+   private HumanPoseHandler VFXHuman;
     private HumanPose humanPose;
 
     private void Update()
