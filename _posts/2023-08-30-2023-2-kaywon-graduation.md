@@ -73,14 +73,26 @@ tags: kaywon education
 ## 4주차 학습활동
 * 페르소나, 사용자 시나리오, 사용자 여정지도 보완
 * (보완된 내용은 다음 과제에 첨부하지 말고 보유하고 있다가 1차심사 문서에 포함 합니다)
+
+### 캡스톤 디자인 과제 신청서
 * [캡스톤디자인 과제 신청서](/file/hwp/form_capstone.hwp)
 * 제출마감 10월 6일(금) 오후 6시 이지만 수업시간내에 작성하여 제출합니다. (1순위 해결 과제)
 * 파일명 : 캡스톤디자인_과제신청서_팀명.hwp
 * [구글드라이브](https://drive.google.com/drive/folders/1MbIeR6jLWPhxX4QFaBoCKb_qSeW010qU?usp=sharing) 제출
+* 연계유형 = 전공역량형, 참여인원 = 산업체 0명, 제작비용 (공란), 참여산업체 지원금 (공란)
+* 1)참여 산업체, 2)참여 산업체 (공란)
+* 참여인원 계획 및 역할 분담 : 지도교수 조건희 gunug@naver.com, 수행역할 = 지도
+* 참여기업체(지도위원) (공란)
+* 소요비용 예산계획 (공란)
 
 ## 4주차 과제
-* 디자인 목표, 컨셉, 키워드 확정
+
 * 디자인 자료 수집
+* 디자인 목표, 컨셉, 키워드 확정
+* 톤앤매너
+* 컬러코드가 포함된 색상 선정
+* 톤앤매너와 컬러코드가 적용된 실제 화면 이미지 2~3개
+
 * 콘텐츠 장면 그리기 (내부에 출력될 그림)
 * 콘텐츠 콘티 : 시간 순서대로, 사용자 시나리오중(보여주고 싶은 부분 선정하여)
 * 과제 제출일 : 다음 수업일 전날(10월9일 23:59:59)
@@ -132,3 +144,42 @@ tags: kaywon education
 # 기타 자료
 * 목업자료 : [https://www.mockupworld.co/all-mockups/](https://www.mockupworld.co/all-mockups/)
 * 웹, 앱 목업: [https://www.sketchappsources.com/all-free-sources.html](https://www.sketchappsources.com/all-free-sources.html)
+
+# 내부심사, 졸업작품심사 준비
+* 내부심사 : 스튜디오2 담당교수가 차제 심사
+* 졸업작품심사 : 
+
+# official trailer
+* 제작사에서 제품을 소개하기 위한 공식영상
+* 제품에 대한 내용을 핵심적, 함축적으로 보여주기 때문에 간혹 전달이 안되는 경우도 있음
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rp0M5Y6JMbQ?si=7SwVVjzZGx-mUYwW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## 모션그래픽
+* [https://www.youtube.com/watch?v=pux7gG4gDgI](https://www.youtube.com/watch?v=pux7gG4gDgI)
+* [https://www.youtube.com/watch?v=v1ssUQPFFIo](https://www.youtube.com/watch?v=v1ssUQPFFIo)
+* [https://www.youtube.com/watch?v=EuBLpNUXdOU](https://www.youtube.com/watch?v=EuBLpNUXdOU)
+* https://www.youtube.com/watch?v=YLtFGWVWiGo
+* https://www.youtube.com/watch?v=RfZCadiEMo0
+* https://www.youtube.com/watch?v=untLDcPPdsw
+* https://www.youtube.com/watch?v=QDPzKA1v32o
+* https://www.youtube.com/watch?v=oHx1R9lpNBQ
+* https://www.youtube.com/watch?v=NE0mTgjOLNU
+* https://www.youtube.com/watch?v=HrRLeijOq8U
+* https://www.youtube.com/watch?v=UEoJ4JEHxuc
+* https://www.youtube.com/watch?v=fJrUG-QOApo
+* https://www.youtube.com/watch?v=jsd8WkMiWBU
+* https://www.youtube.com/watch?v=1h_T0m8aAH4
+
+## 사용시나리오
+* https://www.youtube.com/watch?v=ign2GmVEflw&list=PLPcpWi8kzKV9wQCLLCy-uTtHLMfMTiIKA
+* https://www.youtube.com/watch?v=-IoOQwkbzKk
+* https://www.youtube.com/watch?v=bw4IVjAz5fM
+* https://www.youtube.com/watch?v=TM9WGP4lHoM
+* https://www.youtube.com/watch?v=EovQC4_PB1U
+* https://www.youtube.com/watch?v=BnnF5X-Vrn4
+* https://www.youtube.com/watch?v=hcGsaehGfcE
+* https://www.youtube.com/watch?v=NrmMk1Myrxc
+
+## 기타
+* https://www.youtube.com/watch?v=z4beLacUGXA&list=PLbyK6CnLce7jqlVpPMVFAljC06g5BiVJq
+* https://www.youtube.com/watch?v=4hC5QVwXmgc&list=PLbyK6CnLce7jqlVpPMVFAljC06g5BiVJq&index=4&t=0s
