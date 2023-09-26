@@ -144,6 +144,13 @@ public class MecanimScript : MonoBehaviour
         }
         humanPoseHandler.SetHumanPose(ref humanPose);
     }
+    void Start()
+    {
+        Animator anim = this.gameObject.GetComponent<Animator>();
+        humanPoseHandler = new HumanPoseHandler(anim.avatar, this.transform);
+        humanPose = new HumanPose();
+        humanPoseHandler.GetHumanPose(ref humanPose);
+   }
 }
 ```
 
