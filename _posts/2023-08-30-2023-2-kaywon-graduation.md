@@ -150,6 +150,7 @@ public class MecanimScript : MonoBehaviour
         humanPoseHandler = new HumanPoseHandler(anim.avatar, this.transform);
         humanPose = new HumanPose();
         humanPoseHandler.GetHumanPose(ref humanPose);
+         humanPoseHandler.SetHumanPose(ref humanPose);
    }
 }
 ```
