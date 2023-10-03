@@ -94,6 +94,7 @@ paginate: true
 * W : 제품존으로 이동
 * E : 영상존으로 이동
 * T : 수술대 앞으로 이동
+* ※LocationManager.cs에 명시
 
 ---
 
@@ -105,3 +106,4 @@ paginate: true
 * G : 그래픽 - 하
 * H : 음량 - 줄이기
 * J : 음량 - 늘리기
+* ※OptionChanger.cs에 명시

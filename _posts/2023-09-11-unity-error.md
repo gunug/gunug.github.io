@@ -28,3 +28,10 @@ tags: error
 
 ---
 Audio preview in Inspector does not work
+
+---
+
+# 전/반각 문자, 2byte 문자 관련
+* ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+* 오디오장치 이름을 불러오는 과정에서 한글표기된 오디오 장치 이름이 있었는듯하다.
+* 이에 따라 2바이트 문자를 1바이트 문자처럼 표현하려다가 에러가 나는듯

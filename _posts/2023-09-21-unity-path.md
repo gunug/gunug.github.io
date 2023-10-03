@@ -32,3 +32,30 @@ Win/Linux player: <path to executablename_Data folder> (note that most Linux ins
  : 제가 원하던 쓰기 가능한 폴더의 위치입니다. 특정 운영체제에서 앱이 사용할 수 있도록 허용한 경로입니다.
 - 저장 경로 : C:\Users\[user name]\AppData\LocalLow\[company name]\[product name]
 (저장 경로 파일명([company name], [product name])의 이름을 바꾸는 방법은 아래 링크 걸어뒀습니다!)
+
+---
+
+# 파일 존재 여부 확인
+```c#
+using System.IO;
+if(File.Exists(file_path))
+{
+  // 파일이 존재하는 경우
+}
+else 
+{
+  // 파일이 존재하지 않는 경우
+}
+```
+
+---
+
+# UnityWebRequest
+```c#
+using UnityEngine.Networking; //for UnityWebRequest
+
+string path_ = Application.dataPath + "/StreamingAssets/" + "sample_script_kr_1.mp3";
+//WWW www = new WWW(path_);
+UnityWebRequest www = new UnityWebRequest(path_);
+```
+* www.byte 부분이 서로 달라서 사용하지 못하고 있음

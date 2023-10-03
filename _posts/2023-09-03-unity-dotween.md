@@ -66,3 +66,5 @@ Color new_color = new Color(1, 1, 1, 1);
 self.material.DOColor(new_color, TWEEN_TIME).SetEase(Ease.OutCubic); 
 DOVirtual.DelayedCall(1.0f, () =>{setContent(0);});
 ```
+
+* RawImage인 경우는 .material빼고 직접 RawImage를 연결하면 됨
