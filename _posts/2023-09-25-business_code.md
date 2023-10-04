@@ -2,7 +2,7 @@
 layout: post
 title: Business Code 사업장 코드
 category: business
-tags: work
+tags: 
 ---
 
 # Business Code 사업장 코드

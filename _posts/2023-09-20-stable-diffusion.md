@@ -29,4 +29,20 @@ tags: ai
 
 ---
 
+# prompt 프롬프트
+## 얼굴만
+* 512*768
 
+* positive
+
+```markdown
+1girl, realistic, masterpiece, best quality, detailed face, detailed eyes, focus on face, light smile, happy,  realistic skin,  beauty face,  pretty, korean. portrait,  upper body,  cinematic light, 
+__77_face_lora__, __77_face_lora__,  __77_face_lora__, highres, (simple background:1.2), 
+```
+
+* negative
+
+```markdown
+Easynegative,  nsfw, Drawings, abstract art, cartoons, surrealist painting, conceptual drawing, graphics, low resolution, (blurry:1.3), (strabismus:1.1), (western:1.2), (full body:1.2),
+(worst quality:1.3), (low quality:1.3),  collage, (makeup:0.8), nsfw, bad proportions, floral print, loli, big eyes, (watermark:1.2), letter, (abs:1.2), (hand:1.7)
+```
