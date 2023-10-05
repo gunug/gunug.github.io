@@ -2,7 +2,7 @@
 layout: post
 title: VideoPlayer 비디오플레이어
 category: unity3d
-tags: video
+tags: c#
 ---
 
 # progress bar 프로그레스바

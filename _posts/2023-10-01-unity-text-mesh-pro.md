@@ -2,7 +2,7 @@
 layout: post
 title: Unity text mesh pro 텍스트 매시 프로
 category: unity3d
-tags: tmp
+tags: 
 ---
 
 # 텍스트 매시 프로
