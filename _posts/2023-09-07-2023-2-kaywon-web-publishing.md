@@ -54,6 +54,7 @@ tags: kaywon education
 * 전자출결 수정
 
 ### 이론
-
+* [크로스 브라우징](/web/2023/10/05/web_cross_browsing.html)
+* 
 
 ### 실습
