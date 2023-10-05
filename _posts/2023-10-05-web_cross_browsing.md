@@ -42,3 +42,10 @@ tags: kaywon
 
 # HTML5 지원여부
 * HTML5, CSS3를 지원하는 브라우저 확인 : [https://html5test.com/](https://html5test.com/)
+* 555점을 만점으로 지원되는 기능에 따라 점수 표시
+  
+## 2023
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/73ad8bf1-2341-4176-8c59-0d51586ff544)
+
+## 2016
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/d8556f1f-aec5-4d74-a2dc-c91cc786ee19)
