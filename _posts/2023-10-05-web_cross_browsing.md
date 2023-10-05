@@ -49,3 +49,25 @@ tags: kaywon
 
 ## 2016
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/d8556f1f-aec5-4d74-a2dc-c91cc786ee19)
+
+---
+
+# 기능의 지원 여부
+* [http://caniuse.com/](http://caniuse.com/) - 내 브라우저는 ???를 지원 할까?
+
+* canvas 같은 범용적인 기술은 대부분의 브라우저에서 개발됨
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/07a5f5fc-50e1-4b1b-a166-174263b102c6)
+
+* WebGL2.0같은 신기술은 몇몇 브라우저에서 구현되지 않을 수 있음
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/3993691a-0467-4c67-b228-166f394443b0)
+
+---
+
+# 크로스 브라우징이란
+* 한계점 파악
+  * 브라우저 현황을 파악하고 (실질적으로 프로젝트가 집중해야 할 브라우저가 무엇인지) 브라우저별 가능, 불가능한 HTML 기능들을 확인하여 미리 선별함
+* 대처방법 모색
+  * 주요 브라우저 이외의 웹 브라우저가 가지고 있는 문제점을 파악하고 우회할 방법 (어떻게든 정보를 서비스 할 수 있는방법)을 마련함
+결국 가능성 파악 후 최대한의 브라우저별 접근성을 향상 시키는것.
