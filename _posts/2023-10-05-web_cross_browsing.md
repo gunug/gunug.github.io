@@ -28,4 +28,9 @@ tags: kaywon
 ---
 
 ## 2013
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/836e0cf6-6305-48fa-80be-5394b73f62d2)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/ebd136e4-6dff-4a3f-8400-157f54e71a3c)
+* 2013 한국에서는 크롬보다 인터넷익스플로러 브라우저 점유율이 높았음
+* 은행, 관공서 웹사이트를 이용하려면 Active-x가 필요했기 때문
+
+---
+
