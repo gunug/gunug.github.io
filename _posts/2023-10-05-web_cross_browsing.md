@@ -20,4 +20,7 @@ tags: kaywon
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/464e4269-1346-4ff0-ad68-3d17cc21fc8e)
 * Chrome for Android, Safari iPhone (스마트폰 웹브라우저)의 점유율이 약 51%
 
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/507fb5db-07cc-4150-8888-bee5db26eced)
+* 한국도 크롬브라우저가 약 50%, 특수하게 네이버에서 만든 웨일브라우저 사용하는 사람이 있음
+
 * 종합해 보면 스마트폰으로 인터넷을 하는 시대, 크롬브라우저를 이용하는 시대
