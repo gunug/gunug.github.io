@@ -16,6 +16,7 @@ tags: kaywon
 ## 2023
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/d875de52-f34b-4f56-a2f5-473026e440a7)
 * Chrome 브라우저의 점유율이 약 64%
+  
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/464e4269-1346-4ff0-ad68-3d17cc21fc8e)
 * Chrome for Android, Safari iPhone (스마트폰 웹브라우저)의 점유율이 약 51%
 
