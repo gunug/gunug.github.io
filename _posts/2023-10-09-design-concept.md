@@ -25,9 +25,26 @@ tags: design
 * 디자인 키워드 : 디자인을 표현할 만한 형용사
     * 따뜻한, 밝은, 귀여운, 신비한, 즐거운, 빠른, 불안한, 현란한, 괴로운, 슬픈, 행복한
 
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/13241c75-0e71-4d2d-8f67-d1f72c5f559f)
+
+
 ---
 
 * 디자인의 시각적인 부분이란 이미지, 색채, 형태로 다수가 인정할 만한 보편적인 느낌을 끌어내는것
 * 따라서 실제 사물이 가지고 있는 색채에서 차용되는 경우가 많다. (같은 색상이여도 약간의 색조차이로, 형태의 차이로 전혀 다른 느낌이 이끌어 지기도 한다)
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/119474a0-c64d-46db-9fef-c2e21b8d9617)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/ae6d6f0d-ceab-4fd0-8993-90ca7bc9704e)
+* 배색이 같아도 형태에 따라 다른 의미
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/ad642d77-4489-4e7f-8760-8225651b013e)
+* 주의, 위험한
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/1c02d790-d584-4d72-a71a-923dddf4566c)
+* 범블비, 속도감 있는, 힘있는
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/d1d63e86-a357-4794-8acd-4d50412c1a11)
+* 지중해 산토리니, 맑은, 밝은
+
 * 아이디어 스케치, 디자인 스케치 목업
 * 톤&매너를 시각화 할 수 있는 여러가지 표현방법에 대한 아이디어 스케치 : 디자인 톤&매너를 가늠하여 볼수 있는 스케치 목업을 다양하게 해보기
