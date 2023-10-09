@@ -69,6 +69,7 @@ tags: design
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/3da4c737-612f-4bd5-9600-ab0a034f5a73)
 
 ## 콘텐츠 콘티 : 시간 순서대로, 사용자 시나리오중(보여주고 싶은 부분 선정하여)
+* 시간순서대로 발생하는 사건등을 기록한 시각적 그림과 글
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/1bd1426b-ae92-411e-88ac-2d7b9c1a7c80)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/2c0b14d1-ae80-4c00-8b44-d1d04be60f81)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/540c3943-ec15-4103-85fe-0f9d82be0b58)
