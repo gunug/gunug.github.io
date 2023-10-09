@@ -55,3 +55,21 @@ tags: design
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/5abd5243-fb6e-40fd-a0ee-8506a192eefa)
 
 ---
+
+## 톤앤매너 자료
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/bf7141cc-1479-4db2-8c49-c86287b89499)
+
+
+## 컬러코드
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/2a798471-9e50-4667-8e82-a066e372d5a9)
+
+
+## 컬러코드가 실제 적용된 이미지, 콘텐츠 장면 그리기 (내부에 출력될 그림)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/59e5bb70-40ad-4361-bd8f-981947f37ecc)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/3da4c737-612f-4bd5-9600-ab0a034f5a73)
+
+## 콘텐츠 콘티 : 시간 순서대로, 사용자 시나리오중(보여주고 싶은 부분 선정하여)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/1bd1426b-ae92-411e-88ac-2d7b9c1a7c80)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/2c0b14d1-ae80-4c00-8b44-d1d04be60f81)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/540c3943-ec15-4103-85fe-0f9d82be0b58)
+
