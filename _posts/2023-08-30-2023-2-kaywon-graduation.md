@@ -87,6 +87,7 @@ tags: kaywon education
 
 ## 4주차 과제
 
+* [design 디자인 컨셉, 디자인 톤&매너](/design/2023/10/09/design-concept.html)
 * 디자인 자료 수집
 * 디자인 목표, 컨셉, 키워드 확정
 * 톤앤매너
