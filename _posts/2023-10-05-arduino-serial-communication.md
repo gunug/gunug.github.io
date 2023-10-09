@@ -1,8 +1,8 @@
 ---
 layout: post
 title: arduino serial communication 아두이노 시리얼통신
-category: unity3d
-tags: c# simple-code 
+category: arduino
+tags: c++ simple-code 
 ---
 
 # arduino serial communication 아두이노 시리얼통신
