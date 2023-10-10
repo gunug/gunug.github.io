@@ -301,8 +301,8 @@ public class MecanimScript : MonoBehaviour
 * 웹, 앱 목업: [https://www.sketchappsources.com/all-free-sources.html](https://www.sketchappsources.com/all-free-sources.html)
 
 # 내부심사, 졸업작품심사 준비
-* 내부심사 : 스튜디오2 담당교수가 차제 심사
-* 졸업작품심사 : 
+* 내부심사 : 스튜디오2 담당교수가 차제 심사, 외부심사위원 1명
+* 졸업작품심사 : 학과 전임교수님, 외부심사위원
 
 # official trailer
 * 제작사에서 제품을 소개하기 위한 공식영상
@@ -313,11 +313,11 @@ public class MecanimScript : MonoBehaviour
 * [https://www.youtube.com/watch?v=pux7gG4gDgI](https://www.youtube.com/watch?v=pux7gG4gDgI)
 * [https://www.youtube.com/watch?v=v1ssUQPFFIo](https://www.youtube.com/watch?v=v1ssUQPFFIo)
 * [https://www.youtube.com/watch?v=EuBLpNUXdOU](https://www.youtube.com/watch?v=EuBLpNUXdOU)
-* https://www.youtube.com/watch?v=YLtFGWVWiGo
-* https://www.youtube.com/watch?v=RfZCadiEMo0
-* https://www.youtube.com/watch?v=untLDcPPdsw
-* https://www.youtube.com/watch?v=QDPzKA1v32o
-* https://www.youtube.com/watch?v=oHx1R9lpNBQ
+* [https://www.youtube.com/watch?v=YLtFGWVWiGo](https://www.youtube.com/watch?v=YLtFGWVWiGo)
+* [https://www.youtube.com/watch?v=RfZCadiEMo0](https://www.youtube.com/watch?v=RfZCadiEMo0)
+* [https://www.youtube.com/watch?v=untLDcPPdsw](https://www.youtube.com/watch?v=untLDcPPdsw)
+* [https://www.youtube.com/watch?v=QDPzKA1v32o](https://www.youtube.com/watch?v=QDPzKA1v32o)
+* [https://www.youtube.com/watch?v=oHx1R9lpNBQ](https://www.youtube.com/watch?v=oHx1R9lpNBQ)
 * https://www.youtube.com/watch?v=NE0mTgjOLNU
 * https://www.youtube.com/watch?v=HrRLeijOq8U
 * https://www.youtube.com/watch?v=UEoJ4JEHxuc
