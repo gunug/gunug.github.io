@@ -74,9 +74,6 @@ tags: kaywon education
 * [HTML5 tag](/web/2023/09/11/html-5-tag.html)
 * [HTML5 Media tag](/web/2023/10/06/hmtl5-media-tag.html)
 
-
-* [블록요소 인라인요소]
-
 ---
 
 # 8주차 - 중간평가
