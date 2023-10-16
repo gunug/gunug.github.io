@@ -10,6 +10,24 @@ tags: c# simple-code
 * Change the API Compatibility Level from ".NET 2.0 Subset" to ".NET 2.0" in Player Settings.
 * File > Build Setting > Player Setting > Other Settings > Configuration > Api Compatibility Lavel > .NET 2.0
 
+---
+
+```c#
+using System.IO.ports;
+
+public SerialPort serialPort;
+public void Start(){
+    foreach(string str in SerialPort.GetPortNames())
+    {
+        Debug.Log(str);
+    }
+}
+* System.IO.ports 없음
+* Api Compatibility Level : .NET 4.x
+```
+
+---
+
 ```c#
  using UnityEngine;
  using System.Collections;
