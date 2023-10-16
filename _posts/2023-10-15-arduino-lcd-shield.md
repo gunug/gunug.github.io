@@ -5,6 +5,11 @@ category: arduino
 tags: basic
 ---
 
+# arduino lcd shield
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/32f79d6e-069f-4058-b440-503aaa3805be)
+
+
 * [참고링크](https://eduino.kr/product/detail.html?product_no=37)
 * up 0
 * down 140
