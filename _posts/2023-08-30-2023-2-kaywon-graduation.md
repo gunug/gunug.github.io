@@ -125,6 +125,17 @@ tags: kaywon education
 
 ---
 
+# 6주차
+## 6주차 학습활동
+* 1차심사 초안 보완 및 제출 (오늘 2023-10-17 오후 9까지 마감이지만 늦지 않도록 8시에는 제출하세요)
+
+## 6주차 과제
+* 이후부터는 지속적으로 작업되는 내용들을 문서화 (스크린샷, 설명)합니다.
+* 잘 풀리지 않는 문제들이나 결정사항등을 수업시간에 피드백 하도록 하겠습니다.
+* 파일명 : 7주차_진행상황_이름_이름_이름_이름
+
+---
+
 # 날짜 계획
 * 7주차 10월10일 (연휴로인하여 10월17일로 변경)  / 직무수행능력평가1, 캡스톤 디자인 결과물 1차 심사
    * 프로젝트 계획서, 디자인 컨셉, 가시적인 작업물 (프로토타입)
@@ -326,23 +337,23 @@ public class MecanimScript : MonoBehaviour
 * [https://www.youtube.com/watch?v=untLDcPPdsw](https://www.youtube.com/watch?v=untLDcPPdsw)
 * [https://www.youtube.com/watch?v=QDPzKA1v32o](https://www.youtube.com/watch?v=QDPzKA1v32o)
 * [https://www.youtube.com/watch?v=oHx1R9lpNBQ](https://www.youtube.com/watch?v=oHx1R9lpNBQ)
-* https://www.youtube.com/watch?v=NE0mTgjOLNU
-* https://www.youtube.com/watch?v=HrRLeijOq8U
-* https://www.youtube.com/watch?v=UEoJ4JEHxuc
-* https://www.youtube.com/watch?v=fJrUG-QOApo
-* https://www.youtube.com/watch?v=jsd8WkMiWBU
-* https://www.youtube.com/watch?v=1h_T0m8aAH4
+* [https://www.youtube.com/watch?v=NE0mTgjOLNU](https://www.youtube.com/watch?v=NE0mTgjOLNU)
+* [https://www.youtube.com/watch?v=HrRLeijOq8U](https://www.youtube.com/watch?v=HrRLeijOq8U)
+* [https://www.youtube.com/watch?v=UEoJ4JEHxuc](https://www.youtube.com/watch?v=UEoJ4JEHxuc)
+* [https://www.youtube.com/watch?v=fJrUG-QOApo](https://www.youtube.com/watch?v=fJrUG-QOApo)
+* [https://www.youtube.com/watch?v=jsd8WkMiWBU](https://www.youtube.com/watch?v=jsd8WkMiWBU)
+* [https://www.youtube.com/watch?v=1h_T0m8aAH4](https://www.youtube.com/watch?v=1h_T0m8aAH4)
 
 ## 사용시나리오
-* https://www.youtube.com/watch?v=ign2GmVEflw&list=PLPcpWi8kzKV9wQCLLCy-uTtHLMfMTiIKA
-* https://www.youtube.com/watch?v=-IoOQwkbzKk
-* https://www.youtube.com/watch?v=bw4IVjAz5fM
-* https://www.youtube.com/watch?v=TM9WGP4lHoM
-* https://www.youtube.com/watch?v=EovQC4_PB1U
-* https://www.youtube.com/watch?v=BnnF5X-Vrn4
-* https://www.youtube.com/watch?v=hcGsaehGfcE
-* https://www.youtube.com/watch?v=NrmMk1Myrxc
+* [https://www.youtube.com/watch?v=ign2GmVEflw&list=PLPcpWi8kzKV9wQCLLCy-uTtHLMfMTiIKA](https://www.youtube.com/watch?v=ign2GmVEflw&list=PLPcpWi8kzKV9wQCLLCy-uTtHLMfMTiIKA)
+* [https://www.youtube.com/watch?v=-IoOQwkbzKk](https://www.youtube.com/watch?v=-IoOQwkbzKk)
+* [https://www.youtube.com/watch?v=bw4IVjAz5fM](https://www.youtube.com/watch?v=bw4IVjAz5fM)
+* [https://www.youtube.com/watch?v=TM9WGP4lHoM](https://www.youtube.com/watch?v=TM9WGP4lHoM)
+* [https://www.youtube.com/watch?v=EovQC4_PB1U](https://www.youtube.com/watch?v=EovQC4_PB1U)
+* [https://www.youtube.com/watch?v=BnnF5X-Vrn4](https://www.youtube.com/watch?v=BnnF5X-Vrn4)
+* [https://www.youtube.com/watch?v=hcGsaehGfcE](https://www.youtube.com/watch?v=hcGsaehGfcE)
+* [https://www.youtube.com/watch?v=NrmMk1Myrxc](https://www.youtube.com/watch?v=NrmMk1Myrxc)
 
 ## 기타
-* https://www.youtube.com/watch?v=z4beLacUGXA&list=PLbyK6CnLce7jqlVpPMVFAljC06g5BiVJq
-* https://www.youtube.com/watch?v=4hC5QVwXmgc&list=PLbyK6CnLce7jqlVpPMVFAljC06g5BiVJq&index=4&t=0s
+* [https://www.youtube.com/watch?v=z4beLacUGXA&list=PLbyK6CnLce7jqlVpPMVFAljC06g5BiVJq](https://www.youtube.com/watch?v=z4beLacUGXA&list=PLbyK6CnLce7jqlVpPMVFAljC06g5BiVJq)
+* [https://www.youtube.com/watch?v=4hC5QVwXmgc&list=PLbyK6CnLce7jqlVpPMVFAljC06g5BiVJq&index=4&t=0s](https://www.youtube.com/watch?v=4hC5QVwXmgc&list=PLbyK6CnLce7jqlVpPMVFAljC06g5BiVJq&index=4&t=0s)
