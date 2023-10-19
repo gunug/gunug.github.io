@@ -76,6 +76,17 @@ tags: kaywon education
 
 ---
 
+# 7주차
+
+## 이론
+* [css 개념 및 단위](/web/2023/10/19/css-unit.html)
+* [box model 박스모델](/web/2023/10/19/css-box-model.html)
+
+## 실습
+* [css selector 선택자](/web/2023/10/19/css-select.html)
+
+---
+
 # 8주차 - 중간평가
 * [중간평가 유의사항](/subpage/2023/10/06/2023-2-middle-test.html)
 
