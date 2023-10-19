@@ -68,7 +68,7 @@ tags: kaywon education
 
 ## 이론
 * [HTML5 문법](/web/2023/10/12/html5.html)
-* [CSS](/web/2023/10/12/css.html)
+* [CSS](/web/2023/10/12/css-use.html)
 
 ## 실습
 * [HTML5 tag](/web/2023/09/11/html-5-tag.html)
@@ -84,6 +84,7 @@ tags: kaywon education
 
 ## 실습
 * [css selector 선택자](/web/2023/10/19/css-select.html)
+* [css 속성](/web/2023/10/19/css.html)
 
 ---
 
