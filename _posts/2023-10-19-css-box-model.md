@@ -17,19 +17,23 @@ tags: css
 	<div style="background-color:lime; margin:20px; padding:20px;">
 		content
 	</div>
-</div></source>
+</div><
+```
 <div style="background-color:green; margin:20px; padding:20px;">
 	container
 	<div style="background-color:lime; margin:20px; padding:20px;">
 		content
 	</div>
 </div>
-```
-[[파일:Blockmodel sample.jpg]]
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/36bd7176-485a-4f7a-ad22-79d18825241f)
+
 
 ## 호환모드에서 박스모델
 * DTD 설정에 따른 박스모델의 표현법이 다름
 * XHTML 문서가 웹 브라우저에서 표준모드로 렌더링 될 경우와 호환모드로 렌더링 될 경우 CSS의 박스 모델이 다르게 적용됨
+* ![image](https://github.com/gunug/gunug.github.io/assets/52345276/16ef69b3-8c1c-453f-a1d1-f9af4e9b00f1)
+
 
 ```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml/DTD/xhtml1-transitional.dtd">
