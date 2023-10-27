@@ -33,3 +33,16 @@ tags: html javascript css c# coding
 ## 코드포스(Codeforces)
 * https://codeforces.com/
 * 코드포스는 알고리즘 대회를 주최하며, 대회 이외에도 다양한 주제와 난이도의 문제를 제공하는 온라인 교육 사이트입니다. 대회에서는 랭킹이 제공되며, 문제의 난이도와 유형이 다양합니다.
+
+---
+
+
+# 알고리즘
+* A set of rules for solving a problem in a finite number of steps
+* 알고리즘 - 유한한 단계 안에 문제를 해결할 수 있는 규칙의 집합
+
+* https://www.youtube.com/watch?v=XU9E8A_j05g
+* 학교 교육에서는
+* 풀수있는 문제나 풀수 없는 문제가 있고
+* 그것에 대한 대답에 정답이나 오답이 있다.
+* 그런데 실제는 한가지 문제에 대해서도 다양한 답이 있다.
