@@ -84,13 +84,18 @@ tags: kaywon education
 
 ## 실습
 * [css selector 선택자](/web/2023/10/19/css-select.html)
-* [css 속성](/web/2023/10/19/css.html)
 
 ---
 
 # 8주차 - 중간평가
 * [중간평가 유의사항](/subpage/2023/10/06/2023-2-middle-test.html)
+* [css selector 선택자](/web/2023/10/19/css-select.html)
+* [css 속성](/web/2023/10/19/css.html)
+* [css3 속성](/web/2023/11/02/css3.html)
 
 ---
+
+# 9주차
+* 중간 강의 평가
 
 * [html 샘플](/subpage/2023/10/12/html-sample.html)
