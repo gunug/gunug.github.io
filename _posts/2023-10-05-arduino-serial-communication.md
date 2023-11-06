@@ -73,7 +73,6 @@ void loop() {
 void setup() {
   Serial.begin(9600);
   pinMode(13,OUTPUT);
-  digitalWrite(12,HIGH);
 }
 char dataChar[10];
 char dataCount=0;
