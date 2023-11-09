@@ -97,8 +97,14 @@ tags: kaywon education
 * [css selector 선택자](/web/2023/10/19/css-select.html)
 * [css 속성](/web/2023/10/19/css.html)
 * [css3 속성](/web/2023/11/02/css3.html)
+
+---
+
+# 10주차
+* [css3 속성](/web/2023/11/02/css3.html)
 * [레이아웃1](/web/2023/11/02/web-layout1.html)
 
 ---
 
+# 기타
 * [html 샘플](/subpage/2023/10/12/html-sample.html)
