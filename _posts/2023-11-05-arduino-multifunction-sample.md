@@ -38,9 +38,12 @@ void loop() {
     state_id = cut_string.substring(2,4).toInt();
     cut_string.toCharArray(ledChar, 5);
     MFS.write(ledChar);
+    /*
     if(device_id != 0)MFS.beep(5, 5, device_id, 1, 50);
     delay(500);
     if(state_id != 0)MFS.beep(5, 5, state_id, 1, 50);
+    */ //beep횟수가 많아지니 문제가 되어서 사용하지 않기로함
+    MFS.beep(5, 5, 2, 1, 50); //2회 beep로 통일
   }
   //
   byte btn = MFS.getButton();
