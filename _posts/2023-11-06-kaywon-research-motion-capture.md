@@ -1,7 +1,7 @@
 ---
 layout: post
 title: kaywon 연구과제 "모션 캡쳐 장비를 활용한 실사 모델링 실시간 합성 연구"
-category: etc
+category: work
 tags: 
 ---
 
@@ -9,8 +9,11 @@ tags:
 * "모션 캡쳐 장비를 활용한 실사 모델링 실시간 합성 연구"
 * Real-time synthesis of realistic modeling using motion capture device
 
-## 비용처리
-* 인건비, 학생 인건비, 연구재료비(3D asset구매), 연구활동비(전문가 활용비, 일용직 활용비), 회의비
+* 협약 체결일  
+* 2023.05.18 
+
+* 연구 종료일 
+* 2023.11.24 
 
 ---
 

@@ -221,6 +221,10 @@ tags: kaywon education
 
 ---
 
+* 추후 일정 공지 : https://cafe.naver.com/kwdmd/207223
+
+---
+
 # official trailer 공식영상
 * 제품을 소개하기 위한 제조사에서 만든 공식영상
 * 제품에 대한 내용을 핵심적, 함축적으로 보여주기 때문에 간혹 전달이 안되는 경우도 있음
