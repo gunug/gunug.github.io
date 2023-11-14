@@ -218,10 +218,26 @@ tags: kaywon education
 
 # 졸업작품심사
 * [https://www.youtube.com/playlist?list=PLO3JsaGipXoJUTAzdZRdKP1xEjYL-CDcq](https://www.youtube.com/playlist?list=PLO3JsaGipXoJUTAzdZRdKP1xEjYL-CDcq)
+# 2023 졸업작품 심사
+* [https://www.youtube.com/playlist?list=PLO3JsaGipXoK3MCVhT_ba3aNYa7Fd7YIs](https://www.youtube.com/playlist?list=PLO3JsaGipXoK3MCVhT_ba3aNYa7Fd7YIs)
 
 ---
 
+# 졸업작품 심사 후 일정, 공지사항
 * 추후 일정 공지 : https://cafe.naver.com/kwdmd/207223
+* 졸업작품심사 이후에는 졸업 후 진로준비를 위하여
+* 개인의 포트폴리오 제작과 전공수업에 집중할 수 있도록 지도하자는 것이 학과의 방침 입니다.
+- 11주차 11월 14일 > 정상수업, 캡스톤디자인 성과전시 계획 점검
+- 12주차 11월 21일 > 수업 없음 / 24일-26일(캡스톤디자인 성과 전시, 계원조형예술제 졸업작품 전시) 
+- 13주차 11월 28일 > 수업 없음 > 졸업작품 전시기간 출결 반영
+- 14주차 12월 5일 > 수업 없음 > 연합PT 출결 반영
+- 15주차 12월 12일 > 종강수업, 캡스톤디자인 최종보고서 작성 및 최종 산출물 제출
+- 16주차 12월 21일 > 연합PT
+
+# 졸업작품전에 관하여
+* 명함 제작이 필수가 아닙니다. 비용도 많이 들고 사용되지 않은 명함이 많이 남을 수 있으니 제작하지 않는것으로 합니다.
+* 졸업 작품 전시회 사이트에 인적사항이 기록되어 있고, 학과에서 전달하는 리스트로 여러분들의 연락처가 업체에 전달 되게 될 것입니다.
+* 이외의 많은 부분에서도 부스를 꾸미기 위한 너무 많은 비용지출을 피하도록 합니다.
 
 ---
 
