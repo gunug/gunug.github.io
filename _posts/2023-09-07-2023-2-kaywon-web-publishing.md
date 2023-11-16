@@ -67,6 +67,7 @@ tags: kaywon education
 # 6주차
 
 ## 이론
+* [HTML5](/web/2023/11/16/html5.html)
 * [HTML5 문법](/web/2023/10/12/html5.html)
 * [CSS](/web/2023/10/12/css-use.html)
 
