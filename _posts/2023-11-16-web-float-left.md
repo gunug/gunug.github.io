@@ -7,7 +7,8 @@ tags: css
 
 # float:left의 특징
 * 출처 : http://naradesign.net/wp/2008/05/27/144/
-* 부모 엘리먼트 A와 자식 엘리먼트 B가 있을시에 자식 엘리먼트 B에 float:left 속성을 부여하면 부모 엘리먼트가 자식 엘리먼트를 놓치는 상황이 발생합니다.
+* 부모 엘리먼트 A와 자식 엘리먼트 B가 있을시에 자식 엘리먼트 B에 float:left 속성을 부여하면 부모 엘리먼트가 자식 엘리먼트를 놓치는 상황이 발생합니다
+
 ```html
 <div id="A">
     <div id="B" style="float:left">
@@ -23,7 +24,8 @@ tags: css
 * Chrome 69버전에서 동작함, 70버전에서 동작하지 않는 상황 발견 (2018.10)
 
 ## 자식객체의 맨 마지막에 빈 객체를 추가하여 clear:both로 처리한다
-* ''' 가장 권장되는 방법 '''
+* 가장 권장되는 방법
+
 ```css
 .clear {clear:both; height:0; overflow:hidden;}
 ```
@@ -31,9 +33,11 @@ tags: css
 
 ## 부모객체의 :after 가상 선택자를 이용하여 clear:both를 부여한다
 * InternetExplorer는 :before, :after 가상 선택자를 지원하지 않는다.
+
 ```css
 #container {*zoom:1;} /* IE5.5~7 브라우저 대응 Hack */
-#container:after {content:" "; display:block; clear:both;} /* 표준계열 브라우저에 대응하는 float 해제용 가상 엘리먼트의 생성 */
+#container:after {content:" "; display:block; clear:both;} 
+/* 표준계열 브라우저에 대응하는 float 해제용 가상 엘리먼트의 생성 */
 ```
 * IE 5~7 브라우저는 hasLayout이라는 고유한 성질을 갖게 되면 float을 해제하는 트리거로 작용하는 성질이 있고 zoom:1 속성이 hayLayout 이라는 성질을 갖도록 하기 때문에 IE 5~7 브라우저 고유의 특징을 이용한 해결방법
 
@@ -44,6 +48,8 @@ tags: css
 ---
 
 # clearfix
+* 현재까지 가장 권장되는 float:left 해제 방식
+
 ```css
 .clearfix::after{
     content: "";
