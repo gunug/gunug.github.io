@@ -27,6 +27,12 @@ paginate: true
 
 ![image width:800px](https://github.com/gunug/gunug.github.io/assets/52345276/5d81a317-27d1-4e25-9fce-9c900af4a052)
 
+* [개발자 모드 단체등록 관련 에러](https://playvr.co.kr/bbs/board.php?bo_table=TIP&wr_id=13)
+
+* https://dashboard.oculus.com/organizations/create/
+
+* 새 단체 만들기 -> 원하는 명칭 적기 -> i understand 체크박스 클릭 후 제출
+
 ---
 
 ## 베타 기능 활성화
