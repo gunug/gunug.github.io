@@ -109,8 +109,12 @@ tags: kaywon education
 
 # 11주차
 * [레이아웃1](/web/2023/11/02/web-layout1.html)
-* [레이아웃2](#)
+* [레이아웃2](/web/2023/11/16/web-layout2.html)
 
+---
+
+# 15주차
+* [기말평가 유의사항](/subpage/2023/11/16/2023-2-last-test.html)
 
 ---
 
