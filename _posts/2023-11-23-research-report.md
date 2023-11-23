@@ -8,6 +8,7 @@ tags:
 # “모션 캡쳐 장비를 활용한 실사 모델링 실시간 합성 연구”
 # Real-time synthesis of realistic modeling using motion capture device
 
+* 3차년도 연구과제
 * 연구기간 2023.05.18 ~ 2023.11.24
 
 ---
