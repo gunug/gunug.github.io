@@ -113,7 +113,8 @@ tags: kaywon education
 
 ---
 
-# 차주 진행예정
+# 12주차
+* [레이아웃2](/web/2023/11/16/web-layout2.html)
 * [레이아웃3](/web/2023/11/16/web-layout3.html)
 
 ---

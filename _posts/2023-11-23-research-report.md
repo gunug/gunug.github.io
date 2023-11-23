@@ -36,6 +36,7 @@ tags:
     * 특징
         * 사전 렌더링(Pre-rendering)
         * 실시간 렌더링 (Real-Time Rendering)
+        * 크로마키 (Chroma Key) [크로마키 에셋](https://assetstore.unity.com/packages/tools/video/chroma-key-kit-71684)
 
 4. XR Studio
     * 정의
