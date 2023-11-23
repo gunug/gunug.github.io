@@ -18,3 +18,11 @@ tags: design photoshop
 
 # 레이어 병합
 * 정보 : https://m.blog.naver.com/bbundoli/40022961929
+
+---
+
+# 포토샵 아트보드
+* https://nicecarrot2.tistory.com/198
+* 아트보드라고 하여 기본 배경색이 지정되어 있는 경우
+* 처음 new document때 부터 Background contents를 Transparent로 설정하면 문제가 없다.
+* 이후에 바꾸고 싶다면 Properties에서 Artboard background color를 Transparent로 변경
