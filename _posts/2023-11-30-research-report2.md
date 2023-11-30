@@ -29,13 +29,19 @@ tags:
         * 녹화, 반복 재생이 가능하다.
 
 3. 실사 모델링 (Photorealistic Modeling)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/c0625e6a-739d-41a5-b1d4-7304a13830ab)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/def6b855-dbb0-4e22-8ef9-1532dd9bc211)
+* 이미지 출처 : 직접촬영 (계원예술대학교 메이커스페이스)
     * 정의
         * 다중 카메라로 대상물의 삼차원 기하구조를 얻고, 실사와 CG를 합성하여 모델을 생성하는 방식
     * 특징
         * 3D Scan된 실사 모델을 통하여 실제 사람과 같은 가상의 주인공을 만들수 있다.
         * 복제 및 대역이 가능한 디지털 미디어 특성을 이용할 수 있다.
 
-4. 실시간 합성 (Real-Time synthesis)
+5. 실시간 합성 (Real-Time synthesis)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/c28ea064-22d5-48b9-a1b7-af9b74348283)
+* 이미지 출처 : iabm (https://theiabm.org/)
+
     * 정의
         * 사전 시각화, 게임 엔진, 모션 캡처, 가상 카메라, LED 월 등의 기술을 활용하여 가상 이미지와 실사 이미지를 실시간으로 합성하는 것
         * 버추얼 프로덕션(virtual production)에서 자주 사용 하는 방식
