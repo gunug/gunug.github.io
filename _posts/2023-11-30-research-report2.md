@@ -148,7 +148,7 @@ tags:
 ---
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/b5aa1e00-cc82-4c04-974d-95d06b300230)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/9807b558-987e-4a86-98d5-311d0f975abd)
-![Uploading image.png…]()
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/2681031a-ff1a-4645-ad9e-d742c1720fa4)
 
 
 ---
