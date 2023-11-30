@@ -1,4 +1,4 @@
----
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/f63c5416-88dc-4fb5-86c1-e066dd7646c5)---
 layout: post
 title: research report 연구보고서
 category: work
@@ -103,17 +103,37 @@ tags:
 
 1. 모션 캡쳐 장비 (Motion Capture Device)
     1. 모션 캡쳐 - Optitrack
-       
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/399624db-6265-432f-b130-83151d99a093)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/3bc8d078-9b89-4c0e-8c34-f85b2c1bf230)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/97886aac-85a9-44e0-8beb-092ee9dad81c)
     3. 처리 프로그램 - Unity 3D
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/a8d69e4d-5ddd-4a2a-913e-b8df97647dea)
+
 2. 실사 모델링 (Photorealistic Modeling)
     1. 캡쳐 장비 - Smart shooter 3
-    2. 합성 프로그램 - Agi soft meta shape
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/a63871cd-18a2-4408-b6a8-074d1f09ad84)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/e6ba44a5-8b5b-40b7-a0ce-33c3d743f899)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/d25413a0-08ad-4154-a0bd-9a5d6a4147f3)
+
+    3. 합성 프로그램 - Agi soft meta shape
+   ![image](https://github.com/gunug/gunug.github.io/assets/52345276/ad86db5c-a76e-49ac-894e-f987a140f46c)
+         * png
+ ![image](https://github.com/gunug/gunug.github.io/assets/52345276/32264bfc-8893-40d6-be55-1a60c2319596)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/3fbf65af-51f8-4adf-87aa-469fc03f5690)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/292bed0f-e5e9-4d1e-a492-10801d7824b4)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/6e26b3b7-772f-4551-a460-78ee5fea6df7)
+
         * files, psx
         * Obj, Mtl(Material Library File 로 obj 에서 사용되는 재질 속성들의 정보를 담고 있음), Jpg
-    3. 리깅 프로그램 - Mixamo
+    5. 리깅 프로그램 - Mixamo
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/6b716819-9bb2-422d-99ac-d2836dde2a39)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/eaadd3a5-0b1b-4bb3-bc60-330b39231d09)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/034094dd-0e15-4495-b02d-86ba3b30c7b3)
+
 3. 실시간 합성 (Real-Time synthesis)
     1. 실시간 합성 프로그램 - Unity 3D
-    2. 실시간 모션 캡쳐 API - 
+
+    3. 실시간 모션 캡쳐 API - 
 
 ---
 
