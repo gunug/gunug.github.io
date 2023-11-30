@@ -80,12 +80,20 @@ tags:
         * 실사(리얼타임)
         * 실사(녹화된)
         * 가상(3D model)
+       ![image](https://github.com/gunug/gunug.github.io/assets/52345276/587f8ea0-8970-4ba3-a2c1-48dd3922ce8c)
+      ![image](https://github.com/gunug/gunug.github.io/assets/52345276/1fc90d38-905f-4982-8232-b0fb12c88266)
+      ![image](https://github.com/gunug/gunug.github.io/assets/52345276/4ad7dc67-abd9-4e1e-b524-3ec3c9b17aca)
     2. 사물
         * 실사(리얼타임)
         * 실사(녹화된)
         * 가상(3D Model)
+   ![image](https://github.com/gunug/gunug.github.io/assets/52345276/26a215ca-813a-4874-874d-601fd2671bef)
+
     3. 사람
         * 실사
+        * 가상 (3D Model)
+       ![image](https://github.com/gunug/gunug.github.io/assets/52345276/de5cee44-4fc1-4815-94e5-4e52695421b6)
+
     4. 이펙트
         * 파티클(particle)
 
