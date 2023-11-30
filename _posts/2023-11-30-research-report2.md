@@ -135,17 +135,14 @@ tags:
 
    1. 실시간 모션 캡쳐 API - Optitrack Unity Plugin (https://optitrack.com/software/unity/)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/d91dee72-7c9d-4c82-8f92-c57bd519288c)
-
-   3. 실시간 합성 프로그램 - Unity 3D
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/b3aa338a-e2ee-408e-b273-bd0a48ada88b)
 
-
-결과
-
+   3. 실시간 합성 프로그램 - Unity 3D
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/6a2e3cf7-82d3-432a-91f5-5bb3d2d9a4ab)
 
-
 ---
+
+결과
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/b5aa1e00-cc82-4c04-974d-95d06b300230)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/9807b558-987e-4a86-98d5-311d0f975abd)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/2681031a-ff1a-4645-ad9e-d742c1720fa4)
