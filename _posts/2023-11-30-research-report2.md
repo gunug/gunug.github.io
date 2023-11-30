@@ -138,6 +138,13 @@ tags:
 
    3. 실시간 합성 프로그램 - Unity 3D
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/b3aa338a-e2ee-408e-b273-bd0a48ada88b)
+
+
+결과
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/6a2e3cf7-82d3-432a-91f5-5bb3d2d9a4ab)
+
+
 ---
 
 ## 기대 성과 및 활용 계획 (2페이지)
