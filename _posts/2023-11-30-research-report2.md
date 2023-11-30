@@ -19,7 +19,7 @@ tags:
 1. 모션 캡쳐 장비 (Motion Capture Device)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/603ddced-ce40-4ec6-9cce-019f55d67785)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/c9054dee-2750-4d9d-aa7b-bc898003643f)
-* 이미지 출처 : 옵티트랙 (https://optitrack.com/)
+* 이미지 출처 : https://optitrack.com/
 
     * 정의
         * 사용자의 특정 자세 또는 연속 동작을 보이는 그대로 인식하여 대응 소프트웨어에 입력값으로 전달하는 장비
@@ -30,7 +30,7 @@ tags:
 
 3. 실사 모델링 (Photorealistic Modeling)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/a39c5fd1-c5bf-4ba5-aa2b-5b91d4d04fba)
-* 이미지 출처 : 3D Art (www.3dart.it)
+* 이미지 출처 : https://www.3dart.it/
     * 정의
         * 다중 카메라로 대상물의 삼차원 기하구조를 얻고, 실사와 CG를 합성하여 모델을 생성하는 방식
     * 특징
@@ -39,7 +39,7 @@ tags:
 
 5. 실시간 합성 (Real-Time synthesis)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/c28ea064-22d5-48b9-a1b7-af9b74348283)
-* 이미지 출처 : iabm (https://theiabm.org/)
+* 이미지 출처 : https://theiabm.org/
 
     * 정의
         * 사전 시각화, 게임 엔진, 모션 캡처, 가상 카메라, LED 월 등의 기술을 활용하여 가상 이미지와 실사 이미지를 실시간으로 합성하는 것
@@ -54,6 +54,11 @@ tags:
 - 왜 모션 캡쳐 장비를 활용하여 실사 모델링을 실시간 합성해야 하는가?
 
 4. XR Studio
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/6c268e24-aa66-42e8-b0ba-94a0bdf340a9)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/5a37420d-bfe1-458f-a2d3-1dbe3aebf11a)
+* 이미지 출처 : https://www.pixomondo.com/
+
     * 정의
         * LED월과 AI 기술을 활용해 기존 스튜디오 세트의 물리적 한계에서 벗어나 고화질의 가상환경을 구현하는 스튜디오
         * 다양한 몰입형 및 인터랙티브 기술 영역을 아우르는 확장현실(XR)은 증강현실(AR, Augmented Reality), 혼합현실(MR, Mixed Reality), 가상현실(VR, Virtual Reality)을 망라한다.
