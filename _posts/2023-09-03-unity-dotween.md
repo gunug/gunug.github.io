@@ -68,3 +68,11 @@ DOVirtual.DelayedCall(1.0f, () =>{setContent(0);});
 ```
 
 * RawImage인 경우는 .material빼고 직접 RawImage를 연결하면 됨
+
+---
+
+# OnComplete
+
+```c#
+.OnComplete(myFunction);
+```

@@ -13,6 +13,7 @@ void Start(){
 IEnumerator coroutineFunction(){
     yield return new WaitForSeconds(0.5f);
     Debug.Log("coroutine");
+    yield return null;
 }
 ```
 
@@ -23,5 +24,6 @@ void Start(){
 IEnumerator coroutineFunction(string msg){
     yield return new WaitForSeconds(0.5f);
     Debug.Log(msg);
+    yield return null;
 }
 ```
