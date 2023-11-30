@@ -17,6 +17,9 @@ tags:
 
 
 1. 모션 캡쳐 장비 (Motion Capture Device)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/603ddced-ce40-4ec6-9cce-019f55d67785)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/c9054dee-2750-4d9d-aa7b-bc898003643f)
+
     * 정의
         * 사용자의 특정 자세 또는 연속 동작을 보이는 그대로 인식하여 대응 소프트웨어에 입력값으로 전달하는 장비
     * 특징
@@ -24,14 +27,14 @@ tags:
         * 움직임은 실시간으로 가상캐릭터에 적용 가능하다
         * 녹화, 반복 재생이 가능하다.
 
-2. 실사 모델링 (Photorealistic Modeling)
+3. 실사 모델링 (Photorealistic Modeling)
     * 정의
         * 다중 카메라로 대상물의 삼차원 기하구조를 얻고, 실사와 CG를 합성하여 모델을 생성하는 방식
     * 특징
         * 3D Scan된 실사 모델을 통하여 실제 사람과 같은 가상의 주인공을 만들수 있다.
         * 복제 및 대역이 가능한 디지털 미디어 특성을 이용할 수 있다.
 
-3. 실시간 합성 (Real-Time synthesis)
+4. 실시간 합성 (Real-Time synthesis)
     * 정의
         * 사전 시각화, 게임 엔진, 모션 캡처, 가상 카메라, LED 월 등의 기술을 활용하여 가상 이미지와 실사 이미지를 실시간으로 합성하는 것
         * 버추얼 프로덕션(virtual production)에서 자주 사용 하는 방식
