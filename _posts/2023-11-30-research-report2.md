@@ -29,9 +29,8 @@ tags:
         * 녹화, 반복 재생이 가능하다.
 
 3. 실사 모델링 (Photorealistic Modeling)
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/c0625e6a-739d-41a5-b1d4-7304a13830ab)
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/def6b855-dbb0-4e22-8ef9-1532dd9bc211)
-* 이미지 출처 : 직접촬영 (계원예술대학교 메이커스페이스)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/a39c5fd1-c5bf-4ba5-aa2b-5b91d4d04fba)
+* 이미지 출처 : 3D Art (www.3dart.it)
     * 정의
         * 다중 카메라로 대상물의 삼차원 기하구조를 얻고, 실사와 CG를 합성하여 모델을 생성하는 방식
     * 특징
