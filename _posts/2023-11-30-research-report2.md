@@ -91,11 +91,15 @@ tags:
 
     3. 사람
         * 실사
+       ![image](https://github.com/gunug/gunug.github.io/assets/52345276/67ea7ac6-c8cd-48c8-a2cf-99969b89dffd)
+
         * 가상 (3D Model)
+       ![image](https://github.com/gunug/gunug.github.io/assets/52345276/42fed163-6b34-44a0-a1f0-ac73127d7731)
        ![image](https://github.com/gunug/gunug.github.io/assets/52345276/de5cee44-4fc1-4815-94e5-4e52695421b6)
 
     4. 이펙트
         * 파티클(particle)
+      
 
 1. 모션 캡쳐 장비 (Motion Capture Device)
     1. 모션 캡쳐 - Optitrack
