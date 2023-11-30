@@ -98,7 +98,8 @@ tags:
         * 파티클(particle)
 
 1. 모션 캡쳐 장비 (Motion Capture Device)
-    1. 캡쳐 장비 - Optitrack
+    1. 모션 캡쳐 - Optitrack
+       
     3. 처리 프로그램 - Unity 3D
 2. 실사 모델링 (Photorealistic Modeling)
     1. 캡쳐 장비 - Smart shooter 3
