@@ -1,4 +1,4 @@
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/f63c5416-88dc-4fb5-86c1-e066dd7646c5)---
+---
 layout: post
 title: research report 연구보고서
 category: work
