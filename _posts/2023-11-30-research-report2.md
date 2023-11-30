@@ -131,10 +131,13 @@ tags:
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/034094dd-0e15-4495-b02d-86ba3b30c7b3)
 
 3. 실시간 합성 (Real-Time synthesis)
-    1. 실시간 합성 프로그램 - Unity 3D
+    
 
-    3. 실시간 모션 캡쳐 API - 
+   1. 실시간 모션 캡쳐 API - Optitrack Unity Plugin (https://optitrack.com/software/unity/)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/d91dee72-7c9d-4c82-8f92-c57bd519288c)
 
+   3. 실시간 합성 프로그램 - Unity 3D
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/b3aa338a-e2ee-408e-b273-bd0a48ada88b)
 ---
 
 ## 기대 성과 및 활용 계획 (2페이지)
