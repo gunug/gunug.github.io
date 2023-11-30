@@ -19,6 +19,7 @@ tags:
 1. 모션 캡쳐 장비 (Motion Capture Device)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/603ddced-ce40-4ec6-9cce-019f55d67785)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/c9054dee-2750-4d9d-aa7b-bc898003643f)
+* 이미지 출처 : 옵티트랙 (https://optitrack.com/)
 
     * 정의
         * 사용자의 특정 자세 또는 연속 동작을 보이는 그대로 인식하여 대응 소프트웨어에 입력값으로 전달하는 장비
