@@ -71,6 +71,19 @@ tags:
 
 ---
 
+    * 사례
+        * MELS Studios (https://www.mels-studios.com/en/)
+            * 카메라, 조명, 장비 및 특수 장비를 사용해 영화, TV방송, 다큐멘터리, 버라이어티 쇼, 광고, 잡지 제작하는 스튜디오
+            * 활동: 영화 '엑스맨: 다크 피닉스', '미드소마' 참여
+        * XR Studios (https://www.xrstudios.live/)
+            * 몰입형 환경, 소품, 세트 확장, 실시간 2D 콘텐츠 및 가상 화면을 사용해 확장 현실(XR) 및 증강 현실(AR) 워크플로우 솔루션 제작하는 몰입형 기술 전문 디지털 제작 회사
+            * 활동: ESPN NBA Primetime, 'LIQUID DEATH'브랜드 광고
+        * Pixomondo (https://www.pixomondo.com/)
+            * 애니메이션, 디지털 자산, 캐릭터 및 생물체, 합성, 환경 및 세계 구축, 리깅 및 로토를 포괄하는 핵심 VFX 서비스를 개발하여 시각 효과 및 버추얼 프로덕션을 제작하는 회사
+            * 활동: 영화 'Ant-Man and The Wasp: Quantumania', 'House Of The Dragon' 참여
+
+---
+
 ## 연구 내용 및 결과 (10페이지)
 * 배경, 사물, 사람, 이펙트로 나누어 실사(사진, 동영상, 실시간 영상) 
 * 미디어 및 가상미디어(3D 모델, 파티클 시스템)를 실시간 합성하여 영상매체(전광판, 빔프로젝터, 모니터)에 투사
