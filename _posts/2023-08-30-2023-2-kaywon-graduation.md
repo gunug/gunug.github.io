@@ -166,7 +166,13 @@ tags: kaywon education
 # 8주차 ~ 9주차 - 졸업작품심사 본심 준비
 # 10주차 - 졸업작품 심사
 # 12주차 - 계원조형예술제
+
+---
+
 # 15주차 - 최종 산출물 제출, 캡스톤 디자인 결과보고서 작성/제출
+## 최종 산출물, 카페 정리
+* 졸업작품전을 하면서 찍었던 사진, 졸업작품 심사때 상영했던 영상, 웹사이트 접속 주소 등 카페에서 볼 수 있는 내용을 카페에 업로드 합니다.
+* 이외의 모든 산출물은 압축하여 구글 디스크에 업로드합니다.
 
 * [캡스톤 디자인 결과 보고서](/file/zip/2023_capstone.zip)
 * [디지털미디어디자인과] 캡스톤디자인 최종보고서 - 팀별 1부 작성
@@ -175,6 +181,7 @@ tags: kaywon education
    * 과제 지도 일지 [지도교수] - 아래의 예시를 보고 2023년 실제 수업날짜에 맞추어 작성
 
 * [디지털미디어디자인과] 참여학생 설문조사서 - 각 학생별 1부 작성
+* 업로드 위치 : [https://drive.google.com/drive/folders/1BCaeSwWtVsDOxOwAwLozDRkCDs7W6acy?usp=sharing](https://drive.google.com/drive/folders/1BCaeSwWtVsDOxOwAwLozDRkCDs7W6acy?usp=sharing)
 
 ---
 
