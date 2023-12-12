@@ -973,3 +973,116 @@ public class ServerUiManager : MonoBehaviour
 }
 
 ```
+
+---
+
+# OnGUI로 개선한 버전
+
+```c#
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using System.Net;
+using System.Net.NetworkInformation;
+using System.Net.Sockets;
+
+public class ServerUiManager : MonoBehaviour
+{
+    public static string server_ip = "127.0.0.1";
+    public static int server_port = 50002;
+    public static string port_str = server_port.ToString();
+
+    private string global_ip;
+    private string local_ip;
+    const int font_size = 30;
+    private void OnGUI()
+    {
+        GUIStyle LabelStyle = new GUIStyle(GUI.skin.label);
+        LabelStyle.fontSize = font_size;
+        GUIStyle TextFieldStyle = new GUIStyle(GUI.skin.textField);
+        TextFieldStyle.fontSize = font_size;
+        GUIStyle ButtonStyle = new GUIStyle(GUI.skin.button);
+        //ButtonStyle.alignment = TextAnchor.MiddleRight;
+        ButtonStyle.fontSize = font_size;
+
+        GUILayout.Label("global ip : " + global_ip, LabelStyle);
+        GUILayout.Label("local ip : " + local_ip, LabelStyle);
+        if (GUILayout.Button("save ip, port", ButtonStyle)) setPlayerPrefs();
+        server_ip = GUILayout.TextField(server_ip, TextFieldStyle);
+        port_str = GUILayout.TextField(port_str, TextFieldStyle);
+        server_port = int.Parse(port_str);
+    }
+    void Awake()
+    {
+        global_ip = GetExternalIPAddress();
+        local_ip = GetLocalIPAddress();
+        getPlayerPrefs();
+    }
+
+    private void getPlayerPrefs()
+    {
+        //Debug.Log("PlayerPrefs setting");
+        if (PlayerPrefs.HasKey("server_ip"))
+        {
+            //Debug.Log("server_ip:" + PlayerPrefs.GetString("server_ip"));
+            server_ip = PlayerPrefs.GetString("server_ip");
+        }
+        if (PlayerPrefs.HasKey("server_port"))
+        {
+            //Debug.Log("server_port:" + PlayerPrefs.GetString("server_port"));
+            server_port = int.Parse(PlayerPrefs.GetString("server_port"));
+        }
+        port_str = server_port.ToString();
+    }
+    private void setPlayerPrefs()
+    {
+        PlayerPrefs.SetString("server_ip", server_ip.ToString());
+        PlayerPrefs.SetString("server_port", server_port.ToString());
+    }
+
+    public void SaveIpPort()
+    {
+        /*
+        Debug.Log(server_ip_input.text);
+        Debug.Log(server_port_input.text);
+        */
+        setPlayerPrefs();
+        getPlayerPrefs();
+    }
+
+    public string GetLocalIPAddress()
+    {
+        var host = Dns.GetHostEntry(Dns.GetHostName());
+        foreach (var ip in host.AddressList)
+        {
+            if (ip.AddressFamily == AddressFamily.InterNetwork)
+            {
+                return ip.ToString();
+            }
+        }
+        throw new System.Exception("No network adapters with an IPv4 address in the system!");
+    }
+
+    public string GetExternalIPAddress()
+    {
+        string externalip = new WebClient().DownloadString("http://ipinfo.io/ip").Trim(); //http://icanhazip.com
+        if (String.IsNullOrWhiteSpace(externalip))
+        {
+            //Debug.Log("global ip is null");
+            externalip = GetLocalIPAddress();//null경우 Get Internal IP를 가져오게 한다.
+        }
+        return externalip;
+    }
+}
+```
+
+---
+
+# 에러 개선중
+* guna_client의 리시브 콜백 부분이 try,catch안에 있어서 두번다시 리시브 되지 않던문제
+```c#
+    client.BeginReceive(state.buffer, 0, GunaStateObject.BufferSize, 0, new AsyncCallback(ReceiveCallback), state);
+```
+* try catch 구문 밖으로 빼야합니다. 리시브 성공실패와 관계없이 다음 리시브를 기대려야 합니다.
