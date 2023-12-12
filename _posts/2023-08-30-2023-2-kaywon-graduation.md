@@ -184,7 +184,7 @@ tags: kaywon education
 * 지도교수 서명 : 카카오톡 단독방에서 확인
 
 ### [디지털미디어디자인과] 참여학생 설문조사서
-* 1개 파일에 전체 학생수 만큼 페이지가 있어야함. 1인당 1페이지 작성
+* 1개 파일에 전체 학생수 만큼 페이지가 있어야함. 양식지를 복제하여 1인당 1페이지 작성
 
 ## 카페 업로드
 * 졸업작품전을 하면서 찍었던 사진, 졸업작품 심사때 상영했던 영상, 웹사이트 접속 주소 등 카페에서 볼 수 있는 내용을 카페에 업로드 합니다. [예시](https://cafe.naver.com/kwdmd/160571)
@@ -193,6 +193,7 @@ tags: kaywon education
 * 업로드 위치 : [https://drive.google.com/drive/folders/1BCaeSwWtVsDOxOwAwLozDRkCDs7W6acy?usp=sharing](https://drive.google.com/drive/folders/1BCaeSwWtVsDOxOwAwLozDRkCDs7W6acy?usp=sharing)
 * 서류, 이미지, 영상, 최종산출물(zip)파일 업로드
 * 서류폴더, 산출물(이미지, 영상, 최종산출물)폴더 구별해서 2개로 만들어주세요.
+
 ---
 
 # 날짜 계획
