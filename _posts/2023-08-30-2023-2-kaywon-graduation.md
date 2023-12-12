@@ -194,7 +194,7 @@ tags: kaywon education
 
 ## 구글드라이브 업로드
 * 업로드 위치 : [https://drive.google.com/drive/folders/1BCaeSwWtVsDOxOwAwLozDRkCDs7W6acy?usp=sharing](https://drive.google.com/drive/folders/1BCaeSwWtVsDOxOwAwLozDRkCDs7W6acy?usp=sharing)
-* 서류파일은 압축 없이, 최종산출물(이미지, 영상, 기획문서, 프로젝트 진행문서, 프로젝트 파일, 빌드파일 등)을 압축(zip)한 파일 업로드
+* 서류파일 (최종 보고서, 설문조사)
 
 ## 온라인 과제전 업로드
 * [온라인 과제전 공지](https://cafe.naver.com/kwdmd/209372)
