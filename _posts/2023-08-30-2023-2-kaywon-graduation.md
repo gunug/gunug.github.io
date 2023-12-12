@@ -191,8 +191,13 @@ tags: kaywon education
 
 ## 구글드라이브 업로드
 * 업로드 위치 : [https://drive.google.com/drive/folders/1BCaeSwWtVsDOxOwAwLozDRkCDs7W6acy?usp=sharing](https://drive.google.com/drive/folders/1BCaeSwWtVsDOxOwAwLozDRkCDs7W6acy?usp=sharing)
-* 서류, 이미지, 영상, 최종산출물(zip)파일 업로드
-* 서류폴더, 산출물(이미지, 영상, 최종산출물)폴더 구별해서 2개로 만들어주세요.
+* 서류파일은 압축 없이, 최종산출물(이미지, 영상, 기획문서, 프로젝트 진행문서, 프로젝트 파일, 빌드파일 등)을 압축(zip)한 파일 업로드
+
+## 온라인 과제전 업로드
+* [온라인 과제전 공지](https://cafe.naver.com/kwdmd/209372)
+* 업로드 위치 : [https://drive.google.com/drive/folders/1BOoUkl7_JgKLPiovVGMY3mGUFtRcIiyV](https://drive.google.com/drive/folders/1BOoUkl7_JgKLPiovVGMY3mGUFtRcIiyV)
+* '팀이름_팀원이름_팀원이름_팀원이름' 폴더 생성한 후 폴더안에 업로드
+* 서류파일은 업로드 하지 않음, 최종산출물(이미지, 영상, 기획문서, 프로젝트 진행문서, 프로젝트 파일, 빌드파일 등)을 압축(zip)한 파일 업로드
 
 ---
 
