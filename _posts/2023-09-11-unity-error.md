@@ -41,3 +41,11 @@ Audio preview in Inspector does not work
 # 네이티브 클래스 관련
 * 'HttpListenerExample.HttpServer' is missing the class attribute 'ExtensionOfNativeClass'!
 * MonoBehaviour를 상속받지 않은 class를 컴퍼넌트로 사용하려 할때 발생
+
+---
+
+# ```System.InvalidOperationException: \\.\pipe\unity-ilpp```
+* https://forum.unity.com/threads/unhandled-exception-system-invalidoperationexception-cant-find-file-pipe-unity-ilpp.1394605/
+* 프로젝트가 세이프 보드로 구동할것을 권장됨
+* 무시하고 실행하면 에러를 동반하여 빌드가 안됨
+* 세이프모드로 구동하고 timeline를 업데이트 해보라는 이야기가 있음

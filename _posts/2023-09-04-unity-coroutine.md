@@ -27,3 +27,9 @@ IEnumerator coroutineFunction(string msg){
     yield return null;
 }
 ```
+
+---
+
+# 특이사항
+* 메인스레드가 아닌곳에서 코루틴 호출시 무시됨
+* 에러메세지나 알림도 뜨지 않고 그냥 작동하지 않아서 원인파악이 힘들었다.
