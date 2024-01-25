@@ -18,4 +18,3 @@ tags: ai
 ![00030-240125-132414-model_name -sampler -steps -cfg -seed](https://github.com/gunug/gunug.github.io/assets/52345276/63f0b466-7fbf-471a-954a-860a562d47c9)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/b1d5520c-c5e8-4ca1-b7d9-622366f41bc8)
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/faadd4d6-9df1-4dc3-933a-172eff73172d)
-![Uploading image.png…]()
