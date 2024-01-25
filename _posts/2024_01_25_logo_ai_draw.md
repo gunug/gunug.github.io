@@ -12,3 +12,7 @@ tags: ai
 ![00011-240125-124335-model_name -sampler -steps -cfg -seed](https://github.com/gunug/gunug.github.io/assets/52345276/cbff0338-83b1-46d4-a51b-a0605a744391)
 ![00015-240125-124641-model_name -sampler -steps -cfg -seed](https://github.com/gunug/gunug.github.io/assets/52345276/0ca6e7ee-e120-42b0-8db4-774713069b22)
 ![00019-240125-125022-model_name -sampler -steps -cfg -seed](https://github.com/gunug/gunug.github.io/assets/52345276/aca45080-bffc-4c25-978e-f1ce17910d65)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/b964be80-4013-4d4d-a775-d7f309c13799)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/c860e89f-e06f-4e73-9ad7-59988fbdd9ea)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/63852b27-9e53-49a2-99df-6819cf786f56)
+![00030-240125-132414-model_name -sampler -steps -cfg -seed](https://github.com/gunug/gunug.github.io/assets/52345276/63f0b466-7fbf-471a-954a-860a562d47c9)
