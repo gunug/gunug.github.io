@@ -27,6 +27,7 @@
 <div class="sidebar-item sidebar-nav">
 	<ul class="nav">
 		<li class="nav-title">Pages</li>
+		<div style="display: none;">
 		{% assign pages_list = site.pages %}
 		{% for node in pages_list %}
 			{% if node.title != null %}
@@ -39,7 +40,11 @@
 			{% endif %}
 			{% endif %}
 		{% endfor %}
-	  	<li>
+		</div>
+		<li>
+			<a class="nav-item" href="/category/#portfolio">Protfolio</a>
+		</li>
+		<li>
 			<a class="nav-item" href="/">Articles</a>
 		</li>
 	</ul>
