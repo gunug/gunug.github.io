@@ -46,3 +46,9 @@ __77_face_lora__, __77_face_lora__,  __77_face_lora__, highres, (simple backgrou
 Easynegative,  nsfw, Drawings, abstract art, cartoons, surrealist painting, conceptual drawing, graphics, low resolution, (blurry:1.3), (strabismus:1.1), (western:1.2), (full body:1.2),
 (worst quality:1.3), (low quality:1.3),  collage, (makeup:0.8), nsfw, bad proportions, floral print, loli, big eyes, (watermark:1.2), letter, (abs:1.2), (hand:1.7)
 ```
+
+---
+
+# 블러관련 프롬프트
+* bokeh, f1.8 / f8 / f16
+* --no, —no 로 네가티브 프롬프트 역할을 할 수 있나봄
