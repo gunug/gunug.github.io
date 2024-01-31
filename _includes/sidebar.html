@@ -1,8 +1,12 @@
 <div class="sidebar-item sidebar-header">
 	<div class='sidebar-brand'>
-		<a href="/about/">{{ site.title }}</a>
+		<!-- <a href="/about/">{{ site.title }}</a> -->
+		<a href="/about/">
+			<img width="160px" src="/public/img/black_logo_68.png" />
+			<a href="https://github.com/gunug/gunug.github.io/tree/main/_posts" target="_blank"><img width="15px" src="/public/img/Git-Icon-Black.png" /></a>
+		</a>
 	</div>
-	<p class="lead">{{ site.description }} <a href="https://github.com/gunug/gunug.github.io/tree/main/_posts" target="_blank"><img width="15px" src="/public/img/Git-Icon-Black.png" /></a> </p>
+	<!-- <p class="lead">{{ site.description }}  </p> -->
 	{%- if social.github -%}
 		<a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}">
 			<svg class="svg-icon grey">

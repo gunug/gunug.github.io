@@ -1,6 +1,6 @@
 ---
 layout: post
-title: business loadmap 사업 로드맵
+title: business roadmap 사업 로드맵
 category: business
 tags: 
 ---
