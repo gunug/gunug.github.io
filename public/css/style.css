@@ -106,7 +106,7 @@ code {
 	/*position: fixed;*/
 	display: flex;
 	flex-flow: column nowrap;
-	flex: 0 0 220px;
+	flex: 0 0 200px;
 	padding: 15px;
 	z-index: 1;
 	background-color: #222;
@@ -134,15 +134,15 @@ code {
 }
 
 .sidebar-header {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 .sidebar-nav {
-	margin-top: 20px;
+	margin-top: 0px;
 }
 
 .nav-title {
-	font-size: 100%;
+	font-size: 90%;
 	font-family: "Noto Sans";
 	text-transform: uppercase;
 	border-bottom: 1px solid gray;
@@ -150,7 +150,7 @@ code {
 }
 
 a.nav-item {
-	font-size: 120%;
+	font-size: 80%;
 	font-family: "Noto Sans";
 	text-transform: capitalize;
 	color: #aaa;
@@ -158,7 +158,7 @@ a.nav-item {
 
 a.nav-item:hover { color: #777; }
 
-.badge { font-size: 70%; }
+.badge { font-size: 50%; }
 .badge::before { content: "("; }
 .badge::after { content: ")"; }
 
@@ -167,7 +167,7 @@ a.nav-item:hover { color: #777; }
 
 .post-link {
 	margin-left: 10px;
-	font-size: 110%;
+	font-size: 90%;
 	color: #333;
 }
 
@@ -217,7 +217,7 @@ article {
 	padding: 0 5% 0;
 	font-size: 17px;
 	margin-bottom: 100px;
-	line-height: 1.9;
+	line-height: 1.5;
 }
 
 article.home div a, article.home pre a { color: #2c3e50; }
@@ -288,7 +288,7 @@ header.home {
 .post-date {
 	text-transform: uppercase;
 	color: #555;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	font-size: 0.8em;
 	display: inline-block;
 	width: 80px;
