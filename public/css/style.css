@@ -37,6 +37,9 @@
 	box-sizing: border-box;
 }
 
+#search_box{
+	width: 120px;
+}
 table{
 	border-collapse: collapse;
 	width: 100%;
@@ -106,7 +109,7 @@ code {
 	/*position: fixed;*/
 	display: flex;
 	flex-flow: column nowrap;
-	flex: 0 0 200px;
+	flex: 0 0 100px;
 	padding: 15px;
 	z-index: 1;
 	background-color: #222;

@@ -1,4 +1,5 @@
 {
+  "layout": "none",
   "name": "pygments-css",
   "version": "1.0.0",
   "description": "CSS stylesheets for pygments",
@@ -11,5 +12,7 @@
   "bugs": {
     "url": "https://github.com/richleland/pygments-css/issues"
   },
-  "homepage": "https://github.com/richleland/pygments-css#readme"
+  "homepage": "https://github.com/richleland/
+  
+  -css#readme"
 }
