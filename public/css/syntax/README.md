@@ -1,3 +1,7 @@
+---
+layout: none;
+---
+
 # pygments-css
 
 

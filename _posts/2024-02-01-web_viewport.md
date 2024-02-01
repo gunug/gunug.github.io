@@ -36,17 +36,17 @@ tags:
 * 위의 옵션 정의 후, 장비별 device-width로 페이지가 렌더링 된다.
 
 ## 속성값
-*user-scaleable=no : 유저가 핀치 투 줌으로 스케일링을 할 수 있는지의 여부
-*width : viewport의 가로 크기를 조정한다. 일반적인 숫자값이 들어갈 수도 있고, device-width와 같은 특정한 값을 사용할 수도 있다. device-width는 100% 스케일에서 CSS 픽셀들로 계산된 화면의 폭을 의미한다.
-*height : viewport의 세로 크기를 조정한다.
-*initial-scale : 페이지가 처음 로딩될 때 줌 레벨을 조정한다. 값이 1일때는 CSS 픽셀과 기기 종속적인 픽셀 간의 1:1 관계를 형성한다.
-*minimum-scale : viewport의 최소 배율값, 기본값은 0.25이다.
-*maximum-scale : viewport의 최대 배율값, 기본값은 1.6이다.
-*user-scalable : 사용자의 확대/축소 기능을 설정, 기본값은 yes이다.
+* user-scaleable=no : 유저가 핀치 투 줌으로 스케일링을 할 수 있는지의 여부
+* width : viewport의 가로 크기를 조정한다. 일반적인 숫자값이 들어갈 수도 있고, device-width와 같은 특정한 값을 사용할 수도 있다. device-width는 100% 스케일에서 CSS 픽셀들로 계산된 화면의 폭을 의미한다.
+* height : viewport의 세로 크기를 조정한다.
+* initial-scale : 페이지가 처음 로딩될 때 줌 레벨을 조정한다. 값이 1일때는 CSS 픽셀과 기기 종속적인 픽셀 간의 1:1 관계를 형성한다.
+* minimum-scale : viewport의 최소 배율값, 기본값은 0.25이다.
+* maximum-scale : viewport의 최대 배율값, 기본값은 1.6이다.
+* user-scalable : 사용자의 확대/축소 기능을 설정, 기본값은 yes이다.
 
 ## 받아올 수 있는 값
-device-width : 기기의 가로 넓이 픽셀 값 (웹페이지의 가로(width) 값은 기기가 사용하는 가로 넓이 값(device-width) 만큼 적용하여 사용하라는 의미)
-device-height : 기기의 세로 높이 픽셀 값
+* device-width : 기기의 가로 넓이 픽셀 값 (웹페이지의 가로(width) 값은 기기가 사용하는 가로 넓이 값(device-width) 만큼 적용하여 사용하라는 의미)
+* device-height : 기기의 세로 높이 픽셀 값
 
 ## 주의사항
 * contents보다 작은 viewport width/height를 설정하면 무시된다.
