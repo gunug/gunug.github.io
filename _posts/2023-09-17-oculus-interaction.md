@@ -2,7 +2,7 @@
 layout: post
 title: oculus interaction 오큘러스 인터렉션
 category: vr
-tags: c# unity oculus
+tags: c# unity3d oculus
 ---
 
 # oculus interaction 오큘러스 인터렉션

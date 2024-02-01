@@ -2,7 +2,7 @@
 layout: post
 title: 장수 말 역사 체험관
 category: portfolio
-tags: 
+tags: arduino flash
 ---
 
 # 장수 말 역사 체험관

@@ -2,7 +2,7 @@
 layout: post
 title: Oculus Install 오큘러스 설치 및 사용가이드
 category: work
-tags: vr
+tags: tutorial
 
 marp: true
 theme: a4

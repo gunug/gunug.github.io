@@ -1,8 +1,8 @@
 ---
 layout: post
 title: fish interaction 물고기 움직임
-category: work
-tags: 
+category: todo
+tags: interaction
 ---
 
 * https://www.youtube.com/watch?v=mBVarJm3Tgk

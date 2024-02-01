@@ -150,19 +150,23 @@ code {
 	flex-wrap: wrap;
 	width: 100%;
 }
-.sidebar-tag>ul>ul li{
+.sidebar-tag>ul>ul li, .post-tag{
 	background-color: #444;
 	border-radius: 2px;
 	padding: 0px 3px;
 	margin: 3px;
 }
-.sidebar-tag>ul>ul li .nav-item{
+.sidebar-tag>ul>ul li .nav-item, .post-tag{
 	font-size: 70%;
 	color: #aaa;
 }
 .sidebar-tag>ul>ul li a{
 	display: block;
 	margin-top: -1px;
+}
+.post-tag{
+	font-size: 65% !important;
+	opacity: 0.6;
 }
 
 .nav-title {

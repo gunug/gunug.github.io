@@ -2,7 +2,7 @@
 layout: post
 title: 무주 양수 홍보관
 category: portfolio
-tags: 
+tags: hardware arduino flash
 ---
 
 * 무주 양수 홍보관

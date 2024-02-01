@@ -7,7 +7,12 @@
 		<time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
 			{%- assign date_format = site.date_forma | default: "%Y/%m/%d" -%}
 			{{ page.date | date: date_format }}
-		</time>		
+		</time><br />
+		{% for tag in page.tags %}
+		<a class="nav-item post-tag" href="{{ root_url }}/{{ site.tag_dir }}#{{ tag }}">
+			<span class="name">{{ tag }}</span>
+		</a>
+		{% endfor %}
 	</header>
 
 	<div class="post-content">

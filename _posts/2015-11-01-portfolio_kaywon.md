@@ -2,7 +2,7 @@
 layout: post
 title: 계원 캡스톤 전시회
 category: portfolio
-tags: 
+tags: hardware arduino
 ---
 
 # 계원 캡스톤 전시회

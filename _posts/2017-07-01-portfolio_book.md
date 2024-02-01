@@ -2,7 +2,7 @@
 layout: post
 title: 경의선 책거리
 category: portfolio
-tags: 
+tags: php kiosk
 ---
 
 # 경의선 책거리

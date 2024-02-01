@@ -2,7 +2,7 @@
 layout: post
 title: 2023년 2학기 웹 퍼블리싱
 category: education
-tags: kaywon education
+tags: kaywon
 ---
 
 # 2023년 2학기 웹 퍼블리싱

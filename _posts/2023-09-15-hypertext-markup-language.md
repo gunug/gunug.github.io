@@ -2,7 +2,7 @@
 layout: post
 title: HTML (HyperText Markup Language)
 category: web
-tags: web
+tags:
 ---
 
 # HTML

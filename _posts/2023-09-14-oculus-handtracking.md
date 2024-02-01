@@ -2,7 +2,7 @@
 layout: post
 title: oculus hand tracking 오큘러스 핸드 트래킹
 category: vr
-tags: vr oculus
+tags: oculus
 ---
 * [공식문서](https://developer.oculus.com/documentation/unity/unity-isdk-hand-pose-detection/#shape-recognition)
 * [커스텀포즈 튜토리얼](https://immersive-insiders.com/blog/oculus-hand-interaction-pose-detection)

@@ -13,8 +13,13 @@
         <span class="post-date">{{ post.date | date: date_format }}</span>
       	<a class="post-link" href="{{ post.url | relative_url }}">
     	    {{ post.title | escape }}
-		</a>
+		    </a>
         {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
+        {% for tag in post.tags %}
+				<a class="nav-item post-tag" href="{{ root_url }}/{{ site.tag_dir }}#{{ tag }}">
+					<span class="name">{{ tag }}</span>
+				</a>
+				{% endfor %}
       </li>
       {%- endfor -%}
     </ul>

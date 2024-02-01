@@ -2,7 +2,7 @@
 layout: post
 title: html5 media tag 미디어 태그
 category: web
-tags: kaywon web
+tags: kaywon
 ---
 
 # html5 media tag 미디어 태그
