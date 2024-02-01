@@ -144,6 +144,27 @@ code {
 	margin-top: 0px;
 }
 
+.sidebar-tag>ul>ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.sidebar-tag>ul>ul li{
+	background-color: #444;
+	border-radius: 2px;
+	padding: 0px 3px;
+	margin: 3px;
+}
+.sidebar-tag>ul>ul li .nav-item{
+	font-size: 70%;
+	color: #aaa;
+}
+.sidebar-tag>ul>ul li a{
+	display: block;
+	margin-top: -1px;
+}
+
 .nav-title {
 	font-size: 90%;
 	font-family: "Noto Sans";

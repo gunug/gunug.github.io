@@ -70,17 +70,19 @@
 	</ul>
 </div>
 
-<div class="sidebar-item sidebar-nav">
+<div class="sidebar-item sidebar-nav sidebar-tag">
 	<ul class="nav">
 		<li class="nav-title">Tags</li>
+		<ul>
 		{% for tag in site.tags %}
 		<li>
 			<a class="nav-item" href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}">
 				<span class="name">{{ tag | first }}</span>
-				<span class="badge">{{ tag | last | size }}</span>
+				<!-- <span class="badge">{{ tag | last | size }}</span> -->
 			</a>
 		</li>
 		{% endfor %}
+		</ul>
 	</ul>
 </div>
 
