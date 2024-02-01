@@ -3,6 +3,7 @@ layout: post
 title: 경의선 책거리
 category: portfolio
 tags: php kiosk
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/d0a60d8f-5ddf-460b-8f10-5d5ddc96b8b2
 ---
 
 # 경의선 책거리

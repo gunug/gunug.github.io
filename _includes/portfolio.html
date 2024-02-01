@@ -1,0 +1,106 @@
+<article class="post">
+    <header class="post-header home">
+        <div class="post-title">Portfolio</div>
+        <style>
+            .post-card-list{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .post-card{
+                position: relative;
+                overflow: hidden;
+                border-radius: 10px;
+                border: 1px #ccc solid;
+                margin: 10px;
+                box-shadow: 1px 1px 3px #ccc;
+                background-color: black;
+            }
+            .post-card a, .post-card span{
+                color: white;
+            }
+            .post-card a{
+                margin: 0px;
+            }
+            .card-title{
+                text-shadow: 2px 2px 2px black;
+                font-weight: bold;
+            }
+            .card-top{
+                width: 330px;
+                height: 180px;
+            }
+            .card-bottom{
+                width: 100%;
+                background-color: rgba(0%,0%,0%,50%);
+                padding: 10px;
+                position: absolute;
+                bottom: 0px;
+            }
+            .post-tag{
+                margin: 2px;
+            }
+            .post-card .post-tag{
+                background-color: black;
+                opacity: 1;
+                margin: 2px;
+            }
+        </style>
+    </header>
+  
+    <div class="post-content">
+        {%- if site.posts.size > 0 -%}
+      <ul class="post-list post-card-list">
+        {%- for post in site.posts -%}
+        <li class="post-list-item post-category-{{post.categories}} post-card">
+            <!-- {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%} -->
+            <div class="card-top">
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    <img src="{{ post.teaser }}" />
+                </a>
+            </div>
+            {%- assign date_format = "%Y/%m/%d" -%}
+            <div class="card-bottom">
+                <div class="card-title">
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+                </div>
+                <span class="post-date">{{ post.date | date: date_format }}</span>
+                {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}            
+                {% for tag in post.tags %}
+                    <a class="nav-item post-tag" href="{{ root_url }}/{{ site.tag_dir }}#{{ tag }}">
+                        <span class="name">{{ tag }}</span>
+                    </a>
+                {% endfor %}
+            </div>
+        </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+    </div>
+</article>
+
+<script src="/public/js/jquery-3.4.1.slim.min.js"></script>
+<script>
+	function removeCategory() {
+        let hash = "portfolio";
+        $('#category-name').text(hash.substring(0, 1).toUpperCase() + hash.substring(1));
+        let category_class = '.post-category-' + hash;
+        let items = $('.post-list-item').each((i, e) => {
+            if (!$(e).hasClass('post-category-' + hash)) {
+                $(e).hide();
+            } else {
+                $(e).show();
+            }
+        });
+    }
+	$(window).on('hashchange', () => {
+		removeCategory();
+	});
+	$(document).ready(() => {
+		removeCategory();	
+	})
+</script>
+  

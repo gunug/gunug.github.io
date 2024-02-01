@@ -3,6 +3,7 @@ layout: post
 title: 계원 캡스톤 전시회
 category: portfolio
 tags: hardware arduino
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/aa680e2c-4caf-4fd6-8412-028c925f7977
 ---
 
 # 계원 캡스톤 전시회

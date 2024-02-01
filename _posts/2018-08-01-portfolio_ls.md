@@ -3,6 +3,7 @@ layout: post
 title: LS 산전
 category: portfolio
 tags: unity3d
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/00df1f0b-8638-48c5-9300-57d72ed6cd89
 ---
 
 # LS 산전

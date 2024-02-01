@@ -3,6 +3,7 @@ layout: post
 title: 장수 말 역사 체험관
 category: portfolio
 tags: arduino flash
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/e269280c-8f4a-40b9-ade0-15fca49bf850
 ---
 
 # 장수 말 역사 체험관

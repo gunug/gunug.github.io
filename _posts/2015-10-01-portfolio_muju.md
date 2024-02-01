@@ -3,6 +3,7 @@ layout: post
 title: 무주 양수 홍보관
 category: portfolio
 tags: hardware arduino flash
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/df8d482d-d52d-4354-8cf2-b7cb4f41abbb
 ---
 
 * 무주 양수 홍보관

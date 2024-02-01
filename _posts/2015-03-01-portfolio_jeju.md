@@ -2,7 +2,8 @@
 layout: post
 title: 제주 신재생 에너지 홍보관 유지보수
 category: portfolio
-tags: 
+tags:
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/985e431e-0fd8-4c7b-9cf9-081761857776
 ---
 
 # 제주 신재생 에너지 홍보관
