@@ -28,7 +28,7 @@
 <div class="sidebar-item sidebar-nav">
 	<ul class="nav">
 		<li class="nav-title">Pages</li>
-		<div style="display: none;">
+		<div style="display: block;">
 		{% assign pages_list = site.pages %}
 		{% for node in pages_list %}
 			{% if node.title != null %}
@@ -46,7 +46,7 @@
 			<a class="nav-item" href="/category/#portfolio">Portfolio</a>
 		</li>
 		<li>
-			<a class="nav-item" href="/">Articles</a>
+			<a class="nav-item" href="/articles/">Articles</a>
 		</li>
 		<li>
 			<a class="nav-item" href="https://github.com/gunug/gunug.github.io/tree/main/_posts" target="_blank">Github <img width="8px" src="/public/img/Git-Icon-Gray.png" /></a>
