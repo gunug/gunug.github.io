@@ -2,8 +2,8 @@
 layout: post
 title: 다자간 공간공유 VR
 category: portfolio
-tags:
-teaser: 
+tags: vr photon_pun2
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/8ec01734-7720-49bf-ace8-0fab45f9c456
 ---
 
 
