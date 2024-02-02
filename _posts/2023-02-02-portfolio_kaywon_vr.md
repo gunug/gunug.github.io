@@ -3,9 +3,8 @@ layout: post
 title: 다자간 공간공유 VR
 category: portfolio
 tags: vr photon_pun2
-teaser: https://github.com/gunug/gunug.github.io/assets/52345276/8ec01734-7720-49bf-ace8-0fab45f9c456
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/91488b83-da7e-4f28-8168-250dfc0765aa
 ---
-
 
 <iframe width="500" height="315" src="https://www.youtube.com/embed/6V3EaQfpBNw?si=TUk-_5e51zM7KZRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
