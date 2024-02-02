@@ -3,7 +3,7 @@ layout: post
 title: 실버 키즈 AR
 category: portfolio
 tags: unity3d ar
-teaser: https://github.com/gunug/gunug.github.io/assets/52345276/a29aacd0-d9ff-48cb-ace9-f27246edae24
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/ed0a7566-946d-4cd7-847b-41b4b7eb4ec4
 ---
 
 # 실버 키즈 AR
