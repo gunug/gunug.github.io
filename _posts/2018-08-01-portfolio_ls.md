@@ -3,8 +3,9 @@ layout: post
 title: LS 산전
 category: portfolio
 tags: unity3d
-teaser: https://github.com/gunug/gunug.github.io/assets/52345276/00df1f0b-8638-48c5-9300-57d72ed6cd89
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/a2c0727f-831d-4cb6-8cde-8df940347d5f
 ---
+
 
 # LS 산전
 * LS산전 공장 자동화 효율을 위한 안내 동영상 플레이어를 제작하였습니다.
