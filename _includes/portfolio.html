@@ -31,6 +31,13 @@
                 width: 330px;
                 height: 180px;
             }
+            .card-top img{
+                opacity: 0.0;
+                transition: opacity 1s;
+            }
+            .card-top .loaded{
+                opacity: 1.0;
+            }
             .card-bottom{
                 width: 100%;
                 background-color: rgba(0%,0%,0%,50%);
@@ -57,7 +64,7 @@
             <!-- {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%} -->
             <div class="card-top">
                 <a class="post-link" href="{{ post.url | relative_url }}">
-                    <img src="{{ post.teaser }}" />
+                    <img class="title_image" src="{{ post.teaser }}" />
                 </a>
             </div>
             {%- assign date_format = "%Y/%m/%d" -%}
@@ -102,5 +109,11 @@
 	$(document).ready(() => {
 		removeCategory();	
 	})
+    console.log($(".title_image"));
+    $(".title_image").each(function(index,item){
+        this.onload = function(){
+            this.classList.add('loaded');
+        }
+    });
 </script>
   

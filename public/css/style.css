@@ -151,7 +151,7 @@ code {
 	width: 100%;
 }
 .sidebar-tag>ul>ul li, .post-tag{
-	background-color: #444;
+	background-color: #111;
 	border-radius: 2px;
 	padding: 0px 3px;
 	margin: 3px;
@@ -166,7 +166,7 @@ code {
 }
 .post-tag{
 	font-size: 65% !important;
-	opacity: 0.6;
+	opacity: 0.8;
 }
 
 .nav-title {
