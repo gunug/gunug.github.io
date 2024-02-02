@@ -8,6 +8,8 @@ teaser: https://github.com/gunug/gunug.github.io/assets/52345276/91488b83-da7e-4
 
 <iframe width="500" height="315" src="https://www.youtube.com/embed/6V3EaQfpBNw?si=TUk-_5e51zM7KZRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<iframe width="500" height="315" src="https://www.youtube.com/embed/uZMxT6FqOSA?si=APLes7C5ItOfy5st" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/8ec01734-7720-49bf-ace8-0fab45f9c456){: width="500px" }
 
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/70492187-e5dd-4c9f-925f-260e36c3ad1f){: width="500px" }
