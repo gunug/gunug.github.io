@@ -3,7 +3,7 @@ layout: post
 title: 교육용 메타버스 개발 패키지
 category: portfolio
 tags: metaverse
-teaser: 
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/ad008e22-a794-4a39-88a7-59cb8f3baac4
 ---
 
 # 교육용 메타버스 개발 패키지
