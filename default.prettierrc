@@ -1,0 +1,6 @@
+{
+    "singleQuote": true, //큰따옴표 대신 작은 따옴표로
+    "semi":true, //세미콜론 항상 붙이기
+    "useTabs": false, //탭 대신 공백으로 들여쓰기
+    "tabWidth": 2 // 공백은 두 칸씩
+}

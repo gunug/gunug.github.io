@@ -98,3 +98,11 @@ zsh: command not found: brew
 $ echo 'export PATH=/opt/homebrew/bin:$PATH' >> ~/.zshrc
 $ source ~/.zshrc
 ```
+
+---
+
+# 각종에러
+
+* you don't have permissons to push to "name/name" on GitHub. Would you like to create a fork and push to it istead?
+* 저장소에 대한 권한이 없어서 포크하여 당겨올 것인지를 물어보는 경고창
+* github 관련 로그인을 새로 하면 해결될듯
