@@ -7,7 +7,10 @@ tags: arduino
 
 # arduino passive buzzer 아두이노 패시브 부져
 * 참고 : http://makeshare.org/bbs/board.php?bo_table=Wiki2&wr_id=18
-  
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/cf6262d1-6aa8-48ab-893f-3ea67f8765fa)
+
+
 ```c++
 int speakerPin = 5;
 
