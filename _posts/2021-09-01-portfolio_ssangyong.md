@@ -8,4 +8,4 @@ teaser: https://github.com/gunug/gunug.github.io/assets/52345276/1d48c634-509e-4
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oQxcdpB-4vc?si=nVgGrKguXjCfMn-H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/7d8687d2-1f2d-482f-b948-67a6c10df541)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/7d8687d2-1f2d-482f-b948-67a6c10df541){: width="500px" }
