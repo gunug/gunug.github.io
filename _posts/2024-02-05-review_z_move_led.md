@@ -89,7 +89,8 @@ tags: arduino
 * 10스텝 로터리 스위치 4개로 구별 가능
 * https://www.devicemart.co.kr/goods/view?no=12974
 * 1개당 vcc1핀 4개 핀을 사용하니까. 4*4 = 16개 핀으로 10000가지 변수 구별 가능
-[[파일:SDR10.jpg | 500px ]]
-[[파일:2진화10진 2진화16진.jpg | 500px]]
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/61b89dd0-ae6c-480d-85f8-4e0b8e99f57d)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/2ed281e6-dd5d-487a-b073-e8de5c1dbb4b)
+
 * 16개 핀 쉬프트 레지스터 1개당 8핀. 16 / 8 = 2개의 쉬프트 레지스터
 * array 저항 9pin 10KOhm : https://www.devicemart.co.kr/goods/view?no=1290
