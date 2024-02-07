@@ -21,6 +21,9 @@ tags: arduino
 * 피지컬 컴퓨팅에도 이러한 마이크로 컨트롤러와 싱글보드 컴퓨터가 사용되고 있다.
 * 아두이노, 라즈베리파이, 인텔 갈릴레오, 비글본, 라떼판다 등 누구나 쉽게 장치(센서, 액츄에이터)를 조작할 수 있게 해주는 보드
 
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/c6fbb328-c067-4683-82cb-b69d5cf3078b)
+
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K-3L8nXdGaw?si=xEPKK6I2puizowYH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
