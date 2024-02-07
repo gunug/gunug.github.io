@@ -6,7 +6,14 @@ tags:
 ---
 
 * <b style="color:red">연구과제 기록 - 정리되지 않음</b>
-  
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/8587b0c8-6f3b-428d-8d25-e0b09b16f0dc)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/2aca4422-9f71-42f9-8d2e-8b58bfc3f0dd)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/3956c5c5-6d5c-4137-87ba-81690acb710d)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/d713f9b0-59e6-4438-b2f2-16559c4924d5)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cFsGCYlbt-s?si=A5WVsRL9yD4wHegk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
  메타버스 
 * 메타버스는 ‘초월·가상’ 등을 뜻하는 메타(Meta)와 ‘우주’를 의미하는 유니버스(Universe)의 합성어다. 1992년 미국 SF작가 닐 스티븐슨(Neal Stephenson) 소설 ‘스노 크래시(Snow Crash)’에서 처음 등장한 개념으로, 현실세계를 확장한 3차원 가상세계를 일컫는다.
 
