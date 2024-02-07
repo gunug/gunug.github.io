@@ -2,7 +2,7 @@
 layout: post
 title: Vuforia 뷰포리아
 category: unity3d
-tags: unity ar
+tags: unity3d ar
 ---
 
 # Vuforia 뷰포리아
