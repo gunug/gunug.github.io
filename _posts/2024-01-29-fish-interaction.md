@@ -72,3 +72,4 @@ tags: interaction
 * 교육기관용 무료 라이선스 : https://unity.com/kr/products/unity-education-grant-license
 * Unity Educator : Unity Educator 플랜은 개별 교육자가 전문 도구를 사용하여 집, 학교 또는 기타 장소에서 무료로 Unity 프로젝트를 만들고, 가르치고, 공유할 수 있도록 하는 것입니다.
 * Educational License Grant : 교육용 라이선스 부여는 강의실이나 연구실 등 기관의 장치에 Unity를 설치해야 하는 기관을 위한 것입니다.
+* 교육기관명 : Kaywon University of Art & Design
