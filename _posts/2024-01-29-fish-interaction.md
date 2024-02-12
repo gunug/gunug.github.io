@@ -23,6 +23,8 @@ tags: interaction
 * https://www.youtube.com/shorts/-5sGxV0UQ5U
 * https://www.youtube.com/watch?v=bqtqltqcQhw
 * fish movement : <https://youtube.com/shorts/Eppz365zsnY?si=GZga6L0pjCh1LfkF>
+* fish movement : <https://youtube.com/shorts/Dp9EuTDq65A?si=PjpvjUPV49gH_psX>
+* fish movement : <https://youtube.com/shorts/3CwxbulBW08?si=fJ7sIvyiJT8ka8sG>
 
 
 * water HDRP : https://assetstore.unity.com/packages/tools/particles-effects/crest-water-system-hdrp-ocean-rivers-lakes-164158?aid=1101l9Bhe&utm_campaign=unity_affiliate&utm_medium=affiliate&utm_source=partnerize-linkmaker
