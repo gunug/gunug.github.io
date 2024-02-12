@@ -52,9 +52,10 @@ tags: interaction
 ---
 
 # assets
-* water : https://assetstore.unity.com/packages/tools/particles-effects/crest-water-system-hdrp-ocean-rivers-lakes-164158
-* object : https://assetstore.unity.com/packages/3d/vegetation/plants/corals-153595
-* fish ai : https://assetstore.unity.com/packages/tools/behavior-ai/ecs-swarms-225674
+* water : <https://assetstore.unity.com/packages/tools/particles-effects/crest-water-system-hdrp-ocean-rivers-lakes-164158>
+* object : <https://assetstore.unity.com/packages/3d/vegetation/plants/corals-153595>
+* fish ai : <https://assetstore.unity.com/packages/tools/behavior-ai/ecs-swarms-225674>
+* fish movement : <https://youtube.com/shorts/Eppz365zsnY?si=GZga6L0pjCh1LfkF>
 
 ---
 
@@ -75,3 +76,6 @@ tags: interaction
 * Unity Educator : Unity Educator 플랜은 개별 교육자가 전문 도구를 사용하여 집, 학교 또는 기타 장소에서 무료로 Unity 프로젝트를 만들고, 가르치고, 공유할 수 있도록 하는 것입니다.
 * Educational License Grant : 교육용 라이선스 부여는 강의실이나 연구실 등 기관의 장치에 Unity를 설치해야 하는 기관을 위한 것입니다.
 * 교육기관명 : Kaywon University of Art & Design
+
+---
+
