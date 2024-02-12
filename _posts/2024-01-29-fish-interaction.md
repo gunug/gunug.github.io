@@ -22,6 +22,7 @@ tags: interaction
 * https://youtube.com/shorts/Eppz365zsnY?si=vtW4MNSts1NNfkQ3
 * https://www.youtube.com/shorts/-5sGxV0UQ5U
 * https://www.youtube.com/watch?v=bqtqltqcQhw
+* fish movement : <https://youtube.com/shorts/Eppz365zsnY?si=GZga6L0pjCh1LfkF>
 
 
 * water HDRP : https://assetstore.unity.com/packages/tools/particles-effects/crest-water-system-hdrp-ocean-rivers-lakes-164158?aid=1101l9Bhe&utm_campaign=unity_affiliate&utm_medium=affiliate&utm_source=partnerize-linkmaker
@@ -55,7 +56,6 @@ tags: interaction
 * water : <https://assetstore.unity.com/packages/tools/particles-effects/crest-water-system-hdrp-ocean-rivers-lakes-164158>
 * object : <https://assetstore.unity.com/packages/3d/vegetation/plants/corals-153595>
 * fish ai : <https://assetstore.unity.com/packages/tools/behavior-ai/ecs-swarms-225674>
-* fish movement : <https://youtube.com/shorts/Eppz365zsnY?si=GZga6L0pjCh1LfkF>
 
 ---
 
