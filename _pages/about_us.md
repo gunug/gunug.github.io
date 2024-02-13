@@ -26,6 +26,7 @@ permalink: /about/
 ## 업무분야
 
 ### Content Programming
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/57d3e669-0699-44f3-9f68-ba27d60fdde0){:width="500px"}
 * VR, AR, 2D, 3D 콘텐츠를 제작합니다.
 * Unity3D를 이용한 데스크탑(Microsoft Windows) 어플리케이션을 제작합니다.
 * Unity3D를 이용한 안드로이드(android) 어플리케이션을 제작합니다.
@@ -36,7 +37,7 @@ permalink: /about/
 * 프로그래밍을 통하여 피지컬 컴퓨팅 환경을 설계/제작 합니다.
   
 ### Device remodeling
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/3068de69-c00b-405c-84ad-b643577181d0)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/3068de69-c00b-405c-84ad-b643577181d0){:width="500px"}
 * 기계장치를 개조하여 사용환경에 맞추어 드립니다.
   
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/df6e966a-7a0d-444f-ada3-f2d24236fd3f){:width="500px"}
