@@ -15,3 +15,10 @@ tags: unity3d
 
 * map magic2 bundle : <https://assetstore.unity.com/packages/tools/terrain/mapmagic-2-bundle-178682>
 * Object, Splines, Bimoes, Brush를 모두 통합한 합본
+
+---
+
+# surface shader lighting model 'LeafSSS_PrePass'is missing
+* LightingLeafSSS.cginc
+* LeafFunctions.cginc
+* 빌트인 셰이더 포함 파일
