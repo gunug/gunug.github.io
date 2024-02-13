@@ -27,3 +27,8 @@ tag:hdrp
 ---
 
 # The current HDRP asset does not support
+
+---
+
+# HDRP tree
+* <https://assetstore.unity.com/packages/essentials/tutorial-projects/book-of-the-dead-environment-hdrp-121175>
