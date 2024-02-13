@@ -1,8 +1,8 @@
 ---
-layout:post
-title:unity HDRP
-category:unity
-tag:hdrp
+layout: post
+title: unity HDRP
+category: unity
+tag: hdrp
 ---
 
 # unity HDRP
