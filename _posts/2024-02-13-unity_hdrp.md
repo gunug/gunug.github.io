@@ -18,5 +18,12 @@ tag:hdrp
 
 ---
 
-# 조명설정 전자책
+# 설정관련 전자책
 * <https://blog.unity.com/kr/engine-platform/updated-for-2021-lts-the-definitive-guide-to-lighting-in-the-high-definition-render>
+
+* Window > Rendering > HDRP Wizard 열기
+* Fix All을 클릭
+
+---
+
+# The current HDRP asset does not support
