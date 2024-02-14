@@ -1,5 +1,5 @@
 ---
-layout:none
+layout: none
 ---
 
 # pygments-css
