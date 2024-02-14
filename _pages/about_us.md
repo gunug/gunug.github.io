@@ -4,7 +4,7 @@ title: One The Lab
 permalink: /about/
 ---
 
-# One The Lab
+# One The Lab <a class="nav-item" href="https://github.com/gunug/gunug.github.io/blob/main/_pages/about_us.md" target="_blank"><img width="20px" src="/public/img/Git-Icon-Black.png" /></a>
 * interactive exhibition solution
 * 인터랙티브 전시 솔루션
 

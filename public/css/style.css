@@ -89,6 +89,9 @@ code {
 	font-family: "Menlo", "Consolas", monospace;
 	font-size: 0.8em;
 	margin: 0px;
+	background-color: black;
+	color: white;
+	padding: 3px;
 }
 
 .container {

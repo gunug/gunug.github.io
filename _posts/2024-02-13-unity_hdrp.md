@@ -1,7 +1,7 @@
 ---
 layout: post
 title: unity HDRP
-category: unity
+category: unity3d
 tag: hdrp
 ---
 
