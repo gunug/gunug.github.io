@@ -151,3 +151,20 @@ tags: Thesis
 * 경험적 학습 - 관찰, 반추, 일반화
 
 ---
+
+@ 2024-02-14
+
+# 온라인 콘서트 시청자의 공동 체험을 위한 가상 환경 디자인 연구 - 시청자의 몰입감과 향후 사용 의향을 중심으로 - 
+
+* instagram live, VLive, BeyondLive,
+* 현장 존재감(Place presence) - 집단 소속감, 현장 존재감, 공동의 경험
+* 소속감, 존재감 을 위한 방
+* 면대면 근접성(face-to-face proximity)
+* 사회적 실재감(social presence), 공현존감(co-presence)
+* 사용의향(Loyalty)
+
+# 연구분석
+* SPSS 이원분산분석 모델
+* 상관관계 분석
+* Pearson 상관계수
+* 유의미한 수준, 양의 상관관계
