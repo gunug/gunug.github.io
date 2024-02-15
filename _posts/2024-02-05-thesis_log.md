@@ -180,3 +180,12 @@ tags: Thesis
 * 디자인씽킹 프로세스 : 관찰, 협업, 빠른 학습, 아이디어 시각화, 프로토타입 개념, 혁신을 강조, 인간에 초점을 맞춘 혁신 프로세스
 * 공감, 귀납적 추론, 구성, 점진적 개선
 * 스텐포드 대학의 D-School 5단계 프레임 워크 : 공감(Empathize), 정의(Define), 관념화(Ideate), 프로토타입(Prototype), 테스트(Test)
+* 참신성, 실용성, 정교성, 작업기초능력, 갈등처리, 팀워크, 사고능력, 창의적 문제해결 능력, 의사소통능력, 대인관계 능력
+
+* 듣기(Hear), 창작(Create), 전달(Delivery)
+* 게이미피케이션은 비게임 분야(Non-Game Contexts)에 게임적 기법과 원리(Game-Design Element and Game Priciples)를 적용하고 활용하는 것을 의미한다.
+
+## 게이브 지커맨(Gabe Zichermann), 크리스토퍼 커닝햄(Christopher Cunningham) 게이미피케이션에 적용되는 흥미 유발요소
+* Point/Score, Level, Badge, Leader Board, Quest, Goal, Competition, Reward, Feedback
+* 집중도, 참여도, 창의성, 협업능력
+
