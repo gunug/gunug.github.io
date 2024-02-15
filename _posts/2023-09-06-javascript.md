@@ -90,3 +90,32 @@ function getQueryVariable(variable) {
       return(false);
 }
 ```
+
+---
+
+## div 레이어사이즈 변환
+```javascript
+/**
+ * lnb 레이어사이즈 변환
+ */
+function setGnbSize(h){
+        var container = document.getElementById("gnb");
+        container.style.height = h+"px";
+}
+
+function getFlashMovieObject(movieName){
+    if (window.document[movieName]) 
+    {
+        return window.document[movieName];
+    }
+    if (navigator.appName.indexOf("Microsoft Internet")==-1)
+    {
+        if (document.embeds && document.embeds[movieName])
+        return document.embeds[movieName]; 
+    }
+    else // if (navigator.appName.indexOf("Microsoft Internet")!=-1)
+    {
+        return document.getElementById(movieName);
+    }
+}
+```
