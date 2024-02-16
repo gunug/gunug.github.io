@@ -112,6 +112,9 @@
 	})
     console.log($(".title_image"));
     $(".title_image").each(function(index,item){
+        if(this.complete){
+            this.classList.add('loaded');
+        }
         this.onload = function(){
             this.classList.add('loaded');
         }
