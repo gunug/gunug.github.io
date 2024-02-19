@@ -119,3 +119,21 @@ function getFlashMovieObject(movieName){
     }
 }
 ```
+
+---
+
+## 구둣점
+
+```javascript
+function comma(oriData:String){
+ var resultData:String = "";
+ for(var i:int=-3; i>=-oriData.length; i-=3){
+  var dan:String = oriData.substr(i,3);
+  resultData = dan+resultData;
+  if(-oriData.length != i)resultData = ","+resultData;
+ }
+ resultData = oriData.substr(0,oriData.length%3)+resultData;
+ return resultData;
+} 
+//+
+```
