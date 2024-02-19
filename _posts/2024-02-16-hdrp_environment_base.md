@@ -31,7 +31,6 @@ tags:
 * cavity : 공동, 정상의 움푹 패인곳
   * convex : 볼록한
   * concave : 오목한
-
----
-
 * Scatter : 흩어지게하다
+
+* ![image](https://github.com/gunug/gunug.github.io/assets/52345276/f1cd89a9-0fd2-4233-980c-ecb69b3ab1d0)
