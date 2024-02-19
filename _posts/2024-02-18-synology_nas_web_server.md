@@ -31,6 +31,10 @@ tags:
 * 아이피를 이용하여 DSM에 접속하면 quick connect 설정을 변경 할수 있음. 네트워크 인터페이스 항목에서 IP:5000 확인
 * 참고 : DSM 4.3 이하에서는 웹 포털 서비스를 지원하지 않습니다.
 
+## 퀵커넥트 설정
+* <https://kb.synology.com/ko-kr/DSM/tutorial/Quick_Start_External_Access#x_anchor_id5>
+* 서비스 포트리스트 : <https://kb.synology.com/ko-kr/SRM/tutorial/What_network_ports_are_used_by_SRM_services>
+
 ---
 
 # 접속주소
@@ -52,9 +56,23 @@ tags:
 * 사용자 및 그룹 > 고급 > 사용자 홈 > 사용자 홈 서비스 활성화
 * 제어판 > 외부 액세스 > DDNS > 추가
 * 서비스 공급자 : synology 선택하면 synologe.me 주소 생김
-* 외부주소는 lan1 설정하면 됨
+* 외부주소는 lan1 설정하면 됨 - 사설 아이피 주소로 외부에서 접속 안되는 문제
 
 * Web service <http://onethelab.synology.me/>
 * phpMyAdmin <http://onethelab.synology.me/phpmyadmin/>
 
 ---
+
+# 라우터 브릿지 모드
+* 두 개 이상의 라우터가 네트워크에 있습니다. 모뎀/라우터를 브릿지 모드에 설정하는데 대해 인터넷 서비스 제공업체에 문의하거나...
+* <https://kb.synology.com/ko-kr/DSM/tutorial/two_or_more_routers_were_found>
+* cmd > traseroute 8.8.8.8 - 구글로 가는 홉을 테스트
+* NAT/라우터 관리 > 기타기능 설정 > 포트포워드 UPnP 릴레이 > 중단
+* DHCP 서버 중단을 설정하여 iptime 공유기를 인터넷 허브로 쓸수 있다.
+* 벽체 렌포트가 2개라서 일단 공유기를 제거하고 벽체로 테스트
+* UPnP를 지원하지 않는 라우터라 수동설치를 해야함
+
+---
+
+# 웹서버 구축하기
+* https://redmilk.co.kr/8294
