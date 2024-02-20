@@ -1,6 +1,7 @@
 ---
-layout: research
+layout: post
 title: aruino servo motor 아두이노 서보모터
+category: research
 tags: arduino servo
 teaser: https://github.com/gunug/gunug.github.io/assets/52345276/6f713d61-e4c9-4352-a210-7eb8f94b70d2
 ---
