@@ -76,3 +76,15 @@ tags:
 
 # 웹서버 구축하기
 * https://redmilk.co.kr/8294
+* 시놀로지 공식문서 : https://kb.synology.com/ko-kr/DSM/help/WebStation/application_webserv_virtualhost?version=7
+* 외부 억세스: https://kb.synology.com/ko-kr/DSM/tutorial/Quick_Start_External_Access
+
+# Quick Connect 지원
+* https://kb.synology.com/ko-kr/DSM/tutorial/Which_services_support_QuickConnect
+* 다음 서비스와 응용 프로그램은 QuickConnect를 지원 하지 않습니다.
+  * Synology 장치를 Windows 네트워크 드라이브 또는 Mac Finder에 매핑
+  * SMB, AFP, FTP, NFS 또는 WebDAV를 통해 Synology 장치의 파일에 액세스
+  * Synology NAS의 파일을 원격 Synology NAS에 백업
+  * VPN 클라이언트를 사용하여 Synology NAS에 연결 (VPN 서버로)
+  * iSCSI 클라이언트를 통해 Synology NAS의 iSCSI Target에 연결
+  * Web Station에서 구현 된 웹 서비스
