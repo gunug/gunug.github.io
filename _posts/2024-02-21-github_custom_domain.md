@@ -31,3 +31,12 @@ tags:
 ```
 
 * 이중 하나를 선택하여 입력하면 됨
+
+---
+
+# HTTPS 문제
+* https://docs.github.com/ko/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https
+* github.com > Repositorie > settings > Pages > Enforce HTTPS
+* 인증서를 프로비저닝 하는 중이라는 메세지 경우 15분 정도 이후에 HTTPS 활성화를 할수 있음
+* DNS설정할때 onethelab.com, www.onethelab.com을 모두 A로 설정하였더니 DNS설정 에러 메세지가 나옴
+* www은 CNAME으로 변경해야함
