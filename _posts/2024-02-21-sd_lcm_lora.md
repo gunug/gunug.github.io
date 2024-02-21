@@ -16,3 +16,8 @@ tags:
 * Sampler-name - lcm 으로 설정합니다.
 * Scheduler - 스케줄러도 sgm_uniform으로 설정해야 한답니다.
 
+---
+
+*  AnimateDiff 설치
+*  beddread : https://civitai.com/models/72437?modelVersionId=77169
+*  위 임베딩을 다운받아 ComfyUI\models\embeddings에 옮기기
