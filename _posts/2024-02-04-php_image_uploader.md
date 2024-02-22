@@ -20,6 +20,22 @@ tags: php simple-code
 
 ---
 
+## 극 간단 전송 PHP
+```php
+<?php
+    $name = $_POST['name'];
+    $image_name = $_FILES['image']['name']; //이미지 이름
+    $image_tmp = $_FILES['image']['tmp_name']; //임시 이미지가 저장되는 경로
+
+    $image_target = './original/'.$image_name;
+
+    move_uploaded_file( $image_tmp, $image_target);
+?>
+```
+* 파일 업로드 요청하면 tmp에 일단 저장되는데 그 파일을 move_upload_file함수를 이용하여 원하는 위치로 이동시키는 방식
+
+---
+
 ## 전송용 PHP 
 * image_uploader.php
   
@@ -141,3 +157,6 @@ header('location:'.$prevPage);
 * <b>위 내용은 도움 안됨</b>
 
 * 서버라고 하는 컴퓨터 기준으로 root를 잡아야하는데, 서비스하는 웹서버 루트에서 부터 폴더명을 입력하여. 폴더 경로가 잘못되어 나오는 오류
+
+## failed to open stream: Permission denied
+* ```sudo chmod -R 777 [변경할 파일이나 디렉토리]```
