@@ -1,6 +1,6 @@
 ---
 layout: post
-title: arduino unit3d serial 아두이노 유니티 시리얼통신
+title: arduino unit3d serial 시리얼통신
 category: research
 tags: arduino unity3d
 ---
