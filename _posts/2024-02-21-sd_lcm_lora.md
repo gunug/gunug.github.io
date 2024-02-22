@@ -18,6 +18,8 @@ tags:
 
 ---
 
-*  AnimateDiff 설치
+*  AnimateDiff evoled설치
+*  motion module : https://civitai.com/models/108836?modelVersionId=159987
+*  ComfyUI\custom_nodes\ComfyUI-AnimateDiff-Evolved\models
 *  beddread : https://civitai.com/models/72437?modelVersionId=77169
 *  위 임베딩을 다운받아 ComfyUI\models\embeddings에 옮기기
