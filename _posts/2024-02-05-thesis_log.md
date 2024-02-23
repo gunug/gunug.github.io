@@ -272,3 +272,18 @@ tags: Thesis
 ## 연구방식
 * 리플레이를 분석하여 리그를 예측하고 실제 리그와 일치여부를 확인
 * 결과방식의 MMR과 리플레이방식의 MMR의 오차가 적다면 리플레이만으로도 리그 배치가 될 수 있다는 논리
+
+* Artivicial Neural Networks(ANN)
+* Extra Trees(ET)
+* Gradient Boosting Models(GBM)
+* Generalized Linear Models(GLM)
+* Random Forest(RF)
+
+* 매개변수(hyperparameter)
+* 5겹 교차검증 (5-fold cross validation)
+* 여러 모델을 결합(stacking)하는 Super learner생성
+
+* MAPE(Mean Absolute Percentage Error)
+* MAE(Mean Absolute Error)
+
+* 인공지능이 예측한 결과를 사람이 이해할 수 있는 형태로 제시하는 XAI(eXplainable Artificial Intelligence) 대표적으로 LIME, SHAP
