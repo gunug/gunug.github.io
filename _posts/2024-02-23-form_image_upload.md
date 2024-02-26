@@ -16,8 +16,8 @@ tags: html javascript
         <title>one the lab image</title>
         <style>
             .upload-box{
-                width: 200px;
-                height: 200px;
+                min-width: 200px;
+                min-height: 200px;
                 border: solid 1px black;
             }
         </style>
@@ -27,7 +27,7 @@ tags: html javascript
         <h1>Image gallery</h1>
         <div class="upload-box">
             <img id="image_target" src="" />
-            <form id="form_target" enctype="multipart/form-data" action="제출 대상 주소" method="post">
+            <form id="form_target" enctype="multipart/form-data" action="http://image.onethelab.com/image_upload.php" method="post">
                 <label>select file, drag&drop, ctrl+v</label>
                 <input type="hidden" name="name" value="default" />
                 <input id="image_file" name="image" class="btn-file d-none" type="file" /> <!--파일 input box 형태-->
@@ -38,47 +38,31 @@ tags: html javascript
         <script>
             var uploadBox = document.querySelector('.upload-box');
 
-            /* 박스 안에 Drag를 하고 있을 때 */
-            uploadBox.addEventListener('dragover', function(e) {
-                e.preventDefault();
-                var vaild = e.dataTransfer.types.indexOf('Files') >= 0;
-                if(!vaild){
-                    this.style.backgroundColor = 'red';
-                }
-                else{
-                    this.style.backgroundColor = 'green';
-                }
-            });
-
-            /* 박스 밖으로 Drag가 나갈 때 */
-            uploadBox.addEventListener('dragleave', function(e) {
-                console.log('dragleave');
-                this.style.backgroundColor = 'white';
-            });
-
             /* 박스 안에서 Drag를 Drop했을 때 */
             uploadBox.addEventListener('drop', function(e) {
                 e.preventDefault();
+
                 const data = e.dataTransfer;
-                //유효성 Check
-                if(!isValid(data)) return;
+                if(!isValid(data)) return; //유효성 Check
+
                 document.querySelector('#image_file').files = data.files;
                 document.querySelector('#image_target').src = URL.createObjectURL(data.files[0]);
             });
 
-            let form_target = document.querySelector("#form_target");
             let image_target = document.querySelector('#image_file');
             image_target.addEventListener("change", dataUpdate);
             function dataUpdate(e){
-                alert("file selected");
+
+                const data = e.dataTransfer;
+                if(!isValid(image_target)) return; //유효성 Check
                 document.querySelector('#image_target').src = URL.createObjectURL(image_target.files[0]);
             }
 
             ////
             function isValid(data){
                 //파일인지 유효성 검사
-                if(data.types.indexOf('Files') < 0)
-                    return false;
+                if(!isNull(data.types) && data.types.indexOf('Files') < 0) {alert("exit1"); return false;}
+                
                 //이미지인지 유효성 검사
                 if(data.files[0].type.indexOf('image') < 0){
                     alert('이미지 파일만 업로드 가능합니다.'+data.files[0].type);
@@ -98,15 +82,16 @@ tags: html javascript
             }
             addEventListener("paste", onPaste);
             function onPaste(event) {
-                alert("붙여넣기");
                 if (event.clipboardData.files.length) {
                     let files = event.clipboardData.files;
+
                     document.querySelector('#image_file').files = files;
                     document.querySelector('#image_target').src = URL.createObjectURL(files[0]);
                 }
             }
+            function isNull(v) {
+                return (v === undefined || v === null) ? true : false;
+            }
         </script>
-    </body>
 </html>
-
 ```
