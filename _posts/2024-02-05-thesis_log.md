@@ -287,3 +287,18 @@ tags: Thesis
 * MAE(Mean Absolute Error)
 
 * 인공지능이 예측한 결과를 사람이 이해할 수 있는 형태로 제시하는 XAI(eXplainable Artificial Intelligence) 대표적으로 LIME, SHAP
+
+---
+
+@2024-02-26
+
+# 대화 공간의 크기와 대화 주제가 메타버스 경험에 주는 영향
+
+* 메타버스: 스티븐슨(Stephonson, 1993)의 소설 '스노우 크래쉬(snow crash)'에서 인용됨
+* 커뮤니케이션 양식, 경험, 실제처럼 느낄 수 있는 프레즌스(presence)
+* 연속선(Continum)
+* 확장된 현실세계 (virtually enhanced physical reality)
+* 지속하는 가상 공간 (physically presistent virtual space)
+* 미디어의 풍요성 이론 (Media Richness Theory)
+* 환경심리학(Environmental Psychology)
+* 밀도(density), 사생활(privacy), 친밀감(closeness), 솔직함(openness)
