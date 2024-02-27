@@ -317,3 +317,16 @@ tags: Thesis
 * 벤페로니(Bonferroni) 사후검정
 * 통계적으로 유의미하게 높았다, 통계적으로 유의미한 차이가 존재하기 않았다.
 * 반복 연구(replication study)
+
+---
+
+@2024-02-27
+
+# 모바일 게임 상호작용이 플레이어의 지속 사용 의도에 미치는 영향 - 왕자영요를 중심으로
+
+* 확장된 TAM모델, 구조방적식 모형, 실증 분석
+* 지각된 유용성, 사용 용이성, 즐거움, 지속 사용 의도
+* 지각된 향락성, 충동성, 상호작용성, 게임 조작의 난이도
+* MOBA(Multiplayer Online Battle Arena)
+
+* 기술 수용 모델 (TAM: Techmology Acceptance Model)
