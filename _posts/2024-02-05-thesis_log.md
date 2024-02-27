@@ -330,3 +330,21 @@ tags: Thesis
 * MOBA(Multiplayer Online Battle Arena)
 
 * 기술 수용 모델 (TAM: Techmology Acceptance Model)
+* 지각된 유용성 Perceived Usefulness
+* 지각된 사용 용이성 Perceived Ease of Use
+* 지각된 즐거움 Perceived Enjoyment
+* 지속사용의도 Continuous Use Intention
+
+## 연구방법
+* 5점 리커트 척도(Likert-type scale)
+* Partial Least Squares(PLS)는 SEM 측정 방법이다
+* 측정 척도, 샘플 크기, 잔차 분포에 대한 요구가 적다
+
+* 신뢰성 분석은 Composite Reliability(CR), Crombach's Alpha를 사용
+
+* AVE 범위는 0.567 ~ 0.885
+* 변별 타당성을 찾추려면 각 차원에 대한 AVE 제곱근이 차원 간의 상관 관계보다 커야 한다
+* 신뢰도, 수렴 타당도, 변별 타당도
+* 구조 방정식 모델링 기법
+* 구조 모형 경로 검증을 위해 부트스트랩 1000번의 리샘플링
+
