@@ -27,3 +27,33 @@ print "Hello, World!";
 
 # 만들어진 프로그램 실행하기 
 * ./hello_world.py
+
+---
+
+# 배열 
+리스트, 튜플, 세트, 딕셔너리
+## 리스트 
+* 합 : sum(list)
+* 평균 : sum(list)/len(list)
+* 최대값 : max(list)
+* 최소값 : min(list)
+* 정렬 : list.sort();
+
+## 세트 
+* a = set() #set
+* 중복 허용이 되지않는다.
+* 순서가 없다.
+* 집합처럼 활용이 된다.
+* 교집합 : &, intercection()
+* 합집합 : ```|```, union()
+* 차집합 : -
+* 대칭차집합 : ^
+
+## 딕셔너리 
+* a = {} #dic
+* dict = {"kor":10, "eng":20}
+* list(dict.keys())
+* list(dict.values())
+
+## map 
+* li = list(map(int,string_value.split))
