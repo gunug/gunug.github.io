@@ -3,7 +3,7 @@ layout: post
 title: absolute encoder
 category: research
 tags: arduino
-teaser: <https://github.com/gunug/gunug.github.io/assets/52345276/48530564-5225-457b-a48c-fd2338505157>
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/48530564-5225-457b-a48c-fd2338505157
 ---
 
 # absolute encoder
