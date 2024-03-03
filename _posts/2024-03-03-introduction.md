@@ -53,9 +53,9 @@ tags: kaywon
 
 # 아두이노 피지컬 컴퓨팅
 <img src="/file/gif/arduino_motor.gif" />
-<img src="/file/gif/arduino_segment.gif.gif" />
+<img src="/file/gif/arduino_segment.gif" />
 <img src="/file/gif/physical_rotator.gif" />
-<img src="/file/gif/physical_rotator_content1.gif.gif" />
+<img src="/file/gif/physical_rotator_content1.gif" />
 
 # 메타버스, 3D 콘텐츠(VR, AR)
 <img src="/file/gif/metaverse1.gif" />
@@ -64,5 +64,5 @@ tags: kaywon
 <img src="/file/gif/vr1.gif" />
 
 # XR Space
-<img src="/file/gif/xr_space1.gif.gif" />
-<img src="/file/gif/xr_space2.gif.gif" />
+<img src="/file/gif/xr_space1.gif" />
+<img src="/file/gif/xr_space2.gif" />
