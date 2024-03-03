@@ -3,6 +3,7 @@ layout: post
 title: 2023년 2학기 웹 퍼블리싱
 category: education
 tags: kaywon
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/44b69cba-7cd6-472a-af8a-cf1543eb166d
 ---
 
 # 2023년 2학기 웹 퍼블리싱
