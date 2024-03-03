@@ -51,9 +51,12 @@ teaser: https://github.com/gunug/gunug.github.io/assets/52345276/af5fb071-220a-4
 * KBEE 2013 런던 한류박람회
 * FIHAV 2014 쿠바 국제박람회
 * CES2020 SK 5G 전시관
-* cES2024 현대자동차 Space 전시관
 
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/f1d31209-44ab-4bd6-8a32-85edb99c04f8)
+
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/41bc8765-714e-42ff-b162-28e9999845e5)
+* CES2024 현대자동차 Space 전시관
 
 ---
 
