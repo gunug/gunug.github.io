@@ -3,6 +3,7 @@ layout: post
 title: introduction 교수소개
 category: education
 tags: kaywon
+teaser: 
 ---
 
 # introduction 교수소개
