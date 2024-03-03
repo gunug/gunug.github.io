@@ -3,6 +3,7 @@ layout: post
 title: Programming learn 프로그래밍 공부
 category: education
 tags: html javascript css c# coding
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/fccfe8dc-df9c-4eaf-8c6d-cfc9960b757e
 ---
 
 # 프로그래밍 공부
