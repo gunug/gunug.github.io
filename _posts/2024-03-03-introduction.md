@@ -7,7 +7,6 @@ tags: kaywon
 
 # introduction 교수소개
 
-* 이름 : 조건희
 * 계원예술대학교 겸임교수 (2015 ~ 현재)
 * 원더랩(one the lab) 개인사업 (2018 ~ 현재)
 
