@@ -3,6 +3,7 @@ layout: post
 title: 2023년 2학기 졸업작품 스튜디오
 category: education
 tags: kaywon
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/6cc2d60b-d57e-4d5a-b6ff-fe45a0b54240
 ---
 
 # 0주차
