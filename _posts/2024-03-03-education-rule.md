@@ -11,7 +11,8 @@ tags: subpage
 * 예전 한번 화장실 흡연 발생 이후로 화장실에 연기 경보기 설치됨
 * 음료/음식 : 컴퓨터 강의실내 음료/음식 반입을 불허하며(물 포함), 발견 시 해당 학생을 게시판에 게시한 후, 해당 컴퓨터실은 일정기간 동안 야간작업을 금지한다.
 * 실외(테라스) 흡연시 불씨에 의한 화재 주의
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/7e914868-dcd7-4aa1-8f69-a497bff32df6)
+  
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/7e914868-dcd7-4aa1-8f69-a497bff32df6){:width="1000px"}
 
 ---
 
@@ -65,7 +66,7 @@ tags: subpage
 ---
 
 ## 상대평가
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/b0f2200b-46e9-4de2-93d3-27300b2ed576)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/b0f2200b-46e9-4de2-93d3-27300b2ed576){:width="1000px"}
 * 모든 학생의 점수를 종합하여 1,2,3등급을 다시 배정
 * 수능의 등급컷과 비슷한 개념
 
