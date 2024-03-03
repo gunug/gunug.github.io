@@ -85,7 +85,8 @@ gpgcheck=1
 gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
 ```
 * vi에디터에 글씨 복붙이 어려워 다음의 주소에 파일을 생성함 https://onethelab.com/file/repo/daum.repo
-* ```$sudo wget "https://onethelab.com/file/repo/daum.repo"```으로 현재폴더에 파일을 다운
+* ```$sudo wget "https://onethelab.com/file/repo/daum.repo"```으로 현재폴더에 파일을 다운 - 동작하지 않음 (서버를 내렸나, 오래된 자료라 경로가 바뀌었나)
+* ```$sudo wget "https://onethelab.com/file/repo/CentOS-Bace.repo"```으로 현재폴더에 파일을 다운
 * 위치는 etc/yum/repo.d/
 * ```yum upgrade```
 
