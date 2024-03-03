@@ -3,7 +3,7 @@ layout: post
 title: introduction 교수소개
 category: education
 tags: kaywon
-teaser: 
+teaser: https://github.com/gunug/gunug.github.io/assets/52345276/af5fb071-220a-408e-9f95-7241e39ad0ab
 ---
 
 # introduction 교수소개
