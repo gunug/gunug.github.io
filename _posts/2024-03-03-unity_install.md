@@ -8,7 +8,7 @@ tags: unity3d
 # Unity install 유니티 설치
 
 ## 다운로드
-- 유니티 사이트<https://unity.com> 에 접속 합니다.
+- 유니티 사이트<https://unity.com>{:target="_blank"} 에 접속 합니다.
 - 다운로드(Download Unity) 클릭
 - 윈도우즈용 다운로드(Download for Windows) 클릭 (Mac의 경우는 Download for Mac)
 
