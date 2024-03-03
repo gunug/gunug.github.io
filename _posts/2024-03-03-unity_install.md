@@ -27,7 +27,8 @@ tags: unity3d
 ---
 
 ## 설치가 안될때
-- 에디터 설치 / 아카이브 / 장기 지원
+- 설치 탭 / 에디터 설치 / 아카이브 / 장기 지원
+- installs / install editor / Archive / Long-Term Support
 
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/1a3b1210-b242-4e71-918f-0d7075f61e7c)
 
