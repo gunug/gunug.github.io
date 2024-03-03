@@ -68,6 +68,6 @@ teaser: https://github.com/gunug/gunug.github.io/assets/52345276/af5fb071-220a-4
 <img src="/file/gif/tracking.gif" />
 <img src="/file/gif/vr1.gif" />
 
-# XR Space
+# XR Studio
 <img src="/file/gif/xr_space1.gif" />
 <img src="/file/gif/xr_space2.gif" />
