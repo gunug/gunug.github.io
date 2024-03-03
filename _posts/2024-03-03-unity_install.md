@@ -43,7 +43,7 @@ tags: unity3d
 
 - 설치 도중 표시되는 설치경로 (Destination Folder) 주소를 잘 알아둘것. 필요시 메모하세요.
 
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/bad86241-ed88-4ea4-9f7d-ac74a599ae10)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/bad86241-ed88-4ea4-9f7d-ac74a599ae10){:width="500px"}
 
 - installs / locate 선택
 - 파일탐색기에서 UnityEditor가 설치된 위치로 이동
