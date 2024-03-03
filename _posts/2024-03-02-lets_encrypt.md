@@ -3,7 +3,6 @@ layout: post
 title: Let's Encrypt HTTPS를 위한 인증서 발급, 갱신
 category: web
 tags: encrypt
-
 ---
 
 # Let's Encrypt HTTPS를 위한 인증서 발급, 갱신
@@ -53,15 +52,52 @@ tags: encrypt
 ## Certbot 설치 및 인증서 생성
 ### yum 설치가 처음일때
 * yum이 설치되어 있지 않을 경우 선행
-* [참고사이트](https://lieadaon.tistory.com/entry/Linux-yum-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9-%EC%8B%9C-%EB%9C%A8%EB%8A%94-repolist-all-repolist-0-there-are-no-enabled-repos-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0)
+* [참고사이트](https://m.blog.naver.com/keepbang/221771186484)
 * ```apt install yum``` yum 설치
 * ```yum repolist all``` yum 저장소 목록 표시 : 여기서 0이라면 다음을 수행
+
+```c++
+[base]
+name=CentOS-$releasever - Base
+baseurl=http://ftp.daum.net/centos/7/os/$basearch/
+gpgcheck=1
+gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
+
+[updates]
+name=CentOS-$releasever - Updates
+baseurl=http://ftp.daum.net/centos/7/updates/$basearch/
+gpgcheck=1
+gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
+
+[extras]
+name=CentOS-$releasever - Extras
+baseurl=http://ftp.daum.net/centos/7/extras/$basearch/
+gpgcheck=1
+gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
+
+[centosplus]
+name=CentOS-$releasever - Plus
+baseurl=http://ftp.daum.net/centos/7/centosplus/$basearch/
+gpgcheck=1
+gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
+```
+* 위 내용을 https://onethelab.com/file/repo/daum.repo에 업로드 하였음
+* ```wget "https://onethelab.com/file/repo/daum.repo"```로 다운받기 (위치는 etc/yum/repo.d/)
+* ```yum upgrade```
+
+### 효과가 있는지 모르지만 시도했던 것들
 * ```apt install yum-utils```
 * ```yum-config-manager --enable epel-release```
-* ```sudo yum inatall epel-release```
+
 
 ### let's encrypt 설치
-* ```yum install letencrypt -y```
+* 참고링크 : <https://blog.jiniworld.me/137>
+#### epel-release 설치
+* ```yum inatall epel-release```
+* ```yum repolist```
+#### certbot 설치
+* ```yum install certbot python2-certbot-apache```
+* ```certbot --apache -d 도메인이름```
 ## HTTPS 443 port 방화벽 해제
 ## 인증서 자동갱신 설정
 
