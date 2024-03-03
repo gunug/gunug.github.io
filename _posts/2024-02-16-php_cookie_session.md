@@ -74,6 +74,14 @@ echo "귀하는 이 페이지를 ".$_SESSION["cnt"]."번째 새로고침 하였�
 ?>
 ```
 
+## 세션의 폐기
+```php
+<?php 
+unset($_SESSION['id']); //특정 변수의 폐기
+session_destroy(); //세션변수 전체의 폐기
+?>
+```
+
 ## 세션의 특이 사항
 ```php
 <?php
@@ -83,6 +91,14 @@ $_SESSION['passtype']; //세션변수 접근
 $_SESSION['passtype']=10; //세션변수 입력
 echo $_SESSION['passtype']; //세션변수 출력
 ?>
+```
+
+```php
+    if(!isset($_SESSION)) 
+    { 
+        session_start(); // 세션변수 사용하기 시작
+    }
+	// 세션시작 중복 방지
 ```
 
 * 세션변수란 동일 브라우저내에서 계속 이어쓰는 변수이다.

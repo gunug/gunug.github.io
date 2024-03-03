@@ -27,3 +27,33 @@ function onPaste(event) {
     }
 }
 ```
+
+---
+
+* 출처: https://min9nim.github.io/2019/10/access-clipboard/
+  
+# 클립보드에 데이터 쓰기(execCommand 이용)
+```javascript
+function copyToClipboard(val) {
+  let t = document.createElement('textarea');
+  document.body.appendChild(t);
+  t.value = val;
+  t.select();
+  document.execCommand('copy');
+  document.body.removeChild(t);
+}
+```
+
+# 클립보드 데이터 읽기(execCommand 이용)
+```javascript
+<textarea id="output"></textarea>
+<button id="paste">Paste</button>
+function paste() {
+  var pasteText = document.querySelector("#output");
+  pasteText.focus();
+  document.execCommand("paste");
+  console.log(pasteText.textContent);
+}
+
+document.querySelector("#paste").addEventListener("click", paste);
+```

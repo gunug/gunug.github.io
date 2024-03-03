@@ -1,0 +1,23 @@
+[base]
+name=CentOS-<span class="hljs-variable">$releasever</span> - Base
+baseurl=http://ftp.daum.net/centos/7/os/<span class="hljs-variable">$basearch</span>/
+gpgcheck=1
+gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
+
+[updates]
+name=CentOS-<span class="hljs-variable">$releasever</span> - Updates
+baseurl=http://ftp.daum.net/centos/7/updates/<span class="hljs-variable">$basearch</span>/
+gpgcheck=1
+gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
+
+[extras]
+name=CentOS-<span class="hljs-variable">$releasever</span> - Extras
+baseurl=http://ftp.daum.net/centos/7/extras/<span class="hljs-variable">$basearch</span>/
+gpgcheck=1
+gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
+
+[centosplus]
+name=CentOS-<span class="hljs-variable">$releasever</span> - Plus
+baseurl=http://ftp.daum.net/centos/7/centosplus/<span class="hljs-variable">$basearch</span>/
+gpgcheck=1
+gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
