@@ -41,4 +41,4 @@ tags: unity3d
 
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/82a1076f-22c6-47b2-acdb-b4bef500d14f){:width="500px"}
 
-- 설치 도충 표시되는 설치경로 (Destination Folder) 주소를 잘 알아둘것. 필요시 메모하세요.
+- 설치 도중 표시되는 설치경로 (Destination Folder) 주소를 잘 알아둘것. 필요시 메모하세요.
