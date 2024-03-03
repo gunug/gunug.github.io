@@ -58,7 +58,8 @@ tags: encrypt
 * ```yum repolist all``` yum 저장소 목록 표시 : 여기서 0이라면 다음을 수행
 * ```cd etc/yum/```으로 이동 repos.d 디렉토리가 있는지 확인하고 있다면 ```cd repos.d```
 * ```vi daum.repo``` 새 repo문서 생성 다음의 내용을 복붙
-```
+
+```xml
 [base]
 name=CentOS-<span class="hljs-variable">$releasever</span> - Base
 baseurl=http://ftp.daum.net/centos/7/os/<span class="hljs-variable">$basearch</span>/
@@ -83,8 +84,13 @@ baseurl=http://ftp.daum.net/centos/7/centosplus/<span class="hljs-variable">$bas
 gpgcheck=1
 gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
 ```
-* ```yum install letencrypt -y```
+* vi에디터에 글씨 복붙이 어려워 다음의 주소에 파일을 생성함 https://onethelab.com/file/repo/daum.repo
+* ```$sudo wget "https://onethelab.com/file/repo/daum.repo"```으로 현재폴더에 파일을 다운
+* 위치는 etc/yum/repo.d/
 * ```yum upgrade```
+
+### let's encrypt 설치
+* ```yum install letencrypt -y```
 ## HTTPS 443 port 방화벽 해제
 ## 인증서 자동갱신 설정
 
