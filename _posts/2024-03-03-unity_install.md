@@ -32,7 +32,7 @@ tags: unity3d
 
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/1a3b1210-b242-4e71-918f-0d7075f61e7c){:width="1000px"}
 
-- 장기지원 웹사이트에서 릴리스를 다운로드 받아서 설치
+- 장기지원(long-term support)웹사이트에서 릴리스를 다운로드 받아서 설치
 
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/e198cb1a-e2ae-4e57-89e9-f8fd6becf8bd){:width="1000px"}
 
