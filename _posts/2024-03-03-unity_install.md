@@ -11,7 +11,7 @@ tags: unity3d
 - 유니티 사이트<https://unity.com>{:target="_blank"} 에 접속 합니다.
 - 다운로드(Download Unity) 클릭
 - 윈도우즈용 다운로드(Download for Windows) 클릭 (Mac의 경우는 Download for Mac)
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/b7a865e1-c873-4f85-97c0-efb31f2ab427)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/b7a865e1-c873-4f85-97c0-efb31f2ab427){:width="500px"}
 
 ---
 
@@ -30,10 +30,15 @@ tags: unity3d
 - 설치 탭 / 에디터 설치 / 아카이브 / 장기 지원
 - installs / install editor / Archive / Long-Term Support
 
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/1a3b1210-b242-4e71-918f-0d7075f61e7c)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/1a3b1210-b242-4e71-918f-0d7075f61e7c){:width="500px"}
 
 - 장기지원 웹사이트에서 릴리스를 다운로드 받아서 설치
 
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/e198cb1a-e2ae-4e57-89e9-f8fd6becf8bd)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/e198cb1a-e2ae-4e57-89e9-f8fd6becf8bd){:width="500px"}
 
 - LTS 중 최신버전을 다운 받습니다. (사진속 2022.3.20f1을 맞출 필요가 없습니다)
+- 다운로드가 완료되면 설치과정을 진행합니다.
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/82a1076f-22c6-47b2-acdb-b4bef500d14f){:width="500px"}
+
+- 설치 도충 표시되는 설치경로 (Destination Folder) 주소를 잘 알아둘것. 필요시 메모하세요.
