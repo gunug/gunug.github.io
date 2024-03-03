@@ -7,6 +7,8 @@ tags: unity3d
 
 # Unity license 유니티 라이센스 취득
 * 유니티 사용이 처음이라면 라이센스 취득 팝업창이 나옵니다.
+* 라이센스 취득과정에서 unity3d 회원가입, 로그인을 요청합니다
+* 되도록 google 로그인을 이용하여 로그인 할 수 있도록합니다. (아이디 패스워드 분실 방지)
   
 ![image](https://github.com/gunug/gunug.github.io/assets/52345276/c15519c5-b30c-4b77-81b3-23fe6b5fc85e)
 * Manage Licenses 클릭
