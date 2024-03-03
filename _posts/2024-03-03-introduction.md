@@ -1,7 +1,7 @@
 ---
 layout: post
 title: introduction 교수소개
-category: Education
+category: education
 tags: kaywon
 ---
 

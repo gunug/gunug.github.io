@@ -1,7 +1,7 @@
 ---
 layout: post
 title: education 교수법
-category: education
+category: etc
 tags: word
 ---
 
