@@ -85,3 +85,5 @@ update-grub
 
 ## Kernel panic - not syncing: Attempted to kill init!
 * https://mapoo.net/os/oslinux/kernel-panic-not-syncing-attempted-to-kill-init/
+
+* 읽어봄직한 자료 : https://velog.io/@markyang92/boot-loader-grub
