@@ -56,39 +56,9 @@ tags: encrypt
 * [참고사이트](https://lieadaon.tistory.com/entry/Linux-yum-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9-%EC%8B%9C-%EB%9C%A8%EB%8A%94-repolist-all-repolist-0-there-are-no-enabled-repos-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0)
 * ```apt install yum``` yum 설치
 * ```yum repolist all``` yum 저장소 목록 표시 : 여기서 0이라면 다음을 수행
-* ```cd etc/yum/```으로 이동 repos.d 디렉토리가 있는지 확인하고 있다면 ```cd repos.d```
-* ```vi daum.repo``` 새 repo문서 생성 다음의 내용을 복붙
-
-```xml
-[base]
-name=CentOS-<span class="hljs-variable">$releasever</span> - Base
-baseurl=http://ftp.daum.net/centos/7/os/<span class="hljs-variable">$basearch</span>/
-gpgcheck=1
-gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
-
-[updates]
-name=CentOS-<span class="hljs-variable">$releasever</span> - Updates
-baseurl=http://ftp.daum.net/centos/7/updates/<span class="hljs-variable">$basearch</span>/
-gpgcheck=1
-gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
-
-[extras]
-name=CentOS-<span class="hljs-variable">$releasever</span> - Extras
-baseurl=http://ftp.daum.net/centos/7/extras/<span class="hljs-variable">$basearch</span>/
-gpgcheck=1
-gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
-
-[centosplus]
-name=CentOS-<span class="hljs-variable">$releasever</span> - Plus
-baseurl=http://ftp.daum.net/centos/7/centosplus/<span class="hljs-variable">$basearch</span>/
-gpgcheck=1
-gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
-```
-* vi에디터에 글씨 복붙이 어려워 다음의 주소에 파일을 생성함 https://onethelab.com/file/repo/daum.repo
-* ```$sudo wget "https://onethelab.com/file/repo/daum.repo"```으로 현재폴더에 파일을 다운 - 동작하지 않음 (서버를 내렸나, 오래된 자료라 경로가 바뀌었나)
-* ```$sudo wget "https://onethelab.com/file/repo/CentOS-Bace.repo"```으로 현재폴더에 파일을 다운
-* 위치는 etc/yum/repo.d/
-* ```yum upgrade```
+* ```apt install yum-utils```
+* ```yum-config-manager --enable epel-release```
+* ```sudo yum inatall epel-release```
 
 ### let's encrypt 설치
 * ```yum install letencrypt -y```
