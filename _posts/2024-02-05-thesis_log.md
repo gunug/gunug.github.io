@@ -382,3 +382,15 @@ tags: Thesis
 * 다중공선성 문제를 살피는 VIF값
 * 자기상관성 문제를 살피는 Durbin-Watson값
 * 전진 선택법(forward selection) : 유효(유의)한 값이 가장 많이 나타나는 요소를 기준으로 결정
+
+@2024-03-04
+
+# 게이미피케이션을 이용한 사회적기업 사례: 트리플래닛
+
+* 재무성과 지표 - 영리성 성과 판단
+* 한국경제연구원(KERI)
+* 게이미피케이션을 활용한 그리니파이(greenify)
+* 친환경화(greeneration)
+* 매출액(sales)
+* 당기순이익(net income)
+* 당기순익률(net profit margin)
