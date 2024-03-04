@@ -100,26 +100,26 @@ update-grub
 
 1. 전원 ON
 1. BIOS 프로그램 실행
-  1. CPU, MEMORY, VGA 같은 하드웨어에 대한 진단 테스트(POST) - 이상 발생시 비프 음을 내며 멈춤
-  2. POST(Power On Self Test)과정이 이상없이 수행되면 부트디바이스의 MBR(하드 디스크의 첫 섹터,크기는 512 byte)에서 부트로더를 로딩
+  - CPU, MEMORY, VGA 같은 하드웨어에 대한 진단 테스트(POST) - 이상 발생시 비프 음을 내며 멈춤
+  - POST(Power On Self Test)과정이 이상없이 수행되면 부트디바이스의 MBR(하드 디스크의 첫 섹터,크기는 512 byte)에서 부트로더를 로딩
 1. 부트로더가 실행되면 레드햇계열에서는 보통 다음과 같은 메시지가 출력되며 GRUB(GRUB이 부트로더이다)이 실행됨
 1. GRUB은 커널이미지를 메모리에 로드
 1. Booting Red Hat Enterprise Linux Server (2.6.18-8.el5) in 5 seconds…
 1. 커널에 의한 초기화
 1. 드라이버의 적재 (이 과정은 dmesg명령이나 /var/log/dmesg 파일에서 다음의 내용 확인가능)
-  1. 커널버전 표시
-  2. 램 용량 표시
-  3. CPU관련 정보 표시
-  4. SELinux 상태 표시
-  5. Kernel command line 명령 확인
-  6. 램디스크 할당 (initramfs)
-  7. 하드드라이브와 파티션 확인
-  8. 네트워크 카드 확인
-  9. 파일시스템 활성화
-  10. 스왑 활성화
-5. 커널과 드라이버가 로드된 다음에는 /sbin/init 프로세스가 부팅 과정을 마무리
-  1. /sbin/init à /etc/inittab
-  2. /etc/rc.d/rc.sysinit
-  3. 각 런 레벨 서비스 스크립트
-  4. /etc/rc.local
-  5. 로그인 프롬프트
+  - 커널버전 표시
+  - 램 용량 표시
+  - CPU관련 정보 표시
+  - SELinux 상태 표시
+  - Kernel command line 명령 확인
+  - 램디스크 할당 (initramfs)
+  - 하드드라이브와 파티션 확인
+  - 네트워크 카드 확인
+  - 파일시스템 활성화
+  - 스왑 활성화
+1. 커널과 드라이버가 로드된 다음에는 /sbin/init 프로세스가 부팅 과정을 마무리
+  - /sbin/init à /etc/inittab
+  - /etc/rc.d/rc.sysinit
+  - 각 런 레벨 서비스 스크립트
+  - /etc/rc.local
+  - 로그인 프롬프트
