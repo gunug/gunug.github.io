@@ -30,7 +30,7 @@ void loop() {
 * ```Tools > Manage Libraries....```
 * Search for “Simple FOC” library and install the [latest version .](https://github.com/simplefoc/Arduino-FOC/releases)
 
-```
+```c++
 #include <SimpleFOC.h>
 void setup() {
   Serial.begin(9600);
@@ -53,7 +53,7 @@ void loop() {
   
   delay(10);
 }
-```
+```c++
 ![image](https://user-images.githubusercontent.com/52345276/212004959-19a807da-a7ec-4706-9ea6-632dd988984e.png)
 * Tf = 0.01;
 ![image](https://user-images.githubusercontent.com/52345276/212005199-ed929f18-8744-4625-9b7d-3a94cd18f571.png)
@@ -64,12 +64,12 @@ void loop() {
 * * ```Tools > Manage Libraries....```
 * Search for “Kalman Filter Library” library and install the [latest version .]
 * "SimpleKalmanFilter" : https://github.com/denyssene/SimpleKalmanFilter
-```
+```c++
   double dt = (double)(micros() - timer) / 1000000; // Calculate delta time
   timer = micros();
 ```
 
-```
+```c++
 #include <SimpleKalmanFilter.h>
 void setup() {
   Serial.begin(9600);
