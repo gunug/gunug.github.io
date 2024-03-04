@@ -23,7 +23,8 @@ void loop() {
   delay(10);
 }
 ```
-![image](https://user-images.githubusercontent.com/52345276/212002391-eef748e8-5dd0-4e0f-9c62-d54dc9f9ee30.png)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/621a9896-fc8a-4757-aa4d-4bdd1e04a0d5)
+
 
 # SimpleFOC
 * 출처 : https://docs.simplefoc.com/library_download
@@ -54,9 +55,11 @@ void loop() {
   delay(10);
 }
 ```c++
-![image](https://user-images.githubusercontent.com/52345276/212004959-19a807da-a7ec-4706-9ea6-632dd988984e.png)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/f7c5e542-b694-49f3-89f8-062f6da19155)
+
 * Tf = 0.01;
-![image](https://user-images.githubusercontent.com/52345276/212005199-ed929f18-8744-4625-9b7d-3a94cd18f571.png)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/a9df399e-b4f0-4a0c-aff3-7d0da4504e7d)
+
 * Tf = 0.03;
 
 # Kalman Filter Library
@@ -100,15 +103,20 @@ void loop() {
 }
 ```
 * 녹색이 칼만필터
-![image](https://user-images.githubusercontent.com/52345276/212594872-5be592ef-3eb1-4a7d-9e09-58f1e74e3666.png)
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/960146dd-e960-4c8d-b530-b83ca8a7ee9b)
+
 * q = 0.01;
-![image](https://user-images.githubusercontent.com/52345276/212594994-c2d94c80-b670-4a20-bd54-68a592306a07.png)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/c75a882e-37c1-4d82-a33c-754e7c54789e)
+
 * q = 0.1;
 # 실적용 예시
 * 파랑 로우데이터, 빨강 로우패스필터, 녹색 칼만필터
-![image](https://user-images.githubusercontent.com/52345276/212599480-c9c455be-57b2-456c-89e6-cfddea8f8cc8.png)
-![image](https://user-images.githubusercontent.com/52345276/212599776-132838f8-0886-4f28-97bb-2a3dc234eadc.png)
-![image](https://user-images.githubusercontent.com/52345276/212599877-18f04a44-62e9-47e7-bfcc-972d5a47a634.png)
+
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/41597684-aab7-4649-91b7-7868be1e696f)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/e7143160-ce48-4b30-a3d8-38c2d624ead3)
+![image](https://github.com/gunug/gunug.github.io/assets/52345276/1107a11d-d072-4b40-85cf-928e0752601c)
+
 * filter.Tf = 0.1;
 * float q = 0.01;
 * 확실히 칼만필터쪽이 반응이 빠르고 노이즈 제거 효과가 좋다
