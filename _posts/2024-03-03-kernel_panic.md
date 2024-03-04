@@ -85,5 +85,10 @@ update-grub
 
 ## Kernel panic - not syncing: Attempted to kill init!
 * https://mapoo.net/os/oslinux/kernel-panic-not-syncing-attempted-to-kill-init/
-
 * 읽어봄직한 자료 : https://velog.io/@markyang92/boot-loader-grub
+* https://conory.com/blog/43204
+  
+---
+
+## /boot/grub/grub.cfg
+* ```cat /boot/grub/grub.cfg``` 명령으로 파일내용 열람 가능
