@@ -43,6 +43,9 @@ tags: encrypt
 * ```$ sudo a2ensite default-ssl.conf```
 * ```$ sudo service apache2 reload```
 
+```Invalid command 'SSLEngine', perhaps misspelled or defined by a module not included in the server configuration```
+* SSLEngine이 설치되어 있지 않음
+
 ### 리로드 실패
 * logs 폴더가 기본폴더가 아님, 생성해야함
 * ```$ sudo mkdir /etc/apache2/logs```
