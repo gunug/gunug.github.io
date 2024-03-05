@@ -394,3 +394,11 @@ tags: Thesis
 * 매출액(sales)
 * 당기순이익(net income)
 * 당기순익률(net profit margin)
+
+---
+
+@2024-03-05
+
+# 메타버스 플랫폼을 활용한 민화 전시와 기능성 게임 기획 연구
+
+*
