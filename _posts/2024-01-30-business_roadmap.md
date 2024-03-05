@@ -5,6 +5,10 @@ category: business
 tags: 
 ---
 
+# 테마
+* 2024 Build : 구축
+* PR(public relations) : 알림
+
 # 2024 로드맵
 ## 사업답게 하기
 * 로드맵 만들기

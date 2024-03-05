@@ -87,3 +87,52 @@ update-grub
 * https://mapoo.net/os/oslinux/kernel-panic-not-syncing-attempted-to-kill-init/
 
 * 읽어봄직한 자료 : https://velog.io/@markyang92/boot-loader-grub
+
+---
+
+# vultr에서 제공하는 kernal panic 관련 자료
+* https://docs.vultr.com/recovering-from-a-kernel-panic-using-a-custom-iso
+* https://docs.vultr.com/troubleshoot-your-vps-with-bootable-isos
+
+1. 스냅샷을 떠놓는다
+2. Server Infomation > Settings > custom ISO > SystemRescue x64 > Attach ISO and Reboot
+   1. Boot SystemRescue default option - apt 명령을 사용할 수 없었음.
+   2. installed operation system - 부팅이 아닌 뭔가 다른 화면이 나옴.
+   3. copy image to ram - apt 명령을 사용할 수 없었음.
+* https://help.ubuntu.com/community/Boot-Repair
+
+```
+
+sudo apt install apt
+sudo apt-get install software-properties-common
+
+locate apt-get
+```
+
+```
+sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt update
+sudo apt install -y boot-repair && boot-repair
+```
+
+1. Server Infomation > Settings > custom ISO > Remove ISO
+
+---
+
+## 우분투에서 yum을 사용하려 하였습니다.
+* https://raspberrytips.com/use-yum-on-ubuntu/
+* 시스템을 손상시킬수 있다고 하네..
+* https://www.redhat.com/sysadmin/linux-kernel-panic
+* cd /boot
+* uname -r
+* 5.15.43-1-lts 결과
+* dracut -f /boot/initramfs-5.15.43-1-lts.img 5.15.43-1-lts - dracut 명령을 사용할 수 없었음
+
+---
+
+# 여러가지 명령어
+* ```fdisk -l``` boot가 들어있는 경로명 확인
+* lsblk -o PATH,FSTYPE,MOUNTPOINT 경로명
+* 타입이 일단 ext4로 나옴
+* 디스크 이름은 /dev/vda1
+
+---
