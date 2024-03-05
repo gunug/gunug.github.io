@@ -10,19 +10,19 @@ tags: unity3d
 * 라이센스 취득과정에서 unity3d 회원가입, 로그인을 요청합니다
 * 되도록 google 로그인을 이용하여 로그인 할 수 있도록합니다. (아이디 패스워드 분실 방지)
   
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/c15519c5-b30c-4b77-81b3-23fe6b5fc85e)
+<img src="https://image.onethelab.com/resized/1709624888.jpg" />
 * Manage Licenses 클릭
 
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/5f161472-41e7-46a9-975a-894b1e96f578)
+<img src="https://image.onethelab.com/resized/1709624893.jpg" />
 * licenses / Add license 클릭
 
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/f10ca43c-3614-44d3-b3be-a36e2f843edc)
+<img src="https://image.onethelab.com/resized/1709624898.jpg" />
 * Get a free personal license
 * personal은 개인용 라이센스로 유니티에서는 개인용 라이센스가 무료입니다.
 
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/7574616d-9cf8-4984-b9e2-f36a83d3da18)
+<img src="https://image.onethelab.com/resized/1709624903.jpg" />
 * Agree and get personal edition license 클릭
 
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/81e73ec6-4896-4b5c-850e-62c15e36ef43)
+<img src="https://image.onethelab.com/resized/1709624908.jpg" />
 * 라이센스가 취득되면 화면에 표시됩니다.
 * 우상단 X버튼을 눌러서 닫기
