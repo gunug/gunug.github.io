@@ -46,7 +46,7 @@ tags: encrypt
 ### 리로드 실패
 * logs 폴더가 기본폴더가 아님, 생성해야함
 * ```$ sudo mkdir /etc/apache2/logs```
-* ```$ sudo apache2ctl congigtest``` 컨피그 파일에 오류가있는지 테스트해서 알려줌, 내 경우는 오타 때문
+* ```$ sudo apache2ctl configtest``` 컨피그 파일에 오류가있는지 테스트해서 알려줌, 내 경우는 오타 때문
 * SSLCertificateFile, SSLCertificateKeyFile 경로에 파일이 존재하지 않는다고 나옴 (아마도 예제대로 입력한 문제)
   
 ## Certbot 설치 및 인증서 생성
