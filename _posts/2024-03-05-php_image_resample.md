@@ -63,3 +63,5 @@ IMG_TRIANGLE: Triangle interpolation.
 <img src=http://198.13.61.223/resized/1709612717.jpg />
 
 ![image](http://198.13.61.223/thumbnail/1709612717.jpg)
+
+<img src="http://198.13.61.223/resized/1709612717.jpg" />
