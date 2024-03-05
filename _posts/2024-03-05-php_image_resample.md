@@ -59,3 +59,4 @@ IMG_TRIANGLE: Triangle interpolation.
 *이미지 테스트
 
 <img src=198.13.61.223/resized/1709612717.jpg />
+<img src=http://198.13.61.223/resized/1709612717.jpg />
