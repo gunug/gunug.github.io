@@ -55,15 +55,3 @@ IMG_TRIANGLE: Triangle interpolation.
 * 이미지 생성 이후에 샘플링 방법을 명시하면됨
 
 ---
-
-*이미지 테스트
-
-<img src=198.13.61.223/resized/1709612717.jpg />
-
-<img src=http://198.13.61.223/resized/1709612717.jpg />
-
-![image](http://198.13.61.223/thumbnail/1709612717.jpg)
-
-<img src="http://198.13.61.223/resized/1709612717.jpg" />
-
-<img src="http://198.13.61.223/resized/1709612717.jpg" />
