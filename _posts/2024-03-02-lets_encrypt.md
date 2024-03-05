@@ -39,12 +39,19 @@ tags: encrypt
 	</VirtualHost>
 </IfModule>
 ```
+
+---
+
 ### SSL 설정 활성화
 * ```$ sudo a2ensite default-ssl.conf```
 * ```$ sudo service apache2 reload```
 
 ```Invalid command 'SSLEngine', perhaps misspelled or defined by a module not included in the server configuration```
 * SSLEngine이 설치되어 있지 않음
+* 참고링크 : https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EC%95%84%ED%8C%8C%EC%B9%98_SSLEngine_%EB%AA%A8%EB%93%88_%ED%99%9C%EC%84%B1%ED%99%94
+* a2query -m ssl 모듈확인
+* a2enmod ssl 모듈활성화
+---
 
 ### 리로드 실패
 * logs 폴더가 기본폴더가 아님, 생성해야함
