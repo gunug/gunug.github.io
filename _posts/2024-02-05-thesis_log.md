@@ -420,3 +420,4 @@ tags: Thesis
 
 * 국립중앙박물관 반가사유상 : 힐링동산(peaceful hill)
 * 번치볼(Bunchball Inc.)게이미피케이션에 대해 참여(Participation), 몰입(Engagement), 게임 기법(Game Mechanics), 게임 역동성(Game Dynamics)라고 제시
+
