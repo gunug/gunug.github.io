@@ -115,3 +115,33 @@ gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
 
 ## 인증서 자동갱신
 * 참고링크 : https://softone.tistory.com/65
+
+---
+
+# apt로 인증서 발급받기
+* 위의 yum 방식으로 하다가 kernel panic 되어서 yum대신 apt로
+* 참고링크 : https://serverspace.io/support/help/how-to-get-lets-encrypt-ssl-on-ubuntu/
+
+* ufw allow 80
+* ufw allow 443
+
+* apt install letsencrypt
+* systemctl status certbot.timer 봇이 동작하고 있는지 확인
+
+* 다음 명령어의 'domain-name.com'는 당신의 도메인명입니다.
+* ```sudo certbot certonly --standalone --agree-tos --preferred-challenges http -d domain-name.com```
+* 80 포트를 이용중이라 진행할수 없다고 하여 service apache2 stop 아파치 서버 스탑
+
+* apt install python3-certbot-apache
+* sudo certbot --apache --agree-tos --preferred-challenges http -d domain-name.com
+* Certbot이 SSL 인증서를 설치함
+
+---
+
+## 와일드카드 SSL 인증서 암호화
+* sudo certbot certonly --manual --agree-tos --preferred-challenges dns -d domain-name.com -d *.domain-name.com
+
+---
+
+
+<img src="https://image.onethelab.com/resized/1709615455.jpg" />
