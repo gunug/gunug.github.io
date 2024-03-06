@@ -7,11 +7,11 @@ tags: unity3d
 
 # Unity 2D project 유니티 2D 프로젝트 만들기
 
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/05fe4b55-8ef3-4259-97a6-e0b9a1978d2a)
+<img src="https://image.onethelab.com/resized/1709624967.jpg" />
 
 * Projects / New Project
 
-![image](https://github.com/gunug/gunug.github.io/assets/52345276/708702ec-668c-4b08-b57a-a9945981897d)
+<img src="https://image.onethelab.com/resized/1709624973.jpg" />
 
 * All templates > 2d Core
 * Project name에 ```project_2d```입력

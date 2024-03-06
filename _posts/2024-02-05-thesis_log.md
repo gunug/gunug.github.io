@@ -394,3 +394,30 @@ tags: Thesis
 * 매출액(sales)
 * 당기순이익(net income)
 * 당기순익률(net profit margin)
+
+---
+
+@2024-03-05
+
+# 메타버스 플랫폼을 활용한 민화 전시와 기능성 게임 기획 연구
+
+* 아카이브 형식의 웹사이트를 통한 '정보전달형'
+* 360도 VR기술로 온라인 관람하게하는 '시뮬레이션형'
+* 소셜미디어를 활용하여 전시콘텐츠 실시간 관람하고 소통하는 '네트워크형'
+* 전시의 목적 : 교육(education), 연구(study), 즐거움(enjoyment)
+
+* ZEPETO, Spatial, Artsteps, New Art City, Meum
+* 사회적 실제감(social presence)
+* Mirror world, virtual world
+* 기능성 게임(serious game)
+
+## 게이미피케이션 적용 전시
+* ArtGameLab, Race Against Time, Urbanology
+
+* 도전, 경쟁, 성취, 보상, 관계의 단계를 통해 게이미피케이션에서 실질적으로 유저의 참여와 행동을 유도할 수 있다.
+
+* 게임 기법(Game Mechanics)
+
+* 국립중앙박물관 반가사유상 : 힐링동산(peaceful hill)
+* 번치볼(Bunchball Inc.)게이미피케이션에 대해 참여(Participation), 몰입(Engagement), 게임 기법(Game Mechanics), 게임 역동성(Game Dynamics)라고 제시
+
