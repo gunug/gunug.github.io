@@ -2,7 +2,7 @@
 layout: post
 title: 의료기기 VR
 category: portfolio
-tag: unity3d vr
+tags: unity3d vr
 teaser: https://github.com/gunug/gunug.github.io/assets/52345276/2e53a33b-3a7c-4aef-871b-e30b5d65bdd9
 ---
 

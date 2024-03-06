@@ -8,25 +8,75 @@
             .tags span:last-child::after{
                 content: none;
             }
+            .post-content{
+                margin: 50px 0px;
+                font-size: 12px;
+            }
+            .post-content th{
+                background-color: #ccc;
+            }
+            caption{
+                font-weight: bold;
+                font-size: 2em;
+                margin: 10px;
+            }
+            .post-content table td{
+                /* width: 100%; */
+            }
         </style>
     </header>
+
     <div class="post-content">
         <table>
-            <caption>재직 사항</caption>
+            <caption> 학력</caption>
             <tr>
-                <th>기간</th>
+                <th>학교</th>
+                <th>전공</th>
+                <th>학위</th>
+                <th>날짜</th>
+                <th>비고</th>
+            </tr>
+            <tr>
+                <td>홍익대학교 영상대학원</td>
+                <td>게임콘텐츠과</td>
+                <td>석사</td>
+                <td>2016.02</td>
+                <td>수료</td>
+            </tr>
+            <tr>
+                <td>학점은행제</td>
+                <td>멀티미디어학</td>
+                <td>학사</td>
+                <td>2012.02</td>
+                <td>졸업</td>
+            </tr>
+            <tr>
+                <td>계원예술대학교</td>
+                <td>멀티미디어디자인</td>
+                <td>전문학사</td>
+                <td>2008.02</td>
+                <td>졸업</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="post-content">
+        <table>
+            <caption>재직</caption>
+            <tr>
                 <th>재직처</th>
+                <th>기간</th>
                 <th>담당업무</th>
             </tr>
             {%- if site.posts.size > 0 -%}
             {%- for post in site.posts -%}
                 {% if post.categories[0] == "company" %}
                 <tr>
+                    <td>{{ post.title | escape }}</td>
                     <td>
                         {%- assign date_format = "%Y/%m" -%}
                         {{ post.period }}
                     </td>
-                    <td>{{ post.title | escape }}</td>
                     <td class="tags">
                         {% for work in post.work %}
                             <span>{{ work }}</span>
@@ -41,21 +91,21 @@
   
     <div class="post-content">
         <table>
-            <caption>경력 사항</caption>
+            <caption> 프로젝트 경력</caption>
             <tr>
-                <th>년월</th>
                 <th>프로젝트 명</th>
+                <th>년월</th>
                 <th>참여 유형</th>
             </tr>
             {%- if site.posts.size > 0 -%}
             {%- for post in site.posts -%}
                 {% if post.categories[0] == "portfolio" %}
                 <tr>
+                    <td>{{ post.title | escape }}</td>
                     <td>
                         {%- assign date_format = "%Y/%m" -%}
                         {{ post.date | date: date_format }}
                     </td>
-                    <td>{{ post.title | escape }}</td>
                     <td class="tags">
                         {% for tag in post.tags %}
                             <span>{{ tag }}</span>
@@ -65,6 +115,93 @@
                 {% endif %}
             {%- endfor -%}
             {%- endif -%}
+        </table>
+    </div>
+
+    <div class="post-content">
+        <table>
+            <caption> 교육 경력</caption>
+            <tr>
+                <td colspan="7">
+                    <ul>
+                    <li>데스크탑 어플리케이션 개발 (unity, c# script, flash)</li>
+                    <li>프론트 엔드 개발 기초(html, css, javascript)</li>
+                    <li>백엔드 개발 기초 (php, mysql)</li>
+                    <li>피지컬 컴퓨팅, 뉴미디어 전시 (arduino)</li>
+                    <li>노드방식 개발툴(vvvv)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>강의명</th>
+                <th>년월</th>
+                <th>수업내용</th>
+                <th>시수</th>
+                <th>학년</th>
+                <th>학급</th>
+                <th>학교</th>
+            </tr>
+            <tr>
+                <td>실감미디어기초</td>
+                <td>2024년 1학기</td>
+                <td>Unity3d</td>
+                <td>4</td>
+                <td>1</td>
+                <td>3</td>
+                <td>계원</td>
+            </tr>
+            <tr>
+                <td>웹퍼블리싱</td>
+                <td>2023년 2학기</td>
+                <td>HTML, CSS</td>
+                <td>4</td>
+                <td>1</td>
+                <td>2</td>
+                <td>계원</td>
+            </tr>
+            <tr>
+                <td>졸업작품스튜디오</td>
+                <td>2023년 2학기</td>
+                <td>HTML, CSS</td>
+                <td>4</td>
+                <td>2</td>
+                <td>2</td>
+                <td>계원</td>
+            </tr>
+            <tr>
+                <td colspan="7">
+                    계원예술대학교 출강
+‣2015 1학기 ‘미디어와 테크놀로지(flash actionscript)’ 강의 (4차수 15주 4학급)
+‣2015 2학기 ‘콘텐츠 프로그래밍(html, css)’ 강의 (4차수 15주 2학급)
+              ‘미디어 프로그래밍2(php, mysql)’ 강의 (4차수 16주 1학급)
+‣2016 1학기 ‘미디어와 테크놀로지(flash actionscript)’ 강의 (4차수 15주 4학급)
+‣2016 2학기 ‘콘텐츠 프로그래밍(html, css)’ 강의 (4차수 15주 2학급)
+              ‘미디어 프로그래밍2(php, mysql)’  강의 (4차수 15주 1학급)
+‣2017 1학기 ‘미디어와 테크놀로지(unity c# script)’ 강의 (4차수 15주 3학급)
+              ‘웹표준 퍼블리싱(html, css)’ 강의 (4차수 15주 1학급)
+‣2017 2학기 ‘콘텐츠 프로그래밍(html, css) 강의 (4차수 15주 3학급)
+              ‘미디어 프로그래밍2(php, mysql)’ 강의 (4차수 15주 1학급)
+‣2018 1학기 ‘미디어와 테크놀로지(unity c# script)’ 강의 (4차수 15주 3학급)
+              ‘이노베이션 스튜디오(vvvv, arduino)’ 강의 (4차수 15주 1학급)
+‣2018 2학기 ‘콘텐츠 프로그래밍(html, css)’ 강의 (4차수 15주 2학급)
+              ‘컨버젼스 스튜디오(vvvv, arduino)’ 강의 (4차수 15주 1학급)
+‣2019 1학기 ‘미디어와 테크놀로지(unity c# script)’ 강의 (4차수 15주 3학급)
+‣2019 2학기 ‘콘텐츠 프로그래밍(html, css)’ 강의 (4차수 15주 2학급)
+              ‘피지컬컴퓨팅스튜디오(unity, Arduino)’ 강의(4차수 15주 1학급)
+명지전문대학교 출강
+              ‘디지털퍼블리싱2(html, css)’ 강의 (3차수 15주 2학급)
+              ‘HTML디자인 (html, css)’ 강의(3차수 15주 1학급)
+‣2020 1학기 ‘미디어와 테크놀로지(unity c# script)’ 강의 (4차수 15주 2학급)
+              ‘프로젝트스튜디오(뉴미디어 프로젝트)’ 강의(4차수 15주 1학급)
+              ‘디지털퍼블리싱1(html, css)’ 강의 (3차수 15주 2학급)
+              ‘디자인코딩’(html,css) 강의(3차수 15주 1학급)
+‣2020 2학기 ‘콘텐츠 프로그래밍(html, css)’ 강의 (4차수 15주 2학급)
+              ‘프로젝트스튜디오2(뉴미디어 프로젝트)’ 강의(4차수 15주 1학급)
+              ‘디지털퍼블리싱2(html,css)’ 강의 (3차수 15주 2학급)
+‘HTML디자인 (html, css)’ 강의(3차수 15주 1학급)
+
+                </td>
+            </tr>
         </table>
     </div>
 </article>
