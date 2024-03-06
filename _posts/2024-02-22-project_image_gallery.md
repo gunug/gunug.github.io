@@ -1,11 +1,17 @@
 ---
 layout: post
 title: image gallery 이미지 저장소 만들기
-category: project
-tags: php html css javascript mysql
+category: research
+tags: php html css javascript
+teaser: https://image.onethelab.com/thumbnail/1709720179.jpg
 ---
 
 # image gallery 이미지 저장소 만들기
+<img src="https://image.onethelab.com/resized/1709720179.jpg" />
+
+## 작업 기간
+* 2024-02-22 ~ 2024-03-06 (총13일)
+* 중간에 kernel panic으로 인한 서버 재설치로 시간이 좀 더 지체됨
 
 ## 작업 목록
 ### 업로드폼
