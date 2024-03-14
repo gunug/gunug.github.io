@@ -6,8 +6,7 @@ tags: etc
 ---
 
 # visual studio code c# setting
-* Visual Studio Code 셋팅
-* https://code.visualstudio.com/docs/languages/csharp
+* <https://code.visualstudio.com/docs/languages/csharp>
 * Ctrl+Shift+X  'C#' 검색
 * Dotnet SDK 설치
 * Visual Studio Code를 관리자 권한으로 실행
@@ -31,5 +30,5 @@ tags: etc
   }
 ```
 
-* https://docs.microsoft.com/ko-kr/dotnet/csharp/
-* https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/?WT.mc_id=dotnet-35129-website
+* <https://docs.microsoft.com/ko-kr/dotnet/csharp/>
+* <https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/?WT.mc_id=dotnet-35129-website>

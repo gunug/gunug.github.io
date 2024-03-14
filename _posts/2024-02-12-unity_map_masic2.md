@@ -24,3 +24,14 @@ tags: unity3d
 * 빌트인 셰이더 포함 파일
 
 ---
+
+# Start
+* Hierarchy 빈공간 우클릭
+* 3D Object > MapMagic
+* Inspector > Map Magic Object (script) > Create Template
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1709979995.jpg" />
+
+---
+
+* 타일 크기 변경 : Map Magic Object (script) > Tile Settings > Size
