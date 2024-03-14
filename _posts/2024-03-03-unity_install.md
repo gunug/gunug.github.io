@@ -14,10 +14,13 @@ tags: unity3d
 
 <img src="https://image.onethelab.com/resized/1709624724.jpg" />
 
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1709860618.jpg" />
+* 맥은 하단에 mac용 다운로드가 따로 있습니다.dmg 파일을 다운받아 설치 하면 됩니다.
+
 ---
 
 ## 설치(install)
-- 다운로드 된 UnityHubSetup.exe 더블 클릭하여 설치 (맥은 파일 확장자가 다름)
+- 다운로드 된 UnityHubSetup.exe 더블 클릭하여 설치 (맥은 UnityHubSetup.dmg)
 - 설치 마법사 : 옵션을 수정하지 말고 대부분 '다음'을 누르면 설치과정이 완료됩니다.
 - 설치된 UnityHub 실행, install > install editor 클릭
 - Long-term services(LTS)의 권장버전을 설치합니다.
