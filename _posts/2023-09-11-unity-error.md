@@ -49,3 +49,20 @@ Audio preview in Inspector does not work
 * 프로젝트가 세이프 보드로 구동할것을 권장됨
 * 무시하고 실행하면 에러를 동반하여 빌드가 안됨
 * 세이프모드로 구동하고 timeline를 업데이트 해보라는 이야기가 있음
+
+---
+
+# Library/PackageCache/  error
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1710899204.jpg" />
+
+# 패키지 리셋 후 input system 찾을수 없음
+ 'InputSystem' does not exist in the namespace 'UnityEngine'
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1710899227.jpg" />
+
+# 패키지 리셋 후 cinemachine 찾을수 없음
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1710899245.jpg" />
+
+# 우클릭 WASD 먹히지 않음
+* all layout reset
+# Project setting > player > other settings > input both
+* 새로운 입력 시스템이 나오면서 구 시스템과 동시 사용 설정을 해주어야함
