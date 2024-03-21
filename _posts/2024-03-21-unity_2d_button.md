@@ -58,6 +58,25 @@ public class test_button : MonoBehaviour
 }
 ```
 
+```c#
+void OnMouseDown()
+{
+    Debug.Log("마우스 좌클릭");
+}
+void OnMouseUp()
+{
+    Debug.Log("마우스 좌클릭 해제");
+}
+void OnMouseEnter()
+{
+    Debug.Log("마우스 올림");
+}
+void OnMouseExit()
+{
+    Debug.Log("마우스 내림");
+}
+```
+
 ## C# Script 버튼에 등록
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1711002488.jpg" />
 
@@ -123,7 +142,19 @@ public class test_button : MonoBehaviour
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1711004242.jpg" />
 * Hierarchy창에서 Animator를 Animator_에 드래그 드랍
 
-## 애니메이션 재생이 안될때 확인 사항
+## 애니메이션 재생이 안될 때 확인 사항
 
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1711004468.jpg" />
 * Animator의 Animation이름과 C# Script에 명시된 이름이 같아야합니다. (대소문자, 띄어쓰기 모두 포함)
+
+---
+
+# 누가, 언제, 무엇을, 어떻게
+* 육하원칙 : 누가, 언제, 어디서, 무엇을, 어떻게, 왜
+
+## 누가 Reference
+* Animation이, Animator가, 캐릭터가
+## 언제 Event
+* 마우스를 눌렀을때, 마우스를 땠을때, 마우스를 올렸때
+## 무엇을 어떻게 Function
+* 움직인다, 투명해진다, 재생된다, 멈춘다
