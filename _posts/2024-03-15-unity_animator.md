@@ -43,3 +43,14 @@ tags:
 * transition(이어진 선)을 마우스로 클릭
 * 윈도우 : 키보드의 delete키
 * 맥 : Shift + backspace(←)키
+
+---
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1711022992.jpg" />
+* 새롭게 Animation3를 만들고 내용은 비워둡니다 (아무것도 움직이지 않도록)
+* Animation3를 마우스 우클릭 하여 ```Set as Layer Default State``` 선택, 기본으로 등록합니다
+* Animation1,2,3 간에 Transition은 없도록 합니다.
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1711023185.jpg" />
+* Project 창에서 Animation(삼각형이 날아가는 아이콘)을 찾아서 선택
+* Inspector창에서 Loop Time의 체크 해제

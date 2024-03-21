@@ -132,8 +132,10 @@ public class test_button : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("버튼이 눌렸습니다");
-        animator_.Play("Animation1"); //함수의 호출
+        animator_.Play("Animation1", -1, 0f); //함수의 호출
         // animator_의 "Animation1"을 재생(Play) 하세요.
+        // -1 레이어를 재생합니다
+        // 0지점(시작지점)부터 재생합니다. 1지점은 끝지점 입니다.
     }
 }
 ```
