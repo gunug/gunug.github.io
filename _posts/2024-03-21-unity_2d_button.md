@@ -18,7 +18,7 @@ tags:
 * Create > Folder
 * 폴더의 이름은 'Script'로 작성합니다.
 
-## 파일명, 폴터명, C# Script명 금지사항
+## 파일명, 폴더명, C# Script명 금지사항
 
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1711000815.jpg" />
 * 한글을 사용하지 않습니다.
@@ -154,7 +154,9 @@ public class test_button : MonoBehaviour
 
 ## 누가 Reference
 * Animation이, Animator가, 캐릭터가
+  
 ## 언제 Event
 * 마우스를 눌렀을때, 마우스를 땠을때, 마우스를 올렸때
+  
 ## 무엇을 어떻게 Function
 * 움직인다, 투명해진다, 재생된다, 멈춘다
