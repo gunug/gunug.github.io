@@ -27,3 +27,19 @@ tags:
 
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1710999617.jpg" />
 * Animator창에 등록된 Animation에 마우스 우클릭 ```Delete```선택하여 삭제
+
+---
+
+## transition 연결
+* 트랜지션은 애니메이션과 애니메이션을 연결해주는 역할을 합니다
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1710999995.jpg" />
+* Animator창 Animation 마우스 우클릭 '''Make Transition``` 선택
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1711000065.jpg" />
+* 연결할 대상 Animation을 클릭하여 트랜지션 연결
+
+## transition 삭제
+* transition(이어진 선)을 마우스로 클릭
+* 윈도우 : 키보드의 delete키
+* 맥 : Shift + backspace(←)키
