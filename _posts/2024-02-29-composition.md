@@ -15,3 +15,5 @@ tags: music
 
 * 메이저 스케일 : C온D온E온F반G온A온B반C
 * Diatonic : 특정 스케일로 만들어질수 있는 7가지 코드
+
+* 멜로디(melody), 리듬(rhythm), 화성(harmody)
