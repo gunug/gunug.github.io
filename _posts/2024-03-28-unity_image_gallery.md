@@ -69,6 +69,9 @@ public void movePage(int page_num){
 
     this.gameObject.transform.position = new_position;
     //이.게임오브젝트.변형.위치 = new_position;
+
+    current_page = page_num;
+    //현재 페이지 번호를 기록
 }
 ```
 
@@ -128,7 +131,6 @@ private void OnMouseDown()
 
 iTween.MoveTo(this.gameObject, iTween.Hash("position", 
 new_position, "easetype", iTween.EaseType.easeOutElastic, "time", 1.0f));
-current_page = page_num;
 ```
 
 ---
