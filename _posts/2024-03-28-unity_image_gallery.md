@@ -115,7 +115,9 @@ private void OnMouseDown()
 
 ---
 
-## iTween 사용해보기
+## iTween 들여오기
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1715221815.jpg" />
+
 * [에셋 스토어 링크](https://assetstore.unity.com/packages/tools/animation/itween-84)
 * [사용 설명서 링크](https://www.pixelplacement.com/itween/documentation.php)
 * <https://assetstore.unity.com> 에서 iTween을 검색하여 무료버전 다운 가능

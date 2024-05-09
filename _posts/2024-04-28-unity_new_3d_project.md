@@ -37,3 +37,6 @@ tags:
 # 카메라 이동하기
 * MainMenu > GameObject > align with view : 현재 보고 있는 위치로 카메라를 이동
 * MainMenu > GameObject > align view to selected : 현재 선택되어 있는 위치로 눈(view)을 이동
+
+* AssetStore이용시 Built-in 지원하는지 확인하기
+* Cube를 생성하여 크기 비교하기 (큐브는 1m*1m*1m 입니다)
