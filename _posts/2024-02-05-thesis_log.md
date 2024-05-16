@@ -509,3 +509,28 @@ tags: Thesis
 * Learning to be : 존재론
 * Learning to do : 행동론
 * Learning to Know :  인식론
+
+---
+
+@2024-05-16
+# 귀신문화에 기반한 일본풍의 캐릭터 디자인 분석 및 캐릭터 제작 연구 - 중국 모바일 게임 <음양사>사례를 중심으로
+* 식신(Shikigami), 누라리횬(Nurarihyon)
+* 게슈탈트 시지각 이론의 심리학적 관점으로 분석
+
+## 게임 캐릭터 디자인 요소의 선행 연구를 통해 본 디자인 6개 요소
+* Character setting
+  * Age, status, background, occupation, class
+* Material 
+  * Characters, animals, plants, symbolic myths
+* Body proportions 
+  * Height ratio, body ratio
+* Action 
+  * Standing, flying, sitting, floating
+* Decoration (makeup, costumes, props)
+  * Express the characteristics of personality, region, ethnicity, culture, etc.
+* Color
+  * Express personality, psychological and other characteristics.
+
+* 게슈탈트(Gestalt) 지시각 이론
+  * 지각되는 대상은 그것이 놓여 있는 전체 여건 내지 장에 의해 결정된다.
+  * 집단화 법칙, 단순화 법칙, 등가성 법칙, 전경과 배경 법칙
