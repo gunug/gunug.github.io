@@ -77,14 +77,14 @@ tags:
 ## Animator 창 열기
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1715830850.jpg" />
 
-* Menu | Window > Animation > Animator 선택하여 애니메이터 창 열기
+* Main Menu > Window > Animation > Animator 선택하여 애니메이터 창 열기
 
 ---
 
 ## Animation 등록하기
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1715830863.jpg" />
 
-* Project | Fighter Pack Bundle FREE / Berserkder Fighter Me... / Animations 선택
+* Project창 > Fighter Pack Bundle FREE / Berserkder Fighter Me... / Animations 선택
 * 안에 있는 animation들을 각각 드래그하여 animator 창으로 이동
 
 ---
