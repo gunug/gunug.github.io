@@ -534,3 +534,23 @@ tags: Thesis
 * 게슈탈트(Gestalt) 지시각 이론
   * 지각되는 대상은 그것이 놓여 있는 전체 여건 내지 장에 의해 결정된다.
   * 집단화 법칙, 단순화 법칙, 등가성 법칙, 전경과 배경 법칙
+
+---
+
+@2024-05-20
+# 메타 게임의 메탈렙시스 연구
+* "There is No Game: Wrong Dimension"
+* "File://Maniac"
+* "Keep Talking and Nobody Explodes"
+* 메탈렙시스(Metalepsis)
+* 수사적 메탈렙시스(rhethorical metalepsis)
+* 존재론적 메탈렙시스(ontological metalepsis)
+* 트랜스텍스트성(transtextuality)
+* 곁텍스트성(paratextuality)
+* 보형물로서의 행위자 (prosthetic agency)
+* 텔레프레즌스(telepresensce)
+* 글로벌 게임플레이(Global Gameplay)
+* 글리치(Glitch)
+* 절차의 수사학(procedural rhetoric)
+* 절차 집약적(process-intensive)
+* 메타 절차주의(metaproceduralism)
