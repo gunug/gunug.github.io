@@ -35,6 +35,8 @@ tags:
 
 * 윈도우 > 시작메뉴 > cmd(터미널)
 * ```setx OPENAI_API_KEY 키값``` 환경변수로 키 등록
+* <https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety> 환경변수를 이용한 키설정 참고
+* ```echo %OPENAI_API_KEY%``` 등록된 키 보기
 
 ---
 
@@ -45,6 +47,7 @@ tags:
 
 ## C# Script 작성
 * OpenAIController.cs
+
 ```c#
 using System;
 using System.Collections.Generic;
