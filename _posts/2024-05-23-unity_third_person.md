@@ -120,3 +120,32 @@ tags:
 * Project창 폴더위치를 Assets로 변경
 * Hierarchy창에서 Project창으로 MyAvatar를 드래그 드롭
 * 이렇게 Prefab등록된 삼인칭 캐릭터는 다시 Scene으로 드래그 하는 방식으로 사용가능
+
+---
+
+## 카메라 스위칭하기
+```c#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CameraSwitch : MonoBehaviour
+{
+    public Camera camera1;
+    public Camera camera2;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            camera1.enabled = true; //카메라1 활성화
+            camera2.enabled = false; //카메라2 비활성화
+        }
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            camera1.enabled = false; //카메라1 비활성화
+            camera2.enabled = true; //카메라2 활성화
+        }
+    }
+}
+```

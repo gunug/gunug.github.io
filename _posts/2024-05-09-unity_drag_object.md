@@ -9,7 +9,7 @@ tags:
 * Hierarchy창 빈공간 마우스 우클릭
 * 3D Object > Cube 선택하여 큐브 만들기
 * 큐브 선택후 Inspector창에서 Add Component
-* Physics > RigidBody 선택하여 강체(rigidBody)컴퍼넌트 추가
+* <del>Physics > RigidBody 선택하여 강체(rigidBody)컴퍼넌트 추가</del> rigidBody를 사용하지 않습니다.
 
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1715238321.jpg" />
 
@@ -31,12 +31,14 @@ public class DragObject : MonoBehaviour
 {
     private Vector3 mouse_offset; //마우스가 어긋난 양
     private float screen_z; //스크린의 깊이(z)값
-    private Rigidbody myRigid; //물체의 강체
+    //private Rigidbody myRigid; //물체의 강체
 
+    /*
     void Start()
     {
         myRigid = GetComponent<Rigidbody>(); //강체의 참조를 가져오기
     }
+    */
     void OnMouseDown()
     {
         screen_z = Camera.main.WorldToScreenPoint(this.gameObject.transform.position).z;
@@ -55,7 +57,7 @@ public class DragObject : MonoBehaviour
     void OnMouseDrag()
     {
         transform.position = GetMouseWorldPos() + mouse_offset;
-        myRigid.velocity = Vector3.zero; //물리력 0으로
+        //myRigid.velocity = Vector3.zero; //물리력 0으로
     }
 }
 ```
@@ -73,7 +75,7 @@ public class DragObject : MonoBehaviour
 ---
 
 # Collider
-* 참고: https://docs.unity3d.com/kr/2018.4/Manual/class-MeshCollider.html
+* 참고: <https://docs.unity3d.com/kr/2018.4/Manual/class-MeshCollider.html>
 * Convex : Convex 메시 콜라이더는 삼각형 255개로 제한됩니다.
 * inflate Mesh : 부풀게 하다 (2018.3 부터는 더이상 사용되지 않습니다)
 * skin width : 부푸는 정도
