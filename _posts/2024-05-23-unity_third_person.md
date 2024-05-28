@@ -124,27 +124,27 @@ tags:
 ---
 
 ## 카메라 스위칭하기
+* ActiveCamera.cs
+  
 ```c#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraSwitch : MonoBehaviour
+public class ActiveCamera : MonoBehaviour
 {
-    public Camera camera1;
-    public Camera camera2;
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            camera1.enabled = true; //카메라1 활성화
-            camera2.enabled = false; //카메라2 비활성화
+    public GameObject mainCameraObject; //메인 카메라
+    public GameObject characterObject; //캐릭터
+    private void Update(){
+        if(Input.GetKeyDown(KeyCode.Z)){
+            Debug.Log("Z");
+            mainCameraObject.SetActive(true);//메인카메라 켜기
+            characterObject.SetActive(false);//캐릭터 끄기
         }
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            camera1.enabled = false; //카메라1 비활성화
-            camera2.enabled = true; //카메라2 활성화
+        if(Input.GetKeyDown(KeyCode.X)){
+            Debug.Log("X");
+            mainCameraObject.SetActive(false);//메인카메라 끄기
+            characterObject.SetActive(true);//캐릭터 켜기
         }
     }
 }
