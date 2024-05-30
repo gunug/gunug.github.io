@@ -619,3 +619,21 @@ tags: Thesis
 ## 현지화 요소
 * 더빙, 선정성, 폭력성, 방언, 말투와 말버릇, 캐릭터명, 내용 순화
 * Language Localization, Cultural Taboos and Deliberation Regulations
+
+---
+
+@2024-05-30
+# 텍스트마이닝과 워드 클라우드를 활용한 VR 게임 트렌드 분석 -스팀(sream) 리뷰 데이터를 중심으로-
+* 커넥티드 카(Connected Car)
+* 시장조사기관 IDC (International Data Corporation)
+* 메타버스(Metaverse), NFT(대체불가토큰)
+* 빅데이터를 활용한 분석 : 텍스트 마이닝, 데이터마이닝, 평판 분석, 소셜 분석, 클러스터 분석, 현실 마이닝
+* 워드 클라우드(Word Cloud) : 텍스트를 시각화하는 대표적인 방법
+* 텔레프레즌스(Telepresence)의 줄임말인 프레즌스(presence)
+
+## 연구방법
+* python3를 이용한 사용자 리뷰와 타이틀 크롤링
+* 명사, 동사, 형용사, 부사만을 추출
+* 단어 빈도 분석(term frequency analysis)
+
+---

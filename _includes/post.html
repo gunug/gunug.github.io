@@ -29,7 +29,7 @@
 			const newDiv = document.createElement('div');
 			newDiv.style = 'color: white; cursor: pointer; display: inline-block; border-radius: 3px; padding: 2px; background-color: #007bff; font-size: 0.7em; margin: 4px;';
 			newDiv.innerHTML = 'copy code';
-			codeElement.appendChild(newDiv);
+			codeElement.parentElement.appendChild(newDiv);
 			// 클릭 이벤트 리스너 추가
 			newDiv.addEventListener('click', function() {
 				// 코드 내용 가져오기
