@@ -27,9 +27,9 @@
 		codeElements.forEach(function(codeElement) {
 			// 새로운 <div> 요소 생성
 			const newDiv = document.createElement('div');
-			newDiv.style = 'color: white; cursor: pointer; display: inline-block; margin-top: 10px; border-radius: 5px; padding: 5px; background-color: #007bff;';
+			newDiv.style = 'color: white; cursor: pointer; display: inline-block; border-radius: 3px; padding: 2px; background-color: #007bff; font-size: 0.7em; margin: 4px;';
 			newDiv.innerHTML = 'copy code';
-			codeElement.parentElement.appendChild(newDiv);
+			codeElement.appendChild(newDiv);
 			// 클릭 이벤트 리스너 추가
 			newDiv.addEventListener('click', function() {
 				// 코드 내용 가져오기
