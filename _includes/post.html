@@ -18,4 +18,36 @@
 	<div class="post-content">
 		{{ content }}
 	</div>
+
+	<script>
+		// 모든 <code> 요소를 선택
+		const codeElements = document.querySelectorAll('code');
+
+		// 각 <code> 요소에 클릭 이벤트 리스너 추가
+		codeElements.forEach(function(codeElement) {
+			// 새로운 <div> 요소 생성
+			const newDiv = document.createElement('div');
+			newDiv.style = 'color: white; cursor: pointer; display: inline-block; margin-top: 10px; border-radius: 5px; padding: 5px; background-color: #007bff;';
+			newDiv.innerHTML = 'copy code';
+			codeElement.parentElement.appendChild(newDiv);
+			// 클릭 이벤트 리스너 추가
+			newDiv.addEventListener('click', function() {
+				// 코드 내용 가져오기
+				const codeText = codeElement.innerText;
+
+				// 클립보드에 코드 내용 복사
+				navigator.clipboard.writeText(codeText)
+				.then(function() {
+					// 복사가 성공적으로 완료됨
+					alert('코드가 클립보드에 복사되었습니다!');
+				})
+				.catch(function(err) {
+					// 복사 중 에러 발생
+					alert('코드를 클립보드에 복사하는 중 오류가 발생했습니다: ' + err);
+				});
+			});
+		});
+    </script>
 </article>
+
+
