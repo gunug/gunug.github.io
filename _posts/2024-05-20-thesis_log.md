@@ -637,3 +637,12 @@ tags: Thesis
 * 단어 빈도 분석(term frequency analysis)
 
 ---
+
+@2024-06-02
+# 지능형 에이전트 기반 게임 QA 시스템 개발
+* QA(quality assurance, 품질검사)
+* 시각(Visual), 청각(Audio), 레벨디자인(Level design), 인공지능(Artificial Intelligence), 물리(Physics), 안정성(Stability), 성능(Performance), 장비호환(Compatibility), 네트워크(Networking)
+* 인공지능 에이전트 기반 QA를 할수 있는 모듈을 개발
+
+---
+

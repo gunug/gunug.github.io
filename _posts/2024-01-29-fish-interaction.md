@@ -5,6 +5,9 @@ category: todo
 tags: interaction
 ---
 
+* 목표치 : https://youtube.com/shorts/Eppz365zsnY?si=ZFrbGVYVsJsU8e_D
+* 목표치2 : https://youtube.com/shorts/nwt9MvAEUSk?si=0GOubLrFevRTbtbf
+
 * https://www.youtube.com/watch?v=mBVarJm3Tgk
 * Cohesion 응집력
 * Avoidance 기피
