@@ -145,3 +145,21 @@ gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
 
 
 <img src="https://image.onethelab.com/resized/1709615455.jpg" />
+
+---
+
+# 인증서 갱신
+* 참고링크 : <https://softone.tistory.com/65>
+* ```certbot renew --dry-run``` 인증서 활성화 여부 확인
+* ```certbot renew``` 인증서 갱신하기
+* ```certbot certificates``` 만료일 확인하기
+
+* ```crontab -l``` 현재 설정된 crontab 내용출력
+* ```crontab -e``` 내용입력, 저장방법은 vi와 동일 콜론(:)입력후 wq 입력
+
+* ```0 3 * * * /usr/bin/certbot renew --renew-hook="systemctl restart httpd"``` 새벽 3시에 갱신하고 아파치 서버 재시작
+
+# 인증서 갱신 간단한 절차
+* ```service apache2 stop``` 아파치 서버 종료
+* ```certbot renew``` 인증서 갱신
+* ```service apache2 start``` 아파치 서버 시작

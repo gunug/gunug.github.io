@@ -61,6 +61,7 @@ teaser: https://image.onethelab.com/thumbnail/1715503381.jpg
 
 ## ChatGPT 챗봇
 * OpenAIController.cs
+
 ```c#
 using System;
 using System.Collections.Generic;
@@ -165,6 +166,52 @@ public class OpenAIController : MonoBehaviour
 ---
 
 ## TTS(Text-To-Speech)
+
+```c#
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using UnityEngine;
+using OpenAI_API;
+using OpenAI_API.Chat;
+using OpenAI_API.Models;
+using OpenAI_API.Audio;
+using static OpenAI_API.Audio.TextToSpeechRequest;
+
+
+public class TTS : MonoBehaviour
+{
+    private OpenAIAPI api;
+    private static AudioSource audioSource;
+    public void Start()
+    {
+        api = new OpenAIAPI(Environment.GetEnvironmentVariable("OPENAI_API_KEY", EnvironmentVariableTarget.User));
+        audioSource = gameObject.AddComponent<AudioSource>();
+    }
+    public async void text_to_speech(string str)
+    {
+        Debug.Log("text_to_speech");
+        var request = new TextToSpeechRequest()
+        {
+            Input = str,
+            ResponseFormat = ResponseFormats.MP3,
+            Model = Model.TTS_HD,
+            Voice = Voices.Nova,
+            Speed = 0.9
+        };
+        FileInfo file_ = await api.TextToSpeech.SaveSpeechToFileAsync(request, "speak_temp.mp3"); //save to file
+        Debug.Log(file_.FullName);
+        var www = new WWW(file_.FullName);
+        
+        audioSource.clip = www.GetAudioClip(true, true, AudioType.MPEG);
+        audioSource.Play();
+    }
+}
+
+```
+
+---
 
 ## STT(Speech-To-Text)
 
