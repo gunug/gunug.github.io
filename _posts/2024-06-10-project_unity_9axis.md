@@ -54,7 +54,7 @@ float getQuaternionY() const;
 float getQuaternionZ() const;
 float getQuaternionW() const;
 
-//센서 로우 데이터 : 센서의 연산을 거치지 않은 날(生)값입니다. 여러가지 문제가 동반 될 수 있습니다.
+//센서 로우 데이터 : 연산을 거치지 않은 센서를 통에 얻을 수 있는 날(生)값입니다. 여러가지 문제가 동반 될 수 있습니다.
 float getAccX() const;
 float getAccY() const;
 float getAccZ() const;
