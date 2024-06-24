@@ -214,6 +214,78 @@ public class TTS : MonoBehaviour
 ---
 
 ## STT(Speech-To-Text)
+```c#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using OpenAI_API;
+using OpenAI_API.Audio;
+using System;
+
+public class STT : MonoBehaviour
+{
+    //OpenAIAPI.Transcriptions
+    private String my_api_key;
+    private OpenAIAPI api;
+    private AudioSource audioSource;
+    private AudioClip clip;
+    private string path = "file.mp3";
+    public int deviceIndex = 0;
+
+    private void Start()
+    {
+        my_api_key = Environment.GetEnvironmentVariable("OPENAI_API_KEY", EnvironmentVariableTarget.User); //환경변수로 부터 API 키를 가져옴
+        api = new OpenAIAPI(my_api_key); //API 키를 이용하여 API 객체 생성
+
+        //transcriptions.GetTextAsync("path/to/file.mp3");
+        //get microphone name
+        foreach (string device in Microphone.devices)
+        {
+            Debug.Log("Device Name: " + device);
+        }
+
+        //get audio source reference
+        AudioSource audioSource = GetComponent<AudioSource>();
+    }
+
+    private void Update(){
+        //push q key for start recording
+        if(Input.GetKeyDown(KeyCode.Q)){
+            clip = Microphone.Start(Microphone.devices[deviceIndex], true, 10, 44100); //녹음 시작
+        }
+        //push w key for stop recording
+        if(Input.GetKeyDown(KeyCode.W)){
+            Microphone.End(Microphone.devices[deviceIndex]); //녹음 종료
+        }
+
+        //push space key for get text
+        if(Input.GetKeyDown(KeyCode.E)){
+            EncodeMP3.convert (clip, path, 44100); //녹음된 오디오 파일을 mp3로 변환
+            GetTextAsync(path); //변환된 mp3 파일을 텍스트로 변환
+        }
+
+        //push z key for start end recording and get text
+        if(Input.GetKeyDown(KeyCode.Z)){
+            clip = Microphone.Start(Microphone.devices[deviceIndex], true, 10, 44100);
+        }
+        if(Input.GetKeyUp(KeyCode.Z)){
+            Microphone.End(Microphone.devices[deviceIndex]);
+            EncodeMP3.convert (clip, path, 44100);
+            GetTextAsync(path);
+        }
+    }
+
+    async void GetTextAsync(string path)
+    {
+        string text = await api.Transcriptions.GetTextAsync(path);
+        Debug.Log("입력된 글:"+text);
+    }
+}
+
+
+```
+
+---
 
 ## 3D 캐릭터 연동, 립싱크
 
