@@ -228,3 +228,43 @@ skinnedMeshRenderer.SetBlendShapeWeight(
 lipsyncContext.SetLaughterBlend(100); //100을 1로
 ```
 
+---
+
+# 성격 부여하기
+* 역할 : 비디오 게임 캐릭터
+* 임무 : 플레이어가 묻는 말에 답한다
+* 
+```c#
+public string GetInstructions()
+{
+    string instructions = 
+    "You are a video game character and will answer to the message the player ask you. \n" + 
+    "You must reply to the player message only using the information from your Personnality and the Scene that are provided afterwards. \n" +
+    "Do not invent or create response that are not mentionned inthese information. \n" +
+    "Do not break character or mention you are an AI or a video game character. \n" +
+    "You must answer in less than " + maxResponseWordLimit + "words. \n" +
+    "Here is the information about your Personnality : \n" + personality + "\n" +
+    "Here is the information about the Scene around you : \n" + scene + "\n" +
+    "Here is the message of the player : \n";
+    return instructions;
+}
+
+public async void AskChatGPT(string newText)
+{
+    ChatMessage newMessage = new ChatMessage();
+    newMessage.Content = GetInstructions() + newText;
+    newMessage.Role = "user";
+    messages.Add(newMessage);
+    CreateChatCompletionRequest request = new CreateChatCompletionRequest();
+    request.Messages = messages;
+    request.Model = "gpt-3.5-turbo-0301";
+    var response = await openAI.CreateChatCompletion(request);
+    if (response.Choices != null && response.Choices.Count > 0)
+    {
+    var chatResponse = response.Choices[0].Message;
+    messages.Add(chatResponse);
+    Debug.Log(chatResponse.Content);
+    OnResponse.Invoke(chatResponse.Content);
+    }
+}
+```
