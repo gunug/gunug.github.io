@@ -541,7 +541,7 @@ Check that your sensor readings are close to 0 0 16384 0 0 0
 ```
 * 이를 반영하여 offset값을 다음과 같이 변경 하였으나 소스코드 자체가 달라서 문제가 해결되지 않았습니다.
 
-```c#
+```c++
 #define MPU6050_AXOFFSET -400
 #define MPU6050_AYOFFSET 1474
 #define MPU6050_AZOFFSET 1822
