@@ -55,3 +55,10 @@ tags:
 * URL 검사에서 확인해보니 특정 페이지가 google에 등록되어있지 않음
 * sitemap 만든는 방법 : <https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap?hl=ko>
 * xml 사이트맵 생성기 : <https://www.xml-sitemaps.com/>
+* 사이트맵을 생성하여 등록함
+* 색인 생성 여부 확인 : <https://search.google.com/search-console/index?resource_id=sc-domain%3Aonethelab.com>
+
+---
+
+# 광고 게재가 준비되지 않은 사이트
+* <https://www.google.com/adsense/new/u/0/pub-9319681514128117/sites/detail/url=onethelab.com>
