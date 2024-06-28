@@ -11,9 +11,10 @@
 					+'{:target=_blank}'
 				)
 				.then(function() {alert('URL이 클립보드에 복사되었습니다!');})
-				.catch(function(err) {alert('URL을 클립보드에 복사하는 중 오류가 발생했습니다: ' + err);})">
+				.catch(function(err) {alert('URL을 클립보드에 복사하는 중 오류가 발생했습니다: ' + err);})"
+			>
 				<img width="15px" src="/public/img/Chain_link_icon_slanted.png">
-		</span>
+			</span>
 		</div>
 		<time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
 			{%- assign date_format = site.date_forma | default: "%Y/%m/%d" -%}

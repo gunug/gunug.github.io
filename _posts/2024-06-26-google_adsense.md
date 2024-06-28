@@ -16,6 +16,7 @@ tags:
 
 # 조치필요
 * <https://support.google.com/adsense/answer/12176698?sjid=7968382523347030568-AP>
+  
 ## 가치가 별로 없는 콘텐츠
 * <https://support.google.com/adsense/answer/10502938?visit_id=638550554015713502-3714178014&rd=1#minimum_content_requirements>
 * 불법 콘텐츠
@@ -29,6 +30,7 @@ tags:
 * 우편 주문 신부 - 외국인과의 결혼을 촉진
 * 가족 콘텐츠의 성인용 테마
 * 아동 성적 학대 및 착취
+  
 ## 문제 수정 후 재검토 요청하기
 * <https://www.google.com/adsense/new/u/0/pub-9319681514128117/sites/detail/url=onethelab.com>
 

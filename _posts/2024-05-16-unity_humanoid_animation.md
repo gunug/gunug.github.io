@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unity humanoid animation 휴머노이드 에니메이션
-category: Unity3d
+category: unity3d
 tags:
 ---
 
