@@ -6,8 +6,6 @@ tags: AI
 teaser: https://image.onethelab.com/thumbnail/1715503381.jpg
 ---
 
-<b style="color:red">※ 제작중인 튜토리얼. 내용은 언제든지 변경될 수 있으며, 다음의 내용을 따라하지 않는 것이 좋습니다.</b>
-
 # Unity AI(ChatGPT) NPC 제작
 
 ## 프로젝트 시작
@@ -38,7 +36,20 @@ teaser: https://image.onethelab.com/thumbnail/1715503381.jpg
 ---
 
 ## OpenAI 설정
+### API key 가져오기
+* <https://openai.com/ko-KR/> 접속, 회원가입 또는 로그인
+* <https://platform.openai.com/api-keys> 
 
+## 키생성
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1719827630.jpg" />
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1719827582.jpg" />
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1719827760.jpg" />
+
+* 생성직후 우측의 copy 버튼을 클릭하여 키를 복사합니다 
+* <b style="color:red;">키 생성 이후 팝업을 닫으면 다시는 키를 확인할 수 없습니다. 잃어버렸을 경우 키를 재생성 해야합니다.</b>
 
 ### OpenAI 키등록
 * <https://platform.openai.com/settings/organization/billing/overview>{:target="_blank"}
@@ -83,10 +94,24 @@ public class OpenAIController : MonoBehaviour
         StartConversation();
     }
 
+    public int maxResponseWordLimit = 10;
+
+    [TextArea(3,10)]
+    public string personality = "질문과 답변 과정에서 학생과 선생님은 서로 의견을 교환하며 이해도를 높입니다. 수업 중에 질문을 주고받는 분위기는 학생들의 참여도를 높이고 적극적인 학습을 유도합니다. 선생님은 친절하고 인내심을 갖춘 태도로 학생들의 질문에 답변하며, 학생들은 호기심과 탐구심을 가지고 질문을 제기합니다.";
+    [TextArea(3,10)]
+    public string scene = "일반적으로 학교 내에서 수업이 이루어지는 주요 장소입니다. 교실은 학생들과 선생님이 서로 상호작용할 수 있는 환경을 제공합니다. 학습 활동, 토론, 질문과 답변 등이 활발히 진행됩니다.";
     public void StartConversation()
     {
+        string defult_content = "You are a teacher and will answer to the message the player ask you. \n" +
+            "You must reply to the player message only using the information from your Personnality and the Scene that are provided afterwards. \n" +
+            "Do not invent or create response that are not mentionned in these information. \n" +
+            "Do not break character or mention you are an AI or a teacher. \n" +
+            "You must answer in less than " + maxResponseWordLimit + "words. \n" +
+            "Here is the information about your Personnality : \n" + personality + "\n" +
+            "Here is the information about the Scene around you : \n" + scene + "\n" +
+            "Here is the message of the player : \n";
         messages = new List<ChatMessage>{
-            new ChatMessage(ChatMessageRole.System, "당신은 한국인입니다. 한국어를 합니다. 항상 50글자 이내로 말합니다 그렇지 않으면 잘라버립니다.")
+            new ChatMessage(ChatMessageRole.System, defult_content)
         };
     }
 
@@ -161,6 +186,7 @@ public class OpenAIController : MonoBehaviour
         GUILayout.EndVertical();
     }
 }
+
 ```
 
 ---
@@ -213,6 +239,14 @@ public class TTS : MonoBehaviour
 
 ---
 
+# Unity3D-save-audioClip-to-MP3
+* <https://github.com/BeatUpir/Unity3D-save-audioClip-to-MP3>
+  
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1719864316.jpg" />
+
+* 파일을 다운로드 받은 후 압축해제
+* audioToMP3.unitypackage 파일을 더블클릭 실행하여 import
+
 ## STT(Speech-To-Text)
 ```c#
 using System.Collections;
@@ -239,9 +273,11 @@ public class STT : MonoBehaviour
 
         //transcriptions.GetTextAsync("path/to/file.mp3");
         //get microphone name
+        int counter = 0;
         foreach (string device in Microphone.devices)
         {
-            Debug.Log("Device Name: " + device);
+            Debug.Log("[Device index:"+counter+"] [Device Name: " + device +"]");
+            counter++;
         }
 
         //get audio source reference
@@ -281,12 +317,67 @@ public class STT : MonoBehaviour
         Debug.Log("입력된 글:"+text);
     }
 }
-
-
 ```
 
 ---
 
 ## 3D 캐릭터 연동, 립싱크
+## Ready Player Me Asset
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1716442715.jpg" />
 
-## 캐릭터 배경, 성격부여
+* <https://assetstore.unity.com/packages/tools/game-toolkits/ready-player-me-avatar-and-character-creator-259814>
+* 에셋을 구입하고 Unity에서 열기하여 download, import 과정 진행
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1716443233.jpg" />
+
+* 최초등장하는 팝업은 x를 눌러서 닫기
+
+# Ready to me 아바타 사용하기
+* <https://readyplayer.me/>
+* <https://assetstore.unity.com/packages/tools/game-toolkits/ready-player-me-avatar-and-character-creator-259814?locale=ko-KR>
+
+## Avatar comfigure
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1715434259.jpg" />
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1715434478.jpg" />
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1715434387.jpg" />
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1715434431.jpg" />
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1716443315.jpg" />
+
+* <https://readyplayer.me/hub> 우측하단 공유버튼 클릭
+* 팝업에서 Copy avatar link 클릭하여 아바타 링크주소 복사
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1716443403.jpg" />
+
+* Main Manu > Tools > Ready Player Me > Avatar Loader 선택
+* 팝업창의 Avatar URL에 붙여넣기 (Ctrl+V, Command+V)하여 아바타 링크주소 입력
+* Load Avatar into Current Scene 선택
+
+---
+
+# Lipsync
+## Oculus Lipsync Unity
+* <https://developer.oculus.com/downloads/package/oculus-lipsync-unity/>
+* DownLoad 눌러서 파일 다운로드
+* 압축 해제 후 OculusLipSync.unitypackage 파일 열어서 유니티에 import
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1715500744.jpg" />
+
+* Add Component : OVR Lip Sync Context, OVR Lip Sync Context Morph Target, Eye Animation Handler
+* OVR Lip Sync Context > audio loop back 체크
+
+* OVRLipSyncContextMorphTarget.ms 파일수정
+
+```c#
+CheckVisemeKey(visemeTestKeys[i], i, 100); //100을 1로
+skinnedMeshRenderer.SetBlendShapeWeight(
+                    visemeToBlendTargets[i],
+                    frame.Visemes[i] * 100.0f); //100.0f를 1.0f로
+skinnedMeshRenderer.SetBlendShapeWeight(
+                laughterBlendTarget,
+                laughterScore * 100.0f); //100.0f를 1.0f로
+lipsyncContext.SetLaughterBlend(100); //100을 1로
+```

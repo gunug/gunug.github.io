@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Gelasio|Kulim+Park|Nanum+Myeongjo|Nanum+Gothic|Noto+Sans|Noto+Sans+KR|Roboto&display=swap');
 @import url(syntax/monokai.css);
 
+@media print {
+	body .container .sidebar {
+		display: none !important;
+	}
+	@page { margin: 0; }
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -92,6 +99,9 @@ code {
 	background-color: black;
 	color: white;
 	padding: 3px;
+}
+code span{
+	display: inline-block;
 }
 
 .container {
