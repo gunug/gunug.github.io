@@ -64,3 +64,10 @@ tags:
 
 # 광고 게재가 준비되지 않은 사이트
 * <https://www.google.com/adsense/new/u/0/pub-9319681514128117/sites/detail/url=onethelab.com>
+
+---
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1719979561.jpg" />
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1719980153.jpg" />
+
