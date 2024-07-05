@@ -60,66 +60,19 @@ tags: encrypt
 * SSLCertificateFile, SSLCertificateKeyFile 경로에 파일이 존재하지 않는다고 나옴 (아마도 예제대로 입력한 문제)
   
 ## Certbot 설치 및 인증서 생성
+* <b style="color:red;">우분투에 yum설치하다가 서버 날림 다음의 설명을 주의 하세요.</b>
+
 ### yum 설치가 처음일때
 * yum이 설치되어 있지 않을 경우 선행
 * [참고사이트](https://m.blog.naver.com/keepbang/221771186484)
 * ```apt install yum``` yum 설치
 * ```yum repolist all``` yum 저장소 목록 표시 : 여기서 0이라면 다음을 수행
-
-```c++
-[base]
-name=CentOS-$releasever - Base
-baseurl=http://ftp.daum.net/centos/7/os/$basearch/
-gpgcheck=1
-gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
-
-[updates]
-name=CentOS-$releasever - Updates
-baseurl=http://ftp.daum.net/centos/7/updates/$basearch/
-gpgcheck=1
-gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
-
-[extras]
-name=CentOS-$releasever - Extras
-baseurl=http://ftp.daum.net/centos/7/extras/$basearch/
-gpgcheck=1
-gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
-
-[centosplus]
-name=CentOS-$releasever - Plus
-baseurl=http://ftp.daum.net/centos/7/centosplus/$basearch/
-gpgcheck=1
-gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
-```
-* 위 내용을 https://onethelab.com/file/repo/daum.repo에 업로드 하였음
-* ```wget "https://onethelab.com/file/repo/daum.repo"```로 다운받기 (위치는 etc/yum/repo.d/)
-* ```yum upgrade```
-
-### 효과가 있는지 모르지만 시도했던 것들
-* ```apt install yum-utils```
-* ```yum-config-manager --enable epel-release```
-
-
-### let's encrypt 설치
-* 참고링크 : <https://blog.jiniworld.me/137>
-#### epel-release 설치
-* ```yum inatall epel-release```
-* ```yum repolist```
-#### certbot 설치
-* ```yum install certbot python2-certbot-apache```
-* ```certbot --apache -d 도메인이름```
-## HTTPS 443 port 방화벽 해제
-## 인증서 자동갱신 설정
-
----
-
-## 인증서 자동갱신
-* 참고링크 : https://softone.tistory.com/65
+* <b style="color:red;">우분투에 yum설치하다가 서버 날림 위의 설명을 주의 하세요.</b>
 
 ---
 
 # apt로 인증서 발급받기
-* 위의 yum 방식으로 하다가 kernel panic 되어서 yum대신 apt로
+* <b style="color:red;">위의 yum 방식으로 하다가 kernel panic 되어서 yum대신 apt로</b>
 * 참고링크 : https://serverspace.io/support/help/how-to-get-lets-encrypt-ssl-on-ubuntu/
 
 * ufw allow 80
@@ -140,11 +93,6 @@ gpgkey=http://ftp.daum.net/centos/RPM-GPG-KEY-CentOS-7
 
 ## 와일드카드 SSL 인증서 암호화
 * sudo certbot certonly --manual --agree-tos --preferred-challenges dns -d domain-name.com -d *.domain-name.com
-
----
-
-
-<img src="https://image.onethelab.com/resized/1709615455.jpg" />
 
 ---
 

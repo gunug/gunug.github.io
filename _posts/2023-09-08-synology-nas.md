@@ -38,3 +38,19 @@ tags: etc
 
 * 내PC 우클릭 '네트워크 드라이브 연결' 선택
 * 폴더를 선택하여 네트워크 드라이브 설정 완료
+
+---
+
+* 모델명 : DS420+
+* 패키지 설치 주소 : <https://www.synology.com/ko-kr/support/download/DS420+?version=7.2#packages>
+* Advanced Media Extensions(AME) 설치
+* spk 파일 다운로드
+* 패키지센터 > 수동 설치 > 파일위치 선택
+
+## The Movie Database
+* <https://www.themoviedb.org/>
+* 회원가입
+* 계정 아이콘 > 설정 
+* API > API 키 요청 > developer > 약관 동의
+
+---

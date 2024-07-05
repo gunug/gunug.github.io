@@ -71,3 +71,5 @@ tags:
 
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1719980153.jpg" />
 
+* 리디렉션이 포함된 페이지
+* 도메인 루트에서 서브페이지로 바로 리디렉션 시켰더니 해당 도메인 모든 페이지에 색인이 실시되지 않음

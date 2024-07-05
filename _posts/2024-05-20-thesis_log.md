@@ -692,4 +692,39 @@ tags: Thesis
 * 이스터에그 유형 : 장소 발견(Place Found), 난이도 개방(Stage Unlocked), 이벤트 발생(Event), 오브젝트 발견(Object Found), 캐릭터 대사(Script)
 * 함께보기(shared viewing)
 * 플레이어의 만족도와 동기 : 보상 형태 : 점수, 레벨, 아이템 획득, 자원 획득, 업적, 피드백 메세지, 컷씬 등의 서서 진행 미디어, 해금 시스템
-* 
+
+---
+
+@2024-07-03
+# 메타버스 크리에이터를 위한 콘텐츠 개발 연구의 필요성 - 로블록스 와 국내 학술연구 분석을 중심으로
+* 검색 추이를 알려주는 구글 트렌드(Google Trends)
+* 글로벌 시장조사업체 스트래티지 애널리틱스(Strategy Analytics)
+* 글로벌 컨설팅 기업 프라이스워터하우스쿠퍼스(PwC)
+* 자의적인 고립을 추구하는 '셧인 이코노미 현상(Shut-in Economy)'
+* 3D Object, World, Avatar, Item, Game
+* 로블록스 스튜디오(RobloxStudio), 루아 스크립트(Lua Script)프로그래밍
+* 증강현실(AugmentedReality), 일상기록(Lifelogging), 거울세계(MirrorWorlds), 가상세계(VirtualWorlds)
+* 평균 일일 활성 사용자(DAU)
+
+## 연구방법
+* RISS를 통해 학위논문 및 KCI등재 논문 자료 수집
+* 논문 분류에 필요한 항목을 정하고 분류
+* 분류 항목은 제목, 초록, 연구날짜, 학회, 논문 종류, 핵심주제, 연구방법, 개발유형
+* 검색자료는 논문 총 241편
+
+## 결론
+* 기술적 연구 및 크리에이터를 위한 콘텐츠 제작 연구가 부진
+
+---
+
+@2024-07-04
+# '놀이'에서 '노동'으로: 블록체인 기반 P3E게임의 가능성
+* 인지자본주의(Cognitive capitalism), 착취(exploitation), 암호화폐(Cryptocurrency), 대체불가능한 토큰(Non-Fungible Token, NFT)
+* 게임을 통해 수익 (P3E, Play to Earn)
+* 베트남 SkyMavis의 Axie Infinity
+* 사용가치, 시장가치, 상징가치, 윤리적 가치등 다양한 의미로 변환되고 통용되고 있어 노동의 양이나 시간이라는 특정 기준으로는 평가할 수 없는 것이다.
+* 사회적필요노동시간(socially necessary labor time)
+* 사이버자산(cyberasset), 호환가능한(Compatible), 소액결제(Micropayment)
+
+---
+
