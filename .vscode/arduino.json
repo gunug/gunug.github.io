@@ -1,0 +1,4 @@
+{
+    "sketch": "code\\serial_default.ino",
+    "board": "arduino:avr:leonardo"
+}

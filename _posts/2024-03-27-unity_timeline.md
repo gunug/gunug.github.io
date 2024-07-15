@@ -7,6 +7,9 @@ tags:
 
 # unity timeline 타임라인
 
+* 유니티 시네머신 : <https://www.youtube.com/watch?v=x6Q5sKXjZOM&list=PLX2vGYjWbI0TQpl4JdfEDNO1xK_I34y8P>
+* 유니티 타임라인 : <https://www.youtube.com/watch?v=v6sC4cwc7_4&list=PLX2vGYjWbI0ToUaFCtOEuB_2QKv_OikMO>
+
 ## 패키지 설치
 * 에디터의 메뉴 드롭다운에서 Window > Package Manager를 선택합니다.
 * Package Manager 창에서 Advanced > Show Preview Packages를 선택 (package가 release되어 더이상 pre-release 옵션을 켜지 않아도 됩니다.)

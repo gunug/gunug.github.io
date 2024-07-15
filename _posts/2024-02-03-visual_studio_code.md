@@ -54,3 +54,12 @@ tags: vscode
 * 정규식 사용 클릭
 * ^$\n  :  입력창에 입력
 * 모두 바꾸기 클릭
+
+---
+
+# 한글에 네모 표시
+- Ctrl + , :셋팅창 열기
+- 검색창에 Unicode 검색
+- Editor › Unicode Highlight: Non Basic ASCII
+- Editor › Unicode Highlight: Include String
+- 둘다 false로 변경
