@@ -136,13 +136,6 @@ public class OpenAIController : MonoBehaviour
 
 ```
 
-## 스크립트 전달
-
-<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1722757241.jpg" />
-
-* Project창에 만들어진 OpenAIController.cs 파일을 드래그
-* Hierarchy창에 있는 OpenAiController에 드롭하여 script를 전달
-
 ---
 
 
