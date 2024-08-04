@@ -20,6 +20,21 @@ using OpenAI_API.Chat;
 using OpenAI_API.Models;
 using UnityEngine;
 
+
+public enum ChatMessageSampleRole
+{
+    System,
+    User,
+    Assistant
+}
+
+[System.Serializable]
+public class ChatMessageSample
+{
+    public ChatMessageSampleRole role = ChatMessageSampleRole.System;
+    public string content = "Hello, World!";
+}
+
 public class OpenAIController : MonoBehaviour
 {
     private OpenAIAPI api;
@@ -38,9 +53,11 @@ public class OpenAIController : MonoBehaviour
     public int maxResponseWordLimit = 10;
 
     [TextArea(3,10)]
-    public string personality = "한국어만 사용합니다. 영어로 대답하지 않습니다. 수학에 관련된 답변만 해줍니다. 수학의 역사, 수에 관한 재밌는 이야기 등. 수학과 관련이 있다면 다른 과목이라도 답변을 해줍니다. 답변의 마지막엔 수학에 관한 재미있는 이야기를 하나 알려줍니다.";
+    public string personality = "수학에 관련된 답변만 해줍니다. 수학의 역사, 수에 관한 재밌는 이야기 등. 수학과 관련이 있다면 다른 과목이라도 답변을 해줍니다. 답변의 마지막엔 수학에 관한 재미있는 이야기를 하나 알려줍니다. 도덕적으로 옳지 못한것을 바로잡아줍니다.";
     [TextArea(3,10)]
     public string scene = "교실입니다";
+
+    public ChatMessageSample[] sample_message; //★;
     public void StartConversation()
     {
         string defult_content = "You are a teacher and will answer to the message the player ask you. \n" +
@@ -55,6 +72,16 @@ public class OpenAIController : MonoBehaviour
             new ChatMessage(ChatMessageRole.System, defult_content)
         };
         //새 시스템 메세지를 생성하는 것으로 캐릭터 설정
+        foreach (var item in sample_message)
+        {
+            if(ChatMessageSampleRole.System == item.role)
+                messages.Add(new ChatMessage(ChatMessageRole.System, item.content));
+            else if(ChatMessageSampleRole.User == item.role)
+                messages.Add(new ChatMessage(ChatMessageRole.User, item.content));
+            else if(ChatMessageSampleRole.Assistant == item.role)
+                messages.Add(new ChatMessage(ChatMessageRole.Assistant, item.content));
+        }
+        //시스템 메세지를 추가하는 것으로 캐릭터 강화
     }
 
     public async void GetResponse(string ins_input_string = null)
@@ -110,6 +137,7 @@ public class OpenAIController : MonoBehaviour
     private int font_size = 20;
     private bool isTypeable = true;
     private void OnGUI(){
+        //return; //이 코드를 주석 해제하면 GUI가 출력되지 않음
         //Graphic User Interface 출력
         if(Event.current.type == EventType.KeyDown && Event.current.keyCode == KeyCode.Return){
             GetResponse();
@@ -133,6 +161,7 @@ public class OpenAIController : MonoBehaviour
         GUILayout.EndVertical();
     }
 }
+
 
 ```
 
