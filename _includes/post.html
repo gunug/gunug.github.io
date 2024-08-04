@@ -4,11 +4,13 @@
 			{{ page.title | escape }}
 			<a target="_blank" href="https://github.com/gunug/gunug.github.io/blob/main/{{page.path}}"><img width="15px" src="/public/img/Git-Icon-Black.png" /></a>
 			<!-- button for page full url copy to clipboard -->
+			<script>
+				var ins_text = '[{{ page.title}}]({{ page.url }}){:target="_blank"}';
+			</script>
 			<span onclick="
+				
 				navigator.clipboard.writeText(
-					'[{{ page.title}}]'
-					+'({{ page.url }})'
-					+'{:target=_blank}'
+					ins_text
 				)
 				.then(function() {alert('URL이 클립보드에 복사되었습니다!');})
 				.catch(function(err) {alert('URL을 클립보드에 복사하는 중 오류가 발생했습니다: ' + err);})"

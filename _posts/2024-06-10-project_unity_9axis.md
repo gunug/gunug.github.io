@@ -29,13 +29,18 @@ void setup(){
 }
 uint32_t Vbatt = 0;
 void loop(){
+    Vbatt = 0;
     for(int i = 0; i < 16; i++) {
         Vbatt = Vbatt + analogReadMilliVolts(A0); // ADC with correction   
     }
     float Vbattf = 2 * Vbatt / 16 / 1000.0;     // attenuation ratio 1/2, mV --> V
 }
 ```
-
+* 4.1볼트 : 전원연결 스위치 오프
+* 3.3볼트 : 전원연결 스위치 온
+* 2.9볼트 : 전원제거
+* 2.7볼트 (2분) : 블루투스 끊김
+* 2.6볼트 (2분 40초) : LCD 화면 깜빡임
 ---
 
 ## 제작
