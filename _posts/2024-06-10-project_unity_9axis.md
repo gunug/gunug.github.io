@@ -58,3 +58,43 @@ void loop(){
 * 센서 켈리브레이션 작업은 추가로 필요합니다.
 * 배터리 표시 및 LCD 화면 출력은 미구현입니다.
 * 센서값을 Unity로 보내고 좌표를 계산하는 부분이 개선 되었습니다. (esp32 소스코드 전면 수정)
+
+---
+
+# 2024-08-07 파일전달
+## 유니티 파일
+* [Unity project](https://onethelab-my.sharepoint.com/:u:/p/gh_cho/EQSIc0Akr7VBvrPtyzTXV0wBRC1S52AZYJB3ldglxwi9pw?e=xCmAu8)
+* Unity Editor version : 2022.3.27f1
+* 프로젝트를 안드로이드로 빌드하면 apk파일이 생성됩니다. 이 파일을 스마트 폰으로 옮겨서 실행하면됩니다.
+
+## 아두이노 파일
+* [mpu6050 캘리브레이션](https://onethelab-my.sharepoint.com/:u:/p/gh_cho/EQoLnK2Y9eZEhwtRYpbI5V0BgfV4cu8AMpMXgqklylBJXQ?e=AT87Dp)
+* [esp32 디바이스](https://onethelab-my.sharepoint.com/:u:/p/gh_cho/EXCO5RkCyCpMroZKncDWfa8BU_053r6eHnzBBlYgOq2xeQ?e=VuqMlz)
+
+## 아두이노 라이브러리
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1723041907.jpg" />
+* MPU6050 by Electronic Cats 라이브러리를 설치 합니다.
+* 버전 1.3.1
+
+## 아두이노 설치 방법
+* 아두이노 라이브러리를 다운 받습니다.
+* mpu6050 캘리브레이션 파일을 다운로드 받습니다.
+* 아두이노에 업로드 합니다.
+* 기기를 수평으로 하고 시리얼 모니터에 엔터를 입력하면 켈리브레이션을 시작합니다. (수초에서 수분 소요될 수 있습니다.)
+  
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1723042313.jpg" />
+
+* 캘리브레이션을 마치고 얻을수 있는 값의 각각의 명칭을 확인합니다.
+
+* esp32 디바이스 소스코드에서 다음의 내용 찾아서 캘리브레이션 결과 값을 입력에 넣습니다.
+  
+```c++
+mpu.setXAccelOffset(-481);
+mpu.setYAccelOffset(1422);
+mpu.setZAccelOffset(1807);
+mpu.setXGyroOffset(-75);
+mpu.setYGyroOffset(56);
+mpu.setZGyroOffset(40);
+```
+* 아두이노에 업로드 합니다.
+
