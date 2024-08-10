@@ -42,16 +42,16 @@ tags:
 
 ---
 
-<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1714289169.jpg" />
-
 ## Paint Texture
 * Paint Texture 선택
 * Terrain Layers > Edit Terrain Layers > Create Layer
-* 바닥 타일 모양의 그림(풀, 자갈, 모래)을 선택하여 레이어를 생성합니다.
+* 바닥 타일 모양의 그림(풀, 자갈, 모래)을 선택하여 레이어를 생성
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1714289169.jpg" />
 
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1714290097.jpg" />
 
-* Select Texture2D 검색창에 albedo 검색
+* Select Texture2D 검색창에 ```albedo``` 검색
 * 나오는 Texture들 중 지면에 사용할수 있는 이미지를 더블클릭하여 등록
 * 반복하여 모든 텍스쳐를 등록 완료하면 파렛트에서 물감 선택하듯 선택하여 지형에 칠 할 수 있음
 
@@ -76,7 +76,7 @@ tags:
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1714290222.jpg" />
 
 * Tree prefab 우측 동그라미 클릭
-* Select GameObject창 검색창에 desktop 입력
+* Select GameObject창 검색창에 ```desktop``` 입력
 * 다음의 3가지 나무를 더블클릭하여 사용가능
 * 선택 후 Add Tree 창의 Add버튼 클릭
 * 아무것도 나타나지 않을 경우, 첫페이지에 있는 standard assets 다운로드하여 import 할 것
@@ -89,10 +89,11 @@ tags:
 
 ---
 
-<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1714290386.jpg" />
-
 ## 물 만들기
 * Project 창
+  
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1714290386.jpg" />
+
 * Standard Assets / Environment / Water / Water4 / Prefabs / Water4Simple
 * 드래그 드랍으로 Scene창에 내려놓기
 * X,Y,Z scale을 이용하여 원하는 크기로 조정하여 사용
