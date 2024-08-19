@@ -92,4 +92,19 @@ tags:
 
 # Robot.txt 설정
 * <https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt?hl=ko>
-* 
+* <https://seo.tbwakorea.com/blog/robots-txt-complete-guide/>
+
+## 구성요소
+* User-agent: robots.txt 에서 지정하는 크롤링 규칙이 적용되어야 할 크롤러를 지정합니다.
+* Allow: 크롤링을 허용할 경로입니다 (/ 부터의 상대 경로).
+* Disallow: 크롤링을 제한할 경로입니다 (/ 부터의 상대 경로).
+* Sitemap: 사이트맵이 위치한 경로의 전체 URL입니다 (https:// 부터 /sitemap.xml 까지의 전체 절대경로 URL).
+
+## 봇이름
+* 구글: Googlebot
+* 네이버: Yeti
+* 다음: Daum
+* 빙: Bingbot
+* 덕덕고: DuckDuckBot
+
+---
