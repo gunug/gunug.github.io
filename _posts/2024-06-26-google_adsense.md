@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google adsense 구글애드센스
-category: etc
+category: business
 tags: 
 ---
 
@@ -73,3 +73,23 @@ tags:
 
 * 리디렉션이 포함된 페이지
 * 도메인 루트에서 서브페이지로 바로 리디렉션 시켰더니 해당 도메인 모든 페이지에 색인이 실시되지 않음
+
+---
+
+# 구글 검색 개선
+* google search console : <https://search.google.com/search-console/welcome?utm_source=about-page>
+* 상관없는 검색어에 노출이 되고 있음.
+
+* 유용하고 신뢰할 수 있는 사용자 중심 콘텐츠 제작하기 <https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=ko>
+* 검색엔진 최적화(SEO) 기본 가이드 <https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=ko>
+* Google 검색에서 내 페이지가 누락된 이유는 무엇인가요? <https://support.google.com/webmasters/answer/7474347?hl=ko>
+* 사이트 트래픽이 떨어지는 이유 <https://support.google.com/webmasters/answer/9079473?hl=ko>
+* Google 검색의 작동 방식에 대한 상세 가이드 <https://developers.google.com/search/docs/fundamentals/how-search-works?hl=ko>
+* Google 검색 순위 시스템 가이드 <https://developers.google.com/search/docs/appearance/ranking-systems-guide?hl=ko>
+* Google 검색 트래픽 감소 파헤치기 <https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops?hl=ko>
+
+---
+
+# Robot.txt 설정
+* <https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt?hl=ko>
+* 

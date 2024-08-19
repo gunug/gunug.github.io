@@ -57,6 +57,10 @@ tags:
 
 * 아무것도 나타나지 않을 경우, 첫페이지에 있는 standard assets 다운로드하여 import 할 것
 
+## terrain layer
+* <https://assetstore.unity.com/packages/2d/textures-materials/nature/realistic-terrain-textures-free-279940#content>
+* Terrain Layers > Edit Terrain Layers > add 
+* Terrain Layers는 albedo, normal, mask등이 종합적으로 포함된 것으로 좀더 사실적으로 표시됨
 
 ---
 

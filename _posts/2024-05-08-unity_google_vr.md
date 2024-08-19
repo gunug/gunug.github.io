@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Unity Google Vr 구글 카드보드
+title: Unity Google Cardboard Vr 구글 카드보드
 category: unity3d
 tags:
 ---
 
 * 2020버전이후 부터는 다음의 설치방법을 권장
-* https://developers.google.com/cardboard/develop/unity/quickstart?hl=ko
+* <https://developers.google.com/cardboard/develop/unity/quickstart?hl=ko>
 * package manager > + > add from git url > 링크주소에 있는 git 주소 입력하여 등록
-* https://github.com/googlevr/cardboard-xr-plugin.git
+* ```https://github.com/googlevr/cardboard-xr-plugin.git```
 * sample을 import하여 scene 확인
 
 ---
@@ -17,6 +17,11 @@ tags:
 * Build Settings > Android
 * Switch Platform
 
+## Sample Scene
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1723771655.jpg" />
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1723771791.jpg" />
+
 ## Scene 등록
 * Assets\Samples\Google Cardboard XR Plugin for Unity\1.24.0\Hello Cardboard\Scenes
 * HelloCardboard.unity
@@ -24,6 +29,9 @@ tags:
 * 다음의 내용은 (https://developers.google.com/cardboard/develop/unity/quickstart?hl=ko)다시 기입한 내용입니다.
 
 ## 해상도 설정
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1723773979.jpg" />
+
 * Project Setting > Player > Resolution and Presentation
 * Default Prientation : Landscape Left
 * Optimized Frame Pacing 체크 해제
@@ -43,13 +51,6 @@ tags:
 * Project Setting > Player > Publishing Settings
 * Build > Custom Main Gradle Template 체크
 * Assets\Plugins\Android\mainTemplate.gradle에 다음내용 추가
-
-## XR플러그인 관리 설정
-* Project Setting > XR Plug-in Management
-* Plug-in Providers > Cardboard XR Plugin 체크
-
-## 빌드
-* Build, Build and Run 선택
   
 ```
   implementation 'androidx.appcompat:appcompat:1.6.1'
@@ -57,7 +58,10 @@ tags:
   implementation 'com.google.android.material:material:1.6.1'
   implementation 'com.google.protobuf:protobuf-javalite:3.19.4'
 ```
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1723774274.jpg" />
 
+## 빌드
+* Project Setting > Player > Publishing Settings
 * Build > Custom Gradle Properties Template 체크
 * Assets\Plugins\Android\gradleTemplate.properties에 다음내용 추가
   
@@ -65,6 +69,14 @@ tags:
   android.enableJetifier=true
   android.useAndroidX=true
 ```
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1723774457.jpg" />
+
+## XR플러그인 관리 설정
+* Project Setting > XR Plug-in Management
+* Plug-in Providers > Cardboard XR Plugin 체크
+
+
 
 ---
 
@@ -75,3 +87,5 @@ tags:
 * 결론 : SDK 중복등록으로 인한 Manifest 겹침문제, 차라리 프로젝트를 다시 시작하는 것이 낫다
 
 * Manifest merger failed : uses-sdk:minSdkVersion 22 cannot be smaller than version 26 declared in library [:GfxPluginCardboard:] C:\Users\One The Lab\.gradle\caches\transforms-3\3df939d206deefe776eb9a648d0c485a\transformed\GfxPluginCardboard\AndroidManifest.xml as the library might be using APIs not available in 22 See the Console for details.
+
+* Manifest merger failed : uses-sdk:minSdkVersion 22 cannot be smaller than version 26 declared in library [:GfxPluginCardboard:] C:\Users\One The Lab\.gradle\caches\transforms-3\5195ea498d930be5af8855eed4c49353\transformed\GfxPluginCardboard\AndroidManifest.xml as the library might be using APIs not available in 22 See the Console for details.

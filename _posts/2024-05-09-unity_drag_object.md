@@ -105,3 +105,16 @@ public class DragObject : MonoBehaviour
 * Constraints : 제약
   * Freeze Position : 특정방향 움직임 막기
   * Freeze Rotation : 특정방향 회전 막기
+
+---
+
+# physics material
+* Dynamic Friction : 이동마찰 0~1 (0이면 얼음같은 느낌)
+* Static Friction : 정지마찰 0~1 (0이면 얼음같은 느낌)
+* Bounciness : 반동하는 방법 (0 반동 없음, 1 무손실 반동)
+* Friction Combine : 충돌 마찰
+  * Average : 평균
+  * Minimum : 작은값이 적용됨
+  * Maximum : 큰값이 적용됨
+  * Multiply : 마찰값이 곱셈됨
+* Bounce Combine : 충돌 반동 (옵션은 Friction Combine과 동일)
