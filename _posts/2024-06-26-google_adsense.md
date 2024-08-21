@@ -107,4 +107,12 @@ tags:
 * 빙: Bingbot
 * 덕덕고: DuckDuckBot
 
+# robot.txt 파일 존재여부 확인
+* <https://search.google.com/search-console/settings/robots-txt?resource_id=sc-domain%3Aonethelab.com>
+
 ---
+
+
+# Google SEO
+* <https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=ko>
+* 검색엔진 최적화
