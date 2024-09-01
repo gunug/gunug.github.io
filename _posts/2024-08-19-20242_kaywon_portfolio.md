@@ -11,6 +11,11 @@ teaser:
 ---
 
 # 1주차 - 오리엔테이션
+* [introduction 교수소개](/education/2024/03/02/introduction.html){:target="_blank"}
+* 16년차 프로그래머 (action script, c++, c#, html, css, java script, php)
+  * AR, VR, 피지컬 컴퓨팅, 메타버스
+* 9년차 전문대학교 강사 (디자인 대학생 대상 프로그래밍 교육)
+  * Unity3D, Arduino, 프론트엔드(html,css,javascript), 백엔드(php,mysql)
 * [2024년 학과 수칙 및 수업 진행 방식](/subpage/2024/03/03/education-rule.html){:target="_blank"}
 * [생성형 AI를 활용한 교수/학습 운영방법 가이드라인](/subpage/2024/09/01/sub_ai.html){:target="_blank"}
 * 전문대학교의 주요 목표는 취업과 진학(대학 편입 등)
@@ -61,6 +66,8 @@ teaser:
   * 회사 포트폴리오 분석 (업무 분야, 업무 규모 등)
   * 지원 가능성 검토 (향후 3년)
 * 이력, 프로젝트 편집 : 중요도 순으로 숨기거나 순서를 뒤로 미룸
+  * [포트폴리오](https://onethelab.com/portfolio/){:target="_blank"}
+  * [이력서](https://onethelab.com/profile/){:target="_blank"}
 
 # 자기소개서, 이력서 작성
 
