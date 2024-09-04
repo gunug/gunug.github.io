@@ -1,7 +1,7 @@
 ---
 layout: post
 title: oculus full tracking 오큘러스 아바타 풀트래킹
-category: todo
+category: vr
 tags: c# unity3d oculus
 ---
 
