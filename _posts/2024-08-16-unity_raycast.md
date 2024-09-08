@@ -52,3 +52,34 @@ public class RayController : MonoBehaviour
     }
 }
 ```
+
+---
+
+
+```c#
+using UnityEngine;
+
+public class RaycastExample : MonoBehaviour
+{
+    void Update()
+    {
+        // 마우스 클릭을 체크합니다.
+        if (Input.GetMouseButtonDown(0))
+        {
+            // 카메라에서 클릭 위치로 Ray를 쏩니다.
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+
+            // 레이캐스트를 실행하여 Collider와 충돌했는지 확인합니다.
+            if (Physics.Raycast(ray, out hit))
+            {
+                // 히트한 위치를 얻습니다.
+                Vector3 hitPoint = hit.point;
+                Debug.Log("Ray hit point: " + hitPoint);
+                
+                // 필요한 다른 로직을 이곳에 추가하세요.
+            }
+        }
+    }
+}
+```
