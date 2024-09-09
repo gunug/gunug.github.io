@@ -98,3 +98,11 @@ mpu.setZGyroOffset(40);
 ```
 * 아두이노에 업로드 합니다.
 
+---
+
+# 2024-09-10 최종전달
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zM2iRliJbMA?si=NbTBUU9EGcCLZnpC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[unity RayController RayTarget](/unity/2024/09/10/unity_raycontroller_raytarget.html){:target="_blank"}
+
+* [Unity project](https://onethelab-my.sharepoint.com/:u:/p/gh_cho/Efs1Bx3bT8xJqrIOj5FzGykBDYl3f6oMYDXkv-vlJ99wDg?e=O9Sdcu)
