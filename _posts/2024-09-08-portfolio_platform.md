@@ -284,6 +284,7 @@ tags:
 * 아이디.notion.site로 공개페이지를 전달할 수 있습니다. <https://www.notion.so/ko/help/guides/build-a-website-with-notion-in-seconds-no-coding-required>{:target="_blank"}
 * 어느정도 이상 사용할 경우 확장이 불가하고, 유료로 전환해야 한다. : 매 월 지출되는 이용료가 부담될 수 있습니다. 시작 단계에서 포트폴리오를 다 담을 만큼 기본공간을 제공하는지 파악하세요.
 * 이미지 첨부시 최대 용량 제한이 있습니다. (용량을 추가하기 위한 월단위 추가 지출) 이외에도 제약 사항이 있는지 파악해 보세요.
+* 노션 교육용 플러스 요금제 : <https://www.notion.so/ko/help/notion-for-education>{:target="_blank"}
 * 인쇄 출력 및 파일(PDF)출력이 가능해야 합니다. (가능성 검토 하세요)
   
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1725803447.jpg" />
