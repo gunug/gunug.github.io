@@ -31,6 +31,39 @@ teaser:
 
 ---
 
+# 2주차
+* [vr smart phone 가상현실 스마트폰](/vr/2024/09/11/vr_smart_phone.html){:target="_blank"}
+
+# 2주차 수업진행
+* 개인정보 보호 목적으로 기기를 공장초기화 합니다. 이후 내용은 1주차와 동일 합니다.
+* [meta quest factory reset 메타 퀘스트 공장 초기화](/vr/2024/09/11/meta_quest_factory_reset.html){:target="_blank"}
+* [Meta quest 설치 및 사용](/vr/2024/09/04/meta_quest_start.html){:target="_blank"}
+* [Meta XR Project Setting](/vr/2024/09/05/meta_xr_start.html){:target="_blank"}
+
+# 2주차 실습
+## 실제 폰에 글꼴 크기 맞추기
+* 각자 자신의 폰에 30pt 크기로 "Hello World!" 글자를 출력해 봅시다.
+* Arial 글꼴을 사용합니다. (윈도우, 맥 모두 기본으로 설치되어 있는 글꼴)
+* 친구들과 글자 크기를 비교해 봅시다. (누군가는 실수하지 않을까요?)
+
+<div style="font-size:30pt; font-family:arial;">Hello World</div>
+  
+## VR 폰에 글꼴 크기 맞추기
+* VR환경에 Cube를 만들고 자신의 폰의 화면과 크기를 맞춥니다(x,y,z 값 입력)
+* VR 폰에 30pt 크기로 "Hello World!" 글자를 출력해 봅시다.
+* Arial 글꼴을 사용합니다. (윈도우, 맥 모두 기본으로 설치되어 있는 글꼴)
+
+
+# 2주차 과제
+* 실험은 같이(이미지 전달 등), 실험 결과는 개인별로 제출합니다.
+* 내가 선정한 폰트 크기를 유니티에서 어떻게 구현할것인가?
+* 선정한 폰트를 메타 퀘스트 3에서 출력한 스크린샷
+* 메타 퀘스트 3의 렌즈를 통환 화면을 핸드폰 카메라로 촬영
+* 실제 보았을때의 가독성 확인
+* 실제 보고난 후 폰트의 크기를 정해봅시다.
+
+---
+
 # 차주 진행내용
 * 아직 정리전 입니다.
 
