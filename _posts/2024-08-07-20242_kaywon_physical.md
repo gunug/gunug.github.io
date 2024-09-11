@@ -44,7 +44,7 @@ teaser:
 ## 실제 폰에 글꼴 크기 맞추기
 * 각자 자신의 폰에 30pt 크기로 "Hello World!" 글자를 출력해 봅시다.
 * Arial 글꼴을 사용합니다. (윈도우, 맥 모두 기본으로 설치되어 있는 글꼴)
-* 친구들과 글자 크기를 비교해 봅시다. (누군가는 실수하지 않을까요?)
+* 친구들과 글자 크기를 비교해 봅시다.
 
 <div style="font-size:30pt; font-family:arial;">Hello World</div>
   
