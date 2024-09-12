@@ -39,33 +39,64 @@ teaser:
 * [meta quest factory reset 메타 퀘스트 공장 초기화](/vr/2024/09/11/meta_quest_factory_reset.html){:target="_blank"}
 * [Meta quest 설치 및 사용](/vr/2024/09/04/meta_quest_start.html){:target="_blank"}
 * [Meta XR Project Setting](/vr/2024/09/05/meta_xr_start.html){:target="_blank"}
+* [vr empty room 빈 가상공간 만들기](/vr/2024/09/12/unity_empty_vr_room.html){:target="_blank"}
 
 # 2주차 실습
 ## 실제 폰에 글꼴 크기 맞추기
 * 각자 자신의 폰에 30pt 크기로 "Hello World!" 글자를 출력해 봅시다.
 * Arial 글꼴을 사용합니다. (윈도우, 맥 모두 기본으로 설치되어 있는 글꼴)
-* 친구들과 글자 크기를 비교해 봅시다.
+* 지난 시간에 pt 단위가 어떤 의미를 가지고 있는지 조사 하였다면 대략 추측되는 방법이 있을 것입니다.
+* 이론상 1inch는 72pt 입니다. 계산이 맞다면 모든 학생들의 폰에는 같은 크기의 글자가 떠있어야 합니다.
+* 친구들과 글자 크기를 비교해 봅시다. 이론과 실제가 맞는지도 확인해 봅시다.
 
-<div style="font-size:30pt; font-family:arial;">Hello World</div>
+<div style="font-size:30pt; font-family:arial;">Hello World</div> css로 입력한 30pt의 글자
   
 ## VR 폰에 글꼴 크기 맞추기
 * VR환경에 Cube를 만들고 자신의 폰의 화면과 크기를 맞춥니다(x,y,z 값 입력)
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726085214.jpg" />
+* 기본 생성된 큐브는 scale(크기 배율)이 1,1,1이며 1m * 1m * 1m에 해당합니다.
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726091948.jpg" />
+* 유니티 특성상 이미지 텍스쳐는 큐브의 크기에 맞추어 늘어지게 되어있습니다. (비율 무시)
 * VR 폰에 30pt 크기로 "Hello World!" 글자를 출력해 봅시다.
 * Arial 글꼴을 사용합니다. (윈도우, 맥 모두 기본으로 설치되어 있는 글꼴)
 
-
 # 2주차 과제
-* 실험은 같이(이미지 전달 등), 실험 결과는 개인별로 제출합니다.
-* 내가 선정한 폰트 크기를 유니티에서 어떻게 구현할것인가?
-* 선정한 폰트를 메타 퀘스트 3에서 출력한 스크린샷
-* 메타 퀘스트 3의 렌즈를 통환 화면을 핸드폰 카메라로 촬영
-* 실제 보았을때의 가독성 확인
-* 실제 보고난 후 폰트의 크기를 정해봅시다.
+* 실험은 같이(이미지 전달 등) 상의 하는것도 좋습니다, 실험 결과는 개인별로 제출합니다.
+* 내가 선정한 폰트 크기를 유니티에서 어떻게 구현할것인가? 각자 고민해보고 기술합니다.
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726090569.jpg" />
+
+* 선정한 폰트 크기의 "Hello World!"글자를 메타 퀘스트 3에서 출력한 스크린샷 (meta horizon의 미러링 기능을 이용하여 촬영) 합니다.
+* VR기기를 쓰고 보았을때의 가독성 확인합니다.
+* 스크린샷 첨부하고 VR기기를 쓰고 보았을때의 결과(글자를 알아볼 수 없음, 읽을 수 있음, 깨끗하게 읽힘 등)를 기록합니다.
+* 폰트 크기를 조절 하며 Meta Quest 3 의 스마트폰에 적합한 폰트 크기를 찾아갑니다.
+* 최적이라고 생각하는 폰트 크기를 적용한 스크린샷 하나를 추가로 첨부합니다.
+
+# PDF 파일 포함내용
+* 내가 선정한 폰트 크기를 유니티에서 어떻게 구현할 것인가? 설명글
+* 선정한 폰트 크기를 가상의 큐브에 얹어서 VR에 띄운 스크린샷
+* 선정한 폰트 크기를 Meta Quest 3에서 보았을때의 결과. 설명글
+* 최적이라고 생각하는 폰트 크기를 적용한 스크린샷
+* 최종결과 00pt
 
 ---
 
-# 차주 진행내용
-* 아직 정리전 입니다.
+# 정리중 (수업에 참고할 내용)
+* <b style="color:red"> 이 이후의 내용은 이대로 진행되지 않습니다. 수업 진행상황에 따라 변경됩니다. 미리 진행하지 않도록 합니다. </b>
+
+---
+
+## 메타 퀘스트 스크린샷, 동영상 촬영
+* 스크린샷 : 메타 버튼 + 트리거
+* 동영상 시작 : 메타 버튼 + 트리거 (노란색 점이 빨간색이 될때까지 유지)
+* 동영상 종료 : 메타 버튼 + 트리거 (빨간색 점이 노란색이 될때까지 유지)
+* 촬영된 동영상, 스크린샷은 '카메라' 앱에서 확인할 수 있습니다.
+
+## USB로 옮기기
+* 참고링크 : <https://just-hobby.tistory.com/36>
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726083393.jpg" />
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726083431.jpg" />
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726083458.jpg" />
 
 ---
 
@@ -98,9 +129,6 @@ teaser:
 * VR의 조작방식
 
 ---
-
-# 정리중 (수업에 참고할 내용)
-* <b style="color:red"> 이대로 진행되지 않습니다. 수업 진행상황에 따라 변경됩니다. 이 내용대로 미리 진행하지 않도록 합니다. </b>
 
 * Meta XR 참고 영상 : <https://youtu.be/es9d1y1hYfM?si=-TefESt1oDAZC5wL>
 
