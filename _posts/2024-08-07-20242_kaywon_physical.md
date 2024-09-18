@@ -16,6 +16,7 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 * [생성형 AI를 활용한 교수/학습 운영방법 가이드라인](/subpage/2024/09/01/sub_ai.html){:target="_blank"}
 
 # 실습
+* Unity3d 설치 (2022년 이후 LTS 버전, 이전년도 버전 문제 발생)
 * [Meta quest 설치 및 사용](/vr/2024/09/04/meta_quest_start.html){:target="_blank"}
 * [Meta XR Project Setting](/vr/2024/09/05/meta_xr_start.html){:target="_blank"}
 
