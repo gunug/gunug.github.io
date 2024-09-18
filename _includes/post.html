@@ -43,7 +43,17 @@
 			const newDiv = document.createElement('div');
 			newDiv.style = 'color: white; cursor: pointer; display: inline-block; border-radius: 3px; padding: 2px; background-color: #007bff; font-size: 0.7em; margin: 4px;';
 			newDiv.innerHTML = 'copy code';
-			codeElement.parentElement.appendChild(newDiv);
+			//codeElement.parentElement.appendChild(newDiv); // 부모 요소의 마지막 자식 요소로 newDiv 삽입
+
+			// 부모 요소의 첫 번째 자식 요소를 참조
+			var firstChild = codeElement.parentElement.firstChild;
+
+			// codeElement의 다음 형제를 참조
+			var nextSibling = codeElement.nextSibling;
+
+			// 첫 번째 자식 요소 앞에 newDiv 삽입
+			codeElement.parentElement.insertBefore(newDiv, nextSibling);
+
 			// 클릭 이벤트 리스너 추가
 			newDiv.addEventListener('click', function() {
 				// 코드 내용 가져오기
