@@ -75,10 +75,59 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 # PDF 파일 포함내용
 * 내가 선정한 폰트 크기를 유니티에서 어떻게 구현할 것인가? 설명글
 * 선정한 폰트 크기를 가상의 큐브에 얹어서 VR에 띄운 스크린샷
-* --- 수업 진행 상황에 딸 위 과정까지 밖에 진행하지 못한 팀에서는 위 내용만 첨부합니다. (하단 내용은 첨부되지 않아도 과제 점수에 영향이 없습니다.)
+* --- 수업 진행 상황에 따라 위 과정까지 밖에 진행하지 못한 팀에서는 위 내용만 첨부합니다. (하단 내용은 첨부되지 않아도 과제 점수에 영향이 없습니다.)
 * 선정한 폰트 크기를 Meta Quest 3에서 보았을때의 결과. 설명글
 * 최적이라고 생각하는 폰트 크기를 적용한 스크린샷
 * 최종결과 00pt
+
+---
+
+# 3주차
+
+# 3주차 수업진행
+* 내가 만든 폰트 00pt 가 과연 정확한 사이즈 일까?
+* 잘못 조정된 사이즈로 폰트를 큐브에 얹었다면 폰트 사이즈에 대한 고찰도 같이 잘못 되었을 것
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726663878.jpg" />
+
+# 3주차 실습
+## 가이드에 따라 다시 한번 폰트 크기를 맞추어 봅시다
+* 핸드폰 화면 사이즈 실측 (베젤이 포함되면 베젤 사이즈 만큼 오차가 나기 때문에 베젤은 제외)
+* 핸드폰 화면 사이즈에 맞추어 큐브 생성 (x 7.5cm 라면 0.075) *0.01 한 값을 쓰면 됨 (미터 > 센티미터 변환)
+* 핸드폰 해상도에 맞추어 포토샵에서 이미지 생성 ppi(dpi)설정은 핸드폰 ppi를 인터넷에 검색하여 입력
+* 아래 예시는 갤럭시 울트라 s22 (1440 * 3080 : 500ppi)
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726663767.jpg" />
+
+* 포인트(pt) 기준으로 텍스트 생성
+
+## 표준과 비교하여 봅시다
+* 큐브를 생성하고 x,y,z 값을 각각 0.1,0.1,0.1 로 설정하여 한번이 10센티미터인 큐브 생성
+* 포토샵에서 이미지 생성 ppi설정은 72, 가로 10cm, 세로 10cm
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726664642.jpg" />
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726665036.jpg" />
+
+* 화면에 큐브 배치시 카메라와의 거리에 따라서도 글씨 크기가 다르게 보일 수 있음
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726665374.jpg" />
+
+# 3주차 과제
+## 지난주에 진행하지 못했던 내용을 이번주에 시도합니다.
+* 선정한 폰트 크기를 Meta Quest 3에서 보았을때의 결과. 설명글
+* 최적이라고 생각하는 폰트 크기를 적용한 스크린샷
+* 최종결과 00pt
+
+## 새로운 내용을 포함합니다
+* 내가 생성한 이미지가 제대로된 크기였는지 큐브를 통하여 검증하기 (위 예시 참고)
+* 한 화면에 10, 15, 20, 25, 30, 35, 40, 45, 50 pt의 텍스트를 포함하는(hello world가 아니여도 좋습니다) 이미지를 생성하여 스마트 폰에 올리기
+
+---
+
+# VR 콘텐츠 제작 가이드
+* 해상도, 폰트크기
+* UX/UI
+* 상호작용
+
+* 갤럭시 s22 울트라 : 1440 * 3080 : 500ppi : 77.9mm * 163.3mm * 8.9mm
 
 ---
 
@@ -86,6 +135,29 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 * <b style="color:red"> 이 이후의 내용은 이대로 진행되지 않습니다. 수업 진행상황에 따라 변경됩니다. 미리 진행하지 않도록 합니다. </b>
 
 ---
+
+## LOD(Level of Detail)
+* 컴퓨터 리소스를 절약하기 위한 수단으로 거리와 시점에 따라 텍스처의 해상도를 동적으로 조절하는 방식
+
+## Mipmap
+* <https://docs.unity3d.com/kr/2022.3/Manual/texture-mipmaps-introduction.html>
+
+1. **근거리(0-2미터):** 고해상도 텍스처 (예: 2048x2048 또는 그 이상)
+   - 플레이어가 객체를 가까이서 자세히 볼 수 있을 때 필요한 수준입니다.
+
+2. **중간 거리(2-5미터):** 중해상도 텍스처 (예: 1024x1024)
+   - 객체가 플레이어의 관심 영역 내에 있지만 세부사항을 너무 자세히 보지 않아도 될 때 사용합니다.
+
+3. **원거리(5미터 이상):** 저해상도 텍스처 (예: 512x512 또는 그 이하)
+   - 객체가 멀리 있어 자세한 디테일 묘사가 필요 없을 때 사용합니다.
+
+---
+
+## 스마트폰 에셋
+* <https://assetstore.unity.com/packages/3d/props/free-phone-181455>
+
+## VR 최적화
+* <https://medium.com/@xavidevsama/optimizing-vr-performance-in-unity-techniques-and-best-practices-b9c6a5d539f3>
 
 ## 메타 퀘스트 스크린샷, 동영상 촬영
 * 스크린샷 : 메타 버튼 + 트리거
@@ -133,8 +205,14 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 
 * Meta XR 참고 영상 : <https://youtu.be/es9d1y1hYfM?si=-TefESt1oDAZC5wL>
 
-* 메타 퀘스트3 화각(viewing angle, field of view)
+# 메타 퀘스트3 스펙
+## 메타 퀘스트3 화각(viewing angle, field of view)
 * 110 degrees horizontal and 96 degrees vertical
+
+## 해상도
+* 한쪽당 2064 * 2208px
+
+---
 
 ## 개요
 * [XR Simulator](https://developer.oculus.com/documentation/unity/xrsim-heroscenes)
