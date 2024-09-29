@@ -138,6 +138,56 @@ teaser:
 
 ---
 
+# 5주차
+* 포트폴리오 = 홍보물, 이력서 = 사양서
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1727637283.jpg" />
+* 홍보물 : 강점을 기준으로 기억에 남을수 있도록 제작, 알아듣기 쉬운 용어로 변경, 임펙트 있게 필요한 부분만 요약 (짧고 굵게), 컨셉이 있는
+* 사양서 : 있는 그대로의 기록의 나열, 정확한 용어와 단위, 수치화된 정보를 사용하여 표기
+* 제품 홍보물 : <https://www.apple.com/kr/macbook-pro/>{:target="_blank"}
+* 제품 사양서 : <https://www.apple.com/kr/macbook-pro/specs/>{:target="_blank"}
+* 포트폴리오, 이력서는 나에 대한 홍보물과 사양서 입니다.
+* 우선 이력서를 완성하고 난 뒤에 그중 특히 강조할 수 있는 부분을 포트폴리오로 올릴 예정입니다.
+
+## 포트폴리오 사이트에 기록
+* 목표대상, 키워드 작성, 목차
+
+>## 목차 - 예시
+* 자기소개
+  * 이름, 나이, 전공 등
+  * 3가지 키워드에 맞는 소개글과 자료 사진
+* 프로젝트
+  * 제목, 기간, 플랫폼, 개발 인원(1인, 팀이면 인원수), 역할 분담 및 담당 역할
+* 기타활동
+  * 제목, 기간
+
+## 면담
+* 면담 시간표 : <https://docs.google.com/spreadsheets/d/1Jk84CASNn7_K0PqlV24sFnsiW9ePxNHP6-fb1Yb2S6A/edit?usp=sharing>{:target="_blank"}
+* 이번주는 대상을 확정하고 이력서 내용을 정리합니다.
+
+# 5주차 과제
+## 포트폴리오 사이트
+* 포트폴리오 사이트에 목표대상, 키워드 작성하기
+* 목차 만들기 (위 예시를 참고하여 자신만의 목차 작성)
+* 포트폴리오 플랫폼에 직접 기록하고 볼 수 있도록 링크주소 첨부
+  
+## 이력서
+* 중요도 순으로 크게 분류하기 (상, 중, 하)
+* 큰 분류 이후에는 가장 최근이력을 위쪽으로 옮겨 기록하기
+* 구글 시트 공유문서로 작성하고 볼 수 있도록 링크주소 첨부
+
+## 진행 예정
+* 자기소개서를 작성해 볼 예정입니다. 이력과 주요 키워드를 바탕으로 자기소개서를 작성(초안)후 한 학기가 종료될 때까지 보완하고 교정합니다.
+
+---
+
+# 중간평가
+* 완성된 이력서, 자기소개서
+
+# 기말평가
+* 완성된 포트폴리오
+
+---
+
 # 차주 진행할 내용들
 * 목표 대상 정보 수집
   * 구직 사이트 과거/현재 내역, 대학 모집 요강
@@ -147,6 +197,28 @@ teaser:
   * [포트폴리오](https://onethelab.com/portfolio/){:target="_blank"}
   * [이력서](https://onethelab.com/profile/){:target="_blank"}
 
+---
+
+># 키워드
+* 사용기술
+  * Swift, SwiftUI, UIKit, AppKit, MacCatalyst, JavaScript, Objective-C, C/C++, C, Java, MFC
+  * java(JDK 1.8), HTML/CSS, Javascript
+* 아키텍쳐
+  * Clean Architecture, MVVM, MVC,  Layered Architecture
+* 라이브러리 또는 API (Application Programming Interface)
+  * Alamofire, RxSwift, Nuke, Starscream, PhoenixSocket, SwiftyRSA, OpenSSL, OHHTTPStubs, Spring Boot, MyBatis 3.2.2, KAKAO/NAVER/GOOGLE Login API
+* 개발환경
+  * macOS, iOS, Xcode, MS Windows, Java Spring Framework, extJS, Apache Tomcat, Eclips
+* 서버
+  * Apache Tomcat 8.0, AWS EC2, ubuntu
+* DB (Data Base)
+  * MariaDB 10.1, Amazon RDS
+* 개발도구 (IDE : integrated development environment, 통합 개발 환경)
+  * IntelliJ IDEA 2021, HeidiSQL, Sublime Text3, HeidiSQL, phpMyAdmin 2.x, MySQL WorkBench
+
+---
+
+* readme 파일 작성법 : <https://velog.io/@gmlstjq123/Readme.md-%ED%8C%8C%EC%9D%BC-%EC%9E%91%EC%84%B1%EB%B2%95>
 # 자기소개서, 이력서 작성
 
 ---
