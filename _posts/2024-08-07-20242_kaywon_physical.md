@@ -173,11 +173,95 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 
 ---
 
-# 중간평가 - VR 콘텐츠 제작 가이드, 프로젝트 기획서
-* 메타퀘스트3 하드웨어 스팩
+# 5주차 - 개천절로 인한 휴강
+
+---
+
+# 6주차
+
+|환경|거리|큐브크기|배율|
+|:---|:---|:---|:---|
+|스마트폰|30cm|0.1|1|
+|모니터|70cm|0.23|2.3|
+|전광판|10m(1000cm)|3.3|33|
+
+* 큐브 크기에 따라 폰트의 배율계산이 필요 (전광판은 일반적으로 500pt가 넘어갑니다.)
+
+## 가상현실의 사물의 거리와 시력
+* VR에서 초점을 맞춰야하는 대상은 VR 헤드셋 스크린
+* [스크린 - 렌즈 - 눈] 사이에 초점이 맞는다면 거리에 상관없이 잘 보임
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1728516290.jpg" />
+
+## VR 멀미
+* [VR 회전체 유니티 패키지](https://onethelab-my.sharepoint.com/:u:/p/gh_cho/EdCafbtWQZFLpdp1r6VEPDQB22kjgTisTq2KrdAIxRb2GA?e=E9MfIg){:target="_blank"}
+* unitypackage를 다운로드
+* 파일을 더블클릭 하거나 unity3d의 project창에 드래그 드랍하여 import
+* Scenes/MovingRoom 씬을 열어서 재생, 확인
+* BuildingBlock Camera Rig 선택 후 inspector창에 맨 하단, speed_rpm, distance로 회전 속도 및 회전 반경 조절 가능
+
+## 탐구 사항
+* 사람은 어느정도 속도에서 멀미를 느끼는가?
+* 느린 속도부터 시도합시다. 30초 정도 유지하였을때의 상태를 확인합시다.
+* 멀미가 느껴지면 바로 중단합니다. (이후에도 영향이 오래 갈 수 있음)
+
+## 분당 회전수
+
+* rpm(revolutions per minute, 분당 회전수)
+* 1회전 = 360도
+* 1분당 1회전 = 1분당 360도
+
+## 원의 둘레
+* 원둘레 = 2 * π * 반지름
+* 초당 1회 회전하는 중심으로 부터 5m떨어진 물체의 회전 속도
+* 속도(m/s) = 2 * π * 5 = 31.4m/s
+* 속도(km/h) = 2 * π * 5 * 60(분) * 60(시) / 1000(km) = 113.04km/h
+
+# 6주차 과제
+## VR 멀미에 관한 레포트
+* m/s, km/h, 체험시간(30초) 등으로 멀미에 대한 테스트를 해봅시다.
+  
+## Sample 사용, 기능의 파악, 기능의 이식, 구조의 변경
+* Sample 사용, 기능의 파악, 기능의 이식, 구조의 변경등을 수행하고 기록
+* 최소 3가지의 기능의 이식을 시도 하고 기록 합니다.
+* 7주차, 8주차는 사용 가능한 기능으로 프로젝트 기획서 작성을 진행할 예정입니다.
+
+---
+
+# 7주차, 8주차 - 중간평가 준비, 제출
+
+## Sample 사용
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726668160.jpg" />
+* Samples 폴더 안에 다양한 Scene에 샘플들이 있습니다.
+* 하나씩 열어보고 사용해보세요.
+
+## 기능의 파악
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1727301572.jpg" />
+* Unity는 component방식으로 기능이 추가 됩니다. 해당 객체(object)를 선택하고 inspector창에서 확인 가능합니다.
+* Grabbable(잡을수 있는), Water Spray(물 분사), RespawnOnDrop(떨어트렸을때 재생성) 기능이 붙어 있습니다.
+
+## 기능의 이식
+* Scene에 있는 객체(Object)를 복사(Ctrl+C)하여 내 Scene으로 붙여넣기(Ctrl+V) 할 수 있습니다.
+* 기능이 망가지지 않는다면 그대로 사용할 수 있습니다. 기능이 망가지면 사용할 수 없습니다.
+
+## 구조의 변경
+* component를 삭제하여 기능을 삭제할 수 있습니다.
+* component를 추가하여 기능을 추가할 수 있습니다.
+* 자식 객체(child object)를 추가하여 그래픽 객체를 교체할 수 있습니다.
+
+## 중간평가 - VR 콘텐츠 제작 가이드, 프로젝트 기획서
+### VR 콘텐츠 제작 가이드
+* 메타퀘스트3 하드웨어 스펙 기록
 * 디지털 콘텐츠 이미지 해상도, 폰트크기, 가독성
-* UX/UI
-* 상호작용
+* VR 멀미
+* VR콘텐츠 UX/UI, 상호작용, 샘플의 사용 및 설명
+
+### 프로젝트 기획서
+* Sample 사용, 기능의 파악, 기능의 이식, 구조의 변경등을 수행하고 기록
+* 사용할수 있는 기능을 추려보고 해당 기능을 이용한 프로젝트 기획
+* 후반기는 실제로 제작을 할 예정이니 구현 가능성에 중점을 두고 기획합니다.
+
+---
 
 # 기말평가 - 프로젝트 제작, 프로모션 비디오
 
