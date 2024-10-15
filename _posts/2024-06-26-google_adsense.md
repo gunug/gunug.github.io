@@ -116,3 +116,9 @@ tags:
 # Google SEO
 * <https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=ko>
 * 검색엔진 최적화
+
+---
+
+# google search console 개선
+## 리디렉션이 포함된 페이지
+## 5xx 오류
