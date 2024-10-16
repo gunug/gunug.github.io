@@ -230,6 +230,13 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 
 # 7주차, 8주차 - 중간평가 준비, 제출
 
+## 속도의 단위
+* rpm, m/s, km/h
+* 초당 1회 회전하는(1rpm) 중심으로 부터 5m떨어진 물체의 회전 속도
+* 속도(m/s) = 1회 * 2 * π * 5m = 31.4m/s
+* 속도(km/h) = 1회 * 2 * π * 5m * 60(분) * 60(시) / 1000(km) = 113.04km/h
+* 기존 멀미 보고서에 거리3(m), 속도5(rpm) 등으로 표현했던 부분은 (m/s)단위로 재 계산되어야 합니다.
+
 ## bezier path creator
 * [Bezier Path Creator](/unity-asset/2024/10/16/bezier_path_creator.html){:target="_blank"}
 
