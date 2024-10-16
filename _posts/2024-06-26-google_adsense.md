@@ -122,3 +122,29 @@ tags:
 # google search console 개선
 ## 리디렉션이 포함된 페이지
 ## 5xx 오류
+
+
+Google 검색 콘솔에서 나에게 게시하지 않은 검색결과가 노출되었다는 보고가 있을 경우 몇 가지 가능한 원인을 고려해볼 수 있습니다.
+1. **스팸 또는 해킹**: 웹사이트가 해킹당해 스팸 콘텐츠가 추가되었을 수 있습니다. 이 경우, Google에서 해킹된 페이지를 인덱싱하여 검색결과에 표시될 수 있습니다. 웹사이트의 보안을 점검하고 해킹된 부분을 제거해야 합니다.
+2. **스크래핑 또는 복사된 콘텐츠**: 다른 웹사이트가 당신의 콘텐츠를 무단으로 복사하여 자신의 사이트에 게시했을 수 있습니다. 이 경우 원본과 복사본이 모두 검색결과에 나타날 수 있습니다. 이러한 경우 Google에 DMCA 요청을 통해 조치를 취할 수 있습니다.
+3. **도메인 또는 URL 오타**: 잘못된 도메인 설정이나 URL 입력 오류로 인해 다른 페이지가 검색결과에 표시될 수 있습니다. 검색 콘솔에서 "URL 검사" 기능을 사용하여 문제의 URL을 점검해보세요.
+4. **리디렉션 설정 오류**: 리디렉션 규칙이 잘못 설정되어 다른 페이지로 사용자가 안내되고 있을 수 있습니다. 서버의 리디렉션 설정을 점검하여 수정해야 합니다.
+위의 문제점들을 조사하고 해결하는 것이 중요합니다. 문제가 지속될 경우, 웹사이트 보안 전문가의 도움을 받아 자세한 점검을 받는 것도 고려해보세요.
+
+---
+### Apache에서의 리디렉션 설정
+Apache 웹 서버에서는 `.htaccess` 파일이나 서버 설정 파일(httpd.conf)을 통해 리디렉션을 설정할 수 있습니다.
+1. **.htaccess 파일 이용**:
+   - 웹사이트의 루트 디렉터리(또는 특정 디렉터리)에 `.htaccess` 파일을 생성하거나 편집합니다.
+   - 아래와 같은 리디렉션 코드를 추가합니다 (예: http://example.com/old-page를 http://example.com/new-page로 리디렉션):
+     ```apache
+     Redirect 301 /old-page /new-page
+     ```
+   - `Redirect 301`은 영구 리디렉션을 의미합니다.
+
+- 아파치 기본 설정    : sudo vi /etc/apache2/apache2.conf
+- 포트 설정              :  /etc/apache2/ports.conf
+-  public 파일 설정    :  /etc/apache2/mods-enabled/dir.conf
+- 언어셋관련 설정      :  /etc/apache2/mods-enabled/autoindex.conf
+- 파일타입 설정        :  /etc/apache2/mods-enabled/mime.conf
+- 웹서비스 설정        :    /etc/apache2/sites-enabled/000-default

@@ -230,6 +230,13 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 
 # 7주차, 8주차 - 중간평가 준비, 제출
 
+## bezier path creator
+* [Bezier Path Creator](/unity-asset/2024/10/16/bezier_path_creator.html){:target="_blank"}
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1729050592.jpg" />
+* Camera Rig를 드래그 드랍하여 Fallower에 내려놓기 = 부모(parent) 자식(child)관계 만들기
+* 자식객체는 부모객체를 따라가는 특성이 있습니다. 이 방법으로 롤러코스터 같은 이동식 장치를 만들 수 있습니다.
+
 ## Sample 사용
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726668160.jpg" />
 * Samples 폴더 안에 다양한 Scene에 샘플들이 있습니다.
@@ -250,16 +257,21 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 * 자식 객체(child object)를 추가하여 그래픽 객체를 교체할 수 있습니다.
 
 ## 중간평가 - VR 콘텐츠 제작 가이드, 프로젝트 기획서
-### VR 콘텐츠 제작 가이드
-* 메타퀘스트3 하드웨어 스펙 기록
+>### VR 콘텐츠 제작 가이드 (개별)
+* 메타퀘스트3 하드웨어 스펙 기록 (해상도, 시야각 등)
 * 디지털 콘텐츠 이미지 해상도, 폰트크기, 가독성
 * VR 멀미
-* VR콘텐츠 UX/UI, 상호작용, 샘플의 사용 및 설명
+* sample의 사용, 기능의 파악, 기능의 이식, 구조의 변경
+* 그동안 제출하였던 주차별 과제에서 주요내용만 요약하여 문서를 작성합니다. (VR 가이드로 활용할 수 있도록 합니다)
 
-### 프로젝트 기획서
-* Sample 사용, 기능의 파악, 기능의 이식, 구조의 변경등을 수행하고 기록
+>### 프로젝트 기획서 (공통, 팀당 1개, 같은 파일을 복사하여 개인당 각각 업로드 합니다)
 * 사용할수 있는 기능을 추려보고 해당 기능을 이용한 프로젝트 기획
+* Bezier path creator의 사용을 고려해 보세요. (사용이 필수는 아님, 사용할 경우 기능 구현이 쉽고 sample과 함께 완성품을 만들기 용이)
 * 후반기는 실제로 제작을 할 예정이니 구현 가능성에 중점을 두고 기획합니다.
+* 이미지를 직접 제작하고 폰트 크기 가이드에 맞춰 내용을 입력, 사용자가 읽을 수 있도록 합니다.
+
+* 7주차, 8주차 중간평가 준비
+* 제출 마감 9주차 수업 전 까지 (10월 30일 수요일 23:59:59)
 
 ---
 
