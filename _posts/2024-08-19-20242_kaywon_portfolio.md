@@ -261,6 +261,9 @@ LMNT (엘레멘트컴퍼니)	|	디자인, 영상
 # 7,8주차 - 중간평가 준비 및 제출
 * 이력서, 자기소개서
 
+## 면담
+* 면담 시간표 : <https://docs.google.com/spreadsheets/d/1Jk84CASNn7_K0PqlV24sFnsiW9ePxNHP6-fb1Yb2S6A/edit?usp=sharing>{:target="_blank"}
+
 >## 이력서 작성 방법
 * 가장 최근 이력이 상단으로 옵니다.
 >
