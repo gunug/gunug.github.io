@@ -43,8 +43,8 @@ tags: encrypt
 ---
 
 ### SSL 설정 활성화
-* ```$ sudo a2ensite default-ssl.conf```
-* ```$ sudo service apache2 reload```
+* ```sudo a2ensite default-ssl.conf```
+* ```sudo service apache2 reload```
 
 ```Invalid command 'SSLEngine', perhaps misspelled or defined by a module not included in the server configuration```
 * SSLEngine이 설치되어 있지 않음
@@ -55,8 +55,8 @@ tags: encrypt
 
 ### 리로드 실패
 * logs 폴더가 기본폴더가 아님, 생성해야함
-* ```$ sudo mkdir /etc/apache2/logs```
-* ```$ sudo apache2ctl configtest``` 컨피그 파일에 오류가있는지 테스트해서 알려줌, 내 경우는 오타 때문
+* ```sudo mkdir /etc/apache2/logs```
+* ```sudo apache2ctl configtest``` 컨피그 파일에 오류가있는지 테스트해서 알려줌, 내 경우는 오타 때문
 * SSLCertificateFile, SSLCertificateKeyFile 경로에 파일이 존재하지 않는다고 나옴 (아마도 예제대로 입력한 문제)
   
 ## Certbot 설치 및 인증서 생성
@@ -75,24 +75,50 @@ tags: encrypt
 * <b style="color:red;">위의 yum 방식으로 하다가 kernel panic 되어서 yum대신 apt로</b>
 * 참고링크 : https://serverspace.io/support/help/how-to-get-lets-encrypt-ssl-on-ubuntu/
 
-* ufw allow 80
-* ufw allow 443
+* ```ufw allow 80```
+* ```ufw allow 443```
 
-* apt install letsencrypt
-* systemctl status certbot.timer 봇이 동작하고 있는지 확인
+* ```apt install letsencrypt```
+* ```systemctl status certbot.timer``` 봇이 동작하고 있는지 확인
 
 * 다음 명령어의 'domain-name.com'는 당신의 도메인명입니다.
 * ```sudo certbot certonly --standalone --agree-tos --preferred-challenges http -d domain-name.com```
 * 80 포트를 이용중이라 진행할수 없다고 하여 service apache2 stop 아파치 서버 스탑
 
-* apt install python3-certbot-apache
-* sudo certbot --apache --agree-tos --preferred-challenges http -d domain-name.com
+* ```apt install python3-certbot-apache```
+* ```sudo certbot --apache --agree-tos --preferred-challenges http -d domain-name.com```
 * Certbot이 SSL 인증서를 설치함
 
 ---
 
 ## 와일드카드 SSL 인증서 암호화
 * sudo certbot certonly --manual --agree-tos --preferred-challenges dns -d domain-name.com -d *.domain-name.com
+
+---
+
+## https 리다이렉트
+```xml
+	<VirtualHost *:80>
+    
+		RewriteEngine On
+    	RewriteCond %{HTTPS} off
+    	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+    
+    </VirtualHost>
+```
+* http로 접속시 https로 리다이렉트
+* Invalid command 'RewriteEngine' 에러 
+  * ```a2enmod rewrite``` 모듈설치
+  * ```vi /etc/apache2/apache2.conf```
+  * 아래 내용을 추가
+  * ```service apache2 restart```
+
+```xml
+<IfModule mod_rewrite.c>
+ rewriteEngine On 
+</IfModule>
+```
+
 
 ---
 
