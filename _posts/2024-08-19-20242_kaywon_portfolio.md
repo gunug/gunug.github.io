@@ -325,26 +325,48 @@ LMNT (엘레멘트컴퍼니)	|	디자인, 영상
 
 ---
 
-# 중간평가
-* 정보(글, 이미지)의 활용과 전달
-* 가시성 및 집중도
-* 전반기에 조사했던 내용(폰트크기, 멀미, 기능)등을 후반기에 실제로 구현하는 시간을 갖을 것입니다. 추측했던 내용들이 실제로 생각처럼 동작하는지를 볼 예정입니다.
+# 9주차
+* 후반기는 포트폴리오 제작을 진행합니다.
+
+## 브랜드 컬러 정하기
+* 참고 링크 : [색채심리학-최고의-브랜드에게는-최고의-브랜드](https://www.packative.com/blog/%EC%83%89%EC%B1%84%EC%8B%AC%EB%A6%AC%ED%95%99-%EC%B5%9C%EA%B3%A0%EC%9D%98-%EB%B8%8C%EB%9E%9C%EB%93%9C%EC%97%90%EA%B2%8C%EB%8A%94-%EC%B5%9C%EA%B3%A0%EC%9D%98-%EB%B8%8C%EB%9E%9C%EB%93%9C/){:target="_blank"}
+
+## 컬러 계획(Color Scheme)
+* 참고 링크 : [중요한 디자인 구성요소에는 중요한 컬러를 적용](https://www.designer-note.com/design-color-role/){:target="_blank"}
+* 주제색(Primary Color): 주인공 역할을 하는 색 = 브랜드 컬러(Brand Color)
+* 강조색(Accent Color): 강조하는 역할을 하는 색, 사람의 시선을 사로잡는 색
+* 배경색(Background Color): 바탕, 백그라운드(BG, Background)에 사용한 색, 기본 바탕이 되어주는 색
+* 보조색(Sub Color): 보조적인 역할을 하는 색, 주재색이 돋보이 도록 보조해 주는 색
+
+## 컬러 비율
+* 참고 링크 : [잊혀지지 않는 브랜드 컬러의 비밀](https://stibee.com/api/v1.0/emails/share/3a8w_A6XOmkCyoQ1I08HNhHGV9d2zWY=){:target="_blank"}
+* 배경색 : 보조색 : 주제색&강조색 = 70 : 25 : 5
+
+* 참고 링크 : [색 구성 비율의 균형을 조화롭게 맞추는 공식, 60-30-10 법칙](https://www.designer-note.com/design-60-30-10_rule-1/){:target="_blank"}
+* 배경색 : 보조색 : 주제색&강조색 = 60 : 30 : 10
+
+## 면담
+* 면담 시간표 : <https://docs.google.com/spreadsheets/d/1Jk84CASNn7_K0PqlV24sFnsiW9ePxNHP6-fb1Yb2S6A/edit?usp=sharing>{:target="_blank"}
+
+>## 9주차 과제
+>
+>### 카페 게시글
+* 포트폴리오 링크 주소를 첨부
+* 주제색, 강조색, 배경색, 보조색의 컬러코드를 작성
+* 각각의 글씨 색상에 컬러코드를 반영하여 색깔을 게시글에서 직접 볼 수 있도록 합니다.
+>
+>### 포트폴리오
+* 포트폴리오의 일부분에 색상(주제색, 강조색, 배경색, 보조색)을 반영
+
+## 차주 진행내용
+* 주제색, 강조색, 배경색, 보조색의 선정된 컬러를 가지고 이야기 할 예정입니다.
+* 너무 많은 페이지에 컬러를 적용하여 오면 수정할 내용이 많아지니 테스트로 일부분에 적용하여 봅니다.
+* CSS등으로 한번에 전 페이지에 적용 가능한 경우는 전체 적용하여도 괜찮습니다.
 
 ---
 
 # 기말평가
 * 완성된 포트폴리오
-
----
-
-# 차주 진행할 내용들
-* 목표 대상 정보 수집
-  * 구직 사이트 과거/현재 내역, 대학 모집 요강
-  * 회사 포트폴리오 분석 (업무 분야, 업무 규모 등)
-  * 지원 가능성 검토 (향후 3년)
-* 이력, 프로젝트 편집 : 중요도 순으로 숨기거나 순서를 뒤로 미룸
-  * [포트폴리오](https://onethelab.com/portfolio/){:target="_blank"}
-  * [이력서](https://onethelab.com/profile/){:target="_blank"}
 
 ---
 
@@ -369,6 +391,8 @@ LMNT (엘레멘트컴퍼니)	|	디자인, 영상
 
 * readme 파일 작성법 : <https://velog.io/@gmlstjq123/Readme.md-%ED%8C%8C%EC%9D%BC-%EC%9E%91%EC%84%B1%EB%B2%95>
 # 자기소개서, 이력서 작성
+  * [포트폴리오](https://onethelab.com/portfolio/){:target="_blank"}
+  * [이력서](https://onethelab.com/profile/){:target="_blank"}
 
 ---
 # 정리중 (수업에 참고할 이전내용)
