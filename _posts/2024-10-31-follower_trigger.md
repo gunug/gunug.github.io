@@ -7,6 +7,8 @@ tags:
 
 # 출발하기, 멈추기, 속도 조절
 
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1730329628.jpg" />
+
 * Project창 마우스 우클릭 Create > c# script
 * 이름을 ```SpeedChager```로 지정
 * 다음의 내용을 작성
@@ -62,6 +64,9 @@ public class SpeedChanger : MonoBehaviour
 * isTrigger 체크
 
 # 스크립트 생성
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1730329628.jpg" />
+
 * Project창 마우스 우클릭 Create > c# script
 * 이름을 ```TriggerSetSpeed```로 지정
 * 다음의 내용을 작성
