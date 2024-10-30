@@ -292,6 +292,70 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 
 ---
 
+# 9주차
+## 낭만고양이의 하루
+* 생선 가져오기, 박스 무너트리기, 장난감 가져오기, 낭만 즐기기
+* Bazer path, Snap, Transformer, DistanceGrab, ConcurrentHandController
+  
+## SF 공간체험
+* 우주선 타고 이동, 물건을 집기, 자유롭게 이동
+* Bazer path, Hand grap, Locomotion
+  
+## 캐릭캐릭 체인지
+* 움직임, 양손 인식 물건집기, 제스텨 모션 이펙트, 물건 쏘기, 물건 당기기
+* Bazier path creator, Snap, Pose, Concurrent Hand and Controllers, Distance Grab
+  
+## 달리는 레일 코스를 완주하자!
+* 기차 출발하기, 기차 멈추기, 스와이프 주사위 색 변경, 폭탄 던저 저금통 무너트리기, 가위바위보 이기기
+* Bazier path, color changer, Grabbable, Respawn On Drop, Hand Ref
+* 미션을 클리어했다는걸 판단할 수 있는 판정 부분의 구현이 중요합니다.
+  
+## 스타레일 익스프레스
+* 열차 출발, 무기 사용, 공격막기 크기변경, 무기사용, 공간이동
+* Bazier path creator, BodyPose, HandGrab, Panel, ConcurrentHand, Locomotion
+  
+## 산타의 벼락치기 선물 배달 프로젝트
+* 썰매 움직이기, 선물박스 들기, 집과 선물 부딪히기, 폭죽(파티클) 아이의 웃음소리, 미션클리어, 실패
+* Bazier path creator, grabable, onTriggerEnter, 인앤아웃(?), ray
+* 파티클 시스템 (Particle System), 오디오 시스템 (Audio System) : Audio Source, Audio Clip
+  
+## Zombie in office
+* 좀비 이동, 좀비 무기 맞추기, 총 집기, 무기 크기 변경, 상자에서 무기 꺼내기, 사무용품
+* Bazier Path, Rigidbody, Collider, Grabbable, Transformer, One Grab Rotate Tranformer
+
+# 기능구현
+* 복합기능(Bazier path를 이용하여 움직이다가 locomotion을 이용하여 워프하기, Bazier path를 이용하여 움직이다가 충돌하여 넘어지기)은 원하는 대로 작동하지 않을 수 있습니다.
+  
+># 누가? 언제? 무엇을?
+## 누가 : Object 사물, 대상
+* 기차가, 좀비가, 총이, 선물이, 집이
+>
+## 언제 : Event 상황(Trigger 방아쇠)
+* 선물이 집에 닿았을때, 좀비가 무기에 맞았을때, 총을 집었을때, 목적지에 도착했을때, 기차가 특정 지역에 도착했을때
+>
+## 무엇을 : Function 기능, 함수
+* 폭죽이 터진다, 기차가 멈춘다, 웃음소리가 재생된다
+
+* 누가(Object), 언제(Event, trigger)와 무엇을(function)을 분리하여 생각합시다.
+
+# Follower trigger 기능 만들기
+* [follower trigger 기능 만들기](/vr/2024/10/31/follower_trigger.html){:target="_blank"}
+
+# 9주차 과제
+* bazier path를 이용하여 코스를 제작합니다.
+* player가 직접 이동하지 않는 팀은 이동하는 대상(좀비 등)을 제작합니다.
+* 이동지역에 큐브 또는 assets store의 obejct를 배치 합니다.
+* VR로 보여지는 모습을 동영상 촬영 (핸드폰 미러링의 녹화기능 활용)하여 업로드합니다.
+* 팀별로 한명이 대표로 제출, 전체 팀원의 이름을 게시물 제목에 명시
+* VR기기가 없으면 촬영이 불가능 하기 때문에 수업시간내에 일단 녹화를 우선 테스트 하고, 녹화가 가능하면 이후에 코스만들기, 주변 꾸미기를 합시다
+
+---
+
+# 10,11주차 - 코스완성
+# 12,13주차 - 기능완성
+# 14주차 - 프로모션 비디오 완성
+# 15주차 - 기말평가 발표
+
 # 기말평가 - 프로젝트 제작, 프로모션 비디오
 
 ---
