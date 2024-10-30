@@ -81,11 +81,11 @@ public class TriggerSetSpeed : MonoBehaviour
     public PathCreation.Examples.PathFollower pathFollower;
     public float speed = 0;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other) //Trigger에 들어오면
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")) //만약 Tag를 비교(Compare)했을때 "Player"라면
         {
-            pathFollower.speed = speed;
+            pathFollower.speed = speed; //Follow의 속도(speed)를 float speed로 만들기
         }
     }
 }
