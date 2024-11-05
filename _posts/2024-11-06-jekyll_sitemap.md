@@ -28,3 +28,5 @@ plugins:
 ```
 
 * sitemap.xml 파일을 열었을때 내용이 차있으면 성공
+* 생성위치는 /_site/sitemap.xml
+* root에 임의의 sitemap.xml이 이미 있다면 삭제할것 (겹침 문제)
