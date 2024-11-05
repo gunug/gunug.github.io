@@ -19,6 +19,11 @@ tags:
 ---
 
 # 사이트맵 만들기
+* <https://www.check-domains.com/>
 * <https://www.xml-sitemaps.com/> - 무료500페이지, 그 이상은 유료
+
+---
+
+# 네이버 웹 마스터 도구
 * <https://searchadvisor.naver.com/>
 * 웹 마스터 도구
