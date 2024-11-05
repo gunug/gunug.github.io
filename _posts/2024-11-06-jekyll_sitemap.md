@@ -26,3 +26,5 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 ```
+
+* sitemap.xml 파일을 열었을때 내용이 차있으면 성공
