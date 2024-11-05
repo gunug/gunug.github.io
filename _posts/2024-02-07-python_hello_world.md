@@ -57,3 +57,49 @@ print "Hello, World!";
 
 ## map 
 * li = list(map(int,string_value.split))
+
+---
+
+# 추후 확인해볼 내용
+* <https://wikidocs.net/77>
+
+---
+
+```python
+#1. Boolean: 참, 거짓
+#2. int: 정수
+#3. float: 실수
+#4. complex: 복소수
+#5. strings: 문자열
+#6. bytes: 바이트
+
+#7. lists
+#8. Tuples
+#9. Sets:
+#10. Dictionaries
+
+x = 1
+y = 2
+x = 3
+
+print(x)
+print(y)
+```
+
+```python
+init python:
+    class SampleClass:
+        a: int = None
+        b: int = None
+        c: int = None
+
+    p = SampleClass()
+    p.a = 1
+    p.b = 2
+    p.c = 3
+
+    r = SampleClass()
+    r.a = 5
+    r.b = 6
+    r.c = 7
+```

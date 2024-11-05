@@ -10,4 +10,15 @@ tags:
 
 * <https://support.google.com/webmasters/answer/10267942?sjid=10433777505104968787-AP>
 * 보안문제,정책위반,페이지발견 체크
-* 
+
+---
+
+* ```site:웹사이트주소```를 입력하여 검색결과를 확인해 볼 수 있음
+* 인덱싱 요청, 사이트맵 제출, robot.txt 및 메타 태그 확인, 링크 구조 점검, 품질 문제 점검, 서버 이슈 확인
+
+---
+
+# 사이트맵 만들기
+* <https://www.xml-sitemaps.com/> - 무료500페이지, 그 이상은 유료
+* <https://searchadvisor.naver.com/>
+* 웹 마스터 도구
