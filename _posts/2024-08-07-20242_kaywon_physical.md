@@ -351,6 +351,17 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 
 ---
 
+# 10주차
+## 공간 오디오 구성
+* [unity audio clip 오디오 클립](/unity/2024/11/06/unity_audio_source.html){:target="_blank"}
+* 여러개의 입체 오디오를 구성하여 각 지역마다 다른 배경음악이 나오거나 효과음을 사물에 부여하여 시선을 집중할 수 있도록 할 수 있습니다.
+
+## 분업
+
+* Export Package, Import Packge를 이용하여 작업물을 친구의 컴퓨터로 전달 할 수 있습니다.
+
+---
+
 # 10,11주차 - 코스완성
 # 12,13주차 - 기능완성
 # 14주차 - 프로모션 비디오 완성
