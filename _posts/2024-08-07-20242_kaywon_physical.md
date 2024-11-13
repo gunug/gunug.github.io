@@ -378,6 +378,20 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 
 ---
 
+# 11주차
+* [unity sound trigger 특정 위치에서 소리 출력하기](/unity3d/2024/11/13/unity_sound_trigger.html){:target="_blank"}
+* [unity random sound 무작위 소리출력](/unity3d/2024/11/13/unity_random_sound.html){:target="_blank"}
+* [moving object 상하로 움직이는 오브젝트](/unity3d/2024/11/13/moving_object.html){:target="_blank"}
+* [trigger parent null 특정위치에서 부모연결 끊기](/unity3d/2024/11/14/trigger_drop.html){:target="_blank"}
+
+# 11주차 과제
+* 코스완성 : 코스를 명확히 하고 각 구획을 완성합니다.
+* 수업시간내에 제작된 내용을 스크린샷, 동영상 등으로 업로드 합니다
+* 이후 과정은 프로젝트를 완성하고 프로모션 비디오를 제작하기위한 선행작업입니다.
+* 15주차에 기말평가 발표를 할 수 있도록 시간 안배를 하여 완성할 수 있도록 합니다.
+
+---
+
 # 10,11주차 - 코스완성
 # 12,13주차 - 기능완성
 # 14주차 - 프로모션 비디오 완성

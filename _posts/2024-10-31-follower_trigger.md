@@ -99,6 +99,8 @@ public class TriggerSetSpeed : MonoBehaviour
 
 ---
 
+# Follower를 Player로 설정, 충돌할 수 있도록 컴터넌트 추가
+
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1730307642.jpg" />
 * Follower 선택 후, inspector 창에서 addComponent클릭
 * 검색창에 Collider 입력 BoxCollider 선택
