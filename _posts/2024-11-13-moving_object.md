@@ -17,7 +17,7 @@ public class UpDownPingPong : MonoBehaviour
     public float speed = 1.0f;
     public float distance = 1.0f;
 
-    void Update()
+    void FixedUpdate()
     {
         transform.position = new Vector3(transform.position.x, Mathf.PingPong(Time.time * speed, distance), transform.position.z);    
     }
@@ -39,7 +39,7 @@ public class UpDownSin : MonoBehaviour
     public float speed = 1.0f;
     public float distance = 1.0f;
 
-    void Update()
+    void FixedUpdate()
     {
         //transform update with sin function
         transform.position = new Vector3(transform.position.x, transform.position.y + Mathf.Sin(Time.time * speed) * distance, transform.position.z);
