@@ -38,3 +38,12 @@ tags:
   * image.onethelab.com의 잘못된 색인을 삭제 요청함, google search console에서는 아직 잘못된 색인이 그대로 존재하는 상태
   * robot.txt로 크롤링 방지하는거 보다는 <noindex>를 사용하는것이 맞다고 하여 변경
   * onethelab.com의 본래 색인이 제대로 되지 않아서 아직 google에서 검색이 안되는데 요청이 밀려있어서 일것이라 추정 (현재 44만개)
+
+---
+
+# 네이버 검색 최적화
+* <https://searchadvisor.naver.com/guide/seo-help>
+
+---
+
+# 색인이 생성되지 않은 이유
