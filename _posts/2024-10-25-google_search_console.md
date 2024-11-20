@@ -55,4 +55,4 @@ tags:
 
 ## 중복 페이지 url 표준화 및 표준 태그 사용
 * 참고링크 : <https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls?hl=ko>
-* 
+* 검색엔진에서 자동으로 설정된 url로도 괜찮은것 같긴함
