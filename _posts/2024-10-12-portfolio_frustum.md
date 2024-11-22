@@ -24,3 +24,8 @@ teaser: https://image.onethelab.com/thumbnail/1728743317.jpg
 # 결과
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1728744098.jpg" />
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1728744064.jpg" />
+
+---
+
+# 재의뢰
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1732196653.jpg" />
