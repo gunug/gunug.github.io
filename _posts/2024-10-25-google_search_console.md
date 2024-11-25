@@ -67,3 +67,6 @@ Google에서 페이지를 크롤링했지만 색인은 생성되지 않았습니
 
 ---
 
+## 2024-11-23 상태
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1732362490.jpg" />
+* 검색결과 4페이지..

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unity Google Cardboard Vr 구글 카드보드
-category: unity3d
+category: vr
 tags:
 ---
 
@@ -89,3 +89,4 @@ tags:
 * Manifest merger failed : uses-sdk:minSdkVersion 22 cannot be smaller than version 26 declared in library [:GfxPluginCardboard:] C:\Users\One The Lab\.gradle\caches\transforms-3\3df939d206deefe776eb9a648d0c485a\transformed\GfxPluginCardboard\AndroidManifest.xml as the library might be using APIs not available in 22 See the Console for details.
 
 * Manifest merger failed : uses-sdk:minSdkVersion 22 cannot be smaller than version 26 declared in library [:GfxPluginCardboard:] C:\Users\One The Lab\.gradle\caches\transforms-3\5195ea498d930be5af8855eed4c49353\transformed\GfxPluginCardboard\AndroidManifest.xml as the library might be using APIs not available in 22 See the Console for details.
+

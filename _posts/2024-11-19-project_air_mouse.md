@@ -8,8 +8,10 @@ tags:
 # project air mouse vr 에어마우스 입력장치
 ## 프로젝트 개요
 * URP, 2022.3.27f1
-* project_neutralization_reaction
-  
+
+## 절차
+* <https://www.youtube.com/watch?v=67_lLs2ONpI>
+
 ## 기능
 * 레이케스트, 스냅턴, 텔레포트
 * 용액 붓기, 용액 색변화
@@ -60,3 +62,51 @@ Cursor.lockState = CursorLockMode.Locked;
         }
     }
 ```
+
+---
+
+## 2024-11-23
+
+```csharp
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Pointer : MonoBehaviour
+{
+    public float mouseSensitivity = 100f;
+    private float xRotation = 0f;
+    private float yRotation = 0f;
+    void Start()
+    {
+        //Set Cursor to not be visible
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    void Update()
+    {
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+
+        xRotation -= mouseY;
+        yRotation += mouseX;
+
+        transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
+        this.transform.Rotate(Vector3.up * mouseX);
+        this.transform.Rotate(Vector3.right * mouseY);
+
+        //key down arrow for reseting the rotation
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            xRotation = 0;
+            yRotation = 0;
+        }
+    }
+}
+```
+
+---
+
+# Assets 구입내역
+* [Modern Physics Lab](https://assetstore.unity.com/packages/3d/environments/sci-fi/modern-physics-lab-275536) : 24.99$
+* [Chemistry Laboratory Equipment](https://assetstore.unity.com/packages/3d/props/tools/chemistry-laboratory-equipment-163610) : 9$

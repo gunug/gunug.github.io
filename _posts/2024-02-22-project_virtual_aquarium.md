@@ -12,6 +12,7 @@ tags: unity3d
 * 수족관 구성 map magic2
 * 군집 물고기
 * 상호작용 물고기
+* 물고기 표현 - 뻐끔거림, 지느러미 휘날림
 
 ## 퀄리티 규칙
 * HDRP
@@ -20,10 +21,10 @@ tags: unity3d
 ---
 
 ## 참고자료
-* 실제어항 : https://www.youtube.com/watch?v=KP_9SRjATm4
-* 유니티 어항 채널 : https://www.youtube.com/@m_hakozaki
-* 어항 샘플 : https://youtu.be/npz60Jtph3w?si=LI4OE6gcnTjVkAND
-* 바다속 : https://www.youtube.com/shorts/tF2a5LLrFhM
+* 실제어항 : <https://www.youtube.com/watch?v=KP_9SRjATm4>
+* 유니티 어항 채널 : <https://www.youtube.com/@m_hakozaki>
+* 어항 샘플 : <https://youtu.be/npz60Jtph3w?si=LI4OE6gcnTjVkAND>
+* 바다속 : <https://www.youtube.com/shorts/tF2a5LLrFhM>
 
 ---
 
@@ -40,4 +41,5 @@ tags: unity3d
 
 ---
 
-@ 2024-05-15
+# 2024-11-23
+* [Magica Cloth 2](https://assetstore.unity.com/packages/tools/physics/magica-cloth-2-242307)
