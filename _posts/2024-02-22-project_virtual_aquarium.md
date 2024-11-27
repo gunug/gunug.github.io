@@ -43,3 +43,4 @@ tags: unity3d
 
 # 2024-11-23
 * [Magica Cloth 2](https://assetstore.unity.com/packages/tools/physics/magica-cloth-2-242307)
+* 무리지어 이동하는것을 Flock이라고 하는듯
