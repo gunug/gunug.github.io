@@ -63,3 +63,14 @@ Unreal Engine에서 투영 행렬(projection matrix)을 다룰 때는 `FMatrix` 
 
 이 검색어들은 Unreal Engine에서 투영 행렬을 설정하거나 수정하는 방법을 찾는 데 도움이 될 것입니다. Unreal 엔진의 문서나 튜토리얼 블로그, 개발자 포럼 등을 통해 좀 더 구체적인 예제나 응용방법을 찾아볼 수 있습니다.
 ```
+
+---
+
+* 참고 영상 : <https://youtu.be/6QCgtk4MpJ8?si=7_keYdgHekzgqg8N>
+* 참고 영상 : <https://youtu.be/qMJRqwgEyqo?si=lohr-UtqidvyhkA7>
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1732693094.jpg" />
+
+---
+
+* test : <https://www.youtube.com/watch?app=desktop&v=F28NKqG7ce8&t=738s>

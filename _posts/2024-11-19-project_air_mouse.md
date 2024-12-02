@@ -111,7 +111,7 @@ public class Pointer : MonoBehaviour
 1. 장갑, 보안경, 실험복 착용 필수
 2. 염산 + 증류수 = 0.1M HCL
 3. 수산화 나트륨 + 증류수 = 0.1M NaOH
-4. 수산화 나트륨 수용액이 반응해야 하기때문에 몰 놓도는 중요합니다.
+4. 수산화 나트륨 수용액이 반응해야 하기때문에 몰 농도는 중요합니다.
 5. 눈금 실린더를 이용해 0.1M 묽은 염산을 삼각 플라스크 3개에 각각5ml, 10ml, 15ml씩 넣는다 (비커>눈금실린더>삼각플라스크)
 6. 0.1M 묽은 염산 5ml가 담긴 삼각 플라스크를 교반기 위에 올려놓고, 마그네틱 바를 넣은 후, 교반기를 작동시키고, 페놀프탈레인 용액 몇 방울을 넣는다 (삼각플라스크>교반기>마그네틱바>교반기작동>스포이드)
 7. 새로운 눈금 실린더를 이용해 0.1M 수산화 나트륨 수용액 15ml를 0.1M 묽은 염산 5ml가 담긴 삼각 플라스크에 넣는다
@@ -126,3 +126,4 @@ public class Pointer : MonoBehaviour
 # Assets 구입내역
 * [Modern Physics Lab](https://assetstore.unity.com/packages/3d/environments/sci-fi/modern-physics-lab-275536) : 24.99$
 * [Chemistry Laboratory Equipment](https://assetstore.unity.com/packages/3d/props/tools/chemistry-laboratory-equipment-163610) : 9$
+* [Dialogue System for Unity](https://assetstore.unity.com/packages/tools/behavior-ai/dialogue-system-for-unity-11672) : 42.5$
