@@ -40,6 +40,8 @@ category_dir: category/
 tag_dir: tags/
 page_dir: page/
 include: ['_pages']
+scss :
+  sass_dir: _scss
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
