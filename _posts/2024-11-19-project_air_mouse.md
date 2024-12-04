@@ -124,6 +124,15 @@ public class Pointer : MonoBehaviour
 ---
 
 # Assets 구입내역
-* [Modern Physics Lab](https://assetstore.unity.com/packages/3d/environments/sci-fi/modern-physics-lab-275536) : 24.99$
-* [Chemistry Laboratory Equipment](https://assetstore.unity.com/packages/3d/props/tools/chemistry-laboratory-equipment-163610) : 9$
-* [Dialogue System for Unity](https://assetstore.unity.com/packages/tools/behavior-ai/dialogue-system-for-unity-11672) : 42.5$
+* [Modern Physics Lab](https://assetstore.unity.com/packages/3d/environments/sci-fi/modern-physics-lab-275536) : 24.99$ : 실험실 배경
+* [Chemistry Laboratory Equipment](https://assetstore.unity.com/packages/3d/props/tools/chemistry-laboratory-equipment-163610) : 9$ : 실험도구, 기물
+* [Dialogue System for Unity](https://assetstore.unity.com/packages/tools/behavior-ai/dialogue-system-for-unity-11672) : 42.5$(50% 할인) : 전체 실험 프로세스를 제어하기 위한 도구
+
+---
+
+# 문의내역
+## android용 google cardboard xr Plugin이 ios에서 동작하지 않음
+* 참고링크 : <https://developers.google.com/cardboard/develop/ios/quickstart?hl=ko>
+* Android OS와 ios용 SDK가 다릅니다. 위 링크에서 다운로드 주소 및 사용법을 확인 하실 수 있습니다.
+* android : <https://github.com/googlevr/cardboard-xr-plugin.git>
+* ios: <https://github.com/googlevr/cardboard.git>
