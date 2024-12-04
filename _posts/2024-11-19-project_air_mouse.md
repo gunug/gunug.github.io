@@ -127,6 +127,7 @@ public class Pointer : MonoBehaviour
 * [Modern Physics Lab](https://assetstore.unity.com/packages/3d/environments/sci-fi/modern-physics-lab-275536) : 24.99$ : 실험실 배경
 * [Chemistry Laboratory Equipment](https://assetstore.unity.com/packages/3d/props/tools/chemistry-laboratory-equipment-163610) : 9$ : 실험도구, 기물
 * [Dialogue System for Unity](https://assetstore.unity.com/packages/tools/behavior-ai/dialogue-system-for-unity-11672) : 42.5$(50% 할인) : 전체 실험 프로세스를 제어하기 위한 도구
+* [Quick Outline](https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488) : free : 사물의 외곽선 표시
 
 ---
 
