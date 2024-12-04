@@ -38,7 +38,7 @@ Cursor.visible = false;
 Cursor.lockState = CursorLockMode.Locked;
 ```
 
-## 마우스 좌표 반영, 하단 클릭시 좌표 리셋
+## 마우스 좌표 반영, 아래버튼 좌표 리셋
 ```csharp
     void Update()
     {
