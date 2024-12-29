@@ -6,6 +6,7 @@
 	body .container .sidebar {
 		display: none !important;
 	}
+	.container .content{margin-right: 0px;}
 	@page { margin: 0; }
 }
 

@@ -124,7 +124,7 @@ public class Pointer : MonoBehaviour
 ---
 
 # dialogue
-* 묽은 염산과 수산화 나트룸 수용액을 이용하여 중화 반응의 원리를 알아보는 실험입니다.
+* 묽은 염산과 수산화 나트륨 수용액을 이용하여 중화 반응의 원리를 알아보는 실험입니다.
 * 이번 실험에서는 강산과 강염기를 사용하니 장갑과 보안경 실험복을 반드시 착용해야 합니다.
 * 
 
@@ -135,7 +135,7 @@ public class Pointer : MonoBehaviour
 * 그럼 지금부터 실험을 해보겠습니다. 먼저, 눈금 실린더를 이용해 삼각플라스크 세개에 묽은염산을 각각 5ml, 10ml, 15ml 씩 넣습니다.
 * 그리고 나서 묽은염산 5ml가 담긴 삼각플라스크를 교반기 위에 올려놓습니다.
 * 그리고 마그네틱 바를 넣은 후, 교반기를 작동시킵니다. 그다음 페놀프탈레인 용액 몇 방울을 넣습니다.
-* 그리고 새로운 눈금 실린더를 이용해, 수산화 나트륨 수용액 15ml를 묽은 염삼 5ml가 담긴 삼각 플라스크에 넣습니다.
+* 그리고 새로운 눈금 실린더를 이용해, 수산화 나트륨 수용액 15ml를 묽은 염산 5ml가 담긴 삼각 플라스크에 넣습니다.
 * 어떤 변화가 일어날까요?
 
 * 용액의 색이 붉게 변하죠?
@@ -169,8 +169,12 @@ public class Pointer : MonoBehaviour
 * [Chemistry Laboratory Equipment](https://assetstore.unity.com/packages/3d/props/tools/chemistry-laboratory-equipment-163610) : 9$ : 실험도구, 기물
 * [Dialogue System for Unity](https://assetstore.unity.com/packages/tools/behavior-ai/dialogue-system-for-unity-11672) : 42.5$(50% 할인) : 전체 실험 프로세스를 제어하기 위한 도구
 * [Quick Outline](https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488) : free : 사물의 외곽선 표시
-* [Object Labels / Notes](https://assetstore.unity.com/packages/tools/utilities/object-labels-notes-55959) : free : 사물의 이름표시 - 사용하지 않음
-* [Dynamic Label](https://assetstore.unity.com/packages/tools/gui/dynamic-label-295717): 4.99$ : 사물의 이름표시
+* [개인 보호 장비](https://assetstore.unity.com/packages/3d/personal-protection-ludus-assets-96997) : 4.99$ : 고글, 장갑
+
+* [Medicine Kit : Consumables](https://assetstore.unity.com/packages/3d/props/medicine-kit-consumables-37357) : 6$ : 캡슐
+
+## 사용하지 않음
+* [Easy Save - The Complete Save & Load Tool for Unity](https://assetstore.unity.com/packages/tools/utilities/easy-save-the-complete-save-game-data-serializer-system-768) : 69$
 
 ---
 
@@ -180,3 +184,25 @@ public class Pointer : MonoBehaviour
 * Android OS와 ios용 SDK가 다릅니다. 위 링크에서 다운로드 주소 및 사용법을 확인 하실 수 있습니다.
 * android : <https://github.com/googlevr/cardboard-xr-plugin.git>
 * ios: <https://github.com/googlevr/cardboard.git>
+
+---
+
+# 요청사항
+* <https://assetstore.unity.com/packages/3d/gui/vr-ui-package-249282>
+* VR Package 사용 
+
+---
+
+# 기능정의
+* 챕터 스킵 (메인챕터 중단단계)
+* 스냅 타겟 아웃라인 표시
+* 드래그 온오프, 아웃라인 온옾, 인터렉션 온오프
+* 드래그 기울이기
+* 버튼 활정화, 비활성화
+* 장갑, 고글, 실험복 집기
+* 리모컨 모델링, 챕터별 버튼, 챕터설명 및 동작 가이드, 실험기구 라벨
+
+---
+```json
+GenericPropertyJSON:{"name":"instantData","type":-1,"children":[{"name":"objectPosition","type":-1,"arraySize":15,"arrayType":"Vector3","children":[{"name":"Array","type":-1,"arraySize":15,"arrayType":"Vector3","children":[{"name":"size","type":12,"val":15},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":0.17},{"name":"y","type":2,"val":0.804352164},{"name":"z","type":2,"val":1.659}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":0.236},{"name":"y","type":2,"val":0.804352164},{"name":"z","type":2,"val":1.655}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":-0.6169999},{"name":"y","type":2,"val":0.804352164},{"name":"z","type":2,"val":1.616}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":-0.506},{"name":"y","type":2,"val":0.804352164},{"name":"z","type":2,"val":1.631}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":-0.404000044},{"name":"y","type":2,"val":0.804352164},{"name":"z","type":2,"val":1.638}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":0.445},{"name":"y","type":2,"val":0.804391742},{"name":"z","type":2,"val":1.557}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":0.322},{"name":"y","type":2,"val":0.804391742},{"name":"z","type":2,"val":1.574}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":0.0209999923},{"name":"y","type":2,"val":0.8043518},{"name":"z","type":2,"val":1.713}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":0.0733},{"name":"y","type":2,"val":0.8043518},{"name":"z","type":2,"val":1.9415}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":0.173},{"name":"y","type":2,"val":0.8043518},{"name":"z","type":2,"val":1.946}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":-0.2908839},{"name":"y","type":2,"val":0.8067298},{"name":"z","type":2,"val":1.5456059}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":-0.14281036},{"name":"y","type":2,"val":0.812},{"name":"z","type":2,"val":1.74}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":-1.223},{"name":"y","type":2,"val":0.852},{"name":"z","type":2,"val":1.51398945}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":-0.943},{"name":"y","type":2,"val":0.872},{"name":"z","type":2,"val":1.52937293}]},{"name":"data","type":9,"children":[{"name":"x","type":2,"val":-0.8532828},{"name":"y","type":2,"val":0.872},{"name":"z","type":2,"val":1.52937293}]}]}]},{"name":"objectRotation","type":-1,"arraySize":15,"arrayType":"Quaternion","children":[{"name":"Array","type":-1,"arraySize":15,"arrayType":"Quaternion","children":[{"name":"size","type":12,"val":15},{"name":"data","type":17,"val":"Quaternion(0,0,0,1)"},{"name":"data","type":17,"val":"Quaternion(0,0,0,1)"},{"name":"data","type":17,"val":"Quaternion(0,0,0,1)"},{"name":"data","type":17,"val":"Quaternion(0,0,0,1)"},{"name":"data","type":17,"val":"Quaternion(0,0,0,1)"},{"name":"data","type":17,"val":"Quaternion(3.63797837e-12,1.4210853e-14,8.88178314e-16,1)"},{"name":"data","type":17,"val":"Quaternion(3.63797837e-12,1.4210853e-14,8.88178314e-16,1)"},{"name":"data","type":17,"val":"Quaternion(0,0,0,1)"},{"name":"data","type":17,"val":"Quaternion(0,0,0,1)"},{"name":"data","type":17,"val":"Quaternion(0,0,0,1)"},{"name":"data","type":17,"val":"Quaternion(0,0,0,1)"},{"name":"data","type":17,"val":"Quaternion(0,0,0,1)"},{"name":"data","type":17,"val":"Quaternion(0,0,0,1)"},{"name":"data","type":17,"val":"Quaternion(0,-0.707106829,0,0.707106829)"},{"name":"data","type":17,"val":"Quaternion(0,-0.707106829,0,0.707106829)"}]}]},{"name":"active","type":-1,"arraySize":15,"arrayType":"bool","children":[{"name":"Array","type":-1,"arraySize":15,"arrayType":"bool","children":[{"name":"size","type":12,"val":15},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true},{"name":"data","type":1,"val":true}]}]},{"name":"arrowActive","type":-1,"arraySize":15,"arrayType":"bool","children":[{"name":"Array","type":-1,"arraySize":15,"arrayType":"bool","children":[{"name":"size","type":12,"val":15},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false},{"name":"data","type":1,"val":false}]}]}]}
+```

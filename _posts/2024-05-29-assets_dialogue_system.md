@@ -254,3 +254,8 @@ DialogueLua.SetVariable("chapter", 1);
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1716948536.jpg" />
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1716948553.jpg" />
 이런식으로 배치가 가능
+
+---
+
+# DialogueSystemController
+* <https://www.pixelcrushers.com/dialogue_system/manual2x/html/class_pixel_crushers_1_1_dialogue_system_1_1_dialogue_system_controller.html>
