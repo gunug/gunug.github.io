@@ -203,6 +203,12 @@ public static class ImageHeader
 * 클래스를 만들고
 
 ```csharp
+Vector2Int imgSize  = ImageHeader.GetDimensions(Application.persistentDataPath+"/Mouse.png");
+Debug.Log("imgSize.x =" + imgSize.x);
+Debug.Log("imgSize.y =" + imgSize.y);
+```
+
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -227,3 +233,51 @@ public class SetImageSizeOnece : MonoBehaviour
 }
 ```
 * 사용
+
+---
+
+# 에러
+* 'AssetDatabase' does not exist in the current context
+* 에디터에서만 사용할 수 있는 코드로 빌드시 에러
+
+* 결국 런타임에서 파일의 메타데이터에 접근하려면 AssetDatabase를 이용하거나
+* Streaming assets, Resources 이용하는 수 밖에 없어서 런타임에서 width, height를 기록하여 제공할 예정
+
+```csharp
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
+public class SetImageSizeOnece : MonoBehaviour
+{
+    public Vector2 keep_size;
+    public Vector2 get_size;
+    void Awake()
+    {
+        RectTransform rt = GetComponent<RectTransform>();
+        #if UNITY_EDITOR
+            RawImage _raw_image = GetComponent<RawImage>();
+            Texture myTexture = _raw_image.texture;
+            string texturePath = AssetDatabase.GetAssetPath(myTexture); 
+            Debug.Log("texturePath ="+ texturePath);
+            Vector2Int imgSize  = ImageHeader.GetDimensions(texturePath);
+            Debug.Log("imgSize.x =" + imgSize.x);
+            Debug.Log("imgSize.y =" + imgSize.y);
+            get_size = new Vector2(imgSize.x, imgSize.y);
+            if(keep_size == null){
+                keep_size = get_size;
+                rt.sizeDelta = new Vector2(imgSize.x, imgSize.y);
+            }else{
+                rt.sizeDelta = keep_size;
+            }
+        #else
+            if(keep_size != null)rt.sizeDelta = keep_size;
+        #endif
+    }
+}
+```
