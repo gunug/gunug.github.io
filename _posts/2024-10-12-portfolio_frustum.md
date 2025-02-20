@@ -74,3 +74,15 @@ Unreal Engine에서 투영 행렬(projection matrix)을 다룰 때는 `FMatrix` 
 ---
 
 * test : <https://www.youtube.com/watch?app=desktop&v=F28NKqG7ce8&t=738s>
+ 
+---
+
+# unreal frustum
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dASp_DkgJRs?si=Db4nDX-sN0a_1ylD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+# godot frustum
+<iframe width="560" height="315" src="https://www.youtube.com/embed/juPy5aKiy50?si=AgX98_1XyJsXj2V3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+* unity3d, unrel, godot 세가지 버전으로 frustum 샘플제작, 납품 완료
