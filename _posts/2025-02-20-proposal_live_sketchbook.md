@@ -1,11 +1,11 @@
 ---
 layout: post
-title: proposal 라이브 스캐치북 live sketch book
+title: proposal 라이브 스케치북 live sketch book
 category: proposal
 tags: 
 ---
 
-# d'strict - 라이브 스캐치북 live sketchbook
+# d'strict - 라이브 스케치북 live sketchbook
 
 * [d'strict](https://kr.dstrict.com/) 에서 제작한 전시콘텐츠
 
@@ -49,6 +49,8 @@ tags:
 
 # 원더랩(one the lab)
 * 다른 레퍼런스는 [포트폴리오](https://onethelab.com/portfolio/)에서 확인 가능합니다.
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nf7V2376tZI?si=-Fv2LwyiWHcOnpJr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y3xj7hRICQw?si=2Fj9N0OjcOuSpqKW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
