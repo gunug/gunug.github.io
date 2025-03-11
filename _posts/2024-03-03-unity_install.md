@@ -40,6 +40,7 @@ tags: unity3d
 <img src="https://image.onethelab.com/resized/1709624766.jpg" />
 
 - 장기지원(long-term support)웹사이트에서 릴리스를 다운로드 받아서 설치
+- 장기지원이 클릭되지 않을 경우 옆의 다운로드 아카이브(download archive)를 클릭하여 웹사이트를 접속 후 릴리스를 다운로드 받아서 설치
 
 <img src="https://image.onethelab.com/resized/1709624774.jpg" />
 
