@@ -5,6 +5,8 @@ category: unity3d
 tags: unity3d
 ---
 
+* 최종 문서 업데이트 일시 2025-03-13
+ 
 # Unity install 유니티 설치
 
 ## 다운로드
@@ -24,6 +26,7 @@ tags: unity3d
 - 설치 마법사 : 옵션을 수정하지 말고 대부분 '다음'을 누르면 설치과정이 완료됩니다.
 - 설치된 UnityHub 실행, install > install editor 클릭
 - Long-term services(LTS)의 권장버전을 설치합니다.
+- <b style="color:red">6000 번대 Unity Editor를 사용하지 않습니다.</b>
 - <b style="color:red">한국어 언어팩을 설치 하지 마세요</b> 수업에 메뉴명이나 창 이름 등은 모두 영문으로 알려드립니다.
 - install 클릭
 - 유니티 설치에는 인터넷이 필요하며 설치가 완료 될때까지 많은 시간이 소요됩니다. 컴퓨터를 켜둔채로 놔두면 나머지 과정은 자동으로 진행 됩니다.
@@ -44,7 +47,10 @@ tags: unity3d
 
 <img src="https://image.onethelab.com/resized/1709624774.jpg" />
 
-- LTS 중 최신버전을 다운 받습니다. (사진속 2022.3.20f1을 맞출 필요가 없습니다)
+- <b style="color:red">6000 번대 Unity Editor를 사용하지 않습니다.</b>
+- 6000번대 Unity는 최근에 업데이트된 버전으로 문제 발생시 자료를 찾기 어렵습니다.
+- LTS 중 최신버전을 다운 받습니다.
+- 사진속 2022.3.20f1을 숫자를 완벽히 맞출 필요가 없습니다. 2022, 2023번대면 사용 가능합니다.
 - 다운로드가 완료되면 설치과정을 진행합니다.
 
 <img src="https://image.onethelab.com/resized/1709624780.jpg" />

@@ -31,3 +31,53 @@ teaser: https://image.onethelab.com/thumbnail/1709625005.jpg
 
 * 프로젝트가 실행되어있는 화면과 노트북이 한번에 찍힐 수 있도록 핸드폰으로 촬영 (화면 스크린샷 아님)
 * 카페에 답글로 과제 제출
+  
+---
+
+## 2주차
+### 수업
+* [unity layout setting 유니티 레이아웃 설정](/unity3d/2024/03/14/unity_layout_setting.html){:target="_blank"}
+* [unity 각 창의 명칭과 기능](/unity3d/2024/03/14/unity_window_name.html){:target="_blank"}
+* [unity sprite 스프라이트](/unity3d/2024/03/14/unity_sprite.html){:target="_blank"}
+* [unity sprite position 스프라이트 위치 변경 ](/unity3d/2024/03/15/unity_sprite_position.html){:target="_blank"}
+* [unity 2d animation 애니메이션](/unity3d/2024/03/14/unity2d_animation.html){:target="_blank"}
+
+### 과제
+* 이미지중에는 배경1장, 상단에 곂쳐지는 이미지 10장 필수 (총 11장)
+* 이미지를 마구잡이로 붙여넣지 말고 장면을 생각하여 구성하듯이 나열할 것
+* 주의 : 오늘한 과제는 그대로 다음 수업때 사용됩니다. 파일을 삭제하지 말고 USB에 담아두거나 노트북에 잘 저장하여 다음시간에 가지고 오세요.
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1710429668.jpg" />
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1710429681.jpg" />
+* 2D모드 사진 한장, 3D모드 사진 한장을 만들어서 총 두장의 jpg이미지 파일을 제출합니다.
+* 포토샾 등을 이용하여 이미지 하단에 ```반_학번_이름```을 표기 합니다
+
+> 스크린샷 하는 방법
+* 윈도우는 Window+Shift+S
+* 맥은 Commend+Shift+4
+
+> window용 포토샵 신버전 PNG, JPG 저장방법
+* jpg확장자가 없을때 : 편집>환경설정>파일처리>원래폴더에 다른이름으로 저장
+* jpg확장자가 없을때 : edit>Preferences>File Handling> Enable legacy "Save As"
+  
+> 맥용 포토샵 PNG, JPG 저장방법
+* 맥에서 이미지 파일을 다른 확장자로 저장하기 위해서는 export as로
+
+---
+
+## 3주차
+### 수업
+* [unity 2d animator 애니메이터](/unity3d/2024/03/15/unity_animator.html){:target="_blank"}
+* [unity 2d button 버튼](/unity3d/2024/03/21/unity_2d_button.html){:target="_blank"}
+* [programming 프로그래밍 언어를 배우는 이유](/coding/2024/03/21/programming.html){:target="_blank"}
+* 이론수업을 하면서 유의사항 : 이해도를 높이기 위한 수업입니다. 이 내용으로 시험을 보거나 점수를 매기지 않습니다. 이해도가 높을수록 프로그래밍이 재밌어집니다.
+* [literal constant variable 리터럴 상수 변수](/unity3d/2024/03/21/literal.html){:target="_blank"}
+
+* 버튼을 하나더 만들어 봅시다 : Animation2를 재생시키는 버튼을 만들 수 있나요?
+* 버튼을 눌렀을때 Animation1을 재생시키는 버튼을 이미 만들었습니다. 내용을 약간 변경하면 Animation2도 재생할 수 있습니다.
+* Animator에서 Animation의 Transition을 변경하여 원하는 애니메이션을 구성해 봅시다.
+
+### 과제
+* 버튼 2개 이상
+* 각각의 버튼을 누를때마다 Animation1, Animation2가 재생되는 모습을 핸드폰 촬영하여 제출합니다
+* 추가 애니메이션, 추가버튼 자유
