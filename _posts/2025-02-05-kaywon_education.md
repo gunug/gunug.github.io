@@ -81,3 +81,22 @@ teaser: https://image.onethelab.com/thumbnail/1709625005.jpg
 * 버튼 2개 이상
 * 각각의 버튼을 누를때마다 Animation1, Animation2가 재생되는 모습을 핸드폰 촬영하여 제출합니다
 * 추가 애니메이션, 추가버튼 자유
+
+---
+
+## 4주차
+### 수업
+* [unity visual studio code 비쥬얼 스튜디오 코드 연결](/unity3d/2024/03/21/unity_vscode.html){:target="_blank"}
+* [unity image gallery 이미지 갤러리 만들기](/unity3d/2024/03/28/unity_image_gallery.html){:target="_blank"}
+
+### 과제
+#### 필수 - 쉬운 것
+* 버튼 1개 추가, 이미지 1개 추가
+
+#### 선택 - 어려운 것
+* 좌,우로 움직이는 이미지 갤러리를 상,하로 움직이도록 변경
+* 왼쪽버튼, 오른쪽 버튼 추가, 기능 추가(prevPage, nextPage 참고) 왼쪽버튼을 누르면 이미지 갤러리의 이전 그림, 오른쪽 버튼을 누르면 이미지 갤러리의 다음 그림을 볼 수 있도록 함
+* 그림의 끝에 도달하면 다시 처음부터 시작
+
+---
+
