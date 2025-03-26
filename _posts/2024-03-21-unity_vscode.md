@@ -22,3 +22,7 @@ tags:
 
 * Main Menu > Edit > Preferences > External Tools > External Script Editor를 Visual Studio Code로 변경
 * 이후부터는 C# Script를 더블클릭하면 visual studio code로 실행되게 됩니다.
+
+---
+
+* [Visual Studio Code 한글 표시 문제](/error/2025/03/26/vscode_unicode.html){:target="_blank"}
