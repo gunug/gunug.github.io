@@ -100,3 +100,14 @@ teaser: https://image.onethelab.com/thumbnail/1709625005.jpg
 
 ---
 
+## 5주차
+### 수업
+* [변수](/coding/2024/03/28/programming_variable.html){:target="_blank"}
+* [unity video player 비디오 플레이어](/unity3d/2024/04/04/unity_video_player.html){:target="_blank"}
+
+### 과제
+* 기능이 작동하는 모습을 핸드폰 또는 화면 캡쳐를 이용하여 동영상 업로드
+* 재생, 일시정지, 정지 기능이 동작
+* 볼륨 버튼을 만들어서 소리가 켜지고 꺼지도록 만들기
+
+---
