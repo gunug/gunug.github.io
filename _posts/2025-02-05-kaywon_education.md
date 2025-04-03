@@ -111,3 +111,20 @@ teaser: https://image.onethelab.com/thumbnail/1709625005.jpg
 * 볼륨 버튼을 만들어서 소리가 켜지고 꺼지도록 만들기
 
 ---
+
+## 6주차
+### 수업
+* [unity scene manager 장면이동](/unity3d/2024/04/11/unity_scene_manager.html){:target="_blank"}
+
+### 과제
+* 중간평가 준비
+
+---
+
+## 7주차
+* 중간평가 준비
+
+---
+
+## 8주차 - 중간평가
+* [2025년 1학기 실감미디어기초 - 중간평가](/subpage/2025/04/03/kaywon_middle.html){:target="_blank"}
