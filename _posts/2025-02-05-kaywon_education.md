@@ -128,3 +128,25 @@ teaser: https://image.onethelab.com/thumbnail/1709625005.jpg
 
 ## 8주차 - 중간평가
 * [2025년 1학기 실감미디어기초 - 중간평가](/subpage/2025/04/03/kaywon_middle.html){:target="_blank"}
+
+---
+
+## 9주차
+### 수업
+* [Unity 새 3D project 만들기](/unity3d/2024/04/28/unity_new_3d_project.html){:target="_blank"}
+* [Unity Terrain 지형 만들기](/unity3d/2024/04/28/unity_terrain.html){:target="_blank"}
+* [Unity 반투명 이미지 객체 만들기](/unity3d/2024/04/28/Unity_transparent_png.html){:target="_blank"}
+
+### 과제
+* 화면에 지형, 나무, 물 등을 배치하고 하늘변경하여 스크린샷 업로드
+* 반투명 이미지 객체를 만들어서 화면서 배치
+* 기말평가는 개인포트폴리오 (전과목 중간, 기말 과제를 종합적으로 볼 수 있는 프로그램)를 제작하게될 예정입니다. 남는 시간에 미리 제작을 시작하면 기말평가때 수월하게 진행 할 수 있습니다.
+
+---
+
+## 10주차
+### 수업
+* [Unity Camera Control 카메라 제어](/unity3d/2024/05/09/unity_camera_control.html){:target="_blank"}
+* [Unity Probuilder 프로빌더](/unity3d/2024/05/09/unity_probuilder.html){:target="_blank"}
+* [Unity Post Processing 포스트프로세싱](/unity3d/2024/05/09/unity_post_processing.html){:target="_blank"}
+
