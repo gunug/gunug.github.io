@@ -149,6 +149,7 @@ teaser: https://image.onethelab.com/thumbnail/1709625005.jpg
 * [Unity Camera Control 카메라 제어](/unity3d/2024/05/09/unity_camera_control.html){:target="_blank"}
 * [Unity Probuilder 프로빌더](/unity3d/2024/05/09/unity_probuilder.html){:target="_blank"}
 * [Unity Post Processing 포스트프로세싱](/unity3d/2024/05/09/unity_post_processing.html){:target="_blank"}
+* [Unity third person 삼인칭 캐릭터](/unity3d/2024/05/23/unity_third_person.html){:target="_blank"}
 ### 과제
 * 버튼을 눌러서 카메라가 움직이는 모습을 동영상으로 촬영하여 업로드
 * 동영상에 프로빌더로 만든 구조물 포함
