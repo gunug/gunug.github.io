@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AI 사용법
-category: Ai
+category: AI
 tags: 
 ---
 

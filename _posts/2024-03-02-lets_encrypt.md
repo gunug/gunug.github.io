@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Let's Encrypt HTTPS를 위한 인증서 발급, 갱신
-category: web
+category: blog
 tags: encrypt
 ---
 
@@ -137,3 +137,32 @@ tags: encrypt
 * ```service apache2 stop``` 아파치 서버 종료
 * ```certbot renew``` 인증서 갱신
 * ```service apache2 start``` 아파치 서버 시작
+
+---
+
+# ARI(Automated Renewal Information)
+## ACME 클라이언트
+* 대부분의 사용자는 이미 certbot, acme.sh 같은 ACME 클라이언트(무료 오픈소스)를 이용해서 Let’s Encrypt 인증서 발급 및 갱신을 자동으로 처리하고 있습니다.
+* ARI(Automated Renewal Information): ARI는 Let’s Encrypt에서 새로운 갱신 방식(필요 시 더 빨리 갱신하도록 안내하는 기능)입니다. 기존 클라이언트 중 일부만이 최신 ARI 기능까지 지원합니다.
+* 무료 사용: Let’s Encrypt 인증서 발급과 ARI 기능 사용 모두 무료이며, 오픈소스 클라이언트를 사용하는 데 별도의 비용이 들지 않습니다.
+
+## Certbot 이용자는?
+* Certbot에는 ARI가 곧 지원될 예정입니다(2024년 6월 기준).
+* → ARI 기능 업데이트 후 certbot 업그레이드만 하면 자동 적용될 예정입니다.
+
+## 예시:
+```
+sudo apt update
+sudo apt install --only-upgrade certbot
+```
+
+---
+
+# 인증서 자동갱신 확인
+* ``` systemctl list-timers | grep certbot ```
+* 결과 예시 : ```Sun 2025-05-25 21:31:37 KST  5h 15min left n/a                         n/a       certbot.timer           certbot.service```
+* 예시처럼 나오면 자동 갱신이 등록되어 있는것
+
+# 만료일 확인
+* ```sudo openssl x509 -enddate -noout -in /etc/letsencrypt/live/도메인/fullchain.pem```
+* 80~90 이내라면 갱신해야할 시기. 
