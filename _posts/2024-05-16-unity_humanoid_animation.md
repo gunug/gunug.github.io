@@ -5,6 +5,7 @@ category: unity3d
 tags:
 ---
 
+* 마지막 업데이트 : 2025-05-23
 # Unity humanoid animation 휴머노이드 에니메이션
 # Jammo Character | Mix and Jam
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1716161741.jpg" />
