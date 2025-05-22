@@ -97,17 +97,17 @@ public class AnimatorControl : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            Debug.Log("Q");
+            Debug.Log("C");
             target_animator.Play("Punch");
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
-            Debug.Log("W");
+            Debug.Log("V");
             target_animator.Play("WalkBackward");
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("E");
+            Debug.Log("B");
             target_animator.Play("WalkForward");
         }
     }

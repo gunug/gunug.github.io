@@ -158,24 +158,32 @@ teaser: https://image.onethelab.com/thumbnail/1709625005.jpg
 
 ### 수업
 * [Unity third person 삼인칭 캐릭터](/unity3d/2024/05/23/unity_third_person.html){:target="_blank"}
-* [Unity Probuilder 프로빌더](/unity3d/2024/05/09/unity_probuilder.html){:target="_blank"}
 * [Unity Post Processing 포스트프로세싱](/unity3d/2024/05/09/unity_post_processing.html){:target="_blank"}
-* [Unity Drag Object 드래그](/unity3d/2024/05/09/unity_drag_object.html){:target="_blank"}
 
 ### 과제
 * 작동하는 모습을 동영상으로 촬영하여 업로드
 * 움직이는 삼인칭 캐릭터 포함, 메인 카메라와 스위칭
-* 동영상에 프로빌더로 만든 구조물 포함
 * 동영상에 포스트프로세싱을 사용한 후처리 모습 포함
 
 ---
 
 ## 12주차
+* B,C반 : 2025-05-23
+* A반 : 2025-05-26
+
 ### 수업
 * [Unity humanoid animation 휴머노이드 에니메이션](/unity3d/2024/05/16/unity_humanoid_animation.html){:target="_blank"}
+* [Unity Probuilder 프로빌더](/unity3d/2024/05/09/unity_probuilder.html){:target="_blank"}
+* [Unity Drag Object 드래그](/unity3d/2024/05/09/unity_drag_object.html){:target="_blank"}
+
+### 과제
+* 작동하는 모습을 동영상으로 촬영하여 업로드
+* 휴머노이드 에니메이션 포함
+* 프로빌더 포함
+* 드래그 포함
 
 ---
 
-## 13주차
+## 13주차 - 기말평가 준비
 ## 14주차 - 기말평가 준비
 ## 15주차 - 기말평가
