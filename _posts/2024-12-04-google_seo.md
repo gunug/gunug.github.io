@@ -41,6 +41,7 @@ tags:
 
 ---
 
+
 # SEO 기본 가이드
 * <https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=ko>
 
