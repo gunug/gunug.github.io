@@ -219,6 +219,11 @@ error_reporting(E_ALL);
 
 # 각종에러
 
+## 퍼미션에러
+```
+chmod -R 755 vendor 또는 chown -R www-data:www-data vendor
+```
+
 ```
 Fatal error: Uncaught Error: Class "mysqli" not found in /home/onethelab/test/callback.php:39 Stack trace: #0 {main} thrown in /home/onethelab/test/callback.php on line 39
 ```

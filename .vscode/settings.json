@@ -1,0 +1,7 @@
+{
+    "window.title": " 🌱 Jekyll : ${dirty}${activeEditorShort}",
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#ff5733",
+        "titleBar.activeForeground": "#FFFFFF"
+    }
+}
