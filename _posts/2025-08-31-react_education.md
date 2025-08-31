@@ -178,22 +178,20 @@ export default Page1;
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Page Not Found</title>
     <script type="text/javascript">
-      var segmentCount = 1;
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
-        l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+      // 현재 URL을 그대로 유지하면서 루트 페이지로 리디렉션
+      (function () {
+        // 현재 URL의 경로를 가져와 세션 스토리지에 저장합니다.
+        sessionStorage.setItem('redirect', window.location.pathname);
+        
+        // 루트 페이지인 index.html로 리디렉션합니다.
+        window.location.replace('/');
+      })();
     </script>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
 ```
 * Github에서는 페이지가 없을때 404.html 페이지를 표시해주는데. 이 페이지에서 url에 맞는 페이지로 리다이렉션 시켜줌
