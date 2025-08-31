@@ -171,8 +171,8 @@ export default Page1;
 ## 404에러 해결
 * 서브페이지에서 페이지 새로고침을 할경우 404(페이지 없음)에러
 
-<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1756653896.jpg" />
-* dist폴더에 404.html 파일 생성 후 다음 내용을 복붙
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1756655346.jpg" />
+* public폴더에 404.html 파일 생성 후 다음 내용을 복붙
   
 ```html
 <!DOCTYPE html>
