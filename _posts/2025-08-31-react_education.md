@@ -1,12 +1,12 @@
 ---
 layout: post
-title: react 리액트 수업
+title: react 리액트 초기세팅
 category: web
 tags: 
 ---
 
 
-# React 리액트 수업
+# React 리액트 초기세팅
 
 ---
 
@@ -71,3 +71,134 @@ tags:
   
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1756651094.jpg" />
 * Public repository 선택
+
+---
+
+# 배포 설정
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1756652537.jpg" />
+* vite.config.js 파일에 base: 추가
+
+```
+base: "/레파지토리이름/", // 여기에 Repository 경로를 추가
+```
+
+* gh-pages 확장 설치: gh-pages 확장을 사용하면 빌드된 파일을 깃허브 페이지에 쉽게 배포할 수 있음
+* ```npm install --save-dev gh-pages``` 명령어로 설치
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1756651490.jpg" />
+```
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+```
+* package.json파일에 script 추가
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1756651673.jpg" />
+* Terminal에 ```npm run deploy``` 입력하여 빌드(build) 및 배포(deploy) 할 수 있다.
+* gh-pages 브랜치로 dist 폴더(distribution)에 있는 내용을 배포한다는 내용
+
+## Github Pages 설정
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1756652320.jpg" />
+* Repository > Settings > Pages로 이동
+* Branch에서 'gh-pages'선택 후 save
+* Visit site 버튼으로 publich된 사이트에 방문가능 (주소를 기억해 두세요)
+
+---
+
+# 라우터 설정
+## main.jsx
+```jsx
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
+import { BrowserRouter } from 'react-router-dom'; // 라우터를 사용하기 위해 추가
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <BrowserRouter basename="/rect-portfolio/"> 
+      {/* 라우터로 앱을 감싸기 */}
+      {/* basename에 Repository 경로를 추가 */}
+      <App />
+    </BrowserRouter>
+  </StrictMode>,
+)
+```
+## App.jsx
+```jsx
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import { Routes, Route, Link } from 'react-router-dom'; // 라우터 관련 컴포넌트 임포트
+import Page1 from './Page1.jsx';
+import Page2 from './Page2.jsx';
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <nav>
+        <Link to="/page1">페이지 1</Link> | {" "}
+        <Link to="/page2">페이지 2</Link>
+      </nav>
+      <Routes>
+        <Route path="/page1" element={<Page1 />} />
+        <Route path="/page2" element={<Page2 />} />
+      </Routes>
+    </>
+  )
+}
+
+export default App
+```
+
+## Page1.jsx
+```jsx
+function Page1() {
+    return (
+        <>
+            <h1>Page1</h1>
+        </>
+    )
+}
+export default Page1;
+```
+
+---
+
+
+## 404에러 해결
+* 서브페이지에서 페이지 새로고침을 할경우 404(페이지 없음)에러
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1756653896.jpg" />
+* dist폴더에 404.html 파일 생성 후 다음 내용을 복붙
+  
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <script type="text/javascript">
+      var segmentCount = 1;
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
+        l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
+```
+* Github에서는 페이지가 없을때 404.html 페이지를 표시해주는데. 이 페이지에서 url에 맞는 페이지로 리다이렉션 시켜줌
+
+
+---
+
+* 지금까지 진행된 내용 <https://onethelab.com/rect-portfolio/>{:target="_blank"}
