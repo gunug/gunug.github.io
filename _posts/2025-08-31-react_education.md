@@ -187,7 +187,7 @@ export default Page1;
         sessionStorage.setItem('redirect', window.location.pathname);
         
         // 루트 페이지인 index.html로 리디렉션합니다.
-        window.location.replace('/');
+        window.location.replace('/rect-portfolio/'); //저장소 이름 명시
       })();
     </script>
   </head>
