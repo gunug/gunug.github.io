@@ -178,22 +178,61 @@ export default Page1;
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>Page Not Found</title>
     <script type="text/javascript">
-      // 현재 URL을 그대로 유지하면서 루트 페이지로 리디렉션
-      (function () {
-        // 현재 URL의 경로를 가져와 세션 스토리지에 저장합니다.
-        sessionStorage.setItem('redirect', window.location.pathname);
-        
-        // 루트 페이지인 index.html로 리디렉션합니다.
-        window.location.replace('/rect-portfolio/'); //저장소 이름 명시
-      })();
+      var segmentCount = 1;
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
+        l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
     </script>
   </head>
-  <body></body>
+  <body>
+  </body>
 </html>
 ```
+
+* index.html에 다음 내용을 복붙
+  
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search) {
+          var q = {};
+          l.search.slice(1).split('&').forEach(function(v) {
+            var a = v.split('=');
+            q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+          });
+          if (q.p) {
+            window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + (q.p || '') +
+              (q.q ? ('?' + q.q) : '') +
+              l.hash
+            );
+          }
+        }
+      }(window.location))
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+```
+
 * Github에서는 페이지가 없을때 404.html 페이지를 표시해주는데. 이 페이지에서 url에 맞는 페이지로 리다이렉션 시켜줌
 
 
