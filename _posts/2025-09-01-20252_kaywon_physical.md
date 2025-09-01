@@ -14,6 +14,8 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
   * Unity3D, Arduino, 프론트엔드(html,css,javascript), 백엔드(php,mysql)
 * [2025년 학과 수칙 및 수업 진행 방식](/subpage/2025/02/19/education-rule.html){:target="_blank"}
 * [생성형 AI를 활용한 교수/학습 운영방법 가이드라인](/subpage/2024/09/01/sub_ai.html){:target="_blank"}
+* 수업은 팀을 이루어서 진행됩니다. (실습장비 부족으로 인한 공유목적)
+* 과제 제출과, 중간평가, 기말평가는 개인으로 진행됩니다. (팀원 부재로 인한 수업 불가 상태 방지)
 
 # 실습
 * Unity3d 설치 (2022년 이후 LTS 버전, 이전년도 버전 문제 발생) 권장버전 : 2022.3.27f1
