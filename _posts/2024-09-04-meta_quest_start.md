@@ -73,8 +73,6 @@ tags: tutorial
 
 * 시스템 >  정보 > 기기 > 페어링코드
 
-* [개발자 모드 단체등록 관련 에러](https://playvr.co.kr/bbs/board.php?bo_table=TIP&wr_id=13)
-
 * <https://dashboard.oculus.com/organizations/create/>
 
 * 새 단체 만들기 -> 원하는 명칭 적기 -> i understand 체크박스 클릭 후 제출

@@ -9,9 +9,9 @@ teaser:
 # 1주차 - 오리엔테이션
 ## 교수 소개
 * [introduction 교수소개](/education/2024/03/02/introduction.html){:target="_blank"}
-* 16년차 프로그래머 (action script, c++, c#, html, css, java script, php)
+* 17년차 프로그래머 (action script, c++, c#, html, css, java script, php)
   * AR, VR, 피지컬 컴퓨팅, 메타버스
-* 9년차 전문대학교 강사 (디자인 대학생 대상 프로그래밍 교육)
+* 10년차 전문대학교 강사 (디자인 대학생 대상 프로그래밍 교육)
   * Unity3D, Arduino, 프론트엔드(html,css,javascript), 백엔드(php,mysql)
   
 ## 과목 소개

@@ -6,6 +6,7 @@ tags:
 ---
 
 # Meta XR Project Setting
+* 문서 마지막 업데이트 2025-09-01
 
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1725486039.jpg" />
 * built-in render pipeline
@@ -35,18 +36,28 @@ tags:
 ### Meta XR All-in-One
 * Meta XR All-in-One SDK : <https://assetstore.unity.com/packages/tools/integration/meta-xr-all-in-one-sdk-269657>
 
+{% comment %}
 ### Meta XR Interaction SDK
 * Meta XR Interaction SDK : <https://assetstore.unity.com/packages/tools/integration/meta-xr-interaction-sdk-265014>
+{% endcomment %}
 
-<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1725460721.jpg" />
-* 모든 sample을 import
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1756736901.jpg" />
+* install을 눌러서 설치
+* 설치 중 restart project로 프로젝트가 재시작 될 수 있음.
+
+
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1756737488.jpg" />
+* Untiy메뉴 > Window > Package Manager 선택하여 Package manager 창열기
+* Packages: in Project 선택하여 현재 프로젝트에 들어있는 Packgage 표시
+* Meta XR Interaction SDK 선택, Samples에 포함된 모든 sample을 import
 
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1725460790.jpg" />
 * text mesh pro import
 * Example & Extras는 필요 없음 x눌러서 창 닫기
 
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1725464318.jpg" />
-* Project Setting > Meta XR > Fix All , Apply All
+* Edit > Project Setting > Meta XR > Fix All , Apply All
 
 <img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1725463701.jpg" />
-* Project Setting > Meta XR > Fix All , Apply All
+* Edit > Project Setting > Meta XR > Fix All , Apply All
