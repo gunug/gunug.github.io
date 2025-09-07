@@ -43,11 +43,11 @@ Dday를 별도의 페이지로 표시하지 말고, App.jsx <nav>상단에 <head
 ---
 
 ```
-App.css에 Routes의 height가 화면 height에 따라 고정값을 갖을 수 있도록 css를 추가해줘.
+App.css에 Routes의 height가 화면 height에 따라 고정값을 갖을 수 있도록 css를 추가해줘
 ```
 
 ---
 
 ```
-## 제목 옆에 제목과 어울리는 이모티콘 추가해줘
+제목 옆에 제목과 어울리는 이모티콘 추가해줘
 ```
