@@ -42,7 +42,6 @@ teaser:
 
 ## 개발환경 세팅하기
 * [react 리액트 초기세팅](/web/2025/08/31/react_education.html){:target="_blank"}
-* [Gemini CLI 설치 및 사용법](/jekyll/update/2025/08/31/gemini_cli.html){:target="_blank"}
 
 ## 1주차 과제
 * 생성형 AI 를 사용예정이라면 이름 및 url링크, 간단한 부연설명(100자 이내) 작성 (AI를 사용하지 않는경우 생략)
@@ -64,6 +63,19 @@ teaser:
 * 추가로 진로에 대한 부분이나 React 자체에 대한 내용, 졸업작품 프로그램에 관한 질문들도 가능합니다.
 
 ---
+
+# 2주차 - 방향 설정, 플랫폼 기본 세팅
+
+## 개발환경 세팅하기
+* [react 리액트 초기세팅](/web/2025/08/31/react_education.html){:target="_blank"}
+* 지난 시간에 완료되지 않는 내용을 추가로 진행합니다.
+* [Gemini CLI 설치 및 사용법](/jekyll/update/2025/08/31/gemini_cli.html){:target="_blank"}
+* Gemini CLI를 활용해 봅시다.
+* [gemini 사용 튜토리얼](/ai/2025/09/07/gemini_tutorial.html){:target="_blank"}
+
+## 2주차 과제
+* 가장 최신의 모집공고, 업무 분야 파악하기 : 내가 할 수 있는 업무인지
+* 최소사항 : https://onethelab.com/rect-portfolio/ 처럼 표시되는 페이지를 만들도록 합니다. (오류 없이 표시 되도록)
 
 {% comment %}
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
