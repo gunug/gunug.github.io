@@ -23,8 +23,39 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 * [Meta quest 설치 및 사용](/vr/2024/09/04/meta_quest_start.html){:target="_blank"}
 * [Meta XR Project Setting](/vr/2024/09/05/meta_xr_start.html){:target="_blank"}
 
-# 1주차 과제
-* 2~3인 1조로 팀 만들기. (1인 불가), 실습장비 수량이 부족하여 공유하기 위한 목적, 실습 중 보조하여 서로 도와주거나 상의하기 위한 목적 입니다. 모든 과제, 중간, 기말평가는 개인으로 진행될 예정입니다.
+---
+
+# 2주차
+* 9월 2일 '결석'으로 표기된 학생들은 이의신청에 '수강신청 변경으로 인하여 출석인정 바랍니다' 기록하여 이의신청 해주세요.
+* [vr smart phone 가상현실 스마트폰](/vr/2024/09/11/vr_smart_phone.html){:target="_blank"}
+
+# 2주차 수업진행
+* 개인정보 보호 목적으로 기기를 공장초기화 합니다. 이후 내용은 1주차와 동일 합니다.
+* [meta quest factory reset 메타 퀘스트 공장 초기화](/vr/2024/09/11/meta_quest_factory_reset.html){:target="_blank"}
+* [Meta quest 설치 및 사용](/vr/2024/09/04/meta_quest_start.html){:target="_blank"}
+* [Meta XR Project Setting](/vr/2024/09/05/meta_xr_start.html){:target="_blank"}
+* [vr empty room 빈 가상공간 만들기](/vr/2024/09/12/unity_empty_vr_room.html){:target="_blank"}
+
+# 2주차 실습
+## 실제 폰에 글꼴 크기 맞추기
+* 각자 자신의 폰에 30pt 크기로 "Hello World!" 글자를 출력해 봅시다.
+* Arial 글꼴을 사용합니다. (윈도우, 맥 모두 기본으로 설치되어 있는 글꼴)
+* 지난 시간에 pt 단위가 어떤 의미를 가지고 있는지 조사 하였다면 대략 추측되는 방법이 있을 것입니다.
+* 이론상 1inch는 72pt 입니다. 계산이 맞다면 모든 학생들의 폰에는 같은 크기의 글자가 떠있어야 합니다.
+* 친구들과 글자 크기를 비교해 봅시다. 이론과 실제가 맞는지도 확인해 봅시다.
+
+<div style="font-size:30pt; font-family:arial;">Hello World</div> css로 입력한 30pt의 글자
+  
+## VR 폰에 글꼴 크기 맞추기
+* VR환경에 Cube를 만들고 자신의 폰의 화면과 크기를 맞춥니다(x,y,z 값 입력)
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726085214.jpg" />
+* 기본 생성된 큐브는 scale(크기 배율)이 1,1,1이며 1m * 1m * 1m에 해당합니다.
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726091948.jpg" />
+* 유니티 특성상 이미지 텍스쳐는 큐브의 크기에 맞추어 늘어지게 되어있습니다. (비율 무시)
+* VR 폰에 30pt 크기로 "Hello World!" 글자를 출력해 봅시다.
+* Arial 글꼴을 사용합니다. (윈도우, 맥 모두 기본으로 설치되어 있는 글꼴)
+
+# 2주차 과제
 * 과제는 개인별로 제출합니다.
 * VR에서 가상의 스마트폰을 만든다면 스마트폰에 표시할 글씨 크기는 몇으로 해야할까? 
 * VR에서 폰트의 크기의 단위는 무엇이 적절할까? (cm, inch, pixel, pica, point)
@@ -33,8 +64,6 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 * AI의 답변 등을 사용할 경우 출처표기 필수, 모든 페이지에 AI 사용여부를 다 입력할 필요는 없고. 'AI 사용내역'페이지를 별도로 1장 구성하여 작성합니다. (예, ChatGPT를 이용하여 수집, 요약. 통계자료 검색 정리 요청)
 * 자료조사를 하면서 찾은 모든 자료는 링크를 첨부합니다.
 * PDF 파일로 제작 합니다. 문서 양식, 디자인 등은 신경쓰지 않아도 됩니다. (내용이 중요)
-
----
 
 {% comment %}
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
