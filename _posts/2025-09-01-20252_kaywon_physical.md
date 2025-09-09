@@ -35,6 +35,7 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 * [Meta quest 설치 및 사용](/vr/2024/09/04/meta_quest_start.html){:target="_blank"}
 * [Meta XR Project Setting](/vr/2024/09/05/meta_xr_start.html){:target="_blank"}
 * [vr empty room 빈 가상공간 만들기](/vr/2024/09/12/unity_empty_vr_room.html){:target="_blank"}
+* [Gemini CLI 설치 및 사용법](/jekyll/update/2025/08/31/gemini_cli.html){:target="_blank"}
 
 # 2주차 실습
 ## 실제 폰에 글꼴 크기 맞추기

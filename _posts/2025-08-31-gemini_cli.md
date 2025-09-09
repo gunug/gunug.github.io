@@ -17,6 +17,8 @@ Gemini CLI는 Google의 AI 모델을 터미널에서 직접 사용할 수 있게
 ### 설치
 
 터미널에서 다음 명령어를 실행하여 Gemini CLI를 전역으로 설치합니다.
+* 시작메뉴에서 'cmd'로 검색한뒤 실행하여 터미널창을 실행
+* 윈도우 탐색기 경로입력창에 'cmd'입력한 뒤 엔터키를 눌러 터미널창을 실행
 
 ```bash
 npm install -g @google/gemini-cli
