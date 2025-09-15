@@ -27,15 +27,12 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 
 # 2주차
 * 9월 2일 '결석'으로 표기된 학생들은 이의신청에 '수강신청 변경으로 인하여 출석인정 바랍니다' 기록하여 이의신청 해주세요.
-* [vr smart phone 가상현실 스마트폰](/vr/2024/09/11/vr_smart_phone.html){:target="_blank"}
 
 # 2주차 수업진행
 * 개인정보 보호 목적으로 기기를 공장초기화 합니다. 이후 내용은 1주차와 동일 합니다.
 * [meta quest factory reset 메타 퀘스트 공장 초기화](/vr/2024/09/11/meta_quest_factory_reset.html){:target="_blank"}
 * [Meta quest 설치 및 사용](/vr/2024/09/04/meta_quest_start.html){:target="_blank"}
 * [Meta XR Project Setting](/vr/2024/09/05/meta_xr_start.html){:target="_blank"}
-* [vr empty room 빈 가상공간 만들기](/vr/2024/09/12/unity_empty_vr_room.html){:target="_blank"}
-* [Gemini CLI 설치 및 사용법](/jekyll/update/2025/08/31/gemini_cli.html){:target="_blank"}
 
 # 2주차 실습
 ## 실제 폰에 글꼴 크기 맞추기
@@ -46,15 +43,6 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 * 친구들과 글자 크기를 비교해 봅시다. 이론과 실제가 맞는지도 확인해 봅시다.
 
 <div style="font-size:30pt; font-family:arial;">Hello World</div> css로 입력한 30pt의 글자
-  
-## VR 폰에 글꼴 크기 맞추기
-* VR환경에 Cube를 만들고 자신의 폰의 화면과 크기를 맞춥니다(x,y,z 값 입력)
-<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726085214.jpg" />
-* 기본 생성된 큐브는 scale(크기 배율)이 1,1,1이며 1m * 1m * 1m에 해당합니다.
-<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726091948.jpg" />
-* 유니티 특성상 이미지 텍스쳐는 큐브의 크기에 맞추어 늘어지게 되어있습니다. (비율 무시)
-* VR 폰에 30pt 크기로 "Hello World!" 글자를 출력해 봅시다.
-* Arial 글꼴을 사용합니다. (윈도우, 맥 모두 기본으로 설치되어 있는 글꼴)
 
 # 2주차 과제
 * 과제는 개인별로 제출합니다.
@@ -65,6 +53,45 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 * AI의 답변 등을 사용할 경우 출처표기 필수, 모든 페이지에 AI 사용여부를 다 입력할 필요는 없고. 'AI 사용내역'페이지를 별도로 1장 구성하여 작성합니다. (예, ChatGPT를 이용하여 수집, 요약. 통계자료 검색 정리 요청)
 * 자료조사를 하면서 찾은 모든 자료는 링크를 첨부합니다.
 * PDF 파일로 제작 합니다. 문서 양식, 디자인 등은 신경쓰지 않아도 됩니다. (내용이 중요)
+
+---
+
+# 3주차
+* [vr smart phone 가상현실 스마트폰](/vr/2024/09/11/vr_smart_phone.html){:target="_blank"}
+
+# 3주차 수업진행
+* [vr empty room 빈 가상공간 만들기](/vr/2024/09/12/unity_empty_vr_room.html){:target="_blank"}
+* [Gemini CLI 설치 및 사용법](/jekyll/update/2025/08/31/gemini_cli.html){:target="_blank"}
+
+# 3주차 실습
+* VR empty room을 만들고 Quest Link를 이용하여 Meta Quest3에서 empty room을 직접 실행하여 확인 합니다.
+* 2주차 과제에 조사한 내용에 따라 가상의 스마트폰을 만들고. png 이미지를 만들어서 글자를 표시하여 봅니다.
+* VR환경에서 스마트폰을 육안으로 확인하여 가독성을 실제로 파악합니다.
+
+# 최소한의 정보로 시도하여 봅시다.
+* Hirachy창 마우스 우클릭 > GameObject > Cube를 통해 생성되는 기본 큐브의 크기는 1m*1m*1m 입니다.
+* 포토샾 등에서 이미지를 생성하여 큐브에 붙여 넣기를 하면 자동으로 크기가 늘어나서 붙습니다.
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726091948.jpg" />
+* 기본 생성된 큐브는 scale(크기 배율)이 1,1,1이며 1m * 1m * 1m에 해당합니다.
+* 배율을 0.1,0.1,0.1 입력하여 각각 1cm*1cm*1cm의 큐브로 변경합니다.
+* 이 큐브에 원하는 크기의 글자를 출력하려면 어떤 규격의 PNG 이미지를 만들어야 할까요? 추측하고 시도하여 봅시다.
+
+* <div style="color:red;">이 내용은 미리 열람하지 마세요.</div> [vr cube 가상의 큐브에 이미지 규격 맞추기](/vr/2025/09/16/sub_physical1.html){:target="_blank"} 
+
+# 3주차 과제
+* 기본 큐브에 이미지를 생성하여 폰트크기에 따른 글자를 출력합니다.
+* 나의 핸드폰 규격을 찾아 핸드폰과 동일한 크기의 큐브를 만들어 글자를 출력합니다.
+* 두 큐브를 나란히 띄워놓고 스크린샷 하여 답글로 업로드 합니다. (글씨를 여러 크기로 작성하여 이미지를 생성합니다. 하단 참조)
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726663878.jpg" />
+
+* 2주차 과제 였던 'VR로 제작했을때 적합하다고 생각한 폰트크기'를 게시글에 내용으로 적습니다.
+* 3주차 과제 '실제 제작하여 큐브에 띄워본 결과 적합하다고 생각되는 폰트크기'를 게시글에 내용으로 적습니다.
+* 이번 과제는 별도로 PDF파일을 제작하지 않고. 스크린샷 첨부 및 게시글 작성으로 완료 하겠습니다.
+
+# Sample 체험
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726668160.jpg" />
+* Samples 폴더 안에 다양한 Scene에 샘플들이 있습니다.
+* 하나씩 열어보고 사용해보세요. (아직은 체험으로 이에 따른 과제 등은 없습니다)
 
 {% comment %}
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
