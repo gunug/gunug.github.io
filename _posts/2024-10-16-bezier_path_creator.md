@@ -4,6 +4,10 @@ title: Bezier Path Creator
 category: unity-asset
 tags: unity3d assets
 ---
+* 마지막 업데이트 2025-09-30
+  
+<b style="color:red;">더이상 지원되지 않는 에셋입니다.</b>
+* 대신 [cinemachine 시네머신 Dolly Track with Cart 돌리 트랙 카트](/unity3d/2025/09/30/cinemachine.html){:target="_blank"} 사용할 수 있습니다.
 
 # Bezier Path Creator
 * <https://assetstore.unity.com/packages/tools/utilities/b-zier-path-creator-136082>{:target="_blank"}
