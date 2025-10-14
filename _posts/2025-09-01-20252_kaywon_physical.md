@@ -215,6 +215,11 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 * <b>이미지를 직접 제작하고 폰트 크기 가이드에 맞춰 내용을 입력, 정보를 제공하고 사용자가 읽을 수 있도록 하는 것이 필수 입니다.</b>
 * 복합기능(돌리 카트 트랙을 이용하여 움직이다가 locomotion을 이용하여 워프하기, Bazier path를 이용하여 움직이다가 충돌하여 넘어지기)은 원하는 대로 작동하지 않을 수 있습니다
 
+## 참고 영상
+* <https://youtu.be/NlhOln_qxvM?si=82unvetuQjJShGDn>
+* <https://youtu.be/J8OHP9OriMA?si=Q51zeBX1D0IKkUfl>
+* <https://youtu.be/Lj8tKc0aDa0?si=tTvcFfYe7bNL42_9>
+
 ---
 
 # 8주차 - 중간평가
