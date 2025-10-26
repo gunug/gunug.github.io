@@ -263,6 +263,83 @@ teaser:
 * 각 항목을 평점으로 기록하고 학생별 상태평가함
 * 제출 마감 9주차 수업 전 까지 (10월 26일 23:59:59)
 
+---
+
+# 9주차 - 포트폴리오 초안
+
+## 브랜드 컬러 정하기
+* 참고 링크 : [색채심리학-최고의-브랜드에게는-최고의-브랜드](https://www.packative.com/blog/%EC%83%89%EC%B1%84%EC%8B%AC%EB%A6%AC%ED%95%99-%EC%B5%9C%EA%B3%A0%EC%9D%98-%EB%B8%8C%EB%9E%9C%EB%93%9C%EC%97%90%EA%B2%8C%EB%8A%94-%EC%B5%9C%EA%B3%A0%EC%9D%98-%EB%B8%8C%EB%9E%9C%EB%93%9C/){:target="_blank"}
+
+## 컬러 계획(Color Scheme)
+* 참고 링크 : [중요한 디자인 구성요소에는 중요한 컬러를 적용](https://www.designer-note.com/design-color-role/){:target="_blank"}
+* 주제색(Primary Color): 주인공 역할을 하는 색 = 브랜드 컬러(Brand Color)
+* 강조색(Accent Color): 강조하는 역할을 하는 색, 사람의 시선을 사로잡는 색
+* 배경색(Background Color): 바탕, 백그라운드(BG, Background)에 사용한 색, 기본 바탕이 되어주는 색
+* 보조색(Sub Color): 보조적인 역할을 하는 색, 주재색이 돋보이 도록 보조해 주는 색
+
+## 컬러 비율
+* 참고 링크 : [잊혀지지 않는 브랜드 컬러의 비밀](https://stibee.com/api/v1.0/emails/share/3a8w_A6XOmkCyoQ1I08HNhHGV9d2zWY=){:target="_blank"}
+* 배경색 : 보조색 : 주제색&강조색 = 70 : 25 : 5
+
+* 참고 링크 : [색 구성 비율의 균형을 조화롭게 맞추는 공식, 60-30-10 법칙](https://www.designer-note.com/design-60-30-10_rule-1/){:target="_blank"}
+* 배경색 : 보조색 : 주제색&강조색 = 60 : 30 : 10
+
+## 면담
+* 면담 시간표 : <https://docs.google.com/spreadsheets/d/1RTexi_ojv0RmN5Ci4U5xYdGt_8_xtUZ23Z5ezSRwFf4/edit?gid=0#gid=0>{:target="_blank"}
+* 대부분 공평하게 하려고 하지만 이야기를 하다보면 약간 길어지거나 하는 경우가 있습니다. 수업 종료 후에도 추가 면담은 환영이니 시간이 부족하다고 생각하는 학생은 이야기 해주세요.
+
+
+---
+
+# 10주차 - 코드리뷰
+
+* [code review 코드리뷰](/coding/2025/10/26/code_review.html){:target="_blank"}
+* [syntax highlighting 구문 강조](/coding/2025/10/16/syntax_highlighting.html){:target="_blank"}
+
+## 툴 사용 능력 표기
+* 사양서 처럼 일종의 스펙 작성해보기
+  * 잘못된 스펙 : 웹표준 80%, 웹 접근성 20%, 반응형 웹 40%
+  * 제대로된 스펙
+    * 웹 접근성
+      * 시각,이동성,청각,인지를 고려한 웹 접근성 준수 고려사항을 알고 있습니다
+      * 스크린 리더 소프트웨어에 적합한 페이지 제작법을 알고 있습니다.
+      * 화면확대 도구를 사용하여도 깨지지 않는 견고한 페이지를 제작합니다.
+    * 반응형 웹
+      * View port를 이용하여 디바이스에 맞는 화면설정을 할 수 있습니다.
+      * madia query를 이용하여 스크린 크기 및 디바이스 종류를 구별하여 css를 적용할 수 있습니다.
+    * javascript
+      * 라이브러리를 import하고 활용할 수 있습니다.
+      * 기본적인 기능을 이해하고 사용할 수 있습니다.
+    * react
+      * react를 설치하고 기본 환경을 구성할 수 있습니다.
+      * 프론트엔드 페이지를 react로 제작할 수 있습니다.
+    * 백엔드(node.js)
+      * DB와 데이터를 연동하여 결과를 출력할 수 있습니다.
+      * 검색, 정렬 기능을 구현할 수 있습니다.
+
+## 기술 사양 키워드
+* 사용기술
+  * Swift, SwiftUI, UIKit, AppKit, MacCatalyst, JavaScript, Objective-C, C/C++, C, Java, MFC
+  * java(JDK 1.8), HTML/CSS, Javascript
+* 아키텍쳐
+  * Clean Architecture, MVVM, MVC,  Layered Architecture
+* 라이브러리 또는 API (Application Programming Interface)
+  * Alamofire, RxSwift, Nuke, Starscream, PhoenixSocket, SwiftyRSA, OpenSSL, OHHTTPStubs, Spring Boot, MyBatis 3.2.2, KAKAO/NAVER/GOOGLE Login API
+* 개발환경
+  * macOS, iOS, Xcode, MS Windows, Java Spring Framework, extJS, Apache Tomcat, Eclips
+* 서버
+  * Apache Tomcat 8.0, AWS EC2, ubuntu
+* DB (Data Base)
+  * MariaDB 10.1, Amazon RDS
+* 개발도구 (IDE : integrated development environment, 통합 개발 환경)
+  * IntelliJ IDEA 2021, HeidiSQL, Sublime Text3, HeidiSQL, phpMyAdmin 2.x, MySQL WorkBench
+
+## 면담
+* 면담 시간표 : <https://docs.google.com/spreadsheets/d/1RTexi_ojv0RmN5Ci4U5xYdGt_8_xtUZ23Z5ezSRwFf4/edit?gid=0#gid=0>{:target="_blank"}
+* 대부분 공평하게 하려고 하지만 이야기를 하다보면 약간 길어지거나 하는 경우가 있습니다. 수업 종료 후에도 추가 면담은 환영이니 시간이 부족하다고 생각하는 학생은 이야기 해주세요.
+
+---
+
 {% comment %}
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
