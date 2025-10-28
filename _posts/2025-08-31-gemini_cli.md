@@ -5,6 +5,8 @@ date:   2025-08-31 10:14:09 +0900
 categories: jekyll update
 ---
 
+* 마지막 업데이트 : 2025-10-28
+
 ## Gemini CLI 설치
 
 Gemini CLI는 Google의 AI 모델을 터미널에서 직접 사용할 수 있게 해주는 도구입니다.
@@ -41,6 +43,28 @@ npm install -g @google/gemini-cli
 인증이 완료되면 Gemini와 상호작용할 준비가 된 것입니다. 코드베이스 이해, 버그 수정, 문서 생성 등 다양한 작업을 요청할 수 있습니다.
 
 사용 가능한 명령어 및 기능 목록을 보려면 Gemini CLI 프롬프트 내에서 `/help`를 입력하십시오.
+
+---
+
+# Unity3D 에서 Gemini CLI 사용하기
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1761612845.jpg" />
+* project창 > Assets 마우스 우클릭 > Create > Folder
+* 폴더명은 "GeminiScript"로 작성 (자유롭게 작성해도 되나, 혼란을 방지하기 위함)
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1761613191.jpg" />
+* project창 > GeminiScript 마우스 우클릭 > Show in Exploerer 선택하여 폴더위치 열기
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1761613346.jpg" />
+* 폴더 위치가 열리면 GeminiScript 폴더를 더블클릭하여 안으로 이동
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1761613421.jpg" />
+* 경로가 적혀있는 입력창에 ```cmd``` 입력하고 엔터
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1761613498.jpg" />
+* 터미널에서 ```gemini``` 입력하고 엔터
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1761613591.jpg" />
+* gimini 프롬프트가 뜨면 사용준비 완료
 
 ---
 
