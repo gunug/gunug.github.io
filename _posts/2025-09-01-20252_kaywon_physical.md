@@ -416,6 +416,29 @@ teaser: https://image.onethelab.com/thumbnail/1726639605.jpg
 ---
 
 # 14주차 - 프로모션 영상제작
+* 촬영 방법 : 
+  * meta quest앱의 미러링, 녹화 기능 이용
+  * Unity 자체 Game화면을 직접 녹화
+
+## 메타 퀘스트 스크린샷, 동영상 촬영
+* 스크린샷 : 메타 버튼 + 트리거
+* 동영상 시작 : 메타 버튼 + 트리거 (노란색 점이 빨간색이 될때까지 유지)
+* 동영상 종료 : 메타 버튼 + 트리거 (빨간색 점이 노란색이 될때까지 유지)
+* 촬영된 동영상, 스크린샷은 '카메라' 앱에서 확인할 수 있습니다.
+
+## USB로 옮기기
+* 참고링크 : <https://just-hobby.tistory.com/36>
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726083393.jpg" />
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726083431.jpg" />
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1726083458.jpg" />
+
+---
+
+* <div style="color:red"> 기능이 모두 제작되지 않았어도 우선 녹화가 가능한지. 녹화된 화면을 컴퓨터로 옮겨올 수 있는지 확인합니다</div>
+* 최대한 많은 화면을 촬영해 두어야 편집해서 완성할 수 있습니다.
+
+---
+
 * 동영상 총 2편 (프로젝트 동영상, 요약 동영상), 스크린샷 다수
 * 프로젝트 동영상 : 프로젝트를 잘 볼 수 있는 동영상(길이는 자유)
   * 프로젝트 제목, 간단한 소개글을 (100자 이하) 동영상 내에 자막으로 표시 (동영상 재생중 항시 띄워놓도록 합니다)
