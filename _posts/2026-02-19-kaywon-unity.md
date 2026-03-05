@@ -10,7 +10,7 @@ teaser: https://image.onethelab.com/thumbnail/1709625005.jpg
 ## 1주차
 ### 오리엔테이션
 * [introduction 교수소개](/education/2024/03/02/introduction.html){:target="_blank"}
-* [2026년 1학기 실감미디어기초](/education/2026/02/19/kaywon-unity.html){:target="_blank"}
+* [2026년 학과 수칙 및 수업 진행 방식](/subpage/2026/02/19/education-rule.html){:target="_blank"}
 * 매 주 프로그래밍에 대한 기본 개념 소개(이론), 유니티3D 툴을 이용한 실감미디어 제작
 
 ### 진행계획
@@ -34,9 +34,12 @@ teaser: https://image.onethelab.com/thumbnail/1709625005.jpg
 
 # AI 서비스
 * [AI 서비스 목록](/etc/2026/02/19/ai_list.html){:target="_blank"}
-  
+* [Google Gemini CLI 설치 가이드](/ai/2026/03/05/google-gemini-cli-install.html){:target="_blank"}
 ---
 
 Unity 6.3 이상
 AI
 코드, 텍스쳐, 씬생성, 효과음
+
+<img style='border:solid 1px black;' src="https://image.onethelab.com/resized/1771474804.jpg" />
+https://youtube.com/shorts/sEe7V6EXEJc?si=Q2q9oypWdWYyHVtU
